@@ -1,0 +1,28 @@
+Lodestar search-pattern round, 2026-11-12. N = 1000 hikers per case.
+
+ISRID temperate mountains: log-normal median 3.1 km, sigma 1.23; check: 25% 1.4 km, 75% 7.1 km, 95% 23.5 km (ISRID 1.1 / 5.8 / 18.3)
+
+
+Help within 3 h (%), 50% of hikers on the flown linear features:
+pattern                    box  spiral  hasty 2  hasty 4  hasty 6  hasty 9
+aircraft                                                                  
+Lodestar SiCore           19.9    22.1     25.1     29.0     31.7     32.0
+Lodestar P50B             15.4    20.5     24.6     28.6     30.8     30.8
+DeltaQuad Evo GOV         13.4    18.7     23.5     27.4     29.6     28.6
+C-Astral Bramor ppX       12.2    18.8     23.6     27.4     29.5     28.7
+Quantum Trinity Pro        4.1    13.3     18.3     21.9     23.4     20.8
+AgEagle eBee X             3.3    11.9     17.3     21.0     22.0     16.4
+DeltaQuad Evo-LE (press)  13.3    18.7     23.5     27.3     29.5     28.6
+
+Help within 3 h (%), 30% of hikers on the flown linear features:
+pattern                    box  spiral  hasty 2  hasty 4  hasty 6  hasty 9
+aircraft                                                                  
+Lodestar SiCore           20.6    21.5     25.4     27.2     28.5     27.7
+Lodestar P50B             16.1    20.0     24.0     25.9     26.9     26.0
+DeltaQuad Evo GOV         13.8    18.5     23.1     24.4     25.5     23.7
+C-Astral Bramor ppX       12.6    18.5     23.1     24.3     25.3     23.8
+Quantum Trinity Pro        4.3    12.9     16.8     18.2     18.5     15.0
+AgEagle eBee X             3.4    11.5     15.5     16.8     16.6     11.3
+DeltaQuad Evo-LE (press)  13.6    18.5     23.1     24.3     25.4     23.7
+
+A ground team walking straight to the hiker from the trailhead would arrive within 3 h in 81% of cases (it doesn't know where to walk; upper bound).

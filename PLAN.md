@@ -77,11 +77,13 @@ Details: `research/2026-11-12-cost-model.md`, `research/2026-11-12-v3-improvemen
 | 6 | Cost model | **Done 2026-11-12**: about $7,300 per aircraft ($4,800 parts + airframe), $26 per flight hour, a 3-h search about $80 vs $3,600+ for a sheriff helicopter; best value is SiCore cells + foam-core wing at 20 m/s (50% help within 3 h for +$430; 45% once camera blur is counted, row 7b) | Python |
 | 7 | Write-up | **Done 2026-11-12**: one-page report with renders and charts, `out/report/index.html`, Project renamed from Rescue Wing to Lodestar the same day | HTML page |
 | 7b | Camera blur | **Done 2026-11-12**: Johnson-criteria detection with thermal-camera blur (7-12 ms) on every aircraft. Scores drop 2-5 points; best speeds unchanged (20 m/s SiCore, 18 m/s P50B); lead holds, 45% vs 15% help within 3 h. Cost trades now include blur. `research/2026-11-12-camera-blur.md` | Python |
+| 7c | Search pattern | **Done 2026-11-12**: ISRID lost-hiker statistics (via SAREnv) and a trailhead launch. Trails first to 6 km, then an expanding square: help within 3 h 20% -> 32%; help within 1 h 21% vs 8-11% for drones that only report. `research/2026-11-12-search-pattern.md` | Python |
+| 7d | PDF | One tall-page PDF of the report with every image, `out/report/Lodestar_report.pdf` (`scripts/report_pdf.py`, headless Edge) | Edge |
 
 ## Folder layout
 - `PLAN.md`: this file
 - `research/`: dated research notes
-- `scripts/`: Python scripts (`smoke_test.py` checks every tool; `sizing.py`, `kit_drop.py`, `stability.py`, `vsp_model.py`, `pod_np_check.py`, `pod_avl_check.py`, `render_preview.py`, `design_v2.py`, `mission_sim.py`, `cad_model.py` (`v3` argument for design v3), `render_v2.py`, `sixdof_kit_release.py`, `v3_propulsion.py`, `v3_airfoil.py`, `v3_planform.py`, `v3_mission.py`, `v3_search_speed.py`, `cost_model.py`, `cost_trades.py`, `v3_blur.py`, `v3_blur_fair.py`; `avl_run.py` drives AVL; `blender_scene.py` and `blender_v2.py` run inside Blender)
+- `scripts/`: Python scripts (`smoke_test.py` checks every tool; `sizing.py`, `kit_drop.py`, `stability.py`, `vsp_model.py`, `pod_np_check.py`, `pod_avl_check.py`, `render_preview.py`, `design_v2.py`, `mission_sim.py`, `cad_model.py` (`v3` argument for design v3), `render_v2.py`, `sixdof_kit_release.py`, `v3_propulsion.py`, `v3_airfoil.py`, `v3_planform.py`, `v3_mission.py`, `v3_search_speed.py`, `cost_model.py`, `cost_trades.py`, `v3_blur.py`, `v3_blur_fair.py`, `search_patterns.py`, `report_pdf.py`; `avl_run.py` drives AVL; `blender_scene.py` and `blender_v2.py` run inside Blender)
 - `out/cad/`: STEP assembly and per-part STL of design v2
 - `out/`: generated results
 - Tools are shared in `../aero-tools/` (OpenVSP, AVL, flow5, Blender)
