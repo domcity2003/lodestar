@@ -93,5 +93,5 @@ void main()
         
 
 
-    WriteVSPFile("C:/Users/DomBa/DOM/5_Projects/rescue-wing/out/smoke/toy_wing.vsp3", SET_ALL);
+    WriteVSPFile("C:/Users/DomBa/DOM/5_Projects/lodestar/out/smoke/toy_wing.vsp3", SET_ALL);
 }

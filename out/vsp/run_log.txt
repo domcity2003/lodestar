@@ -1,4 +1,4 @@
-Rescue Wing 3D model and aero check, 2026-11-11, claude-opus-5-5
+Lodestar 3D model and aero check, 2026-11-11, claude-opus-5-5
 Search point: 15.0 m/s at 2,000 m, Re(MAC) 391,769, Mach 0.045; balance point x = 0.437 m
 
 Pod fit check (kit box 0.22 x 0.13 x 0.12 m centred on the balance point):

@@ -1,4 +1,4 @@
-# Design v3: can Rescue Wing get better before the cost model?
+# Design v3: can Lodestar get better before the cost model?
 
 2026-11-12 (US Central). Analysis by Claude Opus 5.5 (claude-opus-5-5).
 
@@ -105,10 +105,10 @@ That covers both short-period and phugoid (pitch) and Dutch roll, roll and spira
 
 | Aircraft (scenario A, lost hiker) | Flight time, published style | Find in one sortie | Help within 3 h |
 |---|---|---|---|
-| **Rescue Wing v3 (P50B), search at 18 m/s** | 4.3 h | 45% | **44%** |
-| Rescue Wing v3 (P50B), best-range 16.5 m/s | 4.3 h | 45% | 41% |
-| Rescue Wing v3+ (SiCore), 20 m/s | 5.4 h | 54% | **50%** |
-| Rescue Wing v2 (P50B) | 3.7 h | 36% | 35% |
+| **Lodestar v3 (P50B), search at 18 m/s** | 4.3 h | 45% | **44%** |
+| Lodestar v3 (P50B), best-range 16.5 m/s | 4.3 h | 45% | 41% |
+| Lodestar v3+ (SiCore), 20 m/s | 5.4 h | 54% | **50%** |
+| Lodestar v2 (P50B) | 3.7 h | 36% | 35% |
 | DeltaQuad Evo GOV | 4.25 h | 51% | 17% |
 | DeltaQuad Evo-LE (press-reported 8 h) | 8.0 h | 79% | 17% |
 

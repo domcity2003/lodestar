@@ -1,22 +1,22 @@
-"""Milestone 4: search-and-rescue mission simulation, Rescue Wing vs real competitors.
+"""Milestone 4: search-and-rescue mission simulation, Lodestar vs real competitors.
 
 Every aircraft flies the same missions with the same thermal camera, in the same random winds,
 with the same targets (common random numbers), so the comparison is fair.
 
 Mission: launch at base, fly to the search box, fly a parallel-track ("lawnmower") search,
 and come home with 10% of the published-flight energy left. If the camera spots the person,
-Rescue Wing descends, makes an into-wind run and drops the 1.7 kg survival kit by parachute,
+Lodestar descends, makes an into-wind run and drops the 1.7 kg survival kit by parachute,
 then flies home 1.7 kg lighter. Competitors (none can drop a kit) report the find and go home.
 
 Models:
 - Wind triangle: each leg flown at constant airspeed; ground speed and crab from the wind.
   Transit and return legs pick the airspeed that minimises energy per km over the ground.
-- Rescue Wing power: the milestone 1 drag model (NeuralFoil MH45 + induced + pod) with the
+- Lodestar power: the milestone 1 drag model (NeuralFoil MH45 + induced + pod) with the
   milestone 3 pod drag and the "halfway" wing drag, at the actual mass (so the kit drop helps).
 - Competitors: published cruise speed and flight time give their cruise power; a standard
   propeller-aircraft power curve scales it with airspeed, with parasite = induced drag at the
   published cruise speed (i.e. makers' "optimal cruise" is their best-range speed).
-- Every aircraft searches at its best-range speed (most area per Wh); Rescue Wing's is computed. Their published times are best case (calm, sea level,
+- Every aircraft searches at its best-range speed (most area per Wh); Lodestar's is computed. Their published times are best case (calm, sea level,
   lighter mapping cameras), so this favours them.
 - Detection: thermal camera, 32 deg field of view at 120 m above ground (milestone 1). Effective sweep
   width W = 55 m (80% of the 69 m footprint, for canopy and clutter); track spacing = W.
@@ -71,10 +71,10 @@ class Aircraft:
     v_cruise: float
     v_min: float
     v_max: float
-    energy: float                # published-flight energy (Wh for Rescue Wing, cruise-power-hours otherwise)
+    energy: float                # published-flight energy (Wh for Lodestar, cruise-power-hours otherwise)
     p_cruise: float = 1.0        # competitors: normalised so energy = published hours
     kit: bool = False
-    rw_cfg: dict | None = None   # Rescue Wing power-model inputs
+    rw_cfg: dict | None = None   # Lodestar power-model inputs
     mass: float = 0.0
     kit_mass: float = 0.0
     note: str = ""
@@ -96,7 +96,7 @@ class Aircraft:
         return q * c["S"] * CD * V / c["eta"] + c["p_av"]
 
 
-def rescue_wing(name, cell, config, alt=0.0, drag="halfway"):
+def lodestar(name, cell, config, alt=0.0, drag="halfway"):
     pf = {"laminar": d2.PF_LAMINAR, "halfway": d2.PF_MID, "turbulent": d2.PF_TURB}[drag]
     r = d2.endurance(cell, config, pf, alt, 0.85)
     a = asb.Atmosphere(altitude=alt)
@@ -279,14 +279,14 @@ SCENARIOS = {
 
 if __name__ == "__main__":
     sys.stdout = Tee(OUT / "run_log.txt")
-    print("Rescue Wing milestone 4: mission simulation, 2026-11-11, claude-opus-5-5\n")
+    print("Lodestar milestone 4: mission simulation, 2026-11-11, claude-opus-5-5\n")
     print(f"Sensor: 32 deg thermal at {H_AGL:.0f} m: footprint {SWATH:.0f} m, sweep width {W_SWEEP:.0f} m, "
           f"track spacing {TRACK:.0f} m. Reserve {RESERVE:.0%}. Wind 0-10 m/s, random direction. Sea level.\n")
 
     fleet = [
-        rescue_wing("Rescue Wing v2 (P50B, kit)", "Molicel P50B", "kit"),
-        rescue_wing("Rescue Wing v2+ (SiCore, kit)", "Amprius SiCore 6.3 Ah", "kit"),
-        rescue_wing("Rescue Wing v2+ search-only", "Amprius SiCore 6.3 Ah", "search"),
+        lodestar("Lodestar v2 (P50B, kit)", "Molicel P50B", "kit"),
+        lodestar("Lodestar v2+ (SiCore, kit)", "Amprius SiCore 6.3 Ah", "kit"),
+        lodestar("Lodestar v2+ search-only", "Amprius SiCore 6.3 Ah", "search"),
         *COMPETITORS, FRONTIER,
     ]
     print("Fleet (published-style flight time = calm, sea level, to the maker's empty point):")
@@ -309,11 +309,11 @@ if __name__ == "__main__":
         with pd.option_context("display.width", 220):
             print(s.round(2).to_string(index=False))
 
-    # Sampling error and a robustness check: Rescue Wing at 2000 m with a fully turbulent wing
+    # Sampling error and a robustness check: Lodestar at 2000 m with a fully turbulent wing
     p = summ.p_find.clip(0.01, 0.99)
     print(f"\nMonte Carlo standard error on P(find): at most {np.sqrt(0.25 / N):.3f}")
-    worst = [rescue_wing("Rescue Wing v2 (P50B, kit) 2000 m turbulent", "Molicel P50B", "kit", 2000.0, "turbulent"),
-             rescue_wing("Rescue Wing v2+ (SiCore, kit) 2000 m turbulent", "Amprius SiCore 6.3 Ah", "kit", 2000.0, "turbulent")]
+    worst = [lodestar("Lodestar v2 (P50B, kit) 2000 m turbulent", "Molicel P50B", "kit", 2000.0, "turbulent"),
+             lodestar("Lodestar v2+ (SiCore, kit) 2000 m turbulent", "Amprius SiCore 6.3 Ah", "kit", 2000.0, "turbulent")]
     rng2 = np.random.default_rng(RNG_SEED)
     dfw = run_scenario(worst, "A: lost hiker, 16 km2 box 5 km out", SCENARIOS["A: lost hiker, 16 km2 box 5 km out"], N, 10.0, rng2)
     sw = summarise(add_help_time(dfw), worst)
@@ -331,7 +331,7 @@ if __name__ == "__main__":
     fig, axes = plt.subplots(1, 2, figsize=(12, 4.6), sharey=True)
     for ax, sc in zip(axes, SCENARIOS):
         s = summ[summ.scenario == sc].iloc[::-1]
-        cols = [BLUE if n.startswith("Rescue") else MUTEDBAR for n in s.aircraft]
+        cols = [BLUE if n.startswith("Lodestar") else MUTEDBAR for n in s.aircraft]
         ax.barh(s.aircraft, s.p_find * 100, color=cols, height=0.62)
         for yi, (pf, pk) in enumerate(zip(s.p_find, s.p_kit_delivered)):
             lab = f"{pf:.0%}" + (f"  (kit dropped {pk:.0%})" if pk > 0 else "")
@@ -341,7 +341,7 @@ if __name__ == "__main__":
         ax.grid(axis="x", color=GRID)
         ax.set_title(sc, color=INK, loc="left", fontsize=10)
         ax.set_xlabel("Chance of finding the person in one sortie (%)")
-    fig.suptitle("Same camera, same winds, same missing person: Rescue Wing (blue) vs fielded drones (grey)",
+    fig.suptitle("Same camera, same winds, same missing person: Lodestar (blue) vs fielded drones (grey)",
                  color=INK, x=0.01, ha="left")
     fig.tight_layout()
     fig.savefig(OUT / "p_find.png", dpi=160)
@@ -350,8 +350,8 @@ if __name__ == "__main__":
     sc = list(SCENARIOS)[0]
     fig, ax = plt.subplots(figsize=(9.5, 4.8))
     tgrid = np.linspace(0, 480, 481)
-    series = [("Rescue Wing v2+ (SiCore, kit)", "Rescue Wing v2+: survival kit dropped", BLUE),
-              ("Rescue Wing v2 (P50B, kit)", "Rescue Wing v2: survival kit dropped", "#86b6ef"),
+    series = [("Lodestar v2+ (SiCore, kit)", "Lodestar v2+: survival kit dropped", BLUE),
+              ("Lodestar v2 (P50B, kit)", "Lodestar v2: survival kit dropped", "#86b6ef"),
               ("DeltaQuad Evo GOV", "Evo GOV finds, ground team walks in", "#eb6834"),
               ("DeltaQuad Evo-LE (press)", "Evo-LE finds, ground team walks in", "#eda100"),
               ("C-Astral Bramor ppX", "Bramor ppX finds, ground team walks in", "#1baf7a")]

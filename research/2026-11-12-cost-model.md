@@ -11,10 +11,10 @@
 - charts: `unit_cost_breakdown.png`, `cost_per_sortie.png`, `trades.png`
 
 ## Answer first
-**One Rescue Wing costs about $7,300 to build. A 3-hour search costs about $80 in aircraft costs.** For comparison:
+**One Lodestar costs about $7,300 to build. A 3-hour search costs about $80 in aircraft costs.** For comparison:
 - **Sheriff's helicopter:** $3,600-12,000 for the same 3 hours.
 - **Civil Air Patrol light aircraft:** $280-510.
-- **Rescue Wing's parts:** about $5,200, well inside the $8,000 parts requirement.
+- **Lodestar's parts:** about $5,200, well inside the $8,000 parts requirement.
 
 **The cost model changes one design call from v3.** The best value is the SiCore cells with the cheaper foam-core wing, searching at 20 m/s:
 - help reaches the person within 3 h in **50%** of lost-hiker missions, up from 40% for the cheapest build;
@@ -84,7 +84,7 @@ Battery wear is almost free: about $310 per pack over 600 flights.
 ## 4. Against today's options (`vs_alternatives.csv`)
 | Option | Per hour | 3-h search | Help within 3 h (lost hiker) | Cost per mission where help arrives in time |
 |---|---|---|---|---|
-| **Rescue Wing v3** | **$26** | **$79** | **40-50%** | **$165-200** |
+| **Lodestar v3** | **$26** | **$79** | **40-50%** | **$165-200** |
 | Quantum Trinity Pro, $21,260 (same ownership model) | $65 | $195 | 15% | about $1,300 |
 | senseFly eBee VISION, $59,717 (same ownership model) | $183 | $547 | 12% (eBee X proxy) | about $4,700 |
 | Civil Air Patrol Cessna 182, dry rate | $93 | $279 | not modelled | |
@@ -92,7 +92,7 @@ Battery wear is almost free: about $310 per pack over 600 flights.
 | Sheriff's helicopter | $1,200-4,050 | $3,600-12,150 | not modelled | |
 
 **How to read it:**
-- **Helicopters and crewed aircraft do things Rescue Wing can't:** they fly fast, carry trained spotters and, for a helicopter, lift the person out. The fair comparison is the **search hours** they burn before a find. Each hour Rescue Wing flies instead costs about 1-2% of a helicopter hour.
+- **Helicopters and crewed aircraft do things Lodestar can't:** they fly fast, carry trained spotters and, for a helicopter, lift the person out. The fair comparison is the **search hours** they burn before a find. Each hour Lodestar flies instead costs about 1-2% of a helicopter hour.
 - **DeltaQuad doesn't publish a price**, so the Evo isn't in this table. In the mission sim it scores 17%, the same as the others, because none of them can drop a kit.
 
 ## 5. Cost vs design: what each upgrade buys (`trades.csv`, `trades.png`)

@@ -1,4 +1,4 @@
-"""Milestone 2: stability and trim of the Rescue Wing, with the kit on and after it drops.
+"""Milestone 2: stability and trim of the Lodestar, with the kit on and after it drops.
 
 Questions:
   1. Where must the balance point (CG) sit, and where do the heavy parts go to put it there?
@@ -194,7 +194,7 @@ def local_clmax(chord):
 # ---------------------------------------------------------------- run
 if __name__ == "__main__":
     sys.stdout = Tee(OUT / "run_log.txt")
-    print("Rescue Wing stability and trim, 2026-11-11, claude-opus-5-5")
+    print("Lodestar stability and trim, 2026-11-11, claude-opus-5-5")
     g0 = Geometry(c_root=float(DP["c_root"]), c_tip=float(DP["c_tip"]))
     print(f"Wing {g0.span} m, S {g0.S:.3f} m2, MAC {g0.mac:.3f} m (MAC leading edge at x = {g0.x_mac_le:.3f} m)")
     print(f"Search: {V_SEARCH} m/s at 2,000 m (rho {RHO:.3f}), CL {CL_SEARCH:.3f}\n")

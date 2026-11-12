@@ -8,7 +8,7 @@
 - `scripts/sixdof_kit_release.py`: JSBSim 6-DOF model built from AVL, with an autopilot and turbulence Monte Carlo
 
 **Outputs:**
-- `out/cad/`: `rescue_wing_v2.step` (assembly), `alt_bay_battery_module.step`, `stl/` (31 parts), `fit_check.csv`, `mass_cg.csv`
+- `out/cad/`: `lodestar_v2.step` (assembly), `alt_bay_battery_module.step`, `stl/` (31 parts), `fit_check.csv`, `mass_cg.csv`
 - `out/render/v2_*.png`: hero, in flight, cutaway, exploded, kit drop
 - `out/jsbsim/`: aircraft XML, `model_check.csv`, `release_results.csv`, `turbulence_summary.csv`, charts
 
@@ -128,7 +128,7 @@ With the controls frozen, the minimum airspeed of 11.2 m/s is still above the ki
 
 How to read it:
 - **Most stalls aren't caused by the release.** 47 of the 57 moderate-turbulence stalls began before the kit dropped. At 15 m/s and CL 0.5, a 3σ gust (about 4.5 m/s) is enough to stall the wing. Flying 3 m/s faster lowers CL to 0.35, which takes the stalls from 57 to 1.
-- **The stress test** is a stand-in for mountain sink. JSBSim's high-altitude gust model applied at 40 m gives downdrafts of 6 m/s that last more than 10 s. That is about twice what Rescue Wing can out-climb at full power, so 10 of 100 runs hit the ground. A 7 kg aircraft can't fix this; it's an operating rule. Measure sink before descending, and don't drop in it.
+- **The stress test** is a stand-in for mountain sink. JSBSim's high-altitude gust model applied at 40 m gives downdrafts of 6 m/s that last more than 10 s. That is about twice what Lodestar can out-climb at full power, so 10 of 100 runs hit the ground. A 7 kg aircraft can't fix this; it's an operating rule. Measure sink before descending, and don't drop in it.
 
 ## What this means
 1. **The release is not a risk.** The design rule from milestone 2 (kit bay on the balance point) does what it promised. The CAD confirms the kit sits within 0.5 mm of it, and JSBSim shows the release is barely noticeable.

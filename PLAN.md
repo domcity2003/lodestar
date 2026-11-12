@@ -1,4 +1,4 @@
-# Rescue Wing: project plan
+# Lodestar: project plan
 
 Started 2026-11-11 (US Central). Plan by Claude Opus 5.5 (claude-opus-5-5).
 
@@ -7,7 +7,7 @@ A civil engineering design study. Virtual only, free tools, public data.
 ## The pitch
 When a hiker goes missing, search teams can lose hours in the gap between "missing" and "found". Small drones with thermal cameras already find people (DJI counts 1,000+ people rescued with drones since 2017). But quadcopters fly for 30-45 minutes, and today's fixed-wing search drones manage about 90 minutes and cost around $45K (eBee VISION).
 
-**Rescue Wing** is a small, B-2-style flying wing with three jobs:
+**Lodestar** is a small, B-2-style flying wing with three jobs:
 1. **Search for longer.** Fly at least 3 hours, twice what today's fixed-wing search drones manage, scanning terrain with a thermal camera.
 2. **Drop a survival kit.** Once the person is found, drop a 1.5 kg kit (radio, water, thermal blanket, light) by parachute close to them, so they can talk to rescuers and stay warm until a team arrives.
 3. **Come home.** Recover by belly landing and fly again.
@@ -75,7 +75,7 @@ Details: `research/2026-11-12-cost-model.md`, `research/2026-11-12-v3-improvemen
 | 5 | Detailed CAD, renders, 6-DOF check | **Done 2026-11-11**: STEP assembly (31 parts), all parts fit with ≥1.5 mm skin clearance, balance point from the CAD within 1.7 mm of design; 5 Blender renders; JSBSim kit release: ≤0.7 m height change in calm air, no stalls in light turbulence; operating rules: fly the drop at 18 m/s in moderate turbulence, don't descend into sustained sink | build123d, Blender, JSBSim |
 | 5b | Design v3: improvements before cost | **Done 2026-11-12**: matched folding prop + motor from measured data, smooth skins, 18 m/s search; 3.6 h design case (was 3.0 h); help within 3 h 44% (was 35%); airfoil, area and 3.4 m span checked and rejected | NeuralFoil, UIUC prop data, AVL, build123d, mission sim |
 | 6 | Cost model | **Done 2026-11-12**: about $7,300 per aircraft ($4,800 parts + airframe), $26 per flight hour, a 3-h search about $80 vs $3,600+ for a sheriff helicopter; best value is SiCore cells + foam-core wing at 20 m/s (50% help within 3 h for +$430) | Python |
-| 7 | Write-up | One report with charts and renders | HTML page |
+| 7 | Write-up | **Done 2026-11-12**: one-page report with renders and charts, `out/report/index.html`, published as a private claude.ai artifact (https://claude.ai/artifact/VzqTrrgwjTW9sdRi8kMu5W). Project renamed from Rescue Wing to Lodestar the same day | HTML page |
 
 ## Folder layout
 - `PLAN.md`: this file

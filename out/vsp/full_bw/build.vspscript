@@ -97,8 +97,8 @@ void main()
     SetParmVal( gb, "Z_Rel_Location", "XForm", -0.12 );
     Update();
 
-    WriteVSPFile( "rescue_wing.vsp3", SET_ALL );
-    ExportFile( "rescue_wing.stl", SET_ALL, EXPORT_STL );
+    WriteVSPFile( "lodestar.vsp3", SET_ALL );
+    ExportFile( "lodestar.stl", SET_ALL, EXPORT_STL );
     Print( "SAVED" );
 
     //==== Parasite drag build-up ====//

@@ -31,7 +31,7 @@ SICORE_PRICE = {"low": 10.0, "mid": 22.7, "high": 35.0}
 
 if __name__ == "__main__":
     sys.stdout = Tee(OUT / "trades_log.txt")
-    print("Rescue Wing milestone 6: cost vs design trades, 2026-11-12, claude-opus-5-5\n")
+    print("Lodestar milestone 6: cost vs design trades, 2026-11-12, claude-opus-5-5\n")
     configs = []
     for cell, cname in (("Molicel P50B", "P50B"), ("Amprius SiCore 6.3 Ah", "SiCore")):
         for build, finish in (("foam-core", "halfway"), ("moulded", "laminar")):
@@ -40,7 +40,7 @@ if __name__ == "__main__":
     fleet, meta = [], {}
     for cname, cell, build, finish, v in configs:
         name = f"{cname}, {build}, {v:.0f} m/s"
-        ac = v3m.rescue_wing_v3(name, cell, "kit", finish, 3.0, 7.0)
+        ac = v3m.lodestar_v3(name, cell, "kit", finish, 3.0, 7.0)
         ac.v_cruise = v
         ac.search_h = ac.energy / float(ac.power(v))
         fleet.append(ac)

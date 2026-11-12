@@ -1,4 +1,4 @@
-"""Design v2: make Rescue Wing competitive without touching the airframe.
+"""Design v2: make Lodestar competitive without touching the airframe.
 
 The airframe (span, planform, pod, winglets) is validated through milestones 1-3, so v2 only
 changes what goes into the existing slots:
@@ -85,7 +85,7 @@ def endurance(cell, config, pf, alt, usable):
 
 if __name__ == "__main__":
     sys.stdout = st.Tee(OUT / "run_log.txt")
-    print("Rescue Wing design v2, 2026-11-11, claude-opus-5-5\n")
+    print("Lodestar design v2, 2026-11-11, claude-opus-5-5\n")
     print("Cells (all 21700 format, so they drop into the milestone 3 slots):")
     for k, (wh, g, src) in CELLS.items():
         if wh:

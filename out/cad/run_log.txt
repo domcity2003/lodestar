@@ -1,4 +1,4 @@
-Rescue Wing v2 CAD, 2026-11-11, claude-opus-5-5 (build123d)
+Lodestar v2 CAD, 2026-11-11, claude-opus-5-5 (build123d)
 
 
 Interference between internal parts (22 parts; 5 pairs close enough to test): none
@@ -30,4 +30,4 @@ wing structure (centre, outer panels, elevons)    1.286 0.525  0.009            
 Total 7.30 kg. CG x = 0.4203 m (design 0.4220 m, difference -1.7 mm = -0.4% MAC); z = -0.022 m
 After the kit drops: CG x = 0.4198 m (-0.5 mm)
 
-Exported 31 parts: out/cad/rescue_wing_v2.step and out/cad/stl/
+Exported 31 parts: out/cad/lodestar_v2.step and out/cad/stl/

@@ -1,5 +1,5 @@
 00:00.922  io.stl           | WARNING Removed 2 degenerate triangles during import
-01:36.297  render           | Saved: 'C:\Users\DomBa\DOM\5_Projects\rescue-wing\out\render\v2_hero.png'
+01:36.297  render           | Saved: 'C:\Users\DomBa\DOM\5_Projects\lodestar\out\render\v2_hero.png'
 Saved v2_hero
 Blender 5.3.0 (hash 02f0899d78e3 built 2026-11-10 01:33:43)
 Timer 'STL Import' took 4.37 ms
@@ -37,7 +37,7 @@ Timer 'STL Import' took 7.39 ms
 
 Blender quit
 
-C:\Users\DomBa\DOM\5_Projects\rescue-wing\scripts\blender_v2.py:42: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+C:\Users\DomBa\DOM\5_Projects\lodestar\scripts\blender_v2.py:42: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
   m.use_nodes = True
-C:\Users\DomBa\DOM\5_Projects\rescue-wing\scripts\blender_v2.py:145: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+C:\Users\DomBa\DOM\5_Projects\lodestar\scripts\blender_v2.py:145: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
   world.use_nodes = True

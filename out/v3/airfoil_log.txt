@@ -1,4 +1,4 @@
-Rescue Wing v3, airfoil screen, 2026-11-12, claude-opus-5-5 (NeuralFoil xxlarge)
+Lodestar v3, airfoil screen, 2026-11-12, claude-opus-5-5 (NeuralFoil xxlarge)
 
 MH45 reference: t/c 0.099, Cm -0.0087, search cd 0.00799, tip CLmax 1.23
 

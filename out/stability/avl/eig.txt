@@ -1,4 +1,4 @@
-# Rescue Wing                                                                     
+# Lodestar                                                                     
 # 
 #   Run case     Eigenvalue
        1    -14.278630         0.0000000    

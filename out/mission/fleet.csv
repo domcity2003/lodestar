@@ -1,7 +1,7 @@
 aircraft,published_h,v_cruise,v_max,drops_kit,note
-"Rescue Wing v2 (P50B, kit)",3.695,15.548,22.0,True,"Molicel P50B, bay: rescue kit, halfway wing drag"
-"Rescue Wing v2+ (SiCore, kit)",4.629,15.573,22.0,True,"Amprius SiCore 6.3 Ah, bay: rescue kit, halfway wing drag"
-Rescue Wing v2+ search-only,7.701,15.359,22.0,False,"Amprius SiCore 6.3 Ah, bay: battery module, halfway wing drag"
+"Lodestar v2 (P50B, kit)",3.695,15.548,22.0,True,"Molicel P50B, bay: rescue kit, halfway wing drag"
+"Lodestar v2+ (SiCore, kit)",4.629,15.573,22.0,True,"Amprius SiCore 6.3 Ah, bay: rescue kit, halfway wing drag"
+Lodestar v2+ search-only,7.701,15.359,22.0,False,"Amprius SiCore 6.3 Ah, bay: battery module, halfway wing drag"
 DeltaQuad Evo GOV,4.25,16.54,23.0,False,"VTOL, 10 kg MTOW, dual battery, 1 kg payload; docs.deltaquad.com"
 C-Astral Bramor ppX,3.5,16.0,22.0,False,"catapult/parachute, 4.7 kg, 0.5 kg payload, no thermal listed; c-astral.com"
 Quantum Trinity Pro,1.5,17.0,22.0,False,"VTOL, 5.75 kg; 90 min (59 min by default under export rules); QS techsheet"

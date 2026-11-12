@@ -1,4 +1,4 @@
-Rescue Wing kit drop study, 2026-11-11, claude-opus-5-5
+Lodestar kit drop study, 2026-11-11, claude-opus-5-5
 Kit 1.5 kg, released at 15.0 m/s, ground at 2000 m (air density 1.006)
 
 Parachute for a 5 m/s landing (about like jumping off a 1.3 m wall):

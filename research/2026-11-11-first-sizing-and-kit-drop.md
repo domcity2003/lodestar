@@ -4,7 +4,7 @@
 Code: `scripts/sizing.py`, `scripts/kit_drop.py`. Outputs: `out/sizing/`, `out/kit_drop/` (CSVs, charts, `run_log.txt`).
 
 ## Answer first
-**Rescue Wing v0.1:**
+**Lodestar v0.1:**
 - **Airframe:** 3.0 m span flying wing, 1.29 m² of wing, about 7.4 kg at take-off.
 - **Battery:** 2.55 kg Li-ion (510 Wh).
 - **Endurance:** 3.0 h at 15 m/s, carrying a camera and a 1.5 kg rescue kit the whole time.
@@ -25,7 +25,7 @@ Three findings drive the design:
 | Draganfly Sentinel | VTOL fixed wing | up to 90 min | n/a | |
 | Typical SAR quadcopter | multirotor | 30-45 min | | Most rescues so far are with these |
 
-Demand: DJI has tracked drone-assisted rescues since 2017 (1,000+ people by its July 2023 count). In 2025-26, AI-assisted thermal drones found missing hikers in Spain, Italy, California, Oregon and Australia. **Rescue Wing's edge:** 2× the endurance of the eBee VISION, plus the ability to *deliver* something once the person is found.
+Demand: DJI has tracked drone-assisted rescues since 2017 (1,000+ people by its July 2023 count). In 2025-26, AI-assisted thermal drones found missing hikers in Spain, Italy, California, Oregon and Australia. **Lodestar's edge:** 2× the endurance of the eBee VISION, plus the ability to *deliver* something once the person is found.
 
 ## Method
 **Sizing (`sizing.py`):** a sweep of 13,834 designs: span 1.6-3.4 m, aspect ratio 5-11, battery 0.5-5 kg. For each design:

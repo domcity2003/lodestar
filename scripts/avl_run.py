@@ -1,4 +1,4 @@
-"""Small AVL driver for the Rescue Wing: writes the geometry and mass files, runs
+"""Small AVL driver for the Lodestar: writes the geometry and mass files, runs
 avl.exe with keystrokes (trim, stability derivatives, strip loads, eigenmodes),
 and parses the results.
 
@@ -91,7 +91,7 @@ def write_avl(g: Geometry, xref: float, path: Path, cdp: float = 0.0):
             s += f"CONTROL\nelevon 1.0 {g.hinge_xc} 0 0 0 1\nCONTROL\naileron 1.0 {g.hinge_xc} 0 0 0 -1\n"
         return s
 
-    txt = (f"Rescue Wing\n0.0\n0 0 0.0\n{g.S:.5f} {g.mac:.5f} {g.span:.5f}\n{xref:.5f} 0 0\n{cdp:.5f}\n"
+    txt = (f"Lodestar\n0.0\n0 0 0.0\n{g.S:.5f} {g.mac:.5f} {g.span:.5f}\n{xref:.5f} 0 0\n{cdp:.5f}\n"
            "#--------------------------------------------------\n"
            "SURFACE\nWing\n10 1.0 32 -1.1\nYDUPLICATE\n0.0\n"
            + section(0.0, controls=False) + section(yb) + section(yt))

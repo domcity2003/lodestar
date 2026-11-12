@@ -167,7 +167,7 @@ def system(prop, motor, V, T):
 
 if __name__ == "__main__":
     sys.stdout = Tee(OUT / "propulsion_log.txt")
-    print("Rescue Wing v3, propulsion matching, 2026-11-12, claude-opus-5-5\n")
+    print("Lodestar v3, propulsion matching, 2026-11-12, claude-opus-5-5\n")
     props = load_props()
     print(f"{len(props)} propellers with wind-tunnel data: "
           f"{sum(p['fam'] == 'ancf' for p in props.values())} Aeronaut CAM folding, "

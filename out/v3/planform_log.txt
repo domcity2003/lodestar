@@ -1,4 +1,4 @@
-Rescue Wing v3, wing finish, area and span, 2026-11-12, claude-opus-5-5
+Lodestar v3, wing finish, area and span, 2026-11-12, claude-opus-5-5
 Propulsion: v2 assumption 55%, 0.28 kg | v3 matched 63.6%, 0.34 kg
 
 v2 baseline (3.0 m, AR 7, halfway finish, 55% propulsion): 3.04 h, stall 11.8 m/s, 136 W at 14.8 m/s

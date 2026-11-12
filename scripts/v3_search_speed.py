@@ -27,7 +27,7 @@ OUT = v3m.OUT
 
 if __name__ == "__main__":
     sys.stdout = Tee(OUT / "search_speed_log.txt")
-    print("Rescue Wing v3: search-speed sweep, 2026-11-12, claude-opus-5-5\n")
+    print("Lodestar v3: search-speed sweep, 2026-11-12, claude-opus-5-5\n")
     base = {
         "v3 (P50B, kit)": ("Molicel P50B", "kit", "laminar", 3.0, 7.0),
         "v3+ (SiCore, kit)": ("Amprius SiCore 6.3 Ah", "kit", "laminar", 3.0, 7.0),
@@ -35,10 +35,10 @@ if __name__ == "__main__":
     }
     fleet, labels = [], {}
     for lab, args in base.items():
-        ref = v3m.rescue_wing_v3(lab, *args)
+        ref = v3m.lodestar_v3(lab, *args)
         print(f"{lab}: best-range search speed {ref.v_cruise:.1f} m/s")
         for v in (None, 15.0, 16.0, 17.0, 18.0, 19.0, 20.0):
-            ac = v3m.rescue_wing_v3(f"{lab} @ {'best range' if v is None else f'{v:.0f} m/s'}", *args)
+            ac = v3m.lodestar_v3(f"{lab} @ {'best range' if v is None else f'{v:.0f} m/s'}", *args)
             if v is not None:
                 ac.v_cruise = v
                 ac.search_h = ac.energy / float(ac.power(v))

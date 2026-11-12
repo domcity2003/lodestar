@@ -1,4 +1,4 @@
-Rescue Wing design v2, 2026-11-11, claude-opus-5-5
+Lodestar design v2, 2026-11-11, claude-opus-5-5
 
 Cells (all 21700 format, so they drop into the milestone 3 slots):
   Molicel P50B: 18.0 Wh, 71 g -> cell 254 Wh/kg, pack 223 Wh/kg  [Molicel datasheet: 5.0 Ah, 3.6 V, 18.0 Wh, 71 g max; in volume production]

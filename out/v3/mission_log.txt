@@ -1,4 +1,4 @@
-Rescue Wing v3: stability re-check and mission simulation, 2026-11-12, claude-opus-5-5
+Lodestar v3: stability re-check and mission simulation, 2026-11-12, claude-opus-5-5
 
 Stability (AVL with the pod, 0.25 m winglets, 6% static margin, MIL-F-8785C Class I Level 1):
                design                   case  mass  x_cg  x_np  static_margin  elevon  alpha  sp_zeta  ph_zeta  dr_zeta  spiral_t2  roll_tau  pitch_ok  lateral_ok
@@ -13,45 +13,45 @@ v3 option, 3.4 m span         kit, top speed 7.635 0.449 0.469          0.051   
 All cases pass: True
 
 Endurance, design case (2,000 m, 10% reserve, kit carried throughout, searching at >= 14 m/s):
-  Rescue Wing v3 (P50B, kit)                   MTOW  7.36 kg | published-style 4.30 h | design case 3.60 h
-  Rescue Wing v3, halfway finish (P50B, kit)   MTOW  7.36 kg | published-style 4.08 h | design case 3.39 h
-  Rescue Wing v3+ (SiCore, kit)                MTOW  7.40 kg | published-style 5.39 h | design case 4.51 h
-  Rescue Wing v3+ search-only                  MTOW  7.16 kg | published-style 8.89 h | design case 7.47 h
-  Rescue Wing v3 option 3.4 m (P50B, kit)      MTOW  7.54 kg | published-style 4.53 h | design case 3.81 h
-  Rescue Wing v3+ option 3.4 m (SiCore, kit)   MTOW  7.58 kg | published-style 5.68 h | design case 4.77 h
-  Rescue Wing v2 (P50B, kit)                   MTOW  7.30 kg | published-style 3.69 h | design case 3.04 h
-  Rescue Wing v2+ (SiCore, kit)                MTOW  7.33 kg | published-style 4.63 h | design case 3.81 h
+  Lodestar v3 (P50B, kit)                      MTOW  7.36 kg | published-style 4.30 h | design case 3.60 h
+  Lodestar v3, halfway finish (P50B, kit)      MTOW  7.36 kg | published-style 4.08 h | design case 3.39 h
+  Lodestar v3+ (SiCore, kit)                   MTOW  7.40 kg | published-style 5.39 h | design case 4.51 h
+  Lodestar v3+ search-only                     MTOW  7.16 kg | published-style 8.89 h | design case 7.47 h
+  Lodestar v3 option 3.4 m (P50B, kit)         MTOW  7.54 kg | published-style 4.53 h | design case 3.81 h
+  Lodestar v3+ option 3.4 m (SiCore, kit)      MTOW  7.58 kg | published-style 5.68 h | design case 4.77 h
+  Lodestar v2 (P50B, kit)                      MTOW  7.30 kg | published-style 3.69 h | design case 3.04 h
+  Lodestar v2+ (SiCore, kit)                   MTOW  7.33 kg | published-style 4.63 h | design case 3.81 h
 
 A: lost hiker, 16 km2 box 5 km out  (2000 missions each, same targets and winds for every aircraft, sea level)
-                                  aircraft  published_h  p_find  median_find_min  p_kit_delivered  median_kit_min  area_km2_if_not_found  p_find_high_wind  median_help_min  p_help_3h
-                Rescue Wing v3 (P50B, kit)         4.30    0.45           102.76             0.44          105.41                   9.25              0.42           105.89       0.41
-Rescue Wing v3, halfway finish (P50B, kit)         4.08    0.42            98.38             0.41          100.89                   8.37              0.38           101.51       0.39
-             Rescue Wing v3+ (SiCore, kit)         5.39    0.57           128.56             0.56          130.18                  11.45              0.52           131.70       0.41
-               Rescue Wing v3+ search-only         8.89    0.79           171.16             0.00             NaN                  16.08              0.78           272.36       0.16
-   Rescue Wing v3 option 3.4 m (P50B, kit)         4.53    0.46           113.35             0.46          116.13                   9.25              0.42           116.48       0.38
-Rescue Wing v3+ option 3.4 m (SiCore, kit)         5.68    0.59           142.81             0.59          144.88                  11.89              0.53           145.94       0.38
-                Rescue Wing v2 (P50B, kit)         3.69    0.36            86.90             0.35           89.06                   7.49              0.33            90.03       0.35
-             Rescue Wing v2+ (SiCore, kit)         4.63    0.47           113.68             0.46          116.00                   9.25              0.43           116.81       0.39
-                         DeltaQuad Evo GOV         4.25    0.51           116.54             0.00             NaN                  10.57              0.47           217.90       0.17
-                       C-Astral Bramor ppX         3.50    0.40            95.02             0.00             NaN                   8.37              0.38           196.67       0.16
-                       Quantum Trinity Pro         1.50    0.16            36.59             0.00             NaN                   3.52              0.16           142.39       0.15
-                            AgEagle eBee X         1.50    0.13            39.60             0.00             NaN                   2.64              0.12           143.76       0.12
-                  DeltaQuad Evo-LE (press)         8.00    0.79           169.42             0.00             NaN                  16.08              0.79           270.03       0.17
+                               aircraft  published_h  p_find  median_find_min  p_kit_delivered  median_kit_min  area_km2_if_not_found  p_find_high_wind  median_help_min  p_help_3h
+                Lodestar v3 (P50B, kit)         4.30    0.45           102.76             0.44          105.41                   9.25              0.42           105.89       0.41
+Lodestar v3, halfway finish (P50B, kit)         4.08    0.42            98.38             0.41          100.89                   8.37              0.38           101.51       0.39
+             Lodestar v3+ (SiCore, kit)         5.39    0.57           128.56             0.56          130.18                  11.45              0.52           131.70       0.41
+               Lodestar v3+ search-only         8.89    0.79           171.16             0.00             NaN                  16.08              0.78           272.36       0.16
+   Lodestar v3 option 3.4 m (P50B, kit)         4.53    0.46           113.35             0.46          116.13                   9.25              0.42           116.48       0.38
+Lodestar v3+ option 3.4 m (SiCore, kit)         5.68    0.59           142.81             0.59          144.88                  11.89              0.53           145.94       0.38
+                Lodestar v2 (P50B, kit)         3.69    0.36            86.90             0.35           89.06                   7.49              0.33            90.03       0.35
+             Lodestar v2+ (SiCore, kit)         4.63    0.47           113.68             0.46          116.00                   9.25              0.43           116.81       0.39
+                      DeltaQuad Evo GOV         4.25    0.51           116.54             0.00             NaN                  10.57              0.47           217.90       0.17
+                    C-Astral Bramor ppX         3.50    0.40            95.02             0.00             NaN                   8.37              0.38           196.67       0.16
+                    Quantum Trinity Pro         1.50    0.16            36.59             0.00             NaN                   3.52              0.16           142.39       0.15
+                         AgEagle eBee X         1.50    0.13            39.60             0.00             NaN                   2.64              0.12           143.76       0.12
+               DeltaQuad Evo-LE (press)         8.00    0.79           169.42             0.00             NaN                  16.08              0.79           270.03       0.17
 
 B: wide area, 36 km2 box 10 km out  (2000 missions each, same targets and winds for every aircraft, sea level)
-                                  aircraft  published_h  p_find  median_find_min  p_kit_delivered  median_kit_min  area_km2_if_not_found  p_find_high_wind  median_help_min  p_help_3h
-                Rescue Wing v3 (P50B, kit)         4.30    0.19           105.23             0.19          107.85                   8.59              0.16           108.36       0.18
-Rescue Wing v3, halfway finish (P50B, kit)         4.08    0.17           101.15             0.16          103.69                   7.93              0.14           104.28       0.16
-             Rescue Wing v3+ (SiCore, kit)         5.39    0.23           119.18             0.23          118.78                  11.23              0.20           122.31       0.18
-               Rescue Wing v3+ search-only         8.89    0.40           200.20             0.00             NaN                  19.16              0.36           405.86       0.00
-   Rescue Wing v3 option 3.4 m (P50B, kit)         4.53    0.20           115.20             0.19          118.13                   9.25              0.16           118.34       0.16
-Rescue Wing v3+ option 3.4 m (SiCore, kit)         5.68    0.24           129.30             0.23          132.24                  11.89              0.20           132.43       0.16
-                Rescue Wing v2 (P50B, kit)         3.69    0.15            91.74             0.15           92.16                   7.27              0.11            94.88       0.15
-             Rescue Wing v2+ (SiCore, kit)         4.63    0.20           114.81             0.20          117.82                   9.25              0.16           117.94       0.16
-                         DeltaQuad Evo GOV         4.25    0.21           110.63             0.00             NaN                   9.91              0.18           314.91       0.00
-                       C-Astral Bramor ppX         3.50    0.16            96.93             0.00             NaN                   7.93              0.13           297.21       0.00
-                       Quantum Trinity Pro         1.50    0.06            35.21             0.00             NaN                   3.30              0.03           247.92       0.00
-                            AgEagle eBee X         1.50    0.04            29.85             0.00             NaN                   1.98              0.02           242.25       0.00
-                  DeltaQuad Evo-LE (press)         8.00    0.42           213.71             0.00             NaN                  19.82              0.38           410.42       0.00
+                               aircraft  published_h  p_find  median_find_min  p_kit_delivered  median_kit_min  area_km2_if_not_found  p_find_high_wind  median_help_min  p_help_3h
+                Lodestar v3 (P50B, kit)         4.30    0.19           105.23             0.19          107.85                   8.59              0.16           108.36       0.18
+Lodestar v3, halfway finish (P50B, kit)         4.08    0.17           101.15             0.16          103.69                   7.93              0.14           104.28       0.16
+             Lodestar v3+ (SiCore, kit)         5.39    0.23           119.18             0.23          118.78                  11.23              0.20           122.31       0.18
+               Lodestar v3+ search-only         8.89    0.40           200.20             0.00             NaN                  19.16              0.36           405.86       0.00
+   Lodestar v3 option 3.4 m (P50B, kit)         4.53    0.20           115.20             0.19          118.13                   9.25              0.16           118.34       0.16
+Lodestar v3+ option 3.4 m (SiCore, kit)         5.68    0.24           129.30             0.23          132.24                  11.89              0.20           132.43       0.16
+                Lodestar v2 (P50B, kit)         3.69    0.15            91.74             0.15           92.16                   7.27              0.11            94.88       0.15
+             Lodestar v2+ (SiCore, kit)         4.63    0.20           114.81             0.20          117.82                   9.25              0.16           117.94       0.16
+                      DeltaQuad Evo GOV         4.25    0.21           110.63             0.00             NaN                   9.91              0.18           314.91       0.00
+                    C-Astral Bramor ppX         3.50    0.16            96.93             0.00             NaN                   7.93              0.13           297.21       0.00
+                    Quantum Trinity Pro         1.50    0.06            35.21             0.00             NaN                   3.30              0.03           247.92       0.00
+                         AgEagle eBee X         1.50    0.04            29.85             0.00             NaN                   1.98              0.02           242.25       0.00
+               DeltaQuad Evo-LE (press)         8.00    0.42           213.71             0.00             NaN                  19.82              0.38           410.42       0.00
 
 Written: out/v3/stability_v3.csv, endurance_v3.csv, mission_summary.csv, mission_runs.csv, p_help.png

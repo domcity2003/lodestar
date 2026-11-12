@@ -4,7 +4,7 @@
 Code: `scripts/stability.py` (study), `scripts/avl_run.py` (AVL driver). Outputs: `out/stability/` (CSVs, charts, `run_log.txt`, final AVL input files in `out/stability/avl/`).
 
 ## Answer first
-**The Rescue Wing is stable and trimmable from near-stall to top speed, with the kit on and after it drops.** All 8 cases tested (12.5, 15, 18 and 22 m/s, each with and without the kit) meet the standard handling criteria for small aircraft.
+**The Lodestar is stable and trimmable from near-stall to top speed, with the kit on and after it drops.** All 8 cases tested (12.5, 15, 18 and 22 m/s, each with and without the kit) meet the standard handling criteria for small aircraft.
 
 The design choices that get there:
 | Choice | Value | Why |
