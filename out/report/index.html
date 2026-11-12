@@ -148,7 +148,7 @@ footer { border-top: 1px solid var(--rule); padding-top: 16px; font-size: 14px; 
   <section>
     <div class="eyebrow">The answer</div>
     <div class="answer">
-      <p>In 2,000 simulated lost-hiker missions, Lodestar gets help to the person within 3 hours in <strong>50%</strong> of them. The best search drone on the market does it in <strong>17%</strong>.</p>
+      <p>In 2,000 simulated lost-hiker missions, Lodestar gets help to the person within 3 hours in <strong>45%</strong> of them. The best search drone on the market does it in <strong>15%</strong>. Both numbers count the blur a thermal camera picks up at search speed.</p>
       <p>Each aircraft costs about $7,800 to build. Each 3-hour search costs about $80 in aircraft costs; a sheriff's helicopter costs $3,600 or more for the same 3 hours.</p>
     </div>
     <p class="col">The gap comes from what happens after the find. Today's drones report the location, and a ground team still has to walk in, often for hours. Lodestar drops a radio, water and a blanket on the spot. In the simulation, help counts as arriving when the kit lands.</p>
@@ -157,15 +157,15 @@ footer { border-top: 1px solid var(--rule); padding-top: 16px; font-size: 14px; 
   <section>
     <h2>Help within 3 hours</h2>
     <div class="bars" role="img" aria-label="Share of lost-hiker missions where help reaches the person within 3 hours">
-      <div class="bar"><div class="name">Lodestar <small>SiCore cells, 20 m/s</small></div><div class="track"><div class="fill lodestar" style="width:83.3%"></div><span class="val" style="left:83.3%">50%</span></div></div>
-      <div class="bar"><div class="name">Lodestar <small>P50B cells, 18 m/s (fallback)</small></div><div class="track"><div class="fill lodestar" style="width:67%"></div><span class="val" style="left:67%">40%</span></div></div>
-      <div class="bar"><div class="name">DeltaQuad Evo GOV <small>4.25 h, VTOL</small></div><div class="track"><div class="fill" style="width:28.3%"></div><span class="val" style="left:28.3%">17%</span></div></div>
-      <div class="bar"><div class="name">DeltaQuad Evo-LE <small>8 h (press-reported)</small></div><div class="track"><div class="fill" style="width:28.3%"></div><span class="val" style="left:28.3%">17%</span></div></div>
-      <div class="bar"><div class="name">C-Astral Bramor ppX <small>3.5 h</small></div><div class="track"><div class="fill" style="width:26.7%"></div><span class="val" style="left:26.7%">16%</span></div></div>
-      <div class="bar"><div class="name">Quantum Trinity Pro <small>1.5 h</small></div><div class="track"><div class="fill" style="width:25%"></div><span class="val" style="left:25%">15%</span></div></div>
-      <div class="bar"><div class="name">AgEagle eBee X <small>1.5 h</small></div><div class="track"><div class="fill" style="width:20%"></div><span class="val" style="left:20%">12%</span></div></div>
+      <div class="bar"><div class="name">Lodestar <small>SiCore cells, 20 m/s</small></div><div class="track"><div class="fill lodestar" style="width:75.2%"></div><span class="val" style="left:75.2%">45%</span></div></div>
+      <div class="bar"><div class="name">Lodestar <small>P50B cells, 18 m/s (fallback)</small></div><div class="track"><div class="fill lodestar" style="width:61.7%"></div><span class="val" style="left:61.7%">37%</span></div></div>
+      <div class="bar"><div class="name">DeltaQuad Evo GOV <small>4.25 h, VTOL</small></div><div class="track"><div class="fill" style="width:25.7%"></div><span class="val" style="left:25.7%">15%</span></div></div>
+      <div class="bar"><div class="name">DeltaQuad Evo-LE <small>8 h (press-reported)</small></div><div class="track"><div class="fill" style="width:25.7%"></div><span class="val" style="left:25.7%">15%</span></div></div>
+      <div class="bar"><div class="name">C-Astral Bramor ppX <small>3.5 h</small></div><div class="track"><div class="fill" style="width:25%"></div><span class="val" style="left:25%">15%</span></div></div>
+      <div class="bar"><div class="name">Quantum Trinity Pro <small>1.5 h</small></div><div class="track"><div class="fill" style="width:22.7%"></div><span class="val" style="left:22.7%">14%</span></div></div>
+      <div class="bar"><div class="name">AgEagle eBee X <small>1.5 h</small></div><div class="track"><div class="fill" style="width:18%"></div><span class="val" style="left:18%">11%</span></div></div>
     </div>
-    <p class="axisnote">The scenario: a lost hiker somewhere in a 16 km² area, 5 km from the launch point. Every aircraft gets the same thermal camera, the same random winds (0-10 m/s) and the same hidden hiker positions. A ground team walks in from the launch point at 3 km/h. Bars run from 0 to 60%. Even the 8-hour Evo-LE scores 17%: it finds more people, but the team rarely walks in within 3 hours.</p>
+    <p class="axisnote">The scenario: a lost hiker somewhere in a 16 km² area, 5 km from the launch point. Every aircraft gets the same thermal camera, with the same 10 ms image blur, the same random winds (0-10 m/s) and the same hidden hiker positions. A ground team walks in from the launch point at 3 km/h. Bars run from 0 to 60%. Even the 8-hour Evo-LE scores 15%: it finds more people, but the team rarely walks in within 3 hours.</p>
   </section>
 
   <section>
@@ -201,7 +201,12 @@ footer { border-top: 1px solid var(--rule); padding-top: 16px; font-size: 14px; 
     </ul>
     <figure>
       <div class="chart"><img src="img/search_speed.png" alt="Two line charts of help-within-3-hours against search airspeed from 15 to 20 m/s for three Lodestar versions, in the lost-hiker and wide-area scenarios." width="1800" height="660" loading="lazy"></div>
-      <figcaption>Help within 3 h against search speed. The cheaper cells (dark blue) peak at 18 m/s; with SiCore cells (light blue) it keeps rising to 50% at 20 m/s. A 3.4 m span (green) adds endurance but barely moves the score, so the span stays at 3.0 m.</figcaption>
+      <figcaption>Help within 3 h against search speed. The cheaper cells (dark blue) peak at 18 m/s; with SiCore cells (light blue) it keeps rising to 50% at 20 m/s. A 3.4 m span (green) adds endurance but barely moves the score, so the span stays at 3.0 m. This chart is before camera blur; the next one adds it.</figcaption>
+    </figure>
+    <p class="col"><strong>Then I checked whether searching fast blurs the camera too much.</strong> A thermal camera's pixels take 7-12 ms to respond, so at 20 m/s a person smears across about two pixels. I modelled detection with the Johnson criteria (how many pixels across a person the camera needs to spot them), using each search leg's actual ground speed. Blur shrinks the useful search strip from 55 m to about 46 m at 20 m/s and costs 2-5 points of help within 3 hours. It doesn't move the best speed: 20 m/s with SiCore cells and 18 m/s with P50B, for every camera response time and detection threshold I tried. Flying tighter tracks to fill the gaps is worse than accepting them, so the track spacing stays at 55 m.</p>
+    <figure>
+      <div class="chart"><img src="img/blur.png" alt="Three charts: effective sweep width falling from 55 m with ground speed for 7, 10 and 12 ms camera time constants; and help within 3 hours against search speed for SiCore and P50B builds, with and without blur." width="2250" height="690" loading="lazy"></div>
+      <figcaption>Left: blur narrows the strip the camera can search. Middle and right: average of the two scenarios, moulded wing. Grey is the old no-blur model, blues are 7, 10 and 12 ms cameras, green is flying tighter tracks to make up for blur. Every curve peaks at the same speed.</figcaption>
     </figure>
     <p class="col">Two things I checked didn't help. MH45 is already about the best airfoil for the job: of 52 candidates, the ones that beat it gain about 1% or are too thin for the cells. And a bigger wing can't fly slow enough to pay for itself, because the 12 m/s stall limit already sets the area.</p>
   </section>
@@ -213,9 +218,9 @@ footer { border-top: 1px solid var(--rule); padding-top: 16px; font-size: 14px; 
       <table>
         <thead><tr><th>Option</th><th class="num">Cost per hour</th><th class="num">3-hour search</th><th class="num">Help within 3 h</th></tr></thead>
         <tbody>
-          <tr class="pick"><td>Lodestar, volunteer crew</td><td class="num">$26</td><td class="num">$79</td><td class="num">40-50%</td></tr>
-          <tr><td>Quantum Trinity Pro ($21,260)</td><td class="num">$65</td><td class="num">$195</td><td class="num">15%</td></tr>
-          <tr><td>senseFly eBee VISION ($59,717)</td><td class="num">$183</td><td class="num">$547</td><td class="num">≈ 12%</td></tr>
+          <tr class="pick"><td>Lodestar, volunteer crew</td><td class="num">$26</td><td class="num">$79</td><td class="num">37-45%</td></tr>
+          <tr><td>Quantum Trinity Pro ($21,260)</td><td class="num">$65</td><td class="num">$195</td><td class="num">14%</td></tr>
+          <tr><td>senseFly eBee VISION ($59,717)</td><td class="num">$183</td><td class="num">$547</td><td class="num">≈ 11%</td></tr>
           <tr><td>Civil Air Patrol light aircraft</td><td class="num">$93-170</td><td class="num">$279-510</td><td class="num">not modelled</td></tr>
           <tr><td>Sheriff's helicopter</td><td class="num">$1,200-4,050</td><td class="num">$3,600-12,150</td><td class="num">not modelled</td></tr>
         </tbody>
@@ -224,15 +229,15 @@ footer { border-top: 1px solid var(--rule); padding-top: 16px; font-size: 14px; 
     <p class="axisnote">Drone hourly costs use the same ownership assumptions for every aircraft: purchase price spread over a 400-hour life, plus repairs. A helicopter does things Lodestar can't, such as lifting the person out. The point is the search hours it burns before anyone is found.</p>
     <figure>
       <div class="chart"><img src="img/trades.png" alt="Scatter chart of help within 3 hours against unit cost for eight builds: two cell types, two wing builds, two search speeds." width="1200" height="690" loading="lazy"></div>
-      <figcaption>What each upgrade buys. SiCore cells add 10 points for about $430, the best value at about $45 per point. Moulded, smooth wing skins add nothing once the SiCore cells give spare energy. They only pay off with the cheaper cells and a fleet of about 25 or more aircraft.</figcaption>
+      <figcaption>What each upgrade buys. SiCore cells add 8 points for about $430, the best value at about $53 per point. Moulded, smooth wing skins add nothing once the SiCore cells give spare energy. They only pay off with the cheaper cells and a fleet of about 25 or more aircraft.</figcaption>
     </figure>
     <div class="tablewrap">
       <table>
         <thead><tr><th>Build</th><th class="num">Unit cost</th><th class="num">Help within 3 h</th></tr></thead>
         <tbody>
-          <tr class="pick"><td>SiCore cells, foam-core wing, 20 m/s (recommended)</td><td class="num">$7,760</td><td class="num">50%</td></tr>
-          <tr><td>P50B cells, foam-core wing, 18 m/s (if SiCore can't be bought)</td><td class="num">$7,320</td><td class="num">40%</td></tr>
-          <tr><td>P50B cells, moulded wing, 18 m/s (fleet of 25+)</td><td class="num">$7,140 at 30 built</td><td class="num">44%</td></tr>
+          <tr class="pick"><td>SiCore cells, foam-core wing, 20 m/s (recommended)</td><td class="num">$7,760</td><td class="num">45%</td></tr>
+          <tr><td>P50B cells, foam-core wing, 18 m/s (if SiCore can't be bought)</td><td class="num">$7,320</td><td class="num">37%</td></tr>
+          <tr><td>P50B cells, moulded wing, 18 m/s (fleet of 25+)</td><td class="num">$7,140 at 30 built</td><td class="num">41%</td></tr>
         </tbody>
       </table>
     </div>
@@ -241,7 +246,7 @@ footer { border-top: 1px solid var(--rule); padding-top: 16px; font-size: 14px; 
   <section>
     <h2>Operating rules</h2>
     <div class="rules">
-      <div class="rule"><b>Search at 20 m/s</b><span>18 m/s with the cheaper P50B cells. Faster finds people sooner inside the 3-hour window.</span></div>
+      <div class="rule"><b>Search at 20 m/s</b><span>18 m/s with the cheaper P50B cells. Faster finds people sooner inside the 3-hour window, even after camera blur. Keep tracks 55 m apart.</span></div>
       <div class="rule"><b>Circle, then drop from 40 m</b><span>Measure the wind first. Release upwind about 40 m above the person: 95% of kits land within 25 m.</span></div>
       <div class="rule"><b>Drop at 18 m/s in rough air</b><span>At 15 m/s, moderate turbulence stalls the wing briefly in about half of runs; at 18 m/s it's 1 in 100.</span></div>
       <div class="rule"><b>Don't descend into sink</b><span>If the aircraft measures sustained sinking air above about 2 m/s, release from higher or wait.</span></div>
@@ -258,6 +263,7 @@ footer { border-top: 1px solid var(--rule); padding-top: 16px; font-size: 14px; 
       <li><span class="m">M4</span><div><h3>Mission simulation</h3><p>2,000 missions against five real drones with the same camera and winds. The kit drop is the edge, not raw endurance.</p></div></li>
       <li><span class="m">M5</span><div><h3>Detailed CAD and flight simulation</h3><p>A 31-part STEP assembly with every part inside the skin and the balance point within 1.7 mm of design. JSBSim flight simulation of the release in calm air and turbulence.</p></div></li>
       <li><span class="m">v3</span><div><h3>Improvements</h3><p>Matched prop and motor, faster search, airfoil and span checked and kept. Design-case flight time up from 3.0 to 3.6 hours on the cheaper cells.</p></div></li>
+      <li><span class="m">v3.1</span><div><h3>Camera blur</h3><p>Johnson-criteria detection with thermal-camera blur, applied to every aircraft. Scores drop 2-5 points; the best speeds and the 3× lead over today's drones hold.</p></div></li>
       <li><span class="m">M6</span><div><h3>Cost model</h3><p>Parts list from current retail prices, cost per flight hour, and the cost-vs-score trades that picked the recommended build.</p></div></li>
     </ol>
   </section>
@@ -267,7 +273,7 @@ footer { border-top: 1px solid var(--rule); padding-top: 16px; font-size: 14px; 
     <ul class="clean">
       <li><strong>Nothing has flown.</strong> Every number comes from analysis and simulation with free tools and public data. A flight-test prototype is the next step.</li>
       <li><strong>SiCore cells are only sold as evaluation samples</strong> and have no public price; $23 a cell is assumed. The P50B fallback uses cells in volume production.</li>
-      <li><strong>Image blur at 20 m/s isn't modelled.</strong> A thermal camera smears the image by roughly 1.7-2 pixels at that speed, which could cut detection. Flight tests should set the speed limit.</li>
+      <li><strong>The blur model is a standard rule of thumb, not a test of this camera.</strong> It uses the Johnson criteria and a 7-12 ms response time, and the scores above use 10 ms. The SIYI ZT6's actual response time isn't published; a flight over a person lying in grass would measure it.</li>
       <li><strong>The flight model can't simulate a real stall;</strong> it flags when the wing would stall. The bay-door drag is an estimate, though doubling it barely matters.</li>
       <li><strong>Mould and labour costs are estimates.</strong> Certification, insurance, training and the FAA waiver for flying beyond line of sight aren't costed.</li>
     </ul>

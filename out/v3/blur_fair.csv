@@ -1,0 +1,81 @@
+scenario,aircraft,published_h,p_find,median_find_min,p_kit_delivered,median_kit_min,area_km2_if_not_found,p_find_high_wind,median_help_min,p_help_3h,case
+"A: lost hiker, 16 km2 box 5 km out",Lodestar SiCore foam-core @ 20,5.12,0.503,94.0628,0.4995,96.6637,10.1301,0.4808,97.1962,0.4995,no blur
+"A: lost hiker, 16 km2 box 5 km out",Lodestar SiCore foam-core @ 21,5.12,0.486,86.8713,0.481,89.5848,9.6897,0.4728,90.0046,0.481,no blur
+"A: lost hiker, 16 km2 box 5 km out",Lodestar P50B foam-core @ 18,4.08,0.408,85.0938,0.4025,87.0554,8.3684,0.3926,88.2271,0.4025,no blur
+"A: lost hiker, 16 km2 box 5 km out",Lodestar SiCore moulded @ 20,5.39,0.5445,101.6778,0.5375,103.6235,11.011,0.5272,104.8111,0.5025,no blur
+"A: lost hiker, 16 km2 box 5 km out",Lodestar P50B moulded @ 18,4.3,0.447,93.274,0.4425,95.7734,8.8088,0.4247,96.4073,0.4425,no blur
+"A: lost hiker, 16 km2 box 5 km out",DeltaQuad Evo GOV,4.25,0.5125,116.5363,0.0,,10.5706,0.4712,217.9042,0.1655,no blur
+"A: lost hiker, 16 km2 box 5 km out",C-Astral Bramor ppX,3.5,0.4045,95.0187,0.0,,8.3684,0.3766,196.6667,0.162,no blur
+"A: lost hiker, 16 km2 box 5 km out",Quantum Trinity Pro,1.5,0.164,36.5903,0.0,,3.5235,0.1603,142.3863,0.147,no blur
+"A: lost hiker, 16 km2 box 5 km out",AgEagle eBee X,1.5,0.132,39.6038,0.0,,2.6426,0.1186,143.7566,0.116,no blur
+"A: lost hiker, 16 km2 box 5 km out",DeltaQuad Evo-LE (press),8.0,0.7875,169.4159,0.0,,16.0761,0.7853,270.0315,0.1655,no blur
+"B: wide area, 36 km2 box 10 km out",Lodestar SiCore foam-core @ 20,5.12,0.21,92.3689,0.207,94.8405,9.9099,0.1855,95.5022,0.207,no blur
+"B: wide area, 36 km2 box 10 km out",Lodestar SiCore foam-core @ 21,5.12,0.203,86.1869,0.2025,89.3096,9.9099,0.179,89.3202,0.2025,no blur
+"B: wide area, 36 km2 box 10 km out",Lodestar P50B foam-core @ 18,4.08,0.1695,89.9946,0.1675,92.2214,7.9279,0.1516,93.128,0.1675,no blur
+"B: wide area, 36 km2 box 10 km out",Lodestar SiCore moulded @ 20,5.39,0.225,96.1449,0.2235,99.1611,10.7357,0.2081,99.2783,0.211,no blur
+"B: wide area, 36 km2 box 10 km out",Lodestar P50B moulded @ 18,4.3,0.188,95.9939,0.187,98.8987,8.5886,0.1645,99.1273,0.187,no blur
+"B: wide area, 36 km2 box 10 km out",DeltaQuad Evo GOV,4.25,0.211,110.6344,0.0,,9.9099,0.1774,314.9116,0.0025,no blur
+"B: wide area, 36 km2 box 10 km out",C-Astral Bramor ppX,3.5,0.1625,96.9306,0.0,,7.9279,0.129,297.2144,0.0025,no blur
+"B: wide area, 36 km2 box 10 km out",Quantum Trinity Pro,1.5,0.058,35.2062,0.0,,3.3033,0.0339,247.9151,0.0025,no blur
+"B: wide area, 36 km2 box 10 km out",AgEagle eBee X,1.5,0.041,29.8463,0.0,,1.982,0.0226,242.2528,0.0025,no blur
+"B: wide area, 36 km2 box 10 km out",DeltaQuad Evo-LE (press),8.0,0.419,213.7135,0.0,,19.8198,0.3758,410.4186,0.0025,no blur
+"A: lost hiker, 16 km2 box 5 km out",Lodestar SiCore foam-core @ 20,5.12,0.473,94.5386,0.47,97.3123,10.1301,0.4663,97.6719,0.47,blur 7 ms
+"A: lost hiker, 16 km2 box 5 km out",Lodestar SiCore foam-core @ 21,5.12,0.4555,87.051,0.451,89.9646,9.6897,0.4567,90.1844,0.451,blur 7 ms
+"A: lost hiker, 16 km2 box 5 km out",Lodestar P50B foam-core @ 18,4.08,0.3885,85.693,0.3835,87.7507,8.3684,0.383,88.8263,0.3835,blur 7 ms
+"A: lost hiker, 16 km2 box 5 km out",Lodestar SiCore moulded @ 20,5.39,0.511,101.9481,0.5045,104.0613,11.011,0.5048,105.0814,0.4725,blur 7 ms
+"A: lost hiker, 16 km2 box 5 km out",Lodestar P50B moulded @ 18,4.3,0.426,93.7338,0.421,95.7897,8.8088,0.4135,96.8671,0.421,blur 7 ms
+"A: lost hiker, 16 km2 box 5 km out",DeltaQuad Evo GOV,4.25,0.489,116.7719,0.0,,10.5706,0.4583,218.0846,0.1575,blur 7 ms
+"A: lost hiker, 16 km2 box 5 km out",C-Astral Bramor ppX,3.5,0.387,95.1667,0.0,,8.3684,0.3702,197.0766,0.154,blur 7 ms
+"A: lost hiker, 16 km2 box 5 km out",Quantum Trinity Pro,1.5,0.156,36.5705,0.0,,3.5235,0.1603,141.9253,0.1405,blur 7 ms
+"A: lost hiker, 16 km2 box 5 km out",AgEagle eBee X,1.5,0.126,39.0045,0.0,,2.6426,0.1186,143.5404,0.1105,blur 7 ms
+"A: lost hiker, 16 km2 box 5 km out",DeltaQuad Evo-LE (press),8.0,0.752,167.9793,0.0,,16.0761,0.758,269.7213,0.1575,blur 7 ms
+"B: wide area, 36 km2 box 10 km out",Lodestar SiCore foam-core @ 20,5.12,0.196,92.3689,0.1935,94.8469,9.9099,0.1758,95.5022,0.1935,blur 7 ms
+"B: wide area, 36 km2 box 10 km out",Lodestar SiCore foam-core @ 21,5.12,0.1895,86.2272,0.1895,89.3605,9.9099,0.1694,89.3605,0.1895,blur 7 ms
+"B: wide area, 36 km2 box 10 km out",Lodestar P50B foam-core @ 18,4.08,0.1605,90.1165,0.1585,92.3507,7.9279,0.1468,93.2499,0.1585,blur 7 ms
+"B: wide area, 36 km2 box 10 km out",Lodestar SiCore moulded @ 20,5.39,0.211,96.1449,0.209,98.5815,10.9009,0.1984,99.2783,0.1975,blur 7 ms
+"B: wide area, 36 km2 box 10 km out",Lodestar P50B moulded @ 18,4.3,0.1795,96.3056,0.1785,99.2149,8.5886,0.1597,99.4389,0.1785,blur 7 ms
+"B: wide area, 36 km2 box 10 km out",DeltaQuad Evo GOV,4.25,0.2015,110.7724,0.0,,9.9099,0.1726,314.9641,0.0025,blur 7 ms
+"B: wide area, 36 km2 box 10 km out",C-Astral Bramor ppX,3.5,0.1555,98.1191,0.0,,7.9279,0.1274,297.5059,0.0025,blur 7 ms
+"B: wide area, 36 km2 box 10 km out",Quantum Trinity Pro,1.5,0.054,35.5136,0.0,,3.3033,0.0339,248.2853,0.0025,blur 7 ms
+"B: wide area, 36 km2 box 10 km out",AgEagle eBee X,1.5,0.039,29.0849,0.0,,1.982,0.0226,243.5621,0.0025,blur 7 ms
+"B: wide area, 36 km2 box 10 km out",DeltaQuad Evo-LE (press),8.0,0.4005,214.5729,0.0,,19.8198,0.3613,411.1873,0.0025,blur 7 ms
+"A: lost hiker, 16 km2 box 5 km out",Lodestar SiCore foam-core @ 20,5.12,0.454,94.6631,0.451,97.62,10.1301,0.4487,97.7964,0.451,blur 10 ms
+"A: lost hiker, 16 km2 box 5 km out",Lodestar SiCore foam-core @ 21,5.12,0.438,87.0394,0.4335,89.9247,9.6897,0.4391,90.1727,0.4335,blur 10 ms
+"A: lost hiker, 16 km2 box 5 km out",Lodestar P50B foam-core @ 18,4.08,0.374,86.1044,0.3695,88.752,8.3684,0.3766,89.2378,0.3695,blur 10 ms
+"A: lost hiker, 16 km2 box 5 km out",Lodestar SiCore moulded @ 20,5.39,0.491,102.1951,0.484,104.3678,11.011,0.4856,105.3284,0.4535,blur 10 ms
+"A: lost hiker, 16 km2 box 5 km out",Lodestar P50B moulded @ 18,4.3,0.4105,94.0613,0.4055,96.0779,8.8088,0.4038,97.1947,0.4055,blur 10 ms
+"A: lost hiker, 16 km2 box 5 km out",DeltaQuad Evo GOV,4.25,0.4755,117.2833,0.0,,10.5706,0.4551,218.2651,0.1535,blur 10 ms
+"A: lost hiker, 16 km2 box 5 km out",C-Astral Bramor ppX,3.5,0.3765,95.6161,0.0,,8.3684,0.367,197.2124,0.15,blur 10 ms
+"A: lost hiker, 16 km2 box 5 km out",Quantum Trinity Pro,1.5,0.151,36.5705,0.0,,3.5235,0.1587,141.2334,0.136,blur 10 ms
+"A: lost hiker, 16 km2 box 5 km out",AgEagle eBee X,1.5,0.123,39.0045,0.0,,2.6426,0.1154,143.5404,0.1075,blur 10 ms
+"A: lost hiker, 16 km2 box 5 km out",DeltaQuad Evo-LE (press),8.0,0.73,168.555,0.0,,16.0761,0.7452,269.7451,0.1535,blur 10 ms
+"B: wide area, 36 km2 box 10 km out",Lodestar SiCore foam-core @ 20,5.12,0.1875,91.9331,0.185,94.2822,9.9099,0.1661,95.0665,0.185,blur 10 ms
+"B: wide area, 36 km2 box 10 km out",Lodestar SiCore foam-core @ 21,5.12,0.18,86.1447,0.18,89.278,9.9099,0.1597,89.278,0.18,blur 10 ms
+"B: wide area, 36 km2 box 10 km out",Lodestar P50B foam-core @ 18,4.08,0.155,89.606,0.1535,92.2214,7.9279,0.1403,92.7394,0.1535,blur 10 ms
+"B: wide area, 36 km2 box 10 km out",Lodestar SiCore moulded @ 20,5.39,0.2,94.6246,0.1985,97.4153,10.9009,0.1855,97.758,0.1885,blur 10 ms
+"B: wide area, 36 km2 box 10 km out",Lodestar P50B moulded @ 18,4.3,0.173,95.008,0.172,97.433,8.5886,0.1532,98.1413,0.172,blur 10 ms
+"B: wide area, 36 km2 box 10 km out",DeltaQuad Evo GOV,4.25,0.1935,110.4964,0.0,,9.9099,0.1645,314.7947,0.002,blur 10 ms
+"B: wide area, 36 km2 box 10 km out",C-Astral Bramor ppX,3.5,0.151,96.9997,0.0,,7.9279,0.1242,298.051,0.002,blur 10 ms
+"B: wide area, 36 km2 box 10 km out",Quantum Trinity Pro,1.5,0.053,36.0901,0.0,,3.3033,0.0339,248.2853,0.002,blur 10 ms
+"B: wide area, 36 km2 box 10 km out",AgEagle eBee X,1.5,0.038,29.8463,0.0,,1.982,0.0226,243.5621,0.0025,blur 10 ms
+"B: wide area, 36 km2 box 10 km out",DeltaQuad Evo-LE (press),8.0,0.385,213.3781,0.0,,19.8198,0.3452,410.8361,0.002,blur 10 ms
+"A: lost hiker, 16 km2 box 5 km out",Lodestar SiCore foam-core @ 20,5.12,0.4425,94.5761,0.4395,97.3612,10.1301,0.4407,97.7094,0.4395,blur 12 ms
+"A: lost hiker, 16 km2 box 5 km out",Lodestar SiCore foam-core @ 21,5.12,0.424,87.0681,0.42,90.0046,9.6897,0.4295,90.2014,0.42,blur 12 ms
+"A: lost hiker, 16 km2 box 5 km out",Lodestar P50B foam-core @ 18,4.08,0.366,86.2861,0.361,88.7535,8.3684,0.367,89.4194,0.361,blur 12 ms
+"A: lost hiker, 16 km2 box 5 km out",Lodestar SiCore moulded @ 20,5.39,0.4775,101.9242,0.471,103.9839,11.011,0.4776,105.0576,0.442,blur 12 ms
+"A: lost hiker, 16 km2 box 5 km out",Lodestar P50B moulded @ 18,4.3,0.4015,94.0613,0.3965,96.0779,8.8088,0.3926,97.1947,0.3965,blur 12 ms
+"A: lost hiker, 16 km2 box 5 km out",DeltaQuad Evo GOV,4.25,0.4655,117.2833,0.0,,10.5706,0.4423,219.1814,0.1485,blur 12 ms
+"A: lost hiker, 16 km2 box 5 km out",C-Astral Bramor ppX,3.5,0.3695,95.7451,0.0,,8.3684,0.3606,197.2124,0.146,blur 12 ms
+"A: lost hiker, 16 km2 box 5 km out",Quantum Trinity Pro,1.5,0.1465,36.4578,0.0,,3.5235,0.1538,140.7793,0.132,blur 12 ms
+"A: lost hiker, 16 km2 box 5 km out",AgEagle eBee X,1.5,0.1215,39.5686,0.0,,2.6426,0.1138,143.5733,0.1065,blur 12 ms
+"A: lost hiker, 16 km2 box 5 km out",DeltaQuad Evo-LE (press),8.0,0.7135,167.4482,0.0,,16.0761,0.7292,269.733,0.1485,blur 12 ms
+"B: wide area, 36 km2 box 10 km out",Lodestar SiCore foam-core @ 20,5.12,0.181,91.8233,0.179,94.2822,9.9099,0.1613,94.9567,0.179,blur 12 ms
+"B: wide area, 36 km2 box 10 km out",Lodestar SiCore foam-core @ 21,5.12,0.174,86.2314,0.174,89.3647,9.9099,0.1565,89.3647,0.174,blur 12 ms
+"B: wide area, 36 km2 box 10 km out",Lodestar P50B foam-core @ 18,4.08,0.1505,89.2174,0.149,92.1903,7.9279,0.1371,92.3507,0.149,blur 12 ms
+"B: wide area, 36 km2 box 10 km out",Lodestar SiCore moulded @ 20,5.39,0.193,94.3666,0.1915,97.4123,10.9009,0.1806,97.5,0.182,blur 12 ms
+"B: wide area, 36 km2 box 10 km out",Lodestar P50B moulded @ 18,4.3,0.166,93.8682,0.165,96.8578,8.5886,0.1484,97.0016,0.165,blur 12 ms
+"B: wide area, 36 km2 box 10 km out",DeltaQuad Evo GOV,4.25,0.1885,110.1625,0.0,,9.9099,0.1613,312.5833,0.002,blur 12 ms
+"B: wide area, 36 km2 box 10 km out",C-Astral Bramor ppX,3.5,0.1475,97.6308,0.0,,7.9279,0.1226,297.5059,0.002,blur 12 ms
+"B: wide area, 36 km2 box 10 km out",Quantum Trinity Pro,1.5,0.0525,36.225,0.0,,3.3033,0.0339,247.9996,0.002,blur 12 ms
+"B: wide area, 36 km2 box 10 km out",AgEagle eBee X,1.5,0.037,29.9447,0.0,,1.982,0.0226,244.9983,0.002,blur 12 ms
+"B: wide area, 36 km2 box 10 km out",DeltaQuad Evo-LE (press),8.0,0.375,212.0285,0.0,,19.8198,0.3387,410.4186,0.002,blur 12 ms

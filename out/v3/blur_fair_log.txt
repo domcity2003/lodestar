@@ -1,0 +1,25 @@
+Lodestar v3: fair blur comparison, 2026-11-12, claude-opus-5-5
+
+Help within 3 h (%):
+case                                                               no blur  blur 7 ms  blur 10 ms  blur 12 ms
+scenario                           aircraft                                                                  
+A: lost hiker, 16 km2 box 5 km out Lodestar SiCore foam-core @ 20     50.0       47.0        45.1        44.0
+                                   Lodestar SiCore foam-core @ 21     48.1       45.1        43.4        42.0
+                                   Lodestar P50B foam-core @ 18       40.2       38.4        37.0        36.1
+                                   Lodestar SiCore moulded @ 20       50.2       47.2        45.4        44.2
+                                   Lodestar P50B moulded @ 18         44.2       42.1        40.6        39.6
+                                   DeltaQuad Evo GOV                  16.6       15.8        15.4        14.8
+                                   C-Astral Bramor ppX                16.2       15.4        15.0        14.6
+                                   Quantum Trinity Pro                14.7       14.0        13.6        13.2
+                                   AgEagle eBee X                     11.6       11.0        10.8        10.6
+                                   DeltaQuad Evo-LE (press)           16.6       15.8        15.4        14.8
+B: wide area, 36 km2 box 10 km out Lodestar SiCore foam-core @ 20     20.7       19.4        18.5        17.9
+                                   Lodestar SiCore foam-core @ 21     20.2       19.0        18.0        17.4
+                                   Lodestar P50B foam-core @ 18       16.8       15.8        15.4        14.9
+                                   Lodestar SiCore moulded @ 20       21.1       19.8        18.8        18.2
+                                   Lodestar P50B moulded @ 18         18.7       17.8        17.2        16.5
+                                   DeltaQuad Evo GOV                   0.2        0.2         0.2         0.2
+                                   C-Astral Bramor ppX                 0.2        0.2         0.2         0.2
+                                   Quantum Trinity Pro                 0.2        0.2         0.2         0.2
+                                   AgEagle eBee X                      0.2        0.2         0.2         0.2
+                                   DeltaQuad Evo-LE (press)            0.2        0.2         0.2         0.2
