@@ -1,0 +1,64 @@
+Rescue Wing first sizing, 2026-11-11, claude-opus-5-5
+Design altitude 2000 m: air density 1.005 kg/m^3 (sea level 1.225)
+NeuralFoil MH45 2D CLmax by Re: 60k:1.11, 100k:1.18, 150k:1.21, 200k:1.22, 300k:1.23, 400k:1.25, 600k:1.31, 800k:1.37
+Assumed 3D CLmax 0.8 (about 75-85% of 2D for a swept wing with washout)
+
+Requirement trade: best endurance (h) reachable, by span cap (rows) and stall-speed cap (columns)
+               stall <= 12 m/s  stall <= 13 m/s  stall <= 14 m/s
+span <= 2.5 m             2.54             3.04             3.39
+span <= 2.8 m             3.35             3.67             3.80
+span <= 3.0 m             3.80             3.98             4.06
+span <= 3.2 m             4.06             4.20             4.30
+
+13834 designs evaluated, 189 meet every requirement
+
+Lightest design that meets every requirement:
+span_m               3.000
+AR                   7.000
+S_m2                 1.286
+chord_m              0.429
+m_batt               2.550
+m_wing               1.286
+m_prop               0.280
+mtow                 7.438
+wing_loading         5.785
+v_stall             11.882
+v_search            15.000
+CL_search            0.502
+Re_search       373839.940
+LD_search           18.971
+p_search_w         129.893
+p_max_w            460.411
+batt_wh            510.000
+endurance_h          3.004
+
+Lightest passing design at each span:
+ span_m  AR  m_batt  mtow  v_stall  v_search  LD_search  endurance_h
+    2.7 5.0    3.20  8.34    11.82      14.8      15.97         3.01
+    2.8 5.5    2.95  8.03    11.73      14.8      16.95         3.01
+    2.9 6.5    2.70  7.61    11.98      15.0      18.24         3.02
+    3.0 7.0    2.55  7.44    11.88      15.0      18.97         3.00
+
+Sensitivity (lightest passing design when one assumption changes):
+  baseline               span 3.0 m, AR 7.0, battery 2.55 kg, MTOW 7.44 kg, endurance 3.00 h
+  wing 0.8 kg/m2         span 3.0 m, AR 7.5, battery 2.35 kg, MTOW 6.86 kg, endurance 3.02 h
+  wing 1.3 kg/m2         span 3.0 m, AR 6.0, battery 3.05 kg, MTOW 8.71 kg, endurance 3.01 h
+  battery 170 Wh/kg      span 3.0 m, AR 5.5, battery 3.85 kg, MTOW 9.24 kg, endurance 3.01 h
+  battery 240 Wh/kg      span 3.0 m, AR 8.0, battery 1.90 kg, MTOW 6.55 kg, endurance 3.05 h
+  span efficiency 0.70   span 3.0 m, AR 6.5, battery 2.95 kg, MTOW 7.99 kg, endurance 3.02 h
+  body drag x2           span 3.0 m, AR 6.5, battery 3.05 kg, MTOW 8.10 kg, endurance 3.02 h
+  CLmax 0.70             span 3.0 m, AR 5.5, battery 2.85 kg, MTOW 8.15 kg, endurance 3.00 h
+  propulsion eff 0.50    span 3.0 m, AR 6.5, battery 3.00 kg, MTOW 8.04 kg, endurance 3.00 h
+  sea level              span 3.0 m, AR 9.5, battery 2.20 kg, MTOW 6.68 kg, endurance 3.02 h
+
+Cross-check: AeroBuildup on the 3D planform (taper 0.45, 25 deg sweep, 3 deg washout)
+  root chord 0.591 m, tip chord 0.266 m, MAC 0.449 m
+  at search speed 15.0 m/s: CL needed 0.502 at alpha 5.7 deg
+  L/D: sizing model 19.0, AeroBuildup 19.5 (+3%)
+  endurance implied by AeroBuildup L/D: 3.07 h
+
+Search coverage at 120 m with a 32 deg thermal camera:
+  swath 69 m, 10.8 cm per pixel, so a person (about 0.45 m) spans 4.2 pixels
+  about 3.0 km^2 per hour, 7.4 km^2 per flight (2.5 h on station)
+
+Charts and CSVs written to out\sizing

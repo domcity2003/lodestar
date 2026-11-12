@@ -1,0 +1,35 @@
+Rescue Wing v3 CAD, 2026-11-12, claude-opus-5-5 (build123d); prop 15 in
+
+
+Interference between internal parts (22 parts; 5 pairs close enough to test): none
+Propeller disc (15 in, 30 mm thick) to the wing: 40.3 mm; to the elevons: 261.0 mm
+Fit check (part fully inside its parent's outer surface, with >= 1.5 mm for the skin):
+                    part     parent  share_inside  min_clearance_mm   ok
+               battery_R       wing           1.0             2.030 True
+               battery_L       wing           1.0             2.030 True
+           spar_joiner_R       wing           1.0            13.242 True
+          elevon_servo_R       wing           1.0             3.238 True
+           kit_container        pod           1.0             5.541 True
+       flight_controller        pod           1.0            40.703 True
+                     esc        pod           1.0            30.703 True
+bay_battery_module (alt)        pod           1.0            23.501 True
+    propeller disc 15 in wing (gap)           0.0            40.255 True
+
+Balance from the CAD layout:
+                                          item  mass_kg     x      z                                       source
+wing structure (centre, outer panels, elevons)    1.286 0.525  0.009               CAD centroid (volume-weighted)
+                                      winglets    0.106 0.962  0.098               CAD centroid (volume-weighted)
+                     batteries (P50B 30 cells)    2.420 0.452  0.008               CAD centroid (volume-weighted)
+                                    rescue kit    1.500 0.422 -0.062               CAD centroid (volume-weighted)
+                                 kit parachute    0.124 0.422 -0.008               CAD centroid (volume-weighted)
+                       kit container + release    0.080 0.415 -0.024               CAD centroid (volume-weighted)
+                        gimbal (thermal + RGB)    0.600 0.070 -0.113               CAD centroid (volume-weighted)
+                     avionics (FC, GPS, radio)    0.350 0.234 -0.027               CAD centroid (volume-weighted)
+                   pod structure + door + skid    0.300 0.266 -0.035               CAD centroid (volume-weighted)
+                            motor + ESC + prop    0.340 0.666 -0.035               CAD centroid (volume-weighted)
+                        misc (wiring, glue) 5%    0.257 0.350 -0.020 not modelled; same assumption as milestone 2
+
+Total 7.36 kg. CG x = 0.4223 m (design 0.4220 m, difference +0.3 mm = +0.1% MAC); z = -0.022 m
+After the kit drops: CG x = 0.4224 m (+0.1 mm)
+
+Exported 31 parts: out\cad_v3/rescue_wing_v3.step and stl/

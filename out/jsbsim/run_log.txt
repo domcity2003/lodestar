@@ -1,0 +1,45 @@
+Rescue Wing v2: 6-DOF kit release in JSBSim, 2026-11-11, claude-opus-5-5
+
+AVL point: 15.0 m/s, 2000 m, mass 7.42 kg (kit on) / 5.71 kg (kit off), CG x 0.4220 / 0.4220 m, alpha 7.41 deg, elevon -0.26 deg
+  CLa 4.56/rad, Cma -0.265, Cmq -2.05, Cmde -0.701/rad, Cnb 0.0157, Clb -0.0691, CDp 0.0121, k 0.0466
+
+
+     JSBSim Flight Dynamics Model v1.3.3 [GitHub build 2002/commit 66f7fafc07fe13e7ede9db20873030fed2881713] Oct 16 2026 00:36:23
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+Check: JSBSim open-loop periods vs AVL eigenvalues (same aircraft, kit on)
+      mode  avl_period_s  jsbsim_period_s  diff_pct
+   phugoid          8.61             8.82      2.39
+Dutch roll          2.20             2.05     -6.80
+
+Calm trim at 15 m/s: thrust 3.46 N, pitch 7.33 deg, elevon -0.17 deg
+
+Turbulence, light turbulence (15 kt), 15 m/s: 100 runs: ground hits 0, stalls (CL > CLmax for > 0.25 s) 1 (1 began before the release); lowest height in the clean runs 36.0 m
+
+Turbulence, moderate turbulence (30 kt), 15 m/s: 100 runs: ground hits 0, stalls (CL > CLmax for > 0.25 s) 57 (47 began before the release); lowest height in the clean runs 31.9 m
+
+Turbulence, moderate turbulence (30 kt), drop at 18 m/s: 100 runs: ground hits 0, stalls (CL > CLmax for > 0.25 s) 1 (1 began before the release); lowest height in the clean runs 31.7 m
+
+Turbulence, stress test: long downdrafts, 15 m/s: 100 runs: ground hits 10, stalls (CL > CLmax for > 0.25 s) 13 (6 began before the release); lowest height in the clean runs 7.9 m
+
+Kit release at 40 m above ground (t = 0); turbulence rows exclude ground hits and CL > CLmax runs:
+                                                        case  h_gain_max_m  h_loss_max_m  min_h_agl_m  pitch_dev_max_deg  cl_max  v_min  phi_max_deg  elevon_range_deg  nz_max  nz_min  settle_s  min_h_agl_whole_run_m  longest_over_clmax_s
+                                     autopilot, calm, 15 m/s          0.69          0.07        39.93               2.09    0.51  14.64         0.00              1.01    1.29    0.97      0.00                    NaN                   NaN
+                                     autopilot, calm, 13 m/s          0.97          0.12        39.85               2.99    0.68  12.66         0.00              1.36    1.29    0.96      0.00                    NaN                   NaN
+                               autopilot, calm, door drag x2          0.72          0.09        39.91               2.17    0.52  14.35         0.00              1.28    1.29    0.97      0.00                    NaN                   NaN
+                  controls frozen (autopilot off at release)          8.86         -0.00        40.00               8.05    0.61  11.19         0.06              0.00    1.26    0.88     30.00                    NaN                   NaN
+                    light turbulence (15 kt), 15 m/s: median          2.03          1.25        38.78               6.08    0.66  13.42         4.73              3.25    1.44    0.56     19.93                  38.07                  0.02
+           light turbulence (15 kt), 15 m/s: 95th percentile          4.00          3.44        39.56              10.45    0.79  14.15         6.59              4.03    1.57    0.63     19.99                  38.88                  0.12
+                 moderate turbulence (30 kt), 15 m/s: median          2.97          2.68        37.63              10.00    0.94  12.19         9.84              6.28    1.89    0.11     19.99                  36.92                  0.16
+        moderate turbulence (30 kt), 15 m/s: 95th percentile          5.96          7.74        38.97              17.37    1.10  13.81        13.59              8.50    2.17    0.35     19.99                  37.90                  0.24
+         moderate turbulence (30 kt), drop at 18 m/s: median          2.73          2.38        37.77               8.92    0.70  14.92         7.89              6.91    2.06   -0.07     19.99                  36.93                  0.03
+moderate turbulence (30 kt), drop at 18 m/s: 95th percentile          5.31          5.68        39.02              14.42    0.85  16.14        10.90              9.07    2.40    0.12     19.99                  38.02                  0.10
+                stress test: long downdrafts, 15 m/s: median          2.80          2.11        36.89               8.07    0.65  13.09         5.12              2.80    1.38    0.63     19.99                  36.02                  0.00
+       stress test: long downdrafts, 15 m/s: 95th percentile         19.69         12.50        41.23              17.57    0.85  19.81         6.68              3.95    1.55    0.72     19.99                  38.99                  0.14
+
+Calm, autopilot: climbs at most 0.7 m, never below 39.9 m above ground, peak CL 0.51 (CLmax 0.8), back within 1 m of the set height after 0.0 s
+
+Wrote out/jsbsim/

@@ -1,0 +1,13 @@
+case,h_gain_max_m,h_loss_max_m,min_h_agl_m,pitch_dev_max_deg,cl_max,v_min,phi_max_deg,elevon_range_deg,nz_max,nz_min,settle_s,min_h_agl_whole_run_m,longest_over_clmax_s
+"autopilot, calm, 15 m/s",0.692,0.072,39.928,2.092,0.507,14.644,0.0,1.015,1.286,0.967,0.0,,
+"autopilot, calm, 13 m/s",0.975,0.118,39.85,2.994,0.675,12.661,0.0,1.356,1.287,0.961,0.0,,
+"autopilot, calm, door drag x2",0.723,0.09,39.91,2.174,0.518,14.351,0.0,1.28,1.288,0.97,0.0,,
+controls frozen (autopilot off at release),8.863,-0.0,40.0,8.054,0.613,11.195,0.064,0.0,1.258,0.878,29.995,,
+"light turbulence (15 kt), 15 m/s: median",2.033,1.245,38.777,6.078,0.665,13.424,4.725,3.249,1.437,0.56,19.93,38.071,0.015
+"light turbulence (15 kt), 15 m/s: 95th percentile",4.003,3.436,39.559,10.45,0.792,14.152,6.586,4.027,1.568,0.631,19.99,38.883,0.116
+"moderate turbulence (30 kt), 15 m/s: median",2.969,2.678,37.632,9.997,0.94,12.194,9.844,6.282,1.888,0.106,19.99,36.922,0.155
+"moderate turbulence (30 kt), 15 m/s: 95th percentile",5.958,7.741,38.973,17.367,1.102,13.811,13.592,8.505,2.167,0.349,19.99,37.898,0.24
+"moderate turbulence (30 kt), drop at 18 m/s: median",2.73,2.377,37.77,8.916,0.702,14.916,7.889,6.912,2.056,-0.074,19.99,36.927,0.03
+"moderate turbulence (30 kt), drop at 18 m/s: 95th percentile",5.314,5.676,39.022,14.422,0.852,16.144,10.896,9.071,2.397,0.117,19.99,38.024,0.1
+"stress test: long downdrafts, 15 m/s: median",2.803,2.113,36.893,8.075,0.648,13.087,5.122,2.797,1.378,0.633,19.99,36.017,0.005
+"stress test: long downdrafts, 15 m/s: 95th percentile",19.687,12.497,41.23,17.569,0.849,19.81,6.684,3.95,1.55,0.719,19.99,38.99,0.135

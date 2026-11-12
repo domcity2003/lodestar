@@ -1,0 +1,12 @@
+item,mass_kg,x,z,source
+"wing structure (centre, outer panels, elevons)",1.2857,0.5249,0.0088,CAD centroid (volume-weighted)
+winglets,0.1064,0.962,0.0976,CAD centroid (volume-weighted)
+batteries (P50B 30 cells),2.4205,0.452,0.0075,CAD centroid (volume-weighted)
+rescue kit,1.5,0.422,-0.062,CAD centroid (volume-weighted)
+kit parachute,0.124,0.422,-0.0085,CAD centroid (volume-weighted)
+kit container + release,0.08,0.415,-0.0236,CAD centroid (volume-weighted)
+gimbal (thermal + RGB),0.6,0.07,-0.1131,CAD centroid (volume-weighted)
+"avionics (FC, GPS, radio)",0.35,0.2342,-0.0268,CAD centroid (volume-weighted)
+pod structure + door + skid,0.3,0.2665,-0.0351,CAD centroid (volume-weighted)
+motor + ESC + prop,0.34,0.6656,-0.035,CAD centroid (volume-weighted)
+"misc (wiring, glue) 5%",0.2574,0.35,-0.02,not modelled; same assumption as milestone 2

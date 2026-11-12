@@ -1,0 +1,32 @@
+Rescue Wing kit drop study, 2026-11-11, claude-opus-5-5
+Kit 1.5 kg, released at 15.0 m/s, ground at 2000 m (air density 1.006)
+
+Parachute for a 5 m/s landing (about like jumping off a 1.3 m wall):
+                  canopy  v_land  cds_m2  diameter_m  chute_kg  total_kg  open_N  open_g
+    Annular (Iris-class)     5.0    1.28        0.88      0.14      1.64  245.73    15.3
+Cruciform (sewn ripstop)     5.0    1.33        1.50      0.20      1.70  255.76    15.3
+
+Pick: cruciform, 1.50 m across (flat), 204 g including release. Cheap, sewable, swings less than a round canopy. The annular is lighter but costs more.
+
+Release height vs fall time, drift and accuracy (wind-estimate error 1 m/s per axis):
+ h_release  t_fall  throw_m  v_impact  drift_m_wind5  drift_m_wind10  R50_m_sigma1.0  R95_m_sigma1.0
+        30     6.5      9.5       5.0           32.6            65.2             7.7            16.0
+        40     8.5      9.5       5.0           42.7            85.3            10.0            20.9
+        50    10.5      9.5       5.0           52.7           105.4            12.4            25.8
+        60    12.6      9.5       5.0           62.8           125.5            14.8            30.7
+        70    14.6      9.6       5.0           72.8           145.6            17.1            35.6
+        80    16.6      9.6       5.0           82.8           165.7            19.5            40.6
+        90    18.6      9.6       5.0           92.9           185.7            21.9            45.5
+       100    20.6      9.6       5.0          102.9           205.8            24.2            50.4
+       110    22.6      9.6       5.0          112.9           225.8            26.6            55.3
+       120    24.6      9.6       5.0          122.9           245.9            28.9            60.2
+       130    26.6      9.6       5.0          132.9           265.9            31.3            65.1
+       140    28.6      9.6       5.0          143.0           285.9            33.7            70.0
+       150    30.6      9.6       5.0          153.0           305.9            36.0            74.9
+
+Monte Carlo check, 60 m release, 8 m/s wind, 1 m/s estimate error: R50 14.7 m, R95 30.5 m (formula 14.8 / 30.7 m)
+  wind error 0.5 m/s: 95% within 25 m if released at or below 90 m
+  wind error 1.0 m/s: 95% within 25 m if released at or below 40 m
+  wind error 2.0 m/s: 95% within 25 m is not reachable from 30 m or higher
+
+Charts and CSVs written to out\kit_drop

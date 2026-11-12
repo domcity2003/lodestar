@@ -1,0 +1,31 @@
+Rescue Wing v3, wing finish, area and span, 2026-11-12, claude-opus-5-5
+Propulsion: v2 assumption 55%, 0.28 kg | v3 matched 63.6%, 0.34 kg
+
+v2 baseline (3.0 m, AR 7, halfway finish, 55% propulsion): 3.04 h, stall 11.8 m/s, 136 W at 14.8 m/s
+
+v3 propulsion, halfway finish: best aspect ratio at each span (stall <= 12 m/s):
+ span_m  AR  S_m2  mtow  v_stall  v_search  CL_search  LD_search  p_search_w  endurance_h
+    3.0 7.0 1.286 7.364   11.823      14.8      0.511     17.344     121.893        3.389
+    3.2 8.0 1.280 7.448   11.916      15.0      0.505     18.363     118.807        3.477
+    3.4 9.0 1.284 7.543   11.971      15.0      0.510     19.188     115.923        3.564
+    3.6 9.0 1.440 7.829   11.519      14.4      0.512     19.494     114.180        3.618
+  at 3.0 m span, by aspect ratio:
+ span_m  AR  S_m2  mtow  v_stall  v_search  CL_search  LD_search  p_search_w  endurance_h
+    3.0 5.5 1.636 7.733   10.739      14.0      0.471     16.228     127.867        3.231
+    3.0 6.0 1.500 7.589   11.112      14.0      0.504     16.493     124.336        3.322
+    3.0 6.5 1.385 7.468   11.473      14.4      0.508     16.951     122.824        3.363
+    3.0 7.0 1.286 7.364   11.823      14.8      0.511     17.344     121.893        3.389
+
+v3 propulsion, laminar finish: best aspect ratio at each span (stall <= 12 m/s):
+ span_m  AR  S_m2  mtow  v_stall  v_search  CL_search  LD_search  p_search_w  endurance_h
+    3.0 7.0 1.286 7.364   11.823      14.8      0.511     18.748     114.636        3.604
+    3.2 8.0 1.280 7.448   11.916      15.0      0.505     19.992     111.165        3.716
+    3.4 9.0 1.284 7.543   11.971      15.0      0.510     21.001     108.073        3.822
+    3.6 9.5 1.364 7.734   11.762      14.8      0.505     21.695     106.352        3.884
+  at 3.0 m span, by aspect ratio:
+ span_m  AR  S_m2  mtow  v_stall  v_search  CL_search  LD_search  p_search_w  endurance_h
+    3.0 5.5 1.636 7.733   10.739      14.0      0.471     17.444     120.697        3.423
+    3.0 6.0 1.500 7.589   11.112      14.0      0.504     17.722     117.446        3.517
+    3.0 6.5 1.385 7.468   11.473      14.4      0.508     18.270     115.760        3.569
+    3.0 7.0 1.286 7.364   11.823      14.8      0.511     18.748     114.636        3.604
+

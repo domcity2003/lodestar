@@ -1,0 +1,37 @@
+cell,config,case,drag,m_batt,batt_wh,mtow,v_stall,v_best,p_w,endurance_h,m_prop
+v1 assumption (200 Wh/kg pack),kit,"published style (sea level, 85% DoD)",laminar,2.55,510.0,7.4339,10.759,14.0,121.4343,3.5698,0.2765
+v1 assumption (200 Wh/kg pack),kit,"published style (sea level, 85% DoD)",halfway,2.55,510.0,7.438,10.762,14.0,129.6259,3.3442,0.2804
+v1 assumption (200 Wh/kg pack),kit,"published style (sea level, 85% DoD)",turbulent,2.55,510.0,7.442,10.7649,14.0,137.8204,3.1454,0.2842
+v1 assumption (200 Wh/kg pack),kit,"design case (2000 m, with 10% reserve)",laminar,2.55,510.0,7.4381,11.8821,15.0,130.6039,2.9873,0.2805
+v1 assumption (200 Wh/kg pack),kit,"design case (2000 m, with 10% reserve)",halfway,2.55,510.0,7.4424,11.8855,15.0,139.3206,2.8004,0.2845
+v1 assumption (200 Wh/kg pack),kit,"design case (2000 m, with 10% reserve)",turbulent,2.55,510.0,7.4466,11.8888,15.0,148.041,2.6354,0.2885
+v1 assumption (200 Wh/kg pack),search,"published style (sea level, 85% DoD)",laminar,4.08,816.0,7.2489,10.6243,14.0,118.7527,5.8407,0.2708
+v1 assumption (200 Wh/kg pack),search,"published style (sea level, 85% DoD)",halfway,4.08,816.0,7.2529,10.6273,14.0,126.8858,5.4663,0.2746
+v1 assumption (200 Wh/kg pack),search,"published style (sea level, 85% DoD)",turbulent,4.08,816.0,7.257,10.6302,14.0,135.0213,5.137,0.2784
+v1 assumption (200 Wh/kg pack),search,"design case (2000 m, with 10% reserve)",laminar,4.08,816.0,7.2526,11.733,14.8,126.797,4.9231,0.2742
+v1 assumption (200 Wh/kg pack),search,"design case (2000 m, with 10% reserve)",halfway,4.08,816.0,7.2566,11.7362,14.8,135.2147,4.6167,0.2781
+v1 assumption (200 Wh/kg pack),search,"design case (2000 m, with 10% reserve)",turbulent,4.08,816.0,7.2607,11.7395,14.8,143.6359,4.346,0.282
+Molicel P50B,kit,"published style (sea level, 85% DoD)",laminar,2.4205,540.0,7.2929,10.6565,14.0,119.3834,3.8448,0.2721
+Molicel P50B,kit,"published style (sea level, 85% DoD)",halfway,2.4205,540.0,7.297,10.6595,14.0,127.5297,3.5992,0.276
+Molicel P50B,kit,"published style (sea level, 85% DoD)",turbulent,2.4205,540.0,7.301,10.6624,14.0,135.6785,3.383,0.2798
+Molicel P50B,kit,"design case (2000 m, with 10% reserve)",laminar,2.4205,540.0,7.297,11.7688,14.8,127.547,3.2388,0.276
+Molicel P50B,kit,"design case (2000 m, with 10% reserve)",halfway,2.4205,540.0,7.3012,11.7722,14.8,135.9859,3.0378,0.2799
+Molicel P50B,kit,"design case (2000 m, with 10% reserve)",turbulent,2.4205,540.0,7.3053,11.7756,14.8,144.4285,2.8602,0.2839
+Molicel P50B,search,"published style (sea level, 85% DoD)",laminar,3.8727,864.0,7.0234,10.4577,14.0,115.5832,6.3539,0.2638
+Molicel P50B,search,"published style (sea level, 85% DoD)",halfway,3.8727,864.0,7.0274,10.4607,14.0,123.6494,5.9394,0.2676
+Molicel P50B,search,"published style (sea level, 85% DoD)",turbulent,3.8727,864.0,7.0314,10.4637,14.0,131.7179,5.5756,0.2714
+Molicel P50B,search,"design case (2000 m, with 10% reserve)",laminar,3.8727,864.0,7.0264,11.5486,14.6,122.3674,5.4014,0.2667
+Molicel P50B,search,"design case (2000 m, with 10% reserve)",halfway,3.8727,864.0,7.0303,11.5518,14.6,130.4738,5.0658,0.2704
+Molicel P50B,search,"design case (2000 m, with 10% reserve)",turbulent,3.8727,864.0,7.0343,11.555,14.6,138.5836,4.7694,0.2741
+Amprius SiCore 6.3 Ah,kit,"published style (sea level, 85% DoD)",laminar,2.4545,680.4,7.33,10.6836,14.0,119.9176,4.8228,0.2733
+Amprius SiCore 6.3 Ah,kit,"published style (sea level, 85% DoD)",halfway,2.4545,680.4,7.3341,10.6865,14.0,128.0751,4.5156,0.2771
+Amprius SiCore 6.3 Ah,kit,"published style (sea level, 85% DoD)",turbulent,2.4545,680.4,7.3381,10.6895,14.0,136.2351,4.2452,0.281
+Amprius SiCore 6.3 Ah,kit,"design case (2000 m, with 10% reserve)",laminar,2.4545,680.4,7.3341,11.7987,14.8,128.1777,4.0608,0.2772
+Amprius SiCore 6.3 Ah,kit,"design case (2000 m, with 10% reserve)",halfway,2.4545,680.4,7.3383,11.8021,14.8,136.6329,3.8095,0.2811
+Amprius SiCore 6.3 Ah,kit,"design case (2000 m, with 10% reserve)",turbulent,2.4545,680.4,7.3425,11.8055,14.8,145.0917,3.5874,0.2851
+Amprius SiCore 6.3 Ah,search,"published style (sea level, 85% DoD)",laminar,3.9273,1088.64,7.0827,10.5018,14.0,116.4034,7.9495,0.2656
+Amprius SiCore 6.3 Ah,search,"published style (sea level, 85% DoD)",halfway,3.9273,1088.64,7.0867,10.5048,14.0,124.4865,7.4333,0.2694
+Amprius SiCore 6.3 Ah,search,"published style (sea level, 85% DoD)",turbulent,3.9273,1088.64,7.0907,10.5078,14.0,132.572,6.9799,0.2732
+Amprius SiCore 6.3 Ah,search,"design case (2000 m, with 10% reserve)",laminar,3.9273,1088.64,7.0859,11.5973,14.6,123.3551,6.7513,0.2686
+Amprius SiCore 6.3 Ah,search,"design case (2000 m, with 10% reserve)",halfway,3.9273,1088.64,7.0902,11.6009,14.6,131.4942,6.3334,0.2727
+Amprius SiCore 6.3 Ah,search,"design case (2000 m, with 10% reserve)",turbulent,3.9273,1088.64,7.0942,11.6042,14.6,139.6316,5.9643,0.2765

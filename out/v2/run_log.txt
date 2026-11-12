@@ -1,0 +1,39 @@
+Rescue Wing design v2, 2026-11-11, claude-opus-5-5
+
+Cells (all 21700 format, so they drop into the milestone 3 slots):
+  Molicel P50B: 18.0 Wh, 71 g -> cell 254 Wh/kg, pack 223 Wh/kg  [Molicel datasheet: 5.0 Ah, 3.6 V, 18.0 Wh, 71 g max; in volume production]
+  Amprius SiCore 6.3 Ah: 22.7 Wh, 72 g -> cell 315 Wh/kg, pack 277 Wh/kg  [Amprius: 315 Wh/kg 21700, 3C; evaluation samples, 3.6 V nominal assumed]
+Wing-drag range: profile factor 1.15 (laminar) / 1.43 (halfway) / 1.71 (turbulent)
+
+Endurance (h) by cell, bay configuration, case and wing drag:
+case                                  published style (sea level, 85% DoD)                   design case (2000 m, with 10% reserve)                  
+drag                                                               laminar halfway turbulent                                laminar halfway turbulent
+cell                           config                                                                                                                
+v1 assumption (200 Wh/kg pack) kit                                    3.57    3.34      3.15                                   2.99    2.80      2.64
+                               search                                 5.84    5.47      5.14                                   4.92    4.62      4.35
+Molicel P50B                   kit                                    3.84    3.60      3.38                                   3.24    3.04      2.86
+                               search                                 6.35    5.94      5.58                                   5.40    5.07      4.77
+Amprius SiCore 6.3 Ah          kit                                    4.82    4.52      4.25                                   4.06    3.81      3.59
+                               search                                 7.95    7.43      6.98                                   6.75    6.33      5.96
+
+Masses (design case):
+                          cell config  m_batt  batt_wh  mtow  v_stall
+v1 assumption (200 Wh/kg pack)    kit   2.550   510.00 7.442   11.885
+v1 assumption (200 Wh/kg pack) search   4.080   816.00 7.257   11.736
+                  Molicel P50B    kit   2.420   540.00 7.301   11.772
+                  Molicel P50B search   3.873   864.00 7.030   11.552
+         Amprius SiCore 6.3 Ah    kit   2.455   680.40 7.338   11.802
+         Amprius SiCore 6.3 Ah search   3.927  1088.64 7.090   11.601
+
+Stability re-check in AVL with the pod (0.25 m winglets), balance point at 6% margin:
+                 cell                              config  mass  x_batt  x_cg  static_margin  elevon  short_period_zeta  phugoid_zeta  dutch_roll_zeta  spiral_t2  roll_tau  pitch_ok  lateral_ok
+         Molicel P50B                   kit, search speed 7.419   0.460 0.422          0.058  -0.252              0.658         0.058            0.130        inf     0.070      True        True
+         Molicel P50B              kit dropped, top speed 5.715   0.460 0.422          0.049   1.364              0.742         0.079            0.137        inf     0.047      True        True
+         Molicel P50B                   kit dropped, slow 5.715   0.460 0.422          0.054  -0.394              0.725         0.052            0.135        inf     0.084      True        True
+         Molicel P50B battery module in bay, search speed 7.167   0.460 0.422          0.057  -0.147              0.668         0.057            0.130        inf     0.070      True        True
+Amprius SiCore 6.3 Ah                   kit, search speed 7.453   0.459 0.422          0.058  -0.264              0.657         0.058            0.130        inf     0.070      True        True
+Amprius SiCore 6.3 Ah              kit dropped, top speed 5.749   0.459 0.422          0.049   1.359              0.741         0.079            0.137        inf     0.047      True        True
+Amprius SiCore 6.3 Ah                   kit dropped, slow 5.749   0.459 0.422          0.054  -0.409              0.724         0.053            0.135        inf     0.084      True        True
+Amprius SiCore 6.3 Ah battery module in bay, search speed 7.221   0.459 0.422          0.057  -0.167              0.666         0.057            0.130        inf     0.070      True        True
+
+All cases pass: True

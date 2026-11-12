@@ -1,0 +1,43 @@
+00:00.922  io.stl           | WARNING Removed 2 degenerate triangles during import
+01:36.297  render           | Saved: 'C:\Users\DomBa\DOM\5_Projects\rescue-wing\out\render\v2_hero.png'
+Saved v2_hero
+Blender 5.3.0 (hash 02f0899d78e3 built 2026-11-10 01:33:43)
+Timer 'STL Import' took 4.37 ms
+Timer 'STL Import' took 2.21 ms
+Timer 'STL Import' took 2.00 ms
+Timer 'STL Import' took 0.76 ms
+Timer 'STL Import' took 0.47 ms
+Timer 'STL Import' took 0.88 ms
+Timer 'STL Import' took 0.81 ms
+Timer 'STL Import' took 0.50 ms
+Timer 'STL Import' took 0.50 ms
+Timer 'STL Import' took 0.55 ms
+Timer 'STL Import' took 0.54 ms
+Timer 'STL Import' took 10.16 ms
+Timer 'STL Import' took 0.96 ms
+Timer 'STL Import' took 0.91 ms
+Timer 'STL Import' took 0.85 ms
+Timer 'STL Import' took 0.76 ms
+Timer 'STL Import' took 0.90 ms
+Timer 'STL Import' took 0.72 ms
+Timer 'STL Import' took 0.91 ms
+Timer 'STL Import' took 0.77 ms
+Timer 'STL Import' took 21.77 ms
+Timer 'STL Import' took 0.58 ms
+Timer 'STL Import' took 0.54 ms
+Timer 'STL Import' took 0.77 ms
+Timer 'STL Import' took 1.05 ms
+Timer 'STL Import' took 0.92 ms
+Timer 'STL Import' took 1.84 ms
+Timer 'STL Import' took 11.32 ms
+Timer 'STL Import' took 16.01 ms
+Timer 'STL Import' took 15.02 ms
+Timer 'STL Import' took 7.64 ms
+Timer 'STL Import' took 7.39 ms
+
+Blender quit
+
+C:\Users\DomBa\DOM\5_Projects\rescue-wing\scripts\blender_v2.py:42: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m.use_nodes = True
+C:\Users\DomBa\DOM\5_Projects\rescue-wing\scripts\blender_v2.py:145: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  world.use_nodes = True

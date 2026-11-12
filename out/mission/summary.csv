@@ -1,0 +1,17 @@
+scenario,aircraft,published_h,p_find,median_find_min,p_kit_delivered,median_kit_min,area_km2_if_not_found,p_find_high_wind,median_help_min,p_help_3h
+"A: lost hiker, 16 km2 box 5 km out","Rescue Wing v2 (P50B, kit)",3.69,0.358,86.897,0.354,89.063,7.487,0.327,90.03,0.354
+"A: lost hiker, 16 km2 box 5 km out","Rescue Wing v2+ (SiCore, kit)",4.63,0.47,113.681,0.464,116.005,9.249,0.426,116.814,0.386
+"A: lost hiker, 16 km2 box 5 km out",Rescue Wing v2+ search-only,7.7,0.744,175.979,0.0,,15.415,0.673,275.591,0.152
+"A: lost hiker, 16 km2 box 5 km out",DeltaQuad Evo GOV,4.25,0.512,116.536,0.0,,10.571,0.471,217.904,0.166
+"A: lost hiker, 16 km2 box 5 km out",C-Astral Bramor ppX,3.5,0.404,95.019,0.0,,8.368,0.377,196.667,0.162
+"A: lost hiker, 16 km2 box 5 km out",Quantum Trinity Pro,1.5,0.164,36.59,0.0,,3.524,0.16,142.386,0.147
+"A: lost hiker, 16 km2 box 5 km out",AgEagle eBee X,1.5,0.132,39.604,0.0,,2.643,0.119,143.757,0.116
+"A: lost hiker, 16 km2 box 5 km out",DeltaQuad Evo-LE (press),8.0,0.788,169.416,0.0,,16.076,0.785,270.031,0.166
+"B: wide area, 36 km2 box 10 km out","Rescue Wing v2 (P50B, kit)",3.69,0.148,91.742,0.146,92.165,7.267,0.108,94.875,0.146
+"B: wide area, 36 km2 box 10 km out","Rescue Wing v2+ (SiCore, kit)",4.63,0.196,114.808,0.196,117.819,9.249,0.161,117.941,0.162
+"B: wide area, 36 km2 box 10 km out",Rescue Wing v2+ search-only,7.7,0.325,180.734,0.0,,15.856,0.281,378.447,0.002
+"B: wide area, 36 km2 box 10 km out",DeltaQuad Evo GOV,4.25,0.211,110.634,0.0,,9.91,0.177,314.912,0.002
+"B: wide area, 36 km2 box 10 km out",C-Astral Bramor ppX,3.5,0.162,96.931,0.0,,7.928,0.129,297.214,0.002
+"B: wide area, 36 km2 box 10 km out",Quantum Trinity Pro,1.5,0.058,35.206,0.0,,3.303,0.034,247.915,0.002
+"B: wide area, 36 km2 box 10 km out",AgEagle eBee X,1.5,0.041,29.846,0.0,,1.982,0.023,242.253,0.002
+"B: wide area, 36 km2 box 10 km out",DeltaQuad Evo-LE (press),8.0,0.419,213.713,0.0,,19.82,0.376,410.419,0.002

@@ -1,0 +1,13 @@
+01:15.609  render           | Saved: 'C:\Users\DomBa\DOM\5_Projects\rescue-wing\out\render\hero.png'
+02:18.641  render           | Saved: 'C:\Users\DomBa\DOM\5_Projects\rescue-wing\out\render\hero_low.png'
+02:55.828  render           | Saved: 'C:\Users\DomBa\DOM\5_Projects\rescue-wing\out\render\xray_top.png'
+04:37.172  render           | Saved: 'C:\Users\DomBa\DOM\5_Projects\rescue-wing\out\render\xray_iso.png'
+Blender 5.3.0 (hash 02f0899d78e3 built 2026-11-10 01:33:43)
+Timer 'STL Import' took 8.63 ms
+
+Blender quit
+
+C:\Users\DomBa\DOM\5_Projects\rescue-wing\scripts\blender_scene.py:27: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  world.use_nodes = True
+C:\Users\DomBa\DOM\5_Projects\rescue-wing\scripts\blender_scene.py:34: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m.use_nodes = True

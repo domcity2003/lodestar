@@ -1,0 +1,55 @@
+Rescue Wing 3D model and aero check, 2026-11-11, claude-opus-5-5
+Search point: 15.0 m/s at 2,000 m, Re(MAC) 391,769, Mach 0.045; balance point x = 0.437 m
+
+Pod fit check (kit box 0.22 x 0.13 x 0.12 m centred on the balance point):
+  x = 0.327 m: pod 160 x 150 mm outside; box needs 130 x 120 mm + walls -> fits
+  x = 0.437 m: pod 160 x 150 mm outside; box needs 130 x 120 mm + walls -> fits
+  x = 0.547 m: pod 143 x 133 mm outside; box needs 130 x 120 mm + walls -> fits
+
+VSPAERO panel method, wake-based lift and induced drag (surface-integrated induced drag came out negative,
+so it is not used):
+  wing only:
+ AoA  CLtot  CLwtot   CDiw     Ew  CMytot
+ 0.0 0.0176  0.0212 0.0004 0.0325  0.0104
+ 2.0 0.1755  0.1776 0.0024 0.5899  0.0042
+ 4.0 0.3366  0.3381 0.0074 0.6984 -0.0051
+ 6.0 0.5057  0.5010 0.0156 0.7439 -0.0098
+ 8.0 0.6953  0.6671 0.0273 0.8051 -0.0125
+10.0 0.8702  0.8287 0.0419 0.8215 -0.0238
+  full:
+ AoA  CLtot  CLwtot   CDiw     Ew  CMytot
+ 0.0 0.0019  0.0049 0.0003 0.0006  0.0028
+ 2.0 0.1524  0.1579 0.0015 0.7034 -0.0012
+ 4.0 0.2968  0.3114 0.0051 0.7808 -0.0057
+ 6.0 0.4329  0.4659 0.0115 0.7412 -0.0077
+ 8.0 0.5612  0.6212 0.0202 0.7094 -0.0096
+10.0 0.6786  0.7756 0.0316 0.6623 -0.0076
+
+  VSPAERO wing-only neutral point 0.453 m (AVL 0.464 m). With the pod its lift slope
+  falls 25%, which is not physical for a 16 cm pod: the panel solver drops the
+  wing area inside the pod and the pod sheds no wake (body-wake option tried: identical result).
+
+How far forward the pod and gimbal move the neutral point:
+  Raymer handbook (K_f method)         -2.5 mm  (-0.5% MAC)
+  AeroSandbox AeroBuildup              -5.0 mm  (-1.1% MAC)
+  AVL slender body                    -15.0 mm  (-3.3% MAC)
+  VSPAERO panel (unreliable here)     -10.4 mm  (-2.3% MAC)
+  -> design to the most cautious trusted estimate (-15.0 mm): balance point moves -15 mm to x = 0.422 m
+
+Parasite drag build-up (OpenVSP: flat-plate skin friction x form factor, all turbulent), 15 m/s at 2,000 m:
+  Wing    wetted 2.653 m2, Re 377,325, Cf 0.0054, form factor 1.20, drag area 172.1 cm2
+  Pod     wetted 0.335 m2, Re 717,259, Cf 0.0048, form factor 1.20, drag area 19.1 cm2
+  Gimbal  wetted 0.050 m2, Re 87,471, Cf 0.0074, form factor 52.75, drag area 193.5 cm2
+  Gimbal corrected: Hoerner's body formula is not valid for a sphere; sphere drag on the exposed 49 cm2 gives 23.2 cm2
+  Pod + gimbal drag area 42.3 cm2 (sizing assumed 40 cm2 for pod, gimbal and skid) -> CD 0.0033
+
+Endurance at 7.55 kg for each drag assumption (best speed between 15 and 20 m/s, i.e. at least 1.25 x stall):
+                                       case   e   CD0  endurance_h  best_speed
+wing: NeuralFoil, laminar runs as in sizing 0.8 0.012        2.949        15.0
+wing: NeuralFoil, laminar runs as in sizing 0.9 0.012        3.101        15.0
+                              wing: halfway 0.8 0.014        2.768        15.0
+                              wing: halfway 0.9 0.014        2.902        15.0
+            wing: fully turbulent (OpenVSP) 0.8 0.017        2.608        15.0
+            wing: fully turbulent (OpenVSP) 0.9 0.017        2.727        15.0
+
+New layout: balance point and kit bay at x = 0.422 m, battery packs at x = 0.458 m

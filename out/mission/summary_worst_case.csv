@@ -1,0 +1,3 @@
+scenario,aircraft,published_h,p_find,median_find_min,p_kit_delivered,median_kit_min,area_km2_if_not_found,p_find_high_wind,median_help_min,p_help_3h
+"A: lost hiker, 16 km2 box 5 km out","Rescue Wing v2 (P50B, kit) 2000 m turbulent",3.19,0.34,77.61,0.335,80.148,7.047,0.319,80.743,0.335
+"A: lost hiker, 16 km2 box 5 km out","Rescue Wing v2+ (SiCore, kit) 2000 m turbulent",3.99,0.443,101.504,0.439,103.936,8.809,0.413,104.637,0.412

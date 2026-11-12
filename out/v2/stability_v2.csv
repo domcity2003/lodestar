@@ -1,0 +1,9 @@
+cell,config,V,mass,x_batt,x_cg,static_margin,elevon,short_period_zeta,phugoid_zeta,dutch_roll_zeta,spiral_t2,roll_tau,pitch_ok,lateral_ok
+Molicel P50B,"kit, search speed",15.0,7.4187,0.4596,0.422,0.058,-0.2524,0.6584,0.0578,0.1297,inf,0.0697,True,True
+Molicel P50B,"kit dropped, top speed",22.0,5.7147,0.4596,0.422,0.0487,1.364,0.7422,0.0791,0.1374,inf,0.0466,True,True
+Molicel P50B,"kit dropped, slow",12.5,5.7147,0.4596,0.422,0.0537,-0.3937,0.7251,0.0524,0.1352,inf,0.0838,True,True
+Molicel P50B,"battery module in bay, search speed",15.0,7.1669,0.4596,0.422,0.057,-0.1474,0.6682,0.0567,0.1297,inf,0.0696,True,True
+Amprius SiCore 6.3 Ah,"kit, search speed",15.0,7.4528,0.4591,0.422,0.058,-0.2637,0.6575,0.058,0.1297,inf,0.0698,True,True
+Amprius SiCore 6.3 Ah,"kit dropped, top speed",22.0,5.7488,0.4591,0.422,0.0487,1.3593,0.7409,0.0787,0.137,inf,0.0466,True,True
+Amprius SiCore 6.3 Ah,"kit dropped, slow",12.5,5.7488,0.4591,0.422,0.0537,-0.4094,0.7237,0.0526,0.1351,inf,0.0839,True,True
+Amprius SiCore 6.3 Ah,"battery module in bay, search speed",15.0,7.2215,0.4591,0.422,0.0571,-0.1671,0.6664,0.0569,0.1296,inf,0.0697,True,True

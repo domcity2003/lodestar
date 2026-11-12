@@ -1,0 +1,7 @@
+case,e,CD0,endurance_h,best_speed
+"wing: NeuralFoil, laminar runs as in sizing",0.8,0.0123,2.9491,15.0
+"wing: NeuralFoil, laminar runs as in sizing",0.9,0.0123,3.1015,15.0
+wing: halfway,0.8,0.0145,2.7683,15.0
+wing: halfway,0.9,0.0145,2.9021,15.0
+wing: fully turbulent (OpenVSP),0.8,0.0167,2.6083,15.0
+wing: fully turbulent (OpenVSP),0.9,0.0167,2.7268,15.0

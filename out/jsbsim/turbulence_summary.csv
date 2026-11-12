@@ -1,0 +1,5 @@
+case,runs,ground_hits,stalls,stalls_before_release,lowest_h_clean_runs_m,p95_h_loss_clean_m
+"light turbulence (15 kt), 15 m/s",100,0,1,1,35.995,3.436
+"moderate turbulence (30 kt), 15 m/s",100,0,57,47,31.92,7.741
+"moderate turbulence (30 kt), drop at 18 m/s",100,0,1,1,31.711,5.676
+"stress test: long downdrafts, 15 m/s",100,10,13,6,7.897,12.497

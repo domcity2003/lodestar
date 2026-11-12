@@ -1,0 +1,33 @@
+Rescue Wing v2 CAD, 2026-11-11, claude-opus-5-5 (build123d)
+
+
+Interference between internal parts (22 parts; 5 pairs close enough to test): none
+Fit check (part fully inside its parent's outer surface, with >= 1.5 mm for the skin):
+                    part parent  share_inside  min_clearance_mm   ok
+               battery_R   wing           1.0             2.030 True
+               battery_L   wing           1.0             2.030 True
+           spar_joiner_R   wing           1.0            13.242 True
+          elevon_servo_R   wing           1.0             3.238 True
+           kit_container    pod           1.0             5.541 True
+       flight_controller    pod           1.0            40.703 True
+                     esc    pod           1.0            30.703 True
+bay_battery_module (alt)    pod           1.0            23.501 True
+
+Balance from the CAD layout:
+                                          item  mass_kg     x      z                                       source
+wing structure (centre, outer panels, elevons)    1.286 0.525  0.009               CAD centroid (volume-weighted)
+                                      winglets    0.106 0.962  0.098               CAD centroid (volume-weighted)
+                     batteries (P50B 30 cells)    2.420 0.452  0.008               CAD centroid (volume-weighted)
+                                    rescue kit    1.500 0.422 -0.062               CAD centroid (volume-weighted)
+                                 kit parachute    0.124 0.422 -0.008               CAD centroid (volume-weighted)
+                       kit container + release    0.080 0.415 -0.024               CAD centroid (volume-weighted)
+                        gimbal (thermal + RGB)    0.600 0.070 -0.113               CAD centroid (volume-weighted)
+                     avionics (FC, GPS, radio)    0.350 0.234 -0.027               CAD centroid (volume-weighted)
+                   pod structure + door + skid    0.300 0.266 -0.035               CAD centroid (volume-weighted)
+                            motor + ESC + prop    0.280 0.664 -0.035               CAD centroid (volume-weighted)
+                        misc (wiring, glue) 5%    0.253 0.350 -0.020 not modelled; same assumption as milestone 2
+
+Total 7.30 kg. CG x = 0.4203 m (design 0.4220 m, difference -1.7 mm = -0.4% MAC); z = -0.022 m
+After the kit drops: CG x = 0.4198 m (-0.5 mm)
+
+Exported 31 parts: out/cad/rescue_wing_v2.step and out/cad/stl/
