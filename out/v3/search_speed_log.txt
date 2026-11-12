@@ -1,0 +1,48 @@
+Rescue Wing v3: search-speed sweep, 2026-11-12, claude-opus-5-5
+
+v3 (P50B, kit): best-range search speed 16.5 m/s
+v3+ (SiCore, kit): best-range search speed 16.5 m/s
+v3 option 3.4 m (P50B, kit): best-range search speed 15.5 m/s
+                          scenario                                 aircraft  v_search  p_find  p_kit_delivered  median_help_min  p_help_3h
+A: lost hiker, 16 km2 box 5 km out              v3 (P50B, kit) @ best range    16.459   0.448            0.444          105.895      0.412
+A: lost hiker, 16 km2 box 5 km out                  v3 (P50B, kit) @ 15 m/s    15.000   0.440            0.436          114.955      0.361
+A: lost hiker, 16 km2 box 5 km out                  v3 (P50B, kit) @ 16 m/s    16.000   0.446            0.440          108.811      0.397
+A: lost hiker, 16 km2 box 5 km out                  v3 (P50B, kit) @ 17 m/s    17.000   0.450            0.446          102.718      0.428
+A: lost hiker, 16 km2 box 5 km out                  v3 (P50B, kit) @ 18 m/s    18.000   0.447            0.442           96.407      0.442
+A: lost hiker, 16 km2 box 5 km out                  v3 (P50B, kit) @ 19 m/s    19.000   0.436            0.432           89.134      0.432
+A: lost hiker, 16 km2 box 5 km out                  v3 (P50B, kit) @ 20 m/s    20.000   0.433            0.424           84.045      0.424
+A: lost hiker, 16 km2 box 5 km out           v3+ (SiCore, kit) @ best range    16.480   0.568            0.561          131.697      0.412
+A: lost hiker, 16 km2 box 5 km out               v3+ (SiCore, kit) @ 15 m/s    15.000   0.554            0.548          143.105      0.361
+A: lost hiker, 16 km2 box 5 km out               v3+ (SiCore, kit) @ 16 m/s    16.000   0.564            0.558          135.584      0.397
+A: lost hiker, 16 km2 box 5 km out               v3+ (SiCore, kit) @ 17 m/s    17.000   0.568            0.562          127.566      0.428
+A: lost hiker, 16 km2 box 5 km out               v3+ (SiCore, kit) @ 18 m/s    18.000   0.562            0.554          118.482      0.452
+A: lost hiker, 16 km2 box 5 km out               v3+ (SiCore, kit) @ 19 m/s    19.000   0.553            0.547          111.090      0.476
+A: lost hiker, 16 km2 box 5 km out               v3+ (SiCore, kit) @ 20 m/s    20.000   0.544            0.538          104.811      0.502
+A: lost hiker, 16 km2 box 5 km out v3 option 3.4 m (P50B, kit) @ best range    15.506   0.464            0.461          116.483      0.382
+A: lost hiker, 16 km2 box 5 km out     v3 option 3.4 m (P50B, kit) @ 15 m/s    15.000   0.464            0.460          121.346      0.361
+A: lost hiker, 16 km2 box 5 km out     v3 option 3.4 m (P50B, kit) @ 16 m/s    16.000   0.468            0.464          112.847      0.396
+A: lost hiker, 16 km2 box 5 km out     v3 option 3.4 m (P50B, kit) @ 17 m/s    17.000   0.467            0.460          106.447      0.427
+A: lost hiker, 16 km2 box 5 km out     v3 option 3.4 m (P50B, kit) @ 18 m/s    18.000   0.454            0.451           97.732      0.451
+A: lost hiker, 16 km2 box 5 km out     v3 option 3.4 m (P50B, kit) @ 19 m/s    19.000   0.446            0.440           90.941      0.440
+A: lost hiker, 16 km2 box 5 km out     v3 option 3.4 m (P50B, kit) @ 20 m/s    20.000   0.435            0.428           85.178      0.428
+B: wide area, 36 km2 box 10 km out              v3 (P50B, kit) @ best range    16.459   0.188            0.186          108.359      0.178
+B: wide area, 36 km2 box 10 km out                  v3 (P50B, kit) @ 15 m/s    15.000   0.184            0.183          118.066      0.156
+B: wide area, 36 km2 box 10 km out                  v3 (P50B, kit) @ 16 m/s    16.000   0.186            0.186          111.358      0.170
+B: wide area, 36 km2 box 10 km out                  v3 (P50B, kit) @ 17 m/s    17.000   0.188            0.187          104.565      0.186
+B: wide area, 36 km2 box 10 km out                  v3 (P50B, kit) @ 18 m/s    18.000   0.188            0.187           99.127      0.187
+B: wide area, 36 km2 box 10 km out                  v3 (P50B, kit) @ 19 m/s    19.000   0.184            0.182           93.042      0.182
+B: wide area, 36 km2 box 10 km out                  v3 (P50B, kit) @ 20 m/s    20.000   0.180            0.180           88.143      0.180
+B: wide area, 36 km2 box 10 km out           v3+ (SiCore, kit) @ best range    16.480   0.229            0.228          122.310      0.178
+B: wide area, 36 km2 box 10 km out               v3+ (SiCore, kit) @ 15 m/s    15.000   0.224            0.224          130.614      0.156
+B: wide area, 36 km2 box 10 km out               v3+ (SiCore, kit) @ 16 m/s    16.000   0.228            0.226          122.077      0.170
+B: wide area, 36 km2 box 10 km out               v3+ (SiCore, kit) @ 17 m/s    17.000   0.230            0.228          118.478      0.186
+B: wide area, 36 km2 box 10 km out               v3+ (SiCore, kit) @ 18 m/s    18.000   0.229            0.228          110.129      0.194
+B: wide area, 36 km2 box 10 km out               v3+ (SiCore, kit) @ 19 m/s    19.000   0.226            0.224          104.118      0.204
+B: wide area, 36 km2 box 10 km out               v3+ (SiCore, kit) @ 20 m/s    20.000   0.225            0.224           99.278      0.211
+B: wide area, 36 km2 box 10 km out v3 option 3.4 m (P50B, kit) @ best range    15.506   0.196            0.194          118.337      0.162
+B: wide area, 36 km2 box 10 km out     v3 option 3.4 m (P50B, kit) @ 15 m/s    15.000   0.193            0.192          121.830      0.156
+B: wide area, 36 km2 box 10 km out     v3 option 3.4 m (P50B, kit) @ 16 m/s    16.000   0.196            0.195          114.153      0.170
+B: wide area, 36 km2 box 10 km out     v3 option 3.4 m (P50B, kit) @ 17 m/s    17.000   0.196            0.194          107.935      0.186
+B: wide area, 36 km2 box 10 km out     v3 option 3.4 m (P50B, kit) @ 18 m/s    18.000   0.190            0.188           99.686      0.188
+B: wide area, 36 km2 box 10 km out     v3 option 3.4 m (P50B, kit) @ 19 m/s    19.000   0.188            0.186           95.007      0.186
+B: wide area, 36 km2 box 10 km out     v3 option 3.4 m (P50B, kit) @ 20 m/s    20.000   0.184            0.182           89.863      0.182

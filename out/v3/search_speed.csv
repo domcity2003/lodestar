@@ -1,0 +1,43 @@
+scenario,aircraft,published_h,p_find,median_find_min,p_kit_delivered,median_kit_min,area_km2_if_not_found,p_find_high_wind,median_help_min,p_help_3h,design,v_search
+"A: lost hiker, 16 km2 box 5 km out","v3 (P50B, kit) @ best range",4.3,0.448,102.762,0.444,105.41,9.249,0.418,105.895,0.412,"v3 (P50B, kit)",16.459
+"A: lost hiker, 16 km2 box 5 km out","v3 (P50B, kit) @ 15 m/s",4.3,0.44,111.822,0.436,113.996,8.809,0.401,114.955,0.361,"v3 (P50B, kit)",15.0
+"A: lost hiker, 16 km2 box 5 km out","v3 (P50B, kit) @ 16 m/s",4.3,0.446,105.678,0.44,107.408,9.249,0.415,108.811,0.397,"v3 (P50B, kit)",16.0
+"A: lost hiker, 16 km2 box 5 km out","v3 (P50B, kit) @ 17 m/s",4.3,0.45,99.585,0.446,101.832,9.249,0.423,102.718,0.428,"v3 (P50B, kit)",17.0
+"A: lost hiker, 16 km2 box 5 km out","v3 (P50B, kit) @ 18 m/s",4.3,0.447,93.274,0.442,95.773,8.809,0.425,96.407,0.442,"v3 (P50B, kit)",18.0
+"A: lost hiker, 16 km2 box 5 km out","v3 (P50B, kit) @ 19 m/s",4.3,0.436,86.001,0.432,87.798,8.809,0.42,89.134,0.432,"v3 (P50B, kit)",19.0
+"A: lost hiker, 16 km2 box 5 km out","v3 (P50B, kit) @ 20 m/s",4.3,0.433,80.912,0.424,82.499,8.809,0.42,84.045,0.424,"v3 (P50B, kit)",20.0
+"A: lost hiker, 16 km2 box 5 km out","v3+ (SiCore, kit) @ best range",5.39,0.568,128.564,0.561,130.184,11.451,0.524,131.697,0.412,"v3+ (SiCore, kit)",16.48
+"A: lost hiker, 16 km2 box 5 km out","v3+ (SiCore, kit) @ 15 m/s",5.39,0.554,139.972,0.548,141.402,11.231,0.49,143.105,0.361,"v3+ (SiCore, kit)",15.0
+"A: lost hiker, 16 km2 box 5 km out","v3+ (SiCore, kit) @ 16 m/s",5.39,0.564,132.451,0.558,134.114,11.451,0.511,135.584,0.397,"v3+ (SiCore, kit)",16.0
+"A: lost hiker, 16 km2 box 5 km out","v3+ (SiCore, kit) @ 17 m/s",5.39,0.568,124.433,0.562,125.899,11.451,0.529,127.566,0.428,"v3+ (SiCore, kit)",17.0
+"A: lost hiker, 16 km2 box 5 km out","v3+ (SiCore, kit) @ 18 m/s",5.39,0.562,115.349,0.554,117.343,11.451,0.532,118.482,0.452,"v3+ (SiCore, kit)",18.0
+"A: lost hiker, 16 km2 box 5 km out","v3+ (SiCore, kit) @ 19 m/s",5.39,0.553,107.957,0.547,110.068,11.011,0.527,111.09,0.476,"v3+ (SiCore, kit)",19.0
+"A: lost hiker, 16 km2 box 5 km out","v3+ (SiCore, kit) @ 20 m/s",5.39,0.544,101.678,0.538,103.623,11.011,0.527,104.811,0.502,"v3+ (SiCore, kit)",20.0
+"A: lost hiker, 16 km2 box 5 km out","v3 option 3.4 m (P50B, kit) @ best range",4.53,0.464,113.35,0.461,116.125,9.249,0.421,116.483,0.382,"v3 option 3.4 m (P50B, kit)",15.506
+"A: lost hiker, 16 km2 box 5 km out","v3 option 3.4 m (P50B, kit) @ 15 m/s",4.53,0.464,118.212,0.46,120.245,9.249,0.413,121.346,0.361,"v3 option 3.4 m (P50B, kit)",15.0
+"A: lost hiker, 16 km2 box 5 km out","v3 option 3.4 m (P50B, kit) @ 16 m/s",4.53,0.468,109.713,0.464,112.299,9.249,0.431,112.847,0.396,"v3 option 3.4 m (P50B, kit)",16.0
+"A: lost hiker, 16 km2 box 5 km out","v3 option 3.4 m (P50B, kit) @ 17 m/s",4.53,0.467,103.314,0.46,104.711,9.249,0.434,106.447,0.427,"v3 option 3.4 m (P50B, kit)",17.0
+"A: lost hiker, 16 km2 box 5 km out","v3 option 3.4 m (P50B, kit) @ 18 m/s",4.53,0.454,94.598,0.451,97.306,9.249,0.431,97.732,0.451,"v3 option 3.4 m (P50B, kit)",18.0
+"A: lost hiker, 16 km2 box 5 km out","v3 option 3.4 m (P50B, kit) @ 19 m/s",4.53,0.446,87.808,0.44,90.242,8.809,0.426,90.941,0.44,"v3 option 3.4 m (P50B, kit)",19.0
+"A: lost hiker, 16 km2 box 5 km out","v3 option 3.4 m (P50B, kit) @ 20 m/s",4.53,0.435,82.044,0.428,83.66,8.809,0.423,85.178,0.428,"v3 option 3.4 m (P50B, kit)",20.0
+"B: wide area, 36 km2 box 10 km out","v3 (P50B, kit) @ best range",4.3,0.188,105.225,0.186,107.846,8.589,0.161,108.359,0.178,"v3 (P50B, kit)",16.459
+"B: wide area, 36 km2 box 10 km out","v3 (P50B, kit) @ 15 m/s",4.3,0.184,114.933,0.183,117.793,8.589,0.15,118.066,0.156,"v3 (P50B, kit)",15.0
+"B: wide area, 36 km2 box 10 km out","v3 (P50B, kit) @ 16 m/s",4.3,0.186,108.225,0.186,111.272,8.589,0.156,111.358,0.17,"v3 (P50B, kit)",16.0
+"B: wide area, 36 km2 box 10 km out","v3 (P50B, kit) @ 17 m/s",4.3,0.188,101.432,0.187,104.358,8.589,0.165,104.565,0.186,"v3 (P50B, kit)",17.0
+"B: wide area, 36 km2 box 10 km out","v3 (P50B, kit) @ 18 m/s",4.3,0.188,95.994,0.187,98.899,8.589,0.165,99.127,0.187,"v3 (P50B, kit)",18.0
+"B: wide area, 36 km2 box 10 km out","v3 (P50B, kit) @ 19 m/s",4.3,0.184,89.909,0.182,92.107,8.589,0.163,93.042,0.182,"v3 (P50B, kit)",19.0
+"B: wide area, 36 km2 box 10 km out","v3 (P50B, kit) @ 20 m/s",4.3,0.18,85.009,0.18,87.645,8.589,0.161,88.143,0.18,"v3 (P50B, kit)",20.0
+"B: wide area, 36 km2 box 10 km out","v3+ (SiCore, kit) @ best range",5.39,0.229,119.177,0.228,118.775,11.231,0.205,122.31,0.178,"v3+ (SiCore, kit)",16.48
+"B: wide area, 36 km2 box 10 km out","v3+ (SiCore, kit) @ 15 m/s",5.39,0.224,127.48,0.224,130.086,11.231,0.194,130.614,0.156,"v3+ (SiCore, kit)",15.0
+"B: wide area, 36 km2 box 10 km out","v3+ (SiCore, kit) @ 16 m/s",5.39,0.228,118.944,0.226,121.864,11.231,0.198,122.077,0.17,"v3+ (SiCore, kit)",16.0
+"B: wide area, 36 km2 box 10 km out","v3+ (SiCore, kit) @ 17 m/s",5.39,0.23,115.345,0.228,118.385,11.231,0.206,118.478,0.186,"v3+ (SiCore, kit)",17.0
+"B: wide area, 36 km2 box 10 km out","v3+ (SiCore, kit) @ 18 m/s",5.39,0.229,106.995,0.228,110.056,11.231,0.206,110.129,0.194,"v3+ (SiCore, kit)",18.0
+"B: wide area, 36 km2 box 10 km out","v3+ (SiCore, kit) @ 19 m/s",5.39,0.226,100.985,0.224,103.509,11.231,0.206,104.118,0.204,"v3+ (SiCore, kit)",19.0
+"B: wide area, 36 km2 box 10 km out","v3+ (SiCore, kit) @ 20 m/s",5.39,0.225,96.145,0.224,99.161,10.736,0.208,99.278,0.211,"v3+ (SiCore, kit)",20.0
+"B: wide area, 36 km2 box 10 km out","v3 option 3.4 m (P50B, kit) @ best range",4.53,0.196,115.204,0.194,118.129,9.249,0.161,118.337,0.162,"v3 option 3.4 m (P50B, kit)",15.506
+"B: wide area, 36 km2 box 10 km out","v3 option 3.4 m (P50B, kit) @ 15 m/s",4.53,0.193,118.696,0.192,121.815,9.249,0.155,121.83,0.156,"v3 option 3.4 m (P50B, kit)",15.0
+"B: wide area, 36 km2 box 10 km out","v3 option 3.4 m (P50B, kit) @ 16 m/s",4.53,0.196,111.02,0.195,114.052,9.249,0.163,114.153,0.17,"v3 option 3.4 m (P50B, kit)",16.0
+"B: wide area, 36 km2 box 10 km out","v3 option 3.4 m (P50B, kit) @ 17 m/s",4.53,0.196,104.801,0.194,106.393,9.249,0.166,107.935,0.186,"v3 option 3.4 m (P50B, kit)",17.0
+"B: wide area, 36 km2 box 10 km out","v3 option 3.4 m (P50B, kit) @ 18 m/s",4.53,0.19,96.553,0.188,99.534,9.249,0.166,99.686,0.188,"v3 option 3.4 m (P50B, kit)",18.0
+"B: wide area, 36 km2 box 10 km out","v3 option 3.4 m (P50B, kit) @ 19 m/s",4.53,0.188,91.874,0.186,94.763,8.589,0.165,95.007,0.186,"v3 option 3.4 m (P50B, kit)",19.0
+"B: wide area, 36 km2 box 10 km out","v3 option 3.4 m (P50B, kit) @ 20 m/s",4.53,0.184,86.73,0.182,88.833,8.589,0.163,89.863,0.182,"v3 option 3.4 m (P50B, kit)",20.0
