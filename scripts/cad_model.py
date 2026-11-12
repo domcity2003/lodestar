@@ -1,4 +1,4 @@
-"""Milestone 5a: detailed CAD of Rescue Wing v2 with its internal layout (build123d).
+"""Milestone 5a: detailed CAD of Lodestar v2 with its internal layout (build123d).
 
 What it builds (all in metres, axes as in the aero models: x aft, y right, z up, wing-root LE at x = 0):
   - Wing in three car-portable pieces: a 0.9 m centre section and two outer panels joined at the
@@ -14,7 +14,7 @@ Then it verifies the layout from the CAD itself:
   - balance: the CG computed from the CAD part positions vs the x = 0.422 m design balance point.
 
 Run:  uv run python scripts/cad_model.py
-Writes: out/cad/rescue_wing_v2.step (assembly), out/cad/stl/*.stl (one per part, for Blender),
+Writes: out/cad/lodestar_v2.step (assembly), out/cad/stl/*.stl (one per part, for Blender),
         out/cad/fit_check.csv, out/cad/mass_cg.csv, out/cad/run_log.txt
 """
 from pathlib import Path
@@ -242,7 +242,7 @@ def clearance(part, parent):
 
 def main():
     sys.stdout = Tee(OUT / "run_log.txt")
-    print(f"Rescue Wing {VARIANT} CAD, 2026-11-12 (build123d); prop {PROP_IN:.0f} in\n")
+    print(f"Lodestar {VARIANT} CAD, 2026-11-12 (build123d); prop {PROP_IN:.0f} in\n")
     parts, bay_battery = build()
 
     pod_solid = pod()
@@ -349,10 +349,10 @@ def main():
     for n, s in parts.items():
         s.label = n
     bay_battery.label = "alt_bay_battery"
-    asm = Compound(children=list(parts.values()), label="RescueWing_v2")
-    export_step(asm, str(OUT / f"rescue_wing_{VARIANT}.step"))
+    asm = Compound(children=list(parts.values()), label="Lodestar_v2")
+    export_step(asm, str(OUT / f"lodestar_{VARIANT}.step"))
     export_step(bay_battery, str(OUT / "alt_bay_battery_module.step"))
-    print(f"\nExported {len(parts)} parts: {OUT.relative_to(ROOT)}/rescue_wing_{VARIANT}.step and stl/")
+    print(f"\nExported {len(parts)} parts: {OUT.relative_to(ROOT)}/lodestar_{VARIANT}.step and stl/")
 
 
 if __name__ == "__main__":

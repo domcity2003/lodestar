@@ -1,5 +1,5 @@
  SAVED 
-<aero-tools>\OpenVSP-3.56.0-win64\vspaero.exe -omp 8 <repo>/out/vsp/full_bw/rescue_wing
+<aero-tools>\OpenVSP-3.56.0-win64\vspaero.exe -omp 8 <repo>/out/vsp/full_bw/lodestar
 Setting Sref to: 1.285710 
 Setting Cref to: 0.449130 
 Setting Bref to: 3.000000 
@@ -158,7 +158,7 @@ Found 4 VSPGEOM Surfaces
 Found 4 VSPGEOM Surfaces 
 DumChar: # VSPGEOM v3 Tag Key File
  
-DumChar: <repo>/out/vsp/full_bw/rescue_wing.vspgeom
+DumChar: <repo>/out/vsp/full_bw/lodestar.vspgeom
  
 DumChar: 6
  
@@ -228,7 +228,7 @@ Component: 2 with ID: 2 is thick
 Component: 3 with ID: 3 is thick 
 Pure tri mesh has 5480 tris 
 After building ...pure tri mesh has 5480 tris 
-Looking for <repo>/out/vsp/full_bw/rescue_wing.ControlSurfaces.taglist control surface definition file ... 
+Looking for <repo>/out/vsp/full_bw/lodestar.ControlSurfaces.taglist control surface definition file ... 
 Did not find any control surface definitions... 
 Did not find a groups file... so setting up a single group for steady analysis 
 NumberOfComponentGroups_: 1 

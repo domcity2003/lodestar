@@ -1,4 +1,4 @@
-Rescue Wing: milestone 2 stability re-checked with the centre pod as an AVL slender body
+Lodestar: milestone 2 stability re-checked with the centre pod as an AVL slender body
 Pod equivalent radius profile (x from pod nose, m): [(0.0, 0.0), (0.066, 0.044), (0.205, 0.085), (0.492, 0.085), (0.697, 0.085), (0.779, 0.045), (0.82, 0.0)]
 
 Winglets 0.25 m: neutral point 0.4640 m without pod -> 0.4486 m with pod (-15.4 mm, -3.43% MAC); 6% margin needs balance point x = 0.422 m

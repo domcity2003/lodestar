@@ -48,7 +48,7 @@ def polar(af, Re):
 
 if __name__ == "__main__":
     sys.stdout = Tee(OUT / "airfoil_log.txt")
-    print("Rescue Wing v3, airfoil screen, 2026-11-12 (NeuralFoil xxlarge)\n")
+    print("Lodestar v3, airfoil screen, 2026-11-12 (NeuralFoil xxlarge)\n")
     rows = []
     for name in CANDIDATES:
         try:

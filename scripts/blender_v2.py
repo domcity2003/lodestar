@@ -1,4 +1,4 @@
-"""Blender scene for the milestone 5 renders of Rescue Wing v2. Run by render_v2.py, not directly:
+"""Blender scene for the milestone 5 renders of Lodestar v2. Run by render_v2.py, not directly:
     blender -b -P scripts/blender_v2.py -- <stl_dir> <out_dir> <samples> [shot ...]
 
 Imports every CAD part (out/cad/stl/*.stl), gives it a material by name, and renders:

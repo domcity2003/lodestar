@@ -45,7 +45,7 @@ def run(b, AR, finish, eta, m_prop):
 
 if __name__ == "__main__":
     sys.stdout = Tee(OUT / "planform_log.txt")
-    print("Rescue Wing v3, wing finish, area and span, 2026-11-12")
+    print("Lodestar v3, wing finish, area and span, 2026-11-12")
     print(f"Propulsion: v2 assumption 55%, 0.28 kg | v3 matched {ETA_V3:.1%}, {M_PROP_V3:.2f} kg\n")
     rows = []
     for b in (3.0, 3.2, 3.4, 3.6):

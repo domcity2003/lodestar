@@ -65,7 +65,7 @@ Parasite drag buildup results.
    TurbCfEqnName                 string       	1	Compressible Schlichting 
    Vinf_Label                    string       	1	Vinf (m/s) 
    f_Label                       string       	1	f (m^2) 
-<aero-tools>\OpenVSP-3.56.0-win64\vspaero.exe -omp 8 <repo>/out/vsp/wing_only/rescue_wing
+<aero-tools>\OpenVSP-3.56.0-win64\vspaero.exe -omp 8 <repo>/out/vsp/wing_only/lodestar
 Setting Sref to: 1.285710 
 
 Setting Cref to: 0.449130 
@@ -370,7 +370,7 @@ DumChar: # VSPGEOM v3 Tag Key File
 
  
 
-DumChar: <repo>/out/vsp/wing_only/rescue_wing.vspgeom
+DumChar: <repo>/out/vsp/wing_only/lodestar.vspgeom
 
  
 
@@ -462,7 +462,7 @@ Pure tri mesh has 3710 tris
 
 After building ...pure tri mesh has 3710 tris 
 
-Looking for <repo>/out/vsp/wing_only/rescue_wing.ControlSurfaces.taglist control surface definition file ... 
+Looking for <repo>/out/vsp/wing_only/lodestar.ControlSurfaces.taglist control surface definition file ... 
 
 Did not find any control surface definitions... 
 

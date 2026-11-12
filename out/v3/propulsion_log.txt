@@ -1,4 +1,4 @@
-Rescue Wing v3, propulsion matching, 2026-11-12
+Lodestar v3, propulsion matching, 2026-11-12
 
 41 propellers with wind-tunnel data: 24 Aeronaut CAM folding, 17 APC Thin Electric
   search, kit on       V  14.8 m/s  thrust needed  4.12 N  (thrust power  61.0 W)

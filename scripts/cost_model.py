@@ -71,7 +71,7 @@ BUILD = {
                     note="CNC-cut plugs, moulds for 3 wing pieces + pod + winglets; smooth laminar-quality skins"),
 }
 # Tooling ESTIMATE anchor: a composite sailplane maker quotes about EUR 6,000 for CNC work and production moulds for one
-# sailplane (RC Soaring Digest, 2021); Rescue Wing has a 3-piece wing plus a pod and winglets, so about 2x.
+# sailplane (RC Soaring Digest, 2021); Lodestar has a 3-piece wing plus a pod and winglets, so about 2x.
 
 GROUND = [  # shared per team, not per aircraft
     Item("ground", "Laptop / rugged tablet for ground control", 1, 700, 400, 1500, "ESTIMATE (many teams already own one)"),
@@ -127,7 +127,7 @@ def per_hour(unit_total, battery_cost, kit_cost, crew_rate=0.0):
 
 if __name__ == "__main__":
     sys.stdout = Tee(OUT / "run_log.txt")
-    print("Rescue Wing milestone 6: cost model, 2026-11-12\n")
+    print("Lodestar milestone 6: cost model, 2026-11-12\n")
 
     # ------------------------------------------------------------ parts list
     rows = [dict(group=i.group, item=i.name, qty=i.qty, unit_usd=i.unit, line_usd=i.qty * i.unit,
@@ -197,10 +197,10 @@ if __name__ == "__main__":
     comp = pd.read_csv(ROOT / "out" / "v3" / "mission_summary.csv")
     compA = comp[comp.scenario.str.startswith("A")].set_index("aircraft")
     base = ph[(ph.build == "foam-core") & (ph.kit == "FRS radio") & (ph.crew_type == "volunteer crew")].iloc[0]
-    alt = [dict(option="Rescue Wing v3 (foam-core, 10 built, volunteer crew)", per_hour=base.total,
+    alt = [dict(option="Lodestar v3 (foam-core, 10 built, volunteer crew)", per_hour=base.total,
                 p_help_3h=p_v3, note="kit dropped; mission sim")]
     for k, life_price in COMPETITOR_PRICE.items():
-        # same ownership model as Rescue Wing: price over 400 h life + 10% a year maintenance; no kit
+        # same ownership model as Lodestar: price over 400 h life + 10% a year maintenance; no kit
         rate = life_price / AIRFRAME_LIFE_H + MAINT_FRAC * life_price / (SORTIES_PER_YEAR * HOURS_PER_SORTIE)
         # mission-sim proxy: eBee VISION flies ~90 min like the eBee X in the sim
         p = float(compA.loc["Quantum Trinity Pro" if "Trinity" in k else "AgEagle eBee X"].p_help_3h)
@@ -250,7 +250,7 @@ if __name__ == "__main__":
     # chart: cost per 3-h sortie vs alternatives (log scale)
     a = alt.sort_values("per_3h_sortie")
     fig, ax = plt.subplots(figsize=(9, 4.0))
-    ax.barh(a.option, a.per_3h_sortie, color=[BLUE if o.startswith("Rescue") else GREY for o in a.option], height=0.6)
+    ax.barh(a.option, a.per_3h_sortie, color=[BLUE if o.startswith("Lodestar") else GREY for o in a.option], height=0.6)
     for yi, v in enumerate(a.per_3h_sortie):
         ax.text(v * 1.08, yi, f"${v:,.0f}", va="center", color=INK, fontsize=9)
     ax.set_xscale("log")

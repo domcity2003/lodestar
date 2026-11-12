@@ -1,4 +1,4 @@
-Rescue Wing stability and trim, 2026-11-11
+Lodestar stability and trim, 2026-11-11
 Wing 3.0 m, S 1.286 m2, MAC 0.449 m (MAC leading edge at x = 0.341 m)
 Search: 15.0 m/s at 2,000 m (rho 1.005), CL 0.502
 

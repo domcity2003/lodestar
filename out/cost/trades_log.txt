@@ -1,4 +1,4 @@
-Rescue Wing milestone 6: cost vs design trades, 2026-11-12
+Lodestar milestone 6: cost vs design trades, 2026-11-12
 
 Lost hiker (A) and wide area (B); reference = P50B, foam-core wing, 18 m/s:
 scenario                    option  published_h  unit_cost  p_find  p_help_3h  d_cost  d_points  usd_per_point

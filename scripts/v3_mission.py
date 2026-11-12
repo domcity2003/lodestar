@@ -59,7 +59,7 @@ def mass_and_energy(cell, config, b, AR, pf):
     return r["mtow"], wh
 
 
-def rescue_wing_v3(name, cell, config, finish="laminar", b=3.0, AR=7.0, alt=0.0):
+def lodestar_v3(name, cell, config, finish="laminar", b=3.0, AR=7.0, alt=0.0):
     pf = {"laminar": d2.PF_LAMINAR, "halfway": d2.PF_MID, "turbulent": d2.PF_TURB}[finish]
     mtow, wh = mass_and_energy(cell, config, b, AR, pf)
     atm = asb.Atmosphere(altitude=alt)
@@ -95,7 +95,7 @@ def rescue_wing_v3(name, cell, config, finish="laminar", b=3.0, AR=7.0, alt=0.0)
 
 def design_case_endurance(ac):
     """2,000 m, 10% reserve on top of the 85% depth of discharge (the requirement)."""
-    a2 = rescue_wing_v3(ac.name, *ac._args, alt=2000.0)
+    a2 = lodestar_v3(ac.name, *ac._args, alt=2000.0)
     vg = np.linspace(a2.v_min, 20.0, 120)
     vg = vg[vg >= 14.0]
     return a2.energy * 0.90 / float(a2.power(vg).min()), a2
@@ -103,7 +103,7 @@ def design_case_endurance(ac):
 
 if __name__ == "__main__":
     sys.stdout = Tee(OUT / "mission_log.txt")
-    print("Rescue Wing v3: stability re-check and mission simulation, 2026-11-12\n")
+    print("Lodestar v3: stability re-check and mission simulation, 2026-11-12\n")
 
     # ------------------------------------------------------------ stability (AVL, with the pod)
     st.DP = st.DP.astype(object)
@@ -141,20 +141,20 @@ if __name__ == "__main__":
 
     # ------------------------------------------------------------ fleet
     specs = [
-        ("Rescue Wing v3 (P50B, kit)", ("Molicel P50B", "kit", "laminar", 3.0, 7.0)),
-        ("Rescue Wing v3, halfway finish (P50B, kit)", ("Molicel P50B", "kit", "halfway", 3.0, 7.0)),
-        ("Rescue Wing v3+ (SiCore, kit)", ("Amprius SiCore 6.3 Ah", "kit", "laminar", 3.0, 7.0)),
-        ("Rescue Wing v3+ search-only", ("Amprius SiCore 6.3 Ah", "search", "laminar", 3.0, 7.0)),
-        ("Rescue Wing v3 option 3.4 m (P50B, kit)", ("Molicel P50B", "kit", "laminar", 3.4, 9.0)),
-        ("Rescue Wing v3+ option 3.4 m (SiCore, kit)", ("Amprius SiCore 6.3 Ah", "kit", "laminar", 3.4, 9.0)),
+        ("Lodestar v3 (P50B, kit)", ("Molicel P50B", "kit", "laminar", 3.0, 7.0)),
+        ("Lodestar v3, halfway finish (P50B, kit)", ("Molicel P50B", "kit", "halfway", 3.0, 7.0)),
+        ("Lodestar v3+ (SiCore, kit)", ("Amprius SiCore 6.3 Ah", "kit", "laminar", 3.0, 7.0)),
+        ("Lodestar v3+ search-only", ("Amprius SiCore 6.3 Ah", "search", "laminar", 3.0, 7.0)),
+        ("Lodestar v3 option 3.4 m (P50B, kit)", ("Molicel P50B", "kit", "laminar", 3.4, 9.0)),
+        ("Lodestar v3+ option 3.4 m (SiCore, kit)", ("Amprius SiCore 6.3 Ah", "kit", "laminar", 3.4, 9.0)),
     ]
     v3 = []
     for name, args in specs:
-        ac = rescue_wing_v3(name, *args)
+        ac = lodestar_v3(name, *args)
         ac._args = args
         v3.append(ac)
-    v2 = [ms.rescue_wing("Rescue Wing v2 (P50B, kit)", "Molicel P50B", "kit"),
-          ms.rescue_wing("Rescue Wing v2+ (SiCore, kit)", "Amprius SiCore 6.3 Ah", "kit")]
+    v2 = [ms.lodestar("Lodestar v2 (P50B, kit)", "Molicel P50B", "kit"),
+          ms.lodestar("Lodestar v2+ (SiCore, kit)", "Amprius SiCore 6.3 Ah", "kit")]
     fleet = v3 + v2 + ms.COMPETITORS + [ms.FRONTIER]
 
     print("Endurance, design case (2,000 m, 10% reserve, kit carried throughout, searching at >= 14 m/s):")
@@ -186,8 +186,8 @@ if __name__ == "__main__":
     BLUE, LIGHT, GREY, INK, MUTED, GRID, BG = "#2a78d6", "#86b6ef", "#b4b2a9", "#1f1f1e", "#6b6a64", "#e4e3de", "#fcfcfb"
     sc = list(ms.SCENARIOS)[0]
     s = summ[summ.scenario == sc]
-    order = ["Rescue Wing v3+ (SiCore, kit)", "Rescue Wing v2+ (SiCore, kit)", "Rescue Wing v3 (P50B, kit)",
-             "Rescue Wing v2 (P50B, kit)", "DeltaQuad Evo GOV", "DeltaQuad Evo-LE (press)", "C-Astral Bramor ppX",
+    order = ["Lodestar v3+ (SiCore, kit)", "Lodestar v2+ (SiCore, kit)", "Lodestar v3 (P50B, kit)",
+             "Lodestar v2 (P50B, kit)", "DeltaQuad Evo GOV", "DeltaQuad Evo-LE (press)", "C-Astral Bramor ppX",
              "Quantum Trinity Pro", "AgEagle eBee X"]
     s = s.set_index("aircraft").loc[order].reset_index().iloc[::-1]
     fig, ax = plt.subplots(figsize=(9, 4.6))

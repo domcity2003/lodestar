@@ -102,7 +102,7 @@ All at 7.55 kg, at the best speed of at least 1.25 × stall (15 m/s in every cas
 ## Charts and images
 - `out/render/hero.png`, `hero_low.png`: outer shape
 - `out/render/xray_top.png`, `xray_iso.png`: kit bay (orange), battery packs (blue), balance point (black)
-- `out/vsp/full/rescue_wing.vsp3`: opens in OpenVSP's GUI (`aero-tools/OpenVSP-3.56.0-win64/vsp.exe`)
+- `out/vsp/full/lodestar.vsp3`: opens in OpenVSP's GUI (`aero-tools/OpenVSP-3.56.0-win64/vsp.exe`)
 
 ## Tooling notes
 - **PyVista rendering** was blocked by Windows Application Control (its VTK DLL). I didn't try to bypass it; renders use the portable Blender 5.3 in Cycles instead.

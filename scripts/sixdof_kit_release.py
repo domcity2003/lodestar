@@ -1,12 +1,12 @@
 """Milestone 5c: 6-DOF simulation of the kit release in JSBSim.
 
 The question: when 1.7 kg (23% of the aircraft's weight) drops out of the bay at 40 m above the ground,
-does Rescue Wing stay controlled, and how much height does it gain or lose?
+does Lodestar stay controlled, and how much height does it gain or lose?
 
 How:
   1. AVL (with the pod) gives the full set of stability and control derivatives at the release
      condition: v2 P50B layout, 15 m/s, 2,000 m altitude, kit on, balance point x = 0.422 m.
-  2. This script writes a JSBSim aircraft from them (out/jsbsim/aircraft/rescue_wing/):
+  2. This script writes a JSBSim aircraft from them (out/jsbsim/aircraft/lodestar/):
      - linear aero in all 6 axes, drag polar CDp + k CL^2 (both from the same AVL run)
      - kit = a JSBSim point mass at the bay; its weight goes to zero at release
      - bay-door drag as an external force at the door while it is open (1 s before to 2 s after)
@@ -41,7 +41,7 @@ from avl_run import run_trim, cg_and_inertia  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "out" / "jsbsim"
-ACDIR = OUT / "aircraft" / "rescue_wing"
+ACDIR = OUT / "aircraft" / "lodestar"
 ACDIR.mkdir(parents=True, exist_ok=True)
 
 FT, LB, KG2SLUG = 0.3048, 4.4482216, 1 / 14.5939
@@ -158,8 +158,8 @@ def write_aircraft(g, c, mi_on, mi_off, kit):
                 f"<output>fcs/{n}-pos-rad</output></actuator>")
 
     xml = f"""<?xml version="1.0"?>
-<fdm_config name="rescue_wing" version="2.0" release="ALPHA">
-  <fileheader><author>Lodestar design study</author><description>Rescue Wing v2, linear aero from AVL at {V_REL} m/s, 2026-11-11</description></fileheader>
+<fdm_config name="lodestar" version="2.0" release="ALPHA">
+  <fileheader><author>Lodestar design study</author><description>Lodestar v2, linear aero from AVL at {V_REL} m/s, 2026-11-11</description></fileheader>
   <metrics>
     <wingarea unit="M2">{g.S:.5f}</wingarea>
     <wingspan unit="M">{g.span:.5f}</wingspan>
@@ -216,7 +216,7 @@ def write_aircraft(g, c, mi_on, mi_off, kit):
   </aerodynamics>
 </fdm_config>
 """
-    (ACDIR / "rescue_wing.xml").write_text(xml)
+    (ACDIR / "lodestar.xml").write_text(xml)
 
 
 # ---------------------------------------------------------------- 3. simulation + autopilot
@@ -230,7 +230,7 @@ class Sim:
         self.f = jsbsim.FGFDMExec(str(OUT), None)
         self.f.set_debug_level(0)
         self.f.set_dt(DT)
-        assert self.f.load_model("rescue_wing")
+        assert self.f.load_model("lodestar")
         f = self.f
         self.ground = 0.0 if sea_level_ground else H_GROUND
         if sea_level_ground:
@@ -368,7 +368,7 @@ def oscillation_period(t, y):
 
 def main():
     sys.stdout = Tee(OUT / "run_log.txt")
-    print("Rescue Wing v2: 6-DOF kit release in JSBSim, 2026-11-11\n")
+    print("Lodestar v2: 6-DOF kit release in JSBSim, 2026-11-11\n")
     g, r, mi_on, mi_off, kit = avl_point()
     c = aero_coeffs(g, r)
     write_aircraft(g, c, mi_on, mi_off, kit)

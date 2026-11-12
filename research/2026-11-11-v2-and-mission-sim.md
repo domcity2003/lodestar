@@ -1,4 +1,4 @@
-# Milestone 4: design v2, mission simulation, and how Rescue Wing stacks up
+# Milestone 4: design v2, mission simulation, and how Lodestar stacks up
 
 2026-11-11 (US Central).
 
@@ -11,10 +11,10 @@
 - `out/mission/`: `summary.csv`, `runs.csv`, `fleet.csv`, `p_find.png`, `time_to_help.png`, `run_log.txt`
 
 ## Answer first
-**On the job it was designed for, getting help to a lost person fast, Rescue Wing beats every fielded drone in its class.** That includes a 13 kg aircraft claiming 8 hours.
+**On the job it was designed for, getting help to a lost person fast, Lodestar beats every fielded drone in its class.** That includes a 13 kg aircraft claiming 8 hours.
 - **What the simulation compares:** 2,000 simulated missions, with the same camera, the same winds and the same missing person for every aircraft.
-- **The result:** Rescue Wing v2+ has its survival kit on the ground within 3 hours of launch in **39%** of missions. The best competitor manages **17%**.
-- **Why the gap:** competitors can only find the person. A ground team still has to walk in. Rescue Wing drops water, warmth and a radio within about 3 minutes of the find.
+- **The result:** Lodestar v2+ has its survival kit on the ground within 3 hours of launch in **39%** of missions. The best competitor manages **17%**.
+- **Why the gap:** competitors can only find the person. A ground team still has to walk in. Lodestar drops water, warmth and a radio within about 3 minutes of the find.
 
 **On pure search, it's competitive, not dominant.** Carrying the kit, it matches DeltaQuad's 10 kg Evo GOV within a few points, at 27% less weight.
 - **Search-only mode:** with a battery module in the kit bay instead, it searches for 7.7 h (published-style).
@@ -74,7 +74,7 @@ Discharge is gentle: about 21 A at full power across 5 parallel strings, so abou
 
 ## The mission simulation
 **Mission:** launch, fly to the search box, then fly a parallel-track ("lawnmower") search over it. Return home with 10% of the energy still in the battery.
-- **On a find, Rescue Wing** descends to 40 m, confirms on camera, makes an into-wind run and drops the kit. That takes 3 min, plus 8 s for the kit to fall. It then flies home 1.7 kg lighter.
+- **On a find, Lodestar** descends to 40 m, confirms on camera, makes an into-wind run and drops the kit. That takes 3 min, plus 8 s for the kit to fall. It then flies home 1.7 kg lighter.
 - **It only drops if it can still get home with the reserve intact.**
 - **Competitors** report the find. A ground team then walks in from base at 3 km/h (cross-country with gear).
 
@@ -82,7 +82,7 @@ Discharge is gentle: about 21 A at full power across 5 parallel strings, so abou
 - **Same camera for everyone:** 640-pixel thermal, 32° field of view, 120 m above ground. That gives a 69 m footprint.
 - **Detection model:** effective sweep width 55 m, with tracks 55 m apart. Each pass detects the person with Koopman's inverse-cube lateral-range law, the standard search-theory model.
 - **Same 2,000 random missions for everyone** (common random numbers): target position, wind 0-10 m/s from any direction, and the detection dice.
-- **Every aircraft searches at its best-range speed.** That is the speed that covers the most area per Wh. Rescue Wing's is computed: 15.5 m/s. Competitors' published "optimal cruise" is taken as theirs.
+- **Every aircraft searches at its best-range speed.** That is the speed that covers the most area per Wh. Lodestar's is computed: 15.5 m/s. Competitors' published "optimal cruise" is taken as theirs.
 - **Competitor power vs airspeed** comes from a standard propeller-aircraft curve anchored at their published cruise speed and flight time.
 - **Wind:** each leg uses the wind triangle (crab and ground speed). Transit legs pick the airspeed with the least energy per km over the ground. Turns are 30° bank, with a bulb turn when the turn is wider than the track spacing.
 
@@ -90,9 +90,9 @@ Discharge is gentle: about 21 A at full power across 5 parallel strings, so abou
 
 | Aircraft | A: finds | A: help within 3 h | A: median find → help on scene | B: finds | Area per sortie |
 |---|---|---|---|---|---|
-| **Rescue Wing v2+ (SiCore, kit)** | 47% | **39%** | 114 → **117 min** | 20% | 9.3 km² |
-| **Rescue Wing v2 (P50B, kit)** | 36% | **35%** | 87 → **90 min** | 15% | 7.5 km² |
-| **Rescue Wing v2+ search-only** | 74% | 15% | 176 → 276 min | 32% | 15.4 km² |
+| **Lodestar v2+ (SiCore, kit)** | 47% | **39%** | 114 → **117 min** | 20% | 9.3 km² |
+| **Lodestar v2 (P50B, kit)** | 36% | **35%** | 87 → **90 min** | 15% | 7.5 km² |
+| **Lodestar v2+ search-only** | 74% | 15% | 176 → 276 min | 32% | 15.4 km² |
 | DeltaQuad Evo GOV | 51% | 17% | 117 → 218 min | 21% | 10.6 km² |
 | C-Astral Bramor ppX | 40% | 16% | 95 → 197 min | 16% | 8.4 km² |
 | Quantum Trinity Pro | 16% | 15% | 37 → 142 min | 6% | 3.5 km² |
@@ -103,19 +103,19 @@ Discharge is gentle: about 21 A at full power across 5 parallel strings, so abou
 - **Scenario B:** wide area, 36 km² box centred 10 km out.
 - **Area per sortie** is the area searched when the person isn't found (scenario A).
 
-**Robustness:** I re-ran scenario A at 2,000 m with a fully turbulent wing. Rescue Wing v2+ still finds 44% and delivers the kit within 3 h in 41% (`out/mission/summary_worst_case.csv`). The thinner air makes it fly faster, which roughly offsets the shorter flight time.
+**Robustness:** I re-ran scenario A at 2,000 m with a fully turbulent wing. Lodestar v2+ still finds 44% and delivers the kit within 3 h in 41% (`out/mission/summary_worst_case.csv`). The thinner air makes it fly faster, which roughly offsets the shorter flight time.
 
 **Charts:**
 - `out/mission/p_find.png`: chance of finding the person per sortie, both scenarios.
-- `out/mission/time_to_help.png`: how fast help reaches the person in scenario A. Rescue Wing's curve starts about 100 minutes before anyone else's.
+- `out/mission/time_to_help.png`: how fast help reaches the person in scenario A. Lodestar's curve starts about 100 minutes before anyone else's.
 
 ## What this means
-1. **The kit drop is the competitive edge, not endurance.** A drone that finds someone 5 km out still leaves them waiting about 100 minutes for a team on foot. Rescue Wing closes that gap in 3 minutes. For hypothermia or dehydration, that first hour or two is what matters.
-2. **With SiCore cells, Rescue Wing searches the most area per sortie of any aircraft under 8 kg.**
+1. **The kit drop is the competitive edge, not endurance.** A drone that finds someone 5 km out still leaves them waiting about 100 minutes for a team on foot. Lodestar closes that gap in 3 minutes. For hypothermia or dehydration, that first hour or two is what matters.
+2. **With SiCore cells, Lodestar searches the most area per sortie of any aircraft under 8 kg.**
    - **v2+ against Bramor ppX**, the closest flying-wing rival: 9.3 km² vs 8.4 km², while carrying the 1.7 kg kit plus the thermal camera (Bramor's maximum payload is 0.5 kg).
    - **The P50B version searches a little less than Bramor** (7.5 km²) under that load.
    - **The Evo aircraft search more**, but they are VTOL machines of 10-13 kg using solid-state or semi-solid-state cells.
-3. **The swappable bay makes one airframe do two jobs.** Large-area searches can launch a search-only Rescue Wing first, then a kit carrier once the area narrows.
+3. **The swappable bay makes one airframe do two jobs.** Large-area searches can launch a search-only Lodestar first, then a kit carrier once the area narrows.
 4. **Endurance is still the weak flank.**
    - **To beat Evo-LE outright on raw search**, it needs about 300+ Wh/kg packs. Amprius already offers 370-450 Wh/kg cells, but in pouch formats, which would mean re-laying-out the wing packs.
    - **A smooth moulded wing is worth 7%.** That's the gap between the halfway and laminar columns.
@@ -131,7 +131,7 @@ Discharge is gentle: about 21 A at full power across 5 parallel strings, so abou
    - The detection law ignores speed and canopy differences between aircraft.
    - No relaunches.
    - Real SAR uses probability maps and multiple sorties, which helps every aircraft.
-4. **The ground team assumption drives the help numbers.** At 3 km/h, cross-country with gear, the walk is about 100 min for 5 km. A team that's closer, or a helicopter, shrinks Rescue Wing's lead. A team on rough terrain grows it.
+4. **The ground team assumption drives the help numbers.** At 3 km/h, cross-country with gear, the walk is about 100 min for 5 km. A team that's closer, or a helicopter, shrinks Lodestar's lead. A team on rough terrain grows it.
 5. **This is an energy-and-kinematics simulation, not a 6-degree-of-freedom flight simulation.**
    - It doesn't model the autopilot or the aircraft's motion during the kit release.
    - AVL shows the aircraft trims and stays stable before and after the drop, since the kit sits on the balance point.

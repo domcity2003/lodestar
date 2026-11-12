@@ -34,7 +34,7 @@ SM = 0.06
 cases = [("search, kit on", 15.0, True), ("top speed, kit on", 22.0, True),
          ("top speed, kit off", 22.0, False), ("slow, kit off", 12.5, False)]
 
-print("Rescue Wing: milestone 2 stability re-checked with the centre pod as an AVL slender body")
+print("Lodestar: milestone 2 stability re-checked with the centre pod as an AVL slender body")
 print(f"Pod equivalent radius profile (x from pod nose, m): {[(round(x, 3), round(r, 3)) for x, r in xr]}\n")
 rows = []
 for h in (0.25, 0.30):

@@ -113,7 +113,7 @@ def fall(h_release, cds, mass, D, dt=0.002):
 
 
 if __name__ == "__main__":
-    print("Rescue Wing kit drop study, 2026-11-11")
+    print("Lodestar kit drop study, 2026-11-11")
     print(f"Kit {KIT_KG} kg, released at {RELEASE_V} m/s, ground at {GROUND_ALT:.0f} m "
           f"(air density {rho(GROUND_ALT):.3f})\n")
 

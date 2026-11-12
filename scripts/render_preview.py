@@ -15,7 +15,7 @@ ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "out" / "render"
 OUT.mkdir(parents=True, exist_ok=True)
 BLENDER = ROOT.parent / "aero-tools" / "blender-5.3.0-windows-x64" / "blender.exe"
-STL = ROOT / "out" / "vsp" / "full" / "rescue_wing.stl"
+STL = ROOT / "out" / "vsp" / "full" / "lodestar.stl"
 M3 = pd.read_csv(ROOT / "out" / "vsp" / "m3_config.csv", index_col=0)["value"]
 
 r = subprocess.run([str(BLENDER), "-b", "-P", str(ROOT / "scripts" / "blender_scene.py"), "--",

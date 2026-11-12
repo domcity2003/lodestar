@@ -1,4 +1,4 @@
-Rescue Wing v3: search-speed sweep, 2026-11-12
+Lodestar v3: search-speed sweep, 2026-11-12
 
 v3 (P50B, kit): best-range search speed 16.5 m/s
 v3+ (SiCore, kit): best-range search speed 16.5 m/s

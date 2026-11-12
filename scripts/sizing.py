@@ -1,4 +1,4 @@
-"""Milestone 1: first sizing of the Rescue Wing.
+"""Milestone 1: first sizing of the Lodestar.
 
 Question: what is the lightest flying wing (span, aspect ratio, battery) that
 flies >= 3 h with a thermal camera and a 1.5 kg rescue kit, stalls at <= 12 m/s
@@ -198,7 +198,7 @@ def best(df):
 # ---------------------------------------------------------------- run
 if __name__ == "__main__":
     sys.stdout = Tee(OUT / "run_log.txt")
-    print(f"Rescue Wing first sizing, 2026-11-11")
+    print(f"Lodestar first sizing, 2026-11-11")
     print(f"Design altitude {DESIGN_ALT:.0f} m: air density {RHO:.3f} kg/m^3 (sea level 1.225)")
     print(f"NeuralFoil {A.airfoil.upper()} 2D CLmax by Re: " +
           ", ".join(f"{Re/1e3:.0f}k:{m:.2f}" for Re, m in zip(RE_GRID, CLMAX_2D)))
@@ -271,13 +271,13 @@ if __name__ == "__main__":
     sweep_deg = 25.0
     x_tip = (b / 2) * math.tan(math.radians(sweep_deg)) + 0.25 * c_root - 0.25 * c_tip
     wing = asb.Wing(
-        name="Rescue Wing", symmetric=True,
+        name="Lodestar", symmetric=True,
         xsecs=[
             asb.WingXSec(xyz_le=[0, 0, 0], chord=c_root, twist=0, airfoil=af),
             asb.WingXSec(xyz_le=[x_tip, b / 2, 0], chord=c_tip, twist=-3, airfoil=af),
         ],
     )
-    plane = asb.Airplane(name="Rescue Wing", xyz_ref=[0.25 * c_root + 0.1 * x_tip, 0, 0], wings=[wing], s_ref=S, c_ref=wing.mean_aerodynamic_chord(), b_ref=b)
+    plane = asb.Airplane(name="Lodestar", xyz_ref=[0.25 * c_root + 0.1 * x_tip, 0, 0], wings=[wing], s_ref=S, c_ref=wing.mean_aerodynamic_chord(), b_ref=b)
     V = float(pick.v_search)
     W = float(pick.mtow) * G
     CL_need = W / (0.5 * RHO * V**2 * S)

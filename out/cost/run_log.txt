@@ -1,4 +1,4 @@
-Rescue Wing milestone 6: cost model, 2026-11-12
+Lodestar milestone 6: cost model, 2026-11-12
 
 Parts (same for both wing builds), USD:
             line_usd  low_usd  high_usd
@@ -32,15 +32,15 @@ foam-core   inReach paid crew (2 x $50/h)     7322.5          17.5      0.2     
   moulded   inReach paid crew (2 x $50/h)     7937.5          19.1      0.2          4.4  19.3 100.0  143.0
 
 Cost per 3-h sortie vs alternatives (aircraft cost only unless stated):
-                                              option  per_hour  p_help_3h                                            note  per_3h_sortie  per_help_within_3h
-Rescue Wing v3 (foam-core, 10 built, volunteer crew)      26.4        0.4                        kit dropped; mission sim           79.2               196.9
-                         senseFly eBee VISION (NDAA)     182.5        0.1 same ownership model; finds only, team walks in          547.4              4719.0
-                  Quantum Systems Trinity Pro (base)      65.0        0.1 same ownership model; finds only, team walks in          194.9              1325.7
-              Civil Air Patrol Cessna 182 (dry rate)      93.0        NaN                           published hourly rate          279.0                 NaN
-                   Civil Air Patrol national blended     170.0        NaN                           published hourly rate          510.0                 NaN
-                            sheriff helicopter (low)    1200.0        NaN                           published hourly rate         3600.0                 NaN
-                     sheriff helicopter (LAPD audit)    2916.0        NaN                           published hourly rate         8748.0                 NaN
-                 sheriff helicopter (Sonoma Henry 1)    4050.0        NaN                           published hourly rate        12150.0                 NaN
+                                           option  per_hour  p_help_3h                                            note  per_3h_sortie  per_help_within_3h
+Lodestar v3 (foam-core, 10 built, volunteer crew)      26.4        0.4                        kit dropped; mission sim           79.2               196.9
+                      senseFly eBee VISION (NDAA)     182.5        0.1 same ownership model; finds only, team walks in          547.4              4719.0
+               Quantum Systems Trinity Pro (base)      65.0        0.1 same ownership model; finds only, team walks in          194.9              1325.7
+           Civil Air Patrol Cessna 182 (dry rate)      93.0        NaN                           published hourly rate          279.0                 NaN
+                Civil Air Patrol national blended     170.0        NaN                           published hourly rate          510.0                 NaN
+                         sheriff helicopter (low)    1200.0        NaN                           published hourly rate         3600.0                 NaN
+                  sheriff helicopter (LAPD audit)    2916.0        NaN                           published hourly rate         8748.0                 NaN
+              sheriff helicopter (Sonoma Henry 1)    4050.0        NaN                           published hourly rate        12150.0                 NaN
 
 Sensitivity of the unit cost (foam-core, 10 built, paid labour) to each estimate, USD:
                                                     change  total   delta

@@ -1,7 +1,7 @@
  ---------------------------------------------------------------
  Vortex Lattice Output -- Total Forces
 
- Configuration: Rescue Wing                                                 
+ Configuration: Lodestar                                                 
      # Surfaces =   4
      # Strips   =  80
      # Vortices = 768

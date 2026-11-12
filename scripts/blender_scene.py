@@ -1,4 +1,4 @@
-"""Blender scene for Rescue Wing preview renders. Run by render_preview.py, not directly:
+"""Blender scene for Lodestar preview renders. Run by render_preview.py, not directly:
     blender -b -P scripts/blender_scene.py -- <stl> <out_dir> <x_cg> <x_kit> <x_batt>
 
 OpenVSP axes: x aft, y right (span), z up. Blender keeps the same axes here.
@@ -59,7 +59,7 @@ LENS = material("lens", hex2rgb("#1b1e24"), rough=0.1, metallic=0.3)
 
 bpy.ops.wm.stl_import(filepath=STL)
 plane = bpy.context.selected_objects[0]
-plane.name = "RescueWing"
+plane.name = "Lodestar"
 bpy.ops.object.shade_smooth()
 plane.data.materials.append(BODY)
 

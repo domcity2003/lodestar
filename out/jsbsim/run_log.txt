@@ -1,4 +1,4 @@
-Rescue Wing v2: 6-DOF kit release in JSBSim, 2026-11-11
+Lodestar v2: 6-DOF kit release in JSBSim, 2026-11-11
 
 AVL point: 15.0 m/s, 2000 m, mass 7.42 kg (kit on) / 5.71 kg (kit off), CG x 0.4220 / 0.4220 m, alpha 7.41 deg, elevon -0.26 deg
   CLa 4.56/rad, Cma -0.265, Cmq -2.05, Cmde -0.701/rad, Cnb 0.0157, Clb -0.0691, CDp 0.0121, k 0.0466

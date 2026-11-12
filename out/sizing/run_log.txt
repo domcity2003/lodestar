@@ -1,4 +1,4 @@
-Rescue Wing first sizing, 2026-11-11
+Lodestar first sizing, 2026-11-11
 Design altitude 2000 m: air density 1.005 kg/m^3 (sea level 1.225)
 NeuralFoil MH45 2D CLmax by Re: 60k:1.11, 100k:1.18, 150k:1.21, 200k:1.22, 300k:1.23, 400k:1.25, 600k:1.31, 800k:1.37
 Assumed 3D CLmax 0.8 (about 75-85% of 2D for a swept wing with washout)

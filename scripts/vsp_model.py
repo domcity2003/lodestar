@@ -1,4 +1,4 @@
-"""Milestone 3: 3D OpenVSP model of the Rescue Wing, with VSPAERO and parasite-drag checks.
+"""Milestone 3: 3D OpenVSP model of the Lodestar, with VSPAERO and parasite-drag checks.
 
 What it does:
   1. Writes an OpenVSP script (vspscript) that builds the aircraft from the milestone 1-2 numbers:
@@ -239,7 +239,7 @@ def run_case(name: str, with_pod: bool, alphas=(0.0, 10.0, 6), parasite=True, ti
     d = OUT / name
     d.mkdir(parents=True, exist_ok=True)
     write_airfoil(d / "mh45.dat")
-    (d / "build.vspscript").write_text(vspscript(with_pod, "rescue_wing", alphas, parasite, symmetry))
+    (d / "build.vspscript").write_text(vspscript(with_pod, "lodestar", alphas, parasite, symmetry))
     r = subprocess.run([str(VSPSCRIPT), "-script", "build.vspscript"], cwd=d, capture_output=True, text=True,
                        timeout=timeout)
     (d / "vspscript_stdout.txt").write_text(r.stdout + "\n" + r.stderr)
@@ -262,7 +262,7 @@ def read_polar(d: Path) -> pd.DataFrame:
 
 if __name__ == "__main__":
     sys.stdout = Tee(OUT / "run_log.txt")
-    print("Rescue Wing 3D model and aero check, 2026-11-11")
+    print("Lodestar 3D model and aero check, 2026-11-11")
     print(f"Search point: {V} m/s at 2,000 m, Re(MAC) {RE_C:,.0f}, Mach {MACH:.3f}; balance point x = {X_CG:.3f} m\n")
 
     # Pod fit check: does the kit box fit inside the pod at its two ends?
@@ -331,7 +331,7 @@ if __name__ == "__main__":
     # Parasite drag build-up, with the gimbal corrected
     print("\nParasite drag build-up (OpenVSP: flat-plate skin friction x form factor, all turbulent), 15 m/s at 2,000 m:")
     comps = {}
-    for line in (d_full / "rescue_wing_ParasiteBuildUp.csv").read_text().splitlines():
+    for line in (d_full / "lodestar_ParasiteBuildUp.csv").read_text().splitlines():
         p = [x.strip() for x in line.split(",")]
         if p and p[0] in ("Wing", "Pod", "Gimbal"):
             comps[p[0]] = dict(S_wet=float(p[1]), FF=float(p[4]), Re=float(p[6]), Cf=float(p[8]), f=float(p[10]))

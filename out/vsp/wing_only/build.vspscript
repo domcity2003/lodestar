@@ -39,8 +39,8 @@ void main()
     SetParmVal( GetXSecParm( GetXSec( ws, 3 ), "Camber" ), 0.0 );
     Update();
 
-    WriteVSPFile( "rescue_wing.vsp3", SET_ALL );
-    ExportFile( "rescue_wing.stl", SET_ALL, EXPORT_STL );
+    WriteVSPFile( "lodestar.vsp3", SET_ALL );
+    ExportFile( "lodestar.stl", SET_ALL, EXPORT_STL );
     Print( "SAVED" );
 
     //==== Parasite drag build-up ====//
@@ -54,7 +54,7 @@ void main()
     SetIntAnalysisInput( "ParasiteDrag", "RefFlag", array<int> = { 0 } );
     SetDoubleAnalysisInput( "ParasiteDrag", "Sref", array<double> = { 1.28571 } );
     SetIntAnalysisInput( "ParasiteDrag", "GeomSet", array<int> = { SET_ALL } );
-    SetStringAnalysisInput( "ParasiteDrag", "FileName", array<string> = { "rescue_wing_parasite.csv" } );
+    SetStringAnalysisInput( "ParasiteDrag", "FileName", array<string> = { "lodestar_parasite.csv" } );
     string pid = ExecAnalysis( "ParasiteDrag" );
     PrintResults( pid );
 
