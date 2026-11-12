@@ -1,0 +1,25 @@
+group,item,qty,unit_usd,line_usd,low_usd,high_usd,source
+propulsion,Motor: T-Motor AT3520-550,1,80.0,80.0,80.0,122.0,Altitude Hobbies $79.99; others to $122
+propulsion,Prop: Aeronaut CAM carbon 15x10 folding blades,1,25.0,25.0,22.0,30.0,Buchmann CHF 25.65; ModelFlight AU$21.99
+propulsion,Prop hub + spinner (40 mm),1,35.0,35.0,25.0,45.0,ESTIMATE (Aeronaut hub/spinner sets)
+propulsion,"ESC, 60 A class",1,90.0,90.0,60.0,130.0,ESTIMATE (Hobbywing/T-Motor 60 A fixed-wing ESCs)
+power,"Cells: Molicel P50B (30, 6S5P in the wing roots)",30,8.25,247.5,225.0,359.7,"18650 Battery Store: $8.25 at 200+, $11.99 single"
+power,"Pack build: nickel, BMS, leads, XT connectors (2 packs)",2,30.0,60.0,40.0,90.0,ESTIMATE
+avionics,Autopilot: Holybro Pixhawk 6X + M10 GPS set,1,550.0,550.0,450.0,750.0,Fruugo $549 (RRP $749)
+avionics,Airspeed sensor + pitot,1,60.0,60.0,45.0,90.0,ESTIMATE (Matek/Holybro digital airspeed)
+avionics,"Video, telemetry + RC link: SIYI HM30 (air + ground)",1,380.0,380.0,245.0,450.0,SIYI store $284-$382 by bundle
+avionics,Elevon servos: KST X10 Pro,2,55.0,110.0,96.0,130.0,"aifitlab $54.99, Aloft $65"
+avionics,Kit release servo,1,30.0,30.0,20.0,40.0,ESTIMATE
+avionics,"Wiring, connectors, power module",1,80.0,80.0,50.0,120.0,ESTIMATE
+payload,"Gimbal: SIYI ZT6 (640x512 thermal + 4K, 3-axis)",1,2940.0,2940.0,2575.0,3700.0,"Druav $2,940; Irlock $3,700; Alibaba $2,575 (10+)"
+kit system,"Kit parachute: 1.5 m cross chute (ripstop, lines, swivel)",1,60.0,60.0,35.0,90.0,ESTIMATE (204 g chute from milestone 1b)
+kit system,Kit container + bay door hardware,1,40.0,40.0,25.0,60.0,ESTIMATE
+airframe (foam-core),"Materials: hot-wire foam cores, vacuum-bagged glass/carbon skins, sanded; no moulds; 'halfway' wing drag",1,450.0,450.0,350.0,600.0,ESTIMATE
+airframe (foam-core),Labour: 45 h at $45/h,45,45.0,2025.0,1575.0,2700.0,ESTIMATE
+airframe (foam-core),"Tooling (one-off, shared across the fleet)",1,600.0,600.0,400.0,1000.0,"ESTIMATE; anchor: ~EUR 6,000 CNC + moulds for one RC sailplane"
+airframe (moulded),"Materials: CNC-cut plugs, moulds for 3 wing pieces + pod + winglets; smooth laminar-quality skins",1,600.0,600.0,450.0,800.0,ESTIMATE
+airframe (moulded),Labour: 30 h at $45/h,30,45.0,1350.0,990.0,1800.0,ESTIMATE
+airframe (moulded),"Tooling (one-off, shared across the fleet)",1,12000.0,12000.0,7000.0,20000.0,"ESTIMATE; anchor: ~EUR 6,000 CNC + moulds for one RC sailplane"
+ground,Laptop / rugged tablet for ground control,1,700.0,700.0,400.0,1500.0,ESTIMATE (many teams already own one)
+ground,Bungee launcher,1,250.0,250.0,150.0,400.0,ESTIMATE
+ground,"Li-ion charger (6S, 300 W)",1,200.0,200.0,120.0,300.0,ESTIMATE

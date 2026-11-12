@@ -1,0 +1,9 @@
+build,kit,crew_type,unit_cost,depreciation,battery,maintenance,kits,crew,total
+foam-core,FRS radio,volunteer crew,7322.5,17.54,0.17,4.07,4.61,0.0,26.39
+foam-core,FRS radio,paid crew (2 x $50/h),7322.5,17.54,0.17,4.07,4.61,100.0,126.39
+foam-core,inReach,volunteer crew,7322.5,17.54,0.17,4.07,19.33,0.0,41.11
+foam-core,inReach,paid crew (2 x $50/h),7322.5,17.54,0.17,4.07,19.33,100.0,141.11
+moulded,FRS radio,volunteer crew,7937.5,19.08,0.17,4.41,4.61,0.0,28.27
+moulded,FRS radio,paid crew (2 x $50/h),7937.5,19.08,0.17,4.41,4.61,100.0,128.27
+moulded,inReach,volunteer crew,7937.5,19.08,0.17,4.41,19.33,0.0,42.99
+moulded,inReach,paid crew (2 x $50/h),7937.5,19.08,0.17,4.41,19.33,100.0,142.99

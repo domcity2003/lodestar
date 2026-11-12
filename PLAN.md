@@ -54,7 +54,9 @@ Same airframe as v0.1 (3.0 m span flying wing, 1.29 m² of wing, 0.25 m winglets
 
 Endurance in the design case is **3.6 h** (v2: 3.0 h); 4.5 h with SiCore cells. Help within 3 h in the lost-hiker scenario: **44%** (v2: 35%; best fielded drone: 17%); 50% with SiCore at 20 m/s. Airfoil (MH45), wing area and span stay: nothing better passed the checks, and a 3.4 m span doesn't move the score. The CAD still fits and balances (prop clears the wing by 40 mm, balance point 0.3 mm from design), and AVL stability passes in every case.
 
-Details: `research/2026-11-12-v3-improvements.md`, `research/2026-11-11-cad-renders-6dof.md`, `research/2026-11-11-first-sizing-and-kit-drop.md`, `research/2026-11-11-stability-and-trim.md`, `research/2026-11-11-3d-model-and-aero.md`, `research/2026-11-11-v2-and-mission-sim.md`.
+**After the cost model (milestone 6):** the recommended build is **SiCore cells, foam-core wing (no moulds), search at 20 m/s**. It costs about $7,760 per aircraft and gets help to the person within 3 h in 50% of lost-hiker missions. Moulded skins add nothing once the SiCore cells give spare energy. They only pay off with P50B cells and a fleet of 25 or more. If SiCore cells can't be bought (they are evaluation samples today), the fallback is P50B, foam-core, 18 m/s: $7,320 and 40%.
+
+Details: `research/2026-11-12-cost-model.md`, `research/2026-11-12-v3-improvements.md`, `research/2026-11-11-cad-renders-6dof.md`, `research/2026-11-11-first-sizing-and-kit-drop.md`, `research/2026-11-11-stability-and-trim.md`, `research/2026-11-11-3d-model-and-aero.md`, `research/2026-11-11-v2-and-mission-sim.md`.
 
 ## The core engineering problems
 1. **Endurance vs. weight.** More battery means more flight time but also more weight, more drag, a faster stall. There is a sweet spot; finding it is milestone 1.
@@ -72,13 +74,13 @@ Details: `research/2026-11-12-v3-improvements.md`, `research/2026-11-11-cad-rend
 | 4 | Mission simulation + competitor benchmark | **Done 2026-11-11**: design v2 (better cells, swappable bay); 2,000-mission Monte Carlo against 5 real drones with the same camera and winds; help on scene within 3 h in 39% vs 17% | Python (energy and wind-triangle model; JSBSim 6-DOF still to do, moved to milestone 5) |
 | 5 | Detailed CAD, renders, 6-DOF check | **Done 2026-11-11**: STEP assembly (31 parts), all parts fit with ≥1.5 mm skin clearance, balance point from the CAD within 1.7 mm of design; 5 Blender renders; JSBSim kit release: ≤0.7 m height change in calm air, no stalls in light turbulence; operating rules: fly the drop at 18 m/s in moderate turbulence, don't descend into sustained sink | build123d, Blender, JSBSim |
 | 5b | Design v3: improvements before cost | **Done 2026-11-12**: matched folding prop + motor from measured data, smooth skins, 18 m/s search; 3.6 h design case (was 3.0 h); help within 3 h 44% (was 35%); airfoil, area and 3.4 m span checked and rejected | NeuralFoil, UIUC prop data, AVL, build123d, mission sim |
-| 6 | Cost model | Parts list, cost per flight vs. a helicopter search hour | Python |
+| 6 | Cost model | **Done 2026-11-12**: about $7,300 per aircraft ($4,800 parts + airframe), $26 per flight hour, a 3-h search about $80 vs $3,600+ for a sheriff helicopter; best value is SiCore cells + foam-core wing at 20 m/s (50% help within 3 h for +$430) | Python |
 | 7 | Write-up | One report with charts and renders | HTML page |
 
 ## Folder layout
 - `PLAN.md`: this file
 - `research/`: dated research notes
-- `scripts/`: Python scripts (`smoke_test.py` checks every tool; `sizing.py`, `kit_drop.py`, `stability.py`, `vsp_model.py`, `pod_np_check.py`, `pod_avl_check.py`, `render_preview.py`, `design_v2.py`, `mission_sim.py`, `cad_model.py` (`v3` argument for design v3), `render_v2.py`, `sixdof_kit_release.py`, `v3_propulsion.py`, `v3_airfoil.py`, `v3_planform.py`, `v3_mission.py`, `v3_search_speed.py`; `avl_run.py` drives AVL; `blender_scene.py` and `blender_v2.py` run inside Blender)
+- `scripts/`: Python scripts (`smoke_test.py` checks every tool; `sizing.py`, `kit_drop.py`, `stability.py`, `vsp_model.py`, `pod_np_check.py`, `pod_avl_check.py`, `render_preview.py`, `design_v2.py`, `mission_sim.py`, `cad_model.py` (`v3` argument for design v3), `render_v2.py`, `sixdof_kit_release.py`, `v3_propulsion.py`, `v3_airfoil.py`, `v3_planform.py`, `v3_mission.py`, `v3_search_speed.py`, `cost_model.py`, `cost_trades.py`; `avl_run.py` drives AVL; `blender_scene.py` and `blender_v2.py` run inside Blender)
 - `out/cad/`: STEP assembly and per-part STL of design v2
 - `out/`: generated results
 - Tools are shared in `../aero-tools/` (OpenVSP, AVL, flow5, Blender)
