@@ -1,0 +1,28 @@
+,value
+prop,ancf_15x10
+folding,True
+d_in,15.0
+motor,T-Motor AT3520-550
+"P_batt [search, kit on]",95.94533194109161
+"eta_sys [search, kit on]",0.6362036708748761
+rpm_search,3883.4416678759594
+eta_prop,0.7753264997534969
+eta_motor,0.8637497555133867
+I_search,12.2501650441218
+U_search,7.440558148869521
+"P_batt [search, kit dropped]",75.08613082292885
+"eta_sys [search, kit dropped]",0.626984850752498
+P_batt [transit 18 m/s],116.65028688573582
+eta_sys [transit 18 m/s],0.6383175243176683
+U [top speed 22 m/s],9.587856852452106
+P_elec [top speed 22 m/s],150.48896281023252
+rpm [top speed 22 m/s],5005.708093620843
+U [climb 3 m/s],12.32442519625273
+P_elec [climb 3 m/s],468.8200070465356
+rpm [climb 3 m/s],6129.853417646026
+U_needed_max,12.32442519625273
+volt_ok,True
+power_ok,True
+mass_kg,0.3395234375
+feasible,True
+P_equiv,97.12105177175121

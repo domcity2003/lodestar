@@ -1,0 +1,10 @@
+Name, Theo_Area, Wet_Area, Theo_Vol, Wet_Vol
+Wing,2.820276,2.820276,0.036080,0.036080
+MeshGeom,2.820276,0.000000,0.036080,0.000000
+Totals,5.640553,2.820276,0.072160,0.036080
+
+Tag_Name, Tag_Theo_Area, Tag_Wet_Area
+Wing_S_Surf0,1.410138,1.410138
+Wing_S_Surf1,1.410138,1.410138
+MeshGeom_S_Surf0,1.410138,0.000000
+MeshGeom_S_Surf1,1.410138,0.000000

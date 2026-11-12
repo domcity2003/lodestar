@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<fdm_config name="rescue_wing" version="2.0" release="ALPHA">
+  <fileheader><author>Lodestar design study</author><description>Rescue Wing v2, linear aero from AVL at 15.0 m/s, 2026-11-11</description></fileheader>
+  <metrics>
+    <wingarea unit="M2">1.28571</wingarea>
+    <wingspan unit="M">3.00000</wingspan>
+    <chord unit="M">0.44913</chord>
+    <location name="AERORP" unit="M"><x>0.42200</x><y>0</y><z>-0.02062</z></location>
+    <location name="EYEPOINT" unit="M"><x>0.05</x><y>0</y><z>-0.11</z></location>
+    <location name="VRP" unit="M"><x>0</x><y>0</y><z>0</z></location>
+  </metrics>
+  <mass_balance>
+    <ixx unit="KG*M2">1.12269</ixx>
+    <iyy unit="KG*M2">0.19191</iyy>
+    <izz unit="KG*M2">1.30367</izz>
+    <ixz unit="KG*M2">0</ixz>
+    <emptywt unit="KG">5.71467</emptywt>
+    <location name="CG" unit="M"><x>0.42200</x><y>0</y><z>-0.00887</z></location>
+    <pointmass name="rescue kit">
+      <weight unit="KG">1.70400</weight>
+      <location unit="M"><x>0.42200</x><y>0</y><z>-0.06000</z></location>
+    </pointmass>
+  </mass_balance>
+  <ground_reactions>
+    <contact type="STRUCTURE" name="NOSE"><location unit="M"><x>0.0</x><y>0</y><z>-0.16</z></location>
+      <static_friction>0.8</static_friction><dynamic_friction>0.5</dynamic_friction>
+      <spring_coeff unit="N/M">3000</spring_coeff><damping_coeff unit="N/M/SEC">300</damping_coeff></contact>
+    <contact type="STRUCTURE" name="LEFT_TIP"><location unit="M"><x>0.9</x><y>-1.5</y><z>0</z></location>
+      <static_friction>0.8</static_friction><dynamic_friction>0.5</dynamic_friction>
+      <spring_coeff unit="N/M">3000</spring_coeff><damping_coeff unit="N/M/SEC">300</damping_coeff></contact>
+    <contact type="STRUCTURE" name="RIGHT_TIP"><location unit="M"><x>0.9</x><y>1.5</y><z>0</z></location>
+      <static_friction>0.8</static_friction><dynamic_friction>0.5</dynamic_friction>
+      <spring_coeff unit="N/M">3000</spring_coeff><damping_coeff unit="N/M/SEC">300</damping_coeff></contact>
+  </ground_reactions>
+  <propulsion/>
+  <external_reactions>
+    <force name="thrust" frame="BODY" unit="LBS">
+      <location unit="M"><x>0.68</x><y>0</y><z>-0.035</z></location>
+      <direction><x>1</x><y>0</y><z>0</z></direction>
+    </force>
+    <force name="door" frame="BODY" unit="LBS">
+      <location unit="M"><x>0.4220</x><y>0</y><z>-0.11</z></location>
+      <direction><x>-1</x><y>0</y><z>0</z></direction>
+    </force>
+  </external_reactions>
+  <flight_control name="fcs">
+    <property value="0">fcs/elevon-cmd-rad</property>
+    <property value="0">fcs/aileron-cmd-rad</property>
+    <channel name="servos">
+      <actuator name="fcs/elevon-actuator"><input>fcs/elevon-cmd-rad</input><lag>20</lag><rate_limit>6.0</rate_limit><clipto><min>-0.35</min><max>0.35</max></clipto><output>fcs/elevon-pos-rad</output></actuator>
+      <actuator name="fcs/aileron-actuator"><input>fcs/aileron-cmd-rad</input><lag>20</lag><rate_limit>6.0</rate_limit><clipto><min>-0.35</min><max>0.35</max></clipto><output>fcs/aileron-pos-rad</output></actuator>
+    </channel>
+  </flight_control>
+  <aerodynamics>
+    <function name="aero/qhat"><product><property>velocities/q-aero-rad_sec</property><property>aero/ci2vel</property></product></function><function name="aero/phat"><product><property>velocities/p-aero-rad_sec</property><property>aero/bi2vel</property></product></function><function name="aero/rhat"><product><property>velocities/r-aero-rad_sec</property><property>aero/bi2vel</property></product></function><function name="aero/cl"><sum><value>-0.081864</value><product><value>4.556432</value><property>aero/alpha-rad</property></product><product><value>4.628096</value><property>aero/qhat</property></product><product><value>1.412284</value><property>fcs/elevon-pos-rad</property></product></sum></function><function name="aero/cd"><sum><value>0.012140</value><product><value>0.046596</value><property>aero/cl</property><property>aero/cl</property></product></sum></function><function name="aero/cy"><sum><product><value>-0.125069</value><property>aero/beta-rad</property></product><product><value>0.100553</value><property>aero/phat</property></product><product><value>0.032600</value><property>aero/rhat</property></product><product><value>0.004297</value><property>fcs/aileron-pos-rad</property></product></sum></function><function name="aero/croll"><sum><product><value>-0.069068</value><property>aero/beta-rad</property></product><product><value>-0.441031</value><property>aero/phat</property></product><product><value>0.117557</value><property>aero/rhat</property></product><product><value>-0.368125</value><property>fcs/aileron-pos-rad</property></product></sum></function><function name="aero/cm"><sum><value>0.031082</value><product><value>-0.264772</value><property>aero/alpha-rad</property></product><product><value>-2.052037</value><property>aero/qhat</property></product><product><value>-0.700899</value><property>fcs/elevon-pos-rad</property></product></sum></function><function name="aero/cn"><sum><product><value>0.015660</value><property>aero/beta-rad</property></product><product><value>-0.038253</value><property>aero/phat</property></product><product><value>-0.014086</value><property>aero/rhat</property></product><product><value>0.021601</value><property>fcs/aileron-pos-rad</property></product></sum></function>
+    <axis name="LIFT"><function name="aero/force/LIFT"><product><property>aero/qbar-psf</property><property>metrics/Sw-sqft</property><property>aero/cl</property></product></function></axis><axis name="DRAG"><function name="aero/force/DRAG"><product><property>aero/qbar-psf</property><property>metrics/Sw-sqft</property><property>aero/cd</property></product></function></axis><axis name="SIDE"><function name="aero/force/SIDE"><product><property>aero/qbar-psf</property><property>metrics/Sw-sqft</property><property>aero/cy</property></product></function></axis><axis name="ROLL"><function name="aero/force/ROLL"><product><property>aero/qbar-psf</property><property>metrics/Sw-sqft</property><property>metrics/bw-ft</property><property>aero/croll</property></product></function></axis><axis name="PITCH"><function name="aero/force/PITCH"><product><property>aero/qbar-psf</property><property>metrics/Sw-sqft</property><property>metrics/cbarw-ft</property><property>aero/cm</property></product></function></axis><axis name="YAW"><function name="aero/force/YAW"><product><property>aero/qbar-psf</property><property>metrics/Sw-sqft</property><property>metrics/bw-ft</property><property>aero/cn</property></product></function></axis>
+  </aerodynamics>
+</fdm_config>

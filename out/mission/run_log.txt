@@ -1,0 +1,44 @@
+Rescue Wing milestone 4: mission simulation, 2026-11-11
+
+Sensor: 32 deg thermal at 120 m: footprint 69 m, sweep width 55 m, track spacing 55 m. Reserve 10%. Wind 0-10 m/s, random direction. Sea level.
+
+Fleet (published-style flight time = calm, sea level, to the maker's empty point):
+  Rescue Wing v2 (P50B, kit)       max 3.69 h | searches at 15.5 m/s for 3.30 h   Molicel P50B, bay: rescue kit, halfway wing drag
+  Rescue Wing v2+ (SiCore, kit)    max 4.63 h | searches at 15.6 m/s for 4.14 h   Amprius SiCore 6.3 Ah, bay: rescue kit, halfway wing drag
+  Rescue Wing v2+ search-only      max 7.70 h | searches at 15.4 m/s for 6.87 h   Amprius SiCore 6.3 Ah, bay: battery module, halfway wing drag
+  DeltaQuad Evo GOV                max 4.25 h | searches at 16.5 m/s for 4.25 h   VTOL, 10 kg MTOW, dual battery, 1 kg payload; docs.deltaquad.com
+  C-Astral Bramor ppX              max 3.50 h | searches at 16.0 m/s for 3.50 h   catapult/parachute, 4.7 kg, 0.5 kg payload, no thermal listed; c-astral.com
+  Quantum Trinity Pro              max 1.50 h | searches at 17.0 m/s for 1.50 h   VTOL, 5.75 kg; 90 min (59 min by default under export rules); QS techsheet
+  AgEagle eBee X                   max 1.50 h | searches at 14.0 m/s for 1.50 h   hand launch, 1.6 kg, 90 min with endurance battery; cruise speed assumed 14 m/s
+  DeltaQuad Evo-LE (press)         max 8.00 h | searches at 16.5 m/s for 8.00 h   13 kg MTOW, solid-state cells, launched Sept 2026; 8 h is press-reported; cruise speed assumed
+
+A: lost hiker, 16 km2 box 5 km out  (2000 missions each, same targets and winds for every aircraft)
+                     aircraft  published_h  p_find  median_find_min  p_kit_delivered  median_kit_min  area_km2_if_not_found  p_find_high_wind  median_help_min  p_help_3h
+   Rescue Wing v2 (P50B, kit)         3.69    0.36            86.90             0.35           89.06                   7.49              0.33            90.03       0.35
+Rescue Wing v2+ (SiCore, kit)         4.63    0.47           113.68             0.46          116.00                   9.25              0.43           116.81       0.39
+  Rescue Wing v2+ search-only         7.70    0.74           175.98             0.00             NaN                  15.42              0.67           275.59       0.15
+            DeltaQuad Evo GOV         4.25    0.51           116.54             0.00             NaN                  10.57              0.47           217.90       0.17
+          C-Astral Bramor ppX         3.50    0.40            95.02             0.00             NaN                   8.37              0.38           196.67       0.16
+          Quantum Trinity Pro         1.50    0.16            36.59             0.00             NaN                   3.52              0.16           142.39       0.15
+               AgEagle eBee X         1.50    0.13            39.60             0.00             NaN                   2.64              0.12           143.76       0.12
+     DeltaQuad Evo-LE (press)         8.00    0.79           169.42             0.00             NaN                  16.08              0.79           270.03       0.17
+
+B: wide area, 36 km2 box 10 km out  (2000 missions each, same targets and winds for every aircraft)
+                     aircraft  published_h  p_find  median_find_min  p_kit_delivered  median_kit_min  area_km2_if_not_found  p_find_high_wind  median_help_min  p_help_3h
+   Rescue Wing v2 (P50B, kit)         3.69    0.15            91.74             0.15           92.16                   7.27              0.11            94.88       0.15
+Rescue Wing v2+ (SiCore, kit)         4.63    0.20           114.81             0.20          117.82                   9.25              0.16           117.94       0.16
+  Rescue Wing v2+ search-only         7.70    0.32           180.73             0.00             NaN                  15.86              0.28           378.45       0.00
+            DeltaQuad Evo GOV         4.25    0.21           110.63             0.00             NaN                   9.91              0.18           314.91       0.00
+          C-Astral Bramor ppX         3.50    0.16            96.93             0.00             NaN                   7.93              0.13           297.21       0.00
+          Quantum Trinity Pro         1.50    0.06            35.21             0.00             NaN                   3.30              0.03           247.92       0.00
+               AgEagle eBee X         1.50    0.04            29.85             0.00             NaN                   1.98              0.02           242.25       0.00
+     DeltaQuad Evo-LE (press)         8.00    0.42           213.71             0.00             NaN                  19.82              0.38           410.42       0.00
+
+Monte Carlo standard error on P(find): at most 0.011
+
+Worst case (2000 m, fully turbulent wing), scenario A:
+                                      aircraft  published_h  p_find  median_find_min  p_kit_delivered  median_kit_min  area_km2_if_not_found  p_find_high_wind  median_help_min  p_help_3h
+   Rescue Wing v2 (P50B, kit) 2000 m turbulent         3.19    0.34            77.61             0.34           80.15                   7.05              0.32            80.74       0.34
+Rescue Wing v2+ (SiCore, kit) 2000 m turbulent         3.99    0.44           101.50             0.44          103.94                   8.81              0.41           104.64       0.41
+
+Charts: out/mission/p_find.png, time_to_help.png

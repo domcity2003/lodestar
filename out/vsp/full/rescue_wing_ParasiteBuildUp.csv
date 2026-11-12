@@ -1,0 +1,21 @@
+PARASITE DRAG BUILD UP DATA 
+
+Mach, Altitude (m), Vinf (m/s), S_ref (m^2)
+0.045108, 2000.000000, 15.000000, 1.285710 
+
+Temp (F), Pressure (lbf/ft^2), Density (kg/m^3) 
+35.600000, 1660.291759, 1.006472 
+
+Lam Cf Eqn, Turb Cf Eqn 
+Laminar Blasius, Compressible Schlichting 
+
+Component Name,S_wet (m^2),L_ref (m),t/c or d/l,FF,FF Eqn Type,Re,% Lam,Cf,Q (Interference Factor),f (m^2),Cd,% Total 
+Wing,2.652638, 0.431374, 0.098059,1.201665, Hoerner,377325.243950, 0.000000,0.005400, 1.000000,0.017211, 0.013387, 44.733601 
+Pod,0.334533, 0.820000, 4.856098,1.201299, Hoerner Streamlined Body,717258.722578, 0.000000,0.004761, 1.000000,0.001913, 0.001488, 4.972450 
+Gimbal,0.049744, 0.100000, 0.527005,52.745524, Hoerner Streamlined Body,87470.575924, 0.000000,0.007375, 1.000000,0.019351, 0.015051, 50.293949 
+
+Excrescences, Type, Input
+
+ , , , , , , , , , Geometry Sub-Total:, 0.038475, 0.029925, 100.000000 
+ , , , , , , , , , Excrescence Sub-Total:, 0.000000, 0.000000, 0.000000 
+ , , , , , , , , , Totals:, 0.038475, 0.029925, 100.000000 

@@ -1,0 +1,23 @@
+Rescue Wing: milestone 2 stability re-checked with the centre pod as an AVL slender body
+Pod equivalent radius profile (x from pod nose, m): [(0.0, 0.0), (0.066, 0.044), (0.205, 0.085), (0.492, 0.085), (0.697, 0.085), (0.779, 0.045), (0.82, 0.0)]
+
+Winglets 0.25 m: neutral point 0.4640 m without pod -> 0.4486 m with pod (-15.4 mm, -3.43% MAC); 6% margin needs balance point x = 0.422 m
+Winglets 0.30 m: neutral point 0.4640 m without pod -> 0.4486 m with pod (-15.4 mm, -3.43% MAC); 6% margin needs balance point x = 0.422 m
+
+ winglet_h               case  model  static_margin  elevon   Cnb  dutch_roll_zeta  spiral_t2  pitch_ok  lateral_ok
+      0.25     search, kit on no pod          0.058  -0.421 0.023            0.110     58.006      True        True
+      0.25     search, kit on    pod          0.059  -0.340 0.016            0.129        inf      True        True
+      0.25  top speed, kit on no pod          0.051   1.060 0.021            0.093     77.715      True        True
+      0.25  top speed, kit on    pod          0.053   1.058 0.014            0.125        inf      True        True
+      0.25 top speed, kit off no pod          0.048   1.345 0.021            0.101     96.636      True        True
+      0.25 top speed, kit off    pod          0.050   1.331 0.014            0.136        inf      True        True
+      0.25      slow, kit off no pod          0.054  -0.589 0.024            0.119     57.713      True        True
+      0.25      slow, kit off    pod          0.055  -0.503 0.017            0.135        inf      True        True
+      0.30     search, kit on no pod          0.058  -0.427 0.031            0.120     45.655      True        True
+      0.30     search, kit on    pod          0.059  -0.343 0.024            0.138        inf      True        True
+      0.30  top speed, kit on no pod          0.051   1.058 0.030            0.108     74.289      True        True
+      0.30  top speed, kit on    pod          0.053   1.058 0.023            0.134        inf      True        True
+      0.30 top speed, kit off no pod          0.048   1.344 0.030            0.117     94.392      True        True
+      0.30 top speed, kit off    pod          0.050   1.330 0.023            0.146        inf      True        True
+      0.30      slow, kit off no pod          0.054  -0.594 0.031            0.130     42.555      True        True
+      0.30      slow, kit off    pod          0.055  -0.505 0.024            0.145        inf      True        True

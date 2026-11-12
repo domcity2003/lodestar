@@ -1,0 +1,78 @@
+Rescue Wing stability and trim, 2026-11-11
+Wing 3.0 m, S 1.286 m2, MAC 0.449 m (MAC leading edge at x = 0.341 m)
+Search: 15.0 m/s at 2,000 m (rho 1.005), CL 0.502
+
+Step 1. Neutral point (the balance point at which the wing is neutrally stable in pitch)
+  AVL with 0.20 m winglets: x_np = 0.464 m (27.4% MAC)
+  AVL, no winglets: 0.462 m; AeroSandbox VLM, no winglets: 0.461 m (difference -0.1% MAC)
+
+Step 2. How far ahead of the neutral point should the balance point sit? (washout 3 deg, winglets 0.20 m)
+ static_margin  x_cg  x_batt  elevon  alpha     e     LD  endurance_h  short_period_zeta  short_period_wn  phugoid_zeta
+         0.017 0.455   0.537   1.609  6.951 1.023 21.475        3.285              0.813            5.980         0.065
+         0.038 0.446   0.516   0.596  7.283 1.024 21.488        3.286              0.695            7.256         0.052
+         0.058 0.437   0.496  -0.418  7.615 1.021 21.452        3.282              0.624            8.368         0.056
+         0.078 0.428   0.475  -1.434  7.947 1.014 21.369        3.272              0.578            9.372         0.062
+         0.099 0.419   0.455  -2.451  8.280 1.002 21.241        3.256              0.546           10.291         0.068
+         0.119 0.410   0.434  -3.469  8.614 0.986 21.067        3.235              0.522           11.135         0.073
+         0.150 0.396   0.404  -5.001  9.115 0.955 20.729        3.194              0.499           12.277         0.080
+  -> choose a static margin of 6% of MAC: stable, but not so nose-heavy that the elevons must hold a lot of up-trim (which costs lift and adds drag)
+
+Step 3. Washout (tips twisted nose-down): trims the wing and keeps the tips from stalling first
+ washout_deg  x_np  elevon  alpha     e     LD  endurance_h  elevon_at_CL08  root_cl_ratio_CL08  outboard_cl_ratio_CL08
+           0 0.464  -1.855  6.980 1.020 21.448        3.282          -3.700               0.553                   0.644
+           1 0.464  -1.376  7.192 1.022 21.462        3.283          -3.222               0.556                   0.634
+           2 0.464  -0.897  7.404 1.022 21.463        3.283          -2.745               0.559                   0.624
+           3 0.464  -0.418  7.615 1.021 21.452        3.282          -2.267               0.562                   0.614
+           4 0.464   0.061  7.826 1.019 21.429        3.279          -1.790               0.566                   0.604
+           5 0.464   0.540  8.036 1.016 21.393        3.275          -1.312               0.569                   0.595
+           6 0.464   1.019  8.246 1.012 21.345        3.269          -0.834               0.572                   0.585
+
+Step 4. Winglet height: yaw stability (Cnb) and the lateral flight modes
+ winglet_h   Cnb    Clb  dutch_roll_wn  dutch_roll_zeta  roll_tau  spiral_root  spiral_t2     e     LD  lateral_ok  fast_loaded_dr_zeta  fast_empty_dr_zeta  fast_empty_spiral_t2  fast_lateral_ok
+      0.00 0.006 -0.043          2.276            0.092     0.059       -0.003        inf 0.997 21.180        True                0.045               0.039                   inf            False
+      0.10 0.009 -0.052          2.469            0.088     0.064       -0.001        inf 1.007 21.289        True                0.053               0.052               166.447            False
+      0.15 0.012 -0.057          2.695            0.093     0.066        0.003    230.371 1.014 21.371        True                0.065               0.067               117.056            False
+      0.20 0.017 -0.061          2.964            0.100     0.068        0.008     88.889 1.021 21.452        True                0.078               0.084               102.399            False
+      0.25 0.023 -0.066          3.256            0.110     0.070        0.012     58.006 1.028 21.531        True                0.093               0.101                96.636             True
+      0.30 0.031 -0.071          3.559            0.120     0.072        0.015     45.655 1.035 21.605        True                0.108               0.117                94.392             True
+  -> winglet height 0.25 m (smallest that meets every criterion)
+
+Step 5. Final: washout 3 deg, winglets 0.25 m, balance point x = 0.437 m (21.4% MAC)
+ kit_on    V  mass  static_margin    CL  alpha  elevon     LD  short_period_zeta  phugoid_zeta  dutch_roll_zeta  roll_tau  spiral_t2  pitch_ok  lateral_ok
+   True 12.5 7.548          0.064 0.734 11.094  -1.814 20.268              0.604         0.067            0.129     0.086    339.911      True        True
+   True 15.0 7.548          0.058 0.509  7.631  -0.421 21.531              0.624         0.056            0.110     0.070     58.006      True        True
+   True 18.0 7.548          0.054 0.354  5.282   0.450 20.004              0.637         0.054            0.099     0.058     54.705      True        True
+   True 22.0 7.548          0.051 0.237  3.541   1.060 16.182              0.646         0.061            0.093     0.047     77.715      True        True
+  False 12.5 5.844          0.054 0.568  8.466  -0.589 21.459              0.696         0.047            0.119     0.084     57.713      True        True
+  False 15.0 5.844          0.051 0.394  5.864   0.314 20.727              0.705         0.047            0.108     0.069     45.989      True        True
+  False 18.0 5.844          0.049 0.274  4.078   0.911 17.708              0.711         0.055            0.103     0.057     57.772      True        True
+  False 22.0 5.844          0.048 0.183  2.745   1.345 13.435              0.716         0.071            0.101     0.047     96.636      True        True
+  battery packs at x = 0.492 m, kit bay at x = 0.437 m
+
+  If the kit bay sits off the balance point, the drop shifts it:
+    kit -10 cm: static margin 5.8% -> -1.4% after drop; trim elevon -0.4 -> +2.8 deg
+    kit -5 cm: static margin 5.8% -> 1.8% after drop; trim elevon -0.4 -> +1.6 deg
+    kit +0 cm: static margin 5.8% -> 5.1% after drop; trim elevon -0.4 -> +0.3 deg
+    kit +5 cm: static margin 5.8% -> 8.4% after drop; trim elevon -0.4 -> -0.9 deg
+    kit +10 cm: static margin 5.8% -> 11.7% after drop; trim elevon -0.4 -> -2.2 deg
+
+Step 6. Is a 3D CLmax of 0.80 realistic? Trim at increasing CL and compare each strip's lift with NeuralFoil's 2D maximum for that chord
+ CL_trim      V  elevon  alpha  worst_strip_y  worst_ratio  root_ratio  ratio_at_90pct_span
+     0.6 13.821  -0.963  9.017          0.827        0.516       0.432                0.400
+     0.7 12.796  -1.594 10.568          0.827        0.601       0.498                0.471
+     0.8 11.970  -2.263 12.144          0.827        0.686       0.562                0.543
+     0.9 11.285  -2.975 13.747          0.897        0.770       0.623                0.615
+     1.0 10.706  -3.735 15.382          0.897        0.856       0.681                0.687
+  linear extrapolation: worst strip reaches its 2D maximum at trimmed CL about 1.17
+  -> no strip reaches its 2D maximum up to CL 1.0
+  phugoid damping: AVL 0.056 vs Lanchester 1/(sqrt(2) L/D) = 0.033
+
+Cross-check of AVL's modes against textbook approximations (search case, kit on):
+  phugoid wn: AVL 0.756 vs Lanchester sqrt(2) g/V = 0.925 rad/s
+  Dutch roll wn: AVL 3.26 vs sqrt(Cnb q S b / Izz) = 2.77 rad/s
+  roll time constant: AVL 0.070 vs -Ixx / Lp = 0.059 s
+  inertias: Ixx 1.131, Iyy 0.203, Izz 1.317 kg m^2
+  roll authority: 15 deg aileron gives steady roll pb/2V = -0.218 (about -125 deg/s; 0.05-0.07 is typical for small UAVs)
+  adverse yaw: Cn per deg aileron 0.00038 vs Cl per deg -0.00641
+
+Charts and CSVs written to out\stability

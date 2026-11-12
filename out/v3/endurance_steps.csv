@@ -1,0 +1,6 @@
+step,eta,m_prop,mtow,v_stall,p_w,endurance_h,gain_h
+"v2 as reported (55% assumed, halfway finish)",0.55,0.28,7.3012,11.7722,135.9872,3.0378,
+"v2's own 13x10 prop, properly matched (better estimate, no design change)",0.6189,0.3242,7.3478,11.8097,124.3517,3.322,0.2842
++ 15x10 folding prop (v3 propulsion),0.6362,0.3395,7.3639,11.8226,121.8934,3.389,0.067
++ moulded laminar-quality skins (v3),0.6362,0.3395,7.3639,11.8226,114.6361,3.6036,0.2146
+"+ option: 3.4 m span, AR 9",0.6362,0.3395,7.5428,11.9713,108.0731,3.8224,0.2188

@@ -1,0 +1,10 @@
+part,parent,share_inside,min_clearance_mm,ok
+battery_R,wing,1.0,2.0305,True
+battery_L,wing,1.0,2.0305,True
+spar_joiner_R,wing,1.0,13.2417,True
+elevon_servo_R,wing,1.0,3.2379,True
+kit_container,pod,1.0,5.5413,True
+flight_controller,pod,1.0,40.7032,True
+esc,pod,1.0,30.7026,True
+bay_battery_module (alt),pod,1.0,23.5006,True
+propeller disc 15 in,wing (gap),0.0,40.2555,True

@@ -1,0 +1,97 @@
+
+void SetSec( string wid, int i, double span, double rc, double tc, double sweep, double sloc, double dih, double tw, int tess )
+{
+    SetDriverGroup( wid, i, SPAN_WSECT_DRIVER, ROOTC_WSECT_DRIVER, TIPC_WSECT_DRIVER );
+    string g = "XSec_" + i;
+    SetParmVal( wid, "Span", g, span );
+    SetParmVal( wid, "Root_Chord", g, rc );
+    SetParmVal( wid, "Tip_Chord", g, tc );
+    SetParmVal( wid, "Sweep", g, sweep );
+    SetParmVal( wid, "Sweep_Location", g, sloc );
+    SetParmVal( wid, "Dihedral", g, dih );
+    SetParmVal( wid, "Twist", g, tw );
+    SetParmVal( wid, "Twist_Location", g, 0.25 );
+    SetParmVal( wid, "SectTess_U", g, tess );
+    Update();
+}
+
+void main()
+{
+    //==== Wing: root, elevon break, tip, winglet ====//
+    string w = AddGeom( "WING", "" );
+    SetGeomName( w, "Wing" );
+    InsertXSec( w, 1, XS_FILE_AIRFOIL );
+    InsertXSec( w, 2, XS_FOUR_SERIES );
+    Update();
+    SetSec( w, 1, 0.45000, 0.59113, 0.49360, 25.0, 0.25, 0.0, -0.9000, 8 );
+    SetSec( w, 2, 1.05000, 0.49360, 0.26601, 25.0, 0.25, 0.0, -3.0000, 16 );
+    SetSec( w, 3, 0.25000, 0.26601, 0.15961, 35.0, 0.0, 90.0, -3.0000, 6 );
+    SetParmVal( w, "RotateAirfoilMatchDideralFlag", "WingGeom", 1.0 );
+    SetParmVal( w, "Tess_W", "Shape", 33 );
+    string ws = GetXSecSurf( w, 0 );
+    for ( int i = 0; i <= 2; i++ )
+    {
+        ChangeXSecShape( ws, i, XS_FILE_AIRFOIL );
+        ReadFileAirfoil( GetXSec( ws, i ), "mh45.dat" );
+    }
+    ChangeXSecShape( ws, 3, XS_FOUR_SERIES );
+    SetParmVal( GetXSecParm( GetXSec( ws, 3 ), "ThickChord" ), 0.08 );
+    SetParmVal( GetXSecParm( GetXSec( ws, 3 ), "Camber" ), 0.0 );
+    Update();
+
+    WriteVSPFile( "rescue_wing.vsp3", SET_ALL );
+    ExportFile( "rescue_wing.stl", SET_ALL, EXPORT_STL );
+    Print( "SAVED" );
+
+    //==== Parasite drag build-up ====//
+    SetAnalysisInputDefaults( "ParasiteDrag" );
+    SetIntAnalysisInput( "ParasiteDrag", "LengthUnit", array<int> = { LEN_M } );
+    SetIntAnalysisInput( "ParasiteDrag", "VelocityUnit", array<int> = { V_UNIT_M_S } );
+    SetIntAnalysisInput( "ParasiteDrag", "AltLengthUnit", array<int> = { 1 } );
+    SetIntAnalysisInput( "ParasiteDrag", "FreestreamPropChoice", array<int> = { 0 } );
+    SetDoubleAnalysisInput( "ParasiteDrag", "Altitude", array<double> = { 2000.0 } );
+    SetDoubleAnalysisInput( "ParasiteDrag", "Vinf", array<double> = { 15.0 } );
+    SetIntAnalysisInput( "ParasiteDrag", "RefFlag", array<int> = { 0 } );
+    SetDoubleAnalysisInput( "ParasiteDrag", "Sref", array<double> = { 1.28571 } );
+    SetIntAnalysisInput( "ParasiteDrag", "GeomSet", array<int> = { SET_ALL } );
+    SetStringAnalysisInput( "ParasiteDrag", "FileName", array<string> = { "rescue_wing_parasite.csv" } );
+    string pid = ExecAnalysis( "ParasiteDrag" );
+    PrintResults( pid );
+
+    //==== VSPAERO: panel method on the thick surfaces ====//
+    SetAnalysisInputDefaults( "VSPAEROComputeGeometry" );
+    SetIntAnalysisInput( "VSPAEROComputeGeometry", "GeomSet", array<int> = { SET_ALL } );
+    SetIntAnalysisInput( "VSPAEROComputeGeometry", "ThinGeomSet", array<int> = { SET_NONE } );
+    SetIntAnalysisInput( "VSPAEROComputeGeometry", "Symmetry", array<int> = { 0 } );
+    ExecAnalysis( "VSPAEROComputeGeometry" );
+
+    string a = "VSPAEROSweep";
+    SetAnalysisInputDefaults( a );
+    SetIntAnalysisInput( a, "GeomSet", array<int> = { SET_ALL } );
+    SetIntAnalysisInput( a, "ThinGeomSet", array<int> = { SET_NONE } );
+    SetIntAnalysisInput( a, "Symmetry", array<int> = { 0 } );
+    SetIntAnalysisInput( a, "RefFlag", array<int> = { 0 } );
+    SetDoubleAnalysisInput( a, "Sref", array<double> = { 1.28571 } );
+    SetDoubleAnalysisInput( a, "cref", array<double> = { 0.44913 } );
+    SetDoubleAnalysisInput( a, "bref", array<double> = { 3.0 } );
+    SetDoubleAnalysisInput( a, "Xcg", array<double> = { 0.43704 } );
+    SetDoubleAnalysisInput( a, "AlphaStart", array<double> = { 0.0 } );
+    SetDoubleAnalysisInput( a, "AlphaEnd", array<double> = { 10.0 } );
+    SetIntAnalysisInput( a, "AlphaNpts", array<int> = { 6 } );
+    SetDoubleAnalysisInput( a, "MachStart", array<double> = { 0.0451 } );
+    SetIntAnalysisInput( a, "MachNpts", array<int> = { 1 } );
+    SetDoubleAnalysisInput( a, "ReCref", array<double> = { 391769 } );
+    SetDoubleAnalysisInput( a, "Vinf", array<double> = { 15.0 } );
+    SetDoubleAnalysisInput( a, "Vref", array<double> = { 15.0 } );
+    SetDoubleAnalysisInput( a, "Rho", array<double> = { 1.0049 } );
+    SetIntAnalysisInput( a, "WakeNumIter", array<int> = { 3 } );
+    SetIntAnalysisInput( a, "NCPU", array<int> = { 8 } );
+    string rid = ExecAnalysis( a );
+    Print( "VSPAERO DONE" );
+
+    while ( GetNumTotalErrors() > 0 )
+    {
+        ErrorObj err = PopLastError();
+        Print( "VSPERROR: " + err.GetErrorString() );
+    }
+}
