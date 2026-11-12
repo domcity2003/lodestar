@@ -147,7 +147,7 @@ footer { border-top: 1px solid var(--rule); padding-top: 16px; font-size: 14px; 
   <section>
     <div class="eyebrow">The answer</div>
     <div class="answer">
-      <p>In 2,000 simulated lost-hiker missions, Lodestar gets help to the person within 3 hours in <strong>45%</strong> of them. The best search drone on the market does it in <strong>15%</strong>. Both numbers count the blur a thermal camera picks up at search speed.</p>
+      <p>In 2,000 simulated lost-hiker missions, Lodestar gets help to the person within 3 hours in <strong>45%</strong> of them. The best search drone on the market does it in <strong>15%</strong>. Both numbers count the blur a thermal camera picks up at search speed. Allowing for the kit sometimes landing out of the person's reach, Lodestar's figure is 44%.</p>
       <p>Each aircraft costs about $7,800 to build. Each 3-hour search costs about $80 in aircraft costs; a sheriff's helicopter costs $3,600 or more for the same 3 hours.</p>
     </div>
     <p class="col">The gap comes from what happens after the find. Today's drones report the location, and a ground team still has to walk in, often for hours. Lodestar drops a radio, water and a blanket on the spot. In the simulation, help counts as arriving when the kit lands.</p>
@@ -173,7 +173,7 @@ footer { border-top: 1px solid var(--rule); padding-top: 16px; font-size: 14px; 
     <div class="gallery">
       <figure class="wide"><img src="img/v2_cutaway.jpg" alt="Cutaway render: see-through skins show blue battery cells in the wing roots, carbon spar joiners, the kit bay in the pod and the camera ball under the nose." width="1600" height="978" loading="lazy"><figcaption>Cutaway: battery cells in the wing roots (blue), spar joiners, kit bay on the balance point, flight controller, camera.</figcaption></figure>
       <figure><img src="img/v2_inflight.jpg" alt="Lodestar banking against a blue sky, seen from below, with the camera ball and the orange bay door visible." width="1600" height="978" loading="lazy"><figcaption>In flight, seen from below: camera ball and the orange kit-bay door.</figcaption></figure>
-      <figure><img src="img/v2_kitdrop.jpg" alt="The bay door open and the survival kit falling under an orange cross-shaped parachute." width="1600" height="978" loading="lazy"><figcaption>The drop: the kit falls under a 1.5 m cross parachute and lands at about 5 m/s.</figcaption></figure>
+      <figure><img src="img/v2_kitdrop.jpg" alt="The bay door open and the survival kit falling under an orange cross-shaped parachute." width="1600" height="978" loading="lazy"><figcaption>The drop: the kit falls under a cross parachute. The render shows the original 1.5 m, 5 m/s chute; the drop-accuracy check switched to a 1.1 m chute that lands at 7 m/s.</figcaption></figure>
       <figure class="wide"><img src="img/v2_exploded.jpg" alt="Exploded view: the centre section and two outer wing panels pulled apart, with the internal parts lifted out above them." width="1600" height="978" loading="lazy"><figcaption>Exploded view: the 0.9 m centre section and two 1.05 m outer panels, with the internals lifted out. The renders show the earlier 13-inch prop; the final design uses a 15-inch folding prop.</figcaption></figure>
     </div>
   </section>
@@ -181,12 +181,32 @@ footer { border-top: 1px solid var(--rule); padding-top: 16px; font-size: 14px; 
   <section>
     <h2>The drop</h2>
     <div class="col" style="display:grid;gap:14px">
-      <p>The aircraft circles once to measure the wind, then makes a low pass about 40 m above the person and releases the kit upwind. How close the kit lands depends on how well the aircraft knows the wind, not on the parachute. From 40 m, 95% of kits land within 25 m.</p>
+      <p>The aircraft circles once to measure the wind, then makes a low pass about 40 m above the person and releases the kit upwind. The kit falls for about 8 seconds, and in that time the wind can carry it up to 70 m. So the release point has to be computed, and how close the kit lands depends on how well the aircraft knows the wind and its height above the person.</p>
       <p>The release itself is a non-event. In a full 6-degree-of-freedom flight simulation, the autopilot holds height to within 0.7 m as the kit falls away. With the autopilot switched off, the aircraft just climbs about 9 m and settles on its own. The real limit is turbulence near the ground. That gives two operating rules: fly the drop run faster in rough air, and don't descend into strong sinking air.</p>
     </div>
     <figure>
       <div class="chart"><img src="img/release_turbulence.png" alt="Three panels of height over time through the kit release at 40 m: light turbulence, moderate turbulence at 18 m/s, and long downdrafts, each with 30 simulated runs." width="2100" height="690" loading="lazy"></div>
       <figcaption>Height through the release, 100 simulated drops per case (30 shown). In light turbulence: no ground strikes. In moderate turbulence, flown at 18 m/s: no ground strikes and one brief stall. Long mountain downdrafts: 10 of 100 hit the ground, so the aircraft must not descend into them.</figcaption>
+    </figure>
+    <p class="col"><strong>Does the kit land close enough to reach?</strong> Until this check, the simulation assumed every kit lands beside the person. I built the full error budget for a 40 m drop and ran it 33,000 times per option. It covers:</p>
+    <ul class="clean">
+      <li>the camera's fix on the person's position (3 m);</li>
+      <li>height above the person from a terrain map (8 m);</li>
+      <li>the wind estimate;</li>
+      <li>gusts and wind shear during the fall;</li>
+      <li>release timing;</li>
+      <li>parachute opening and swing.</li>
+    </ul>
+    <p class="col">The aircraft aims 5 m beside the person so the kit can't hit them. I assumed 30% of people are hurt and can only crawl 15 m, and the rest can walk 50 m to it.</p>
+    <ul class="clean">
+      <li><strong>The drop mostly works.</strong> As designed, 92% of kits land within reach, so the 45% score becomes 43%. Help still arrives 3× as often as with today's drones.</li>
+      <li><strong>Gusts during the fall set the miss, so falling faster is the fix.</strong> A smaller parachute that lands the kit at 7 m/s instead of 5 cuts the fall time by about a third. The kit then lands like a drop from 2.5 m, so it needs padding. 96% of kits land within reach, and the score is 44%. The smaller chute (1.1 m across) is also about 60 g lighter, so it's the recommended change.</li>
+      <li><strong>Two things helped less than expected.</strong> A laser rangefinder in place of the terrain map gains about 1 point, and is worth adding only with the faster chute (95% within 16 m). A "live" 2-second wind reading doesn't help: the gust at release has mostly changed by the time the kit lands, and the short reading is noisier.</li>
+      <li><strong>Strong wind is the hard case.</strong> At 10 m/s, 95% of kits land within 37 m with the old chute and 27 m with the faster one.</li>
+    </ul>
+    <figure>
+      <div class="chart"><img src="img/drop.png" alt="Left: lines of the distance within which 95% of kits land, against wind speed from 0 to 10 m/s, for six drop options; all rise with wind, the 7 m/s chute options lowest. Right: bars of help within 3 hours for two Lodestar builds: perfect drops 45% and 37%, realistic as designed 43% and 35%, realistic with a 7 m/s chute 44% and 36%." width="1950" height="720" loading="lazy"></div>
+      <figcaption>Left: how far from the aim point 95% of kits land, by wind. Right: help within 3 hours, lost-hiker scenario, with the kit counted only when it lands within reach. From the trailhead the effect is under 1 point, because a team that's already walking covers most misses.</figcaption>
     </figure>
   </section>
 
@@ -260,7 +280,7 @@ footer { border-top: 1px solid var(--rule); padding-top: 16px; font-size: 14px; 
     <div class="rules">
       <div class="rule"><b>Search at 20 m/s</b><span>18 m/s with the cheaper P50B cells. Faster finds people sooner inside the 3-hour window, even after camera blur. Keep tracks 55 m apart.</span></div>
       <div class="rule"><b>Trails first, then spiral</b><span>Fly the mapped trails, roads and stream beds out to 6 km from the last known point, then search in an expanding square from there.</span></div>
-      <div class="rule"><b>Circle, then drop from 40 m</b><span>Measure the wind first. Release upwind about 40 m above the person: 95% of kits land within 25 m.</span></div>
+      <div class="rule"><b>Circle, then drop from 40 m</b><span>Measure the wind first. Release upwind about 40 m above the person, aiming 5 m beside them. With the 7 m/s chute, 95% of kits land within 18 m on average, and within 27 m in a 10 m/s wind.</span></div>
       <div class="rule"><b>Drop at 18 m/s in rough air</b><span>At 15 m/s, moderate turbulence stalls the wing briefly in about half of runs; at 18 m/s it's 1 in 100.</span></div>
       <div class="rule"><b>Don't descend into sink</b><span>If the aircraft measures sustained sinking air above about 2 m/s, release from higher or wait.</span></div>
     </div>
@@ -279,6 +299,7 @@ footer { border-top: 1px solid var(--rule); padding-top: 16px; font-size: 14px; 
       <li><span class="m">M6</span><div><h3>Cost model</h3><p>Parts list from current retail prices, cost per flight hour, and the cost-vs-score trades that picked the recommended build.</p></div></li>
       <li><span class="m">v3.1</span><div><h3>Camera blur</h3><p>Johnson-criteria detection with thermal-camera blur, applied to every aircraft. Scores drop 2-5 points; the best speeds and the 3× lead over today's drones hold.</p></div></li>
       <li><span class="m">v3.2</span><div><h3>Search pattern</h3><p>Real lost-person statistics (ISRID) and a trailhead launch. Flying trails first lifts help within 3 hours from 20% to 32% for Lodestar, and doubles help within 1 hour against today's drones.</p></div></li>
+      <li><span class="m">v3.3</span><div><h3>Drop accuracy</h3><p>Full error budget for the kit drop, fed back into the score: 92% of kits land within reach, costing 2 points. A faster 7 m/s parachute wins most of that back and is 60 g lighter.</p></div></li>
     </ol>
   </section>
 
@@ -289,6 +310,7 @@ footer { border-top: 1px solid var(--rule); padding-top: 16px; font-size: 14px; 
       <li><strong>SiCore cells are only sold as evaluation samples</strong> and have no public price; $23 a cell is assumed. The P50B fallback uses cells in volume production.</li>
       <li><strong>The blur model is a standard rule of thumb, not a test of this camera.</strong> It uses the Johnson criteria and a 7-12 ms response time, and the scores above use 10 ms. The SIYI ZT6's actual response time isn't published; a flight over a person lying in grass would measure it.</li>
       <li><strong>The trailhead scenario uses a simplified map:</strong> four straight trails or drainages from the last known point, and a log-normal fit to ISRID distances that runs slightly wide (it puts the 95% point at 23 km against ISRID's 18 km). Real terrain, canopy and the person moving aren't modelled.</li>
+      <li><strong>The drop model doesn't cover trees or steep slopes.</strong> A parachute can snag in a tree, and a kit can roll downhill. How far a hurt person can crawl (15 m) and how many are hurt (30%) are assumptions. The gust model is the standard flat-ground one, and mountains can be rougher.</li>
       <li><strong>The flight model can't simulate a real stall;</strong> it flags when the wing would stall. The bay-door drag is an estimate, though doubling it barely matters.</li>
       <li><strong>Mould and labour costs are estimates.</strong> Certification, insurance, training and the FAA waiver for flying beyond line of sight aren't costed.</li>
     </ul>
