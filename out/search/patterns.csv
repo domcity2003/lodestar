@@ -1,0 +1,85 @@
+p_on,pattern,aircraft,p_find,p_help_3h,median_help_min,team_alone_3h
+0.5,box,Lodestar SiCore,0.2,0.199,119.8246,0.814
+0.5,box,Lodestar P50B,0.155,0.154,110.3397,0.814
+0.5,box,DeltaQuad Evo GOV,0.212,0.134,160.6432,0.814
+0.5,box,C-Astral Bramor ppX,0.156,0.122,140.4376,0.814
+0.5,box,Quantum Trinity Pro,0.041,0.041,74.4875,0.814
+0.5,box,AgEagle eBee X,0.033,0.033,76.5234,0.814
+0.5,box,DeltaQuad Evo-LE (press),0.295,0.133,187.1514,0.814
+0.5,spiral,Lodestar SiCore,0.221,0.221,56.5792,0.814
+0.5,spiral,Lodestar P50B,0.205,0.205,56.7718,0.814
+0.5,spiral,DeltaQuad Evo GOV,0.226,0.187,82.6162,0.814
+0.5,spiral,C-Astral Bramor ppX,0.206,0.188,75.1005,0.814
+0.5,spiral,Quantum Trinity Pro,0.133,0.133,39.0327,0.814
+0.5,spiral,AgEagle eBee X,0.119,0.119,39.5659,0.814
+0.5,spiral,DeltaQuad Evo-LE (press),0.31,0.187,134.7326,0.814
+0.5,hasty 2,Lodestar SiCore,0.252,0.251,26.2938,0.814
+0.5,hasty 2,Lodestar P50B,0.247,0.246,27.3582,0.814
+0.5,hasty 2,DeltaQuad Evo GOV,0.266,0.235,47.9207,0.814
+0.5,hasty 2,C-Astral Bramor ppX,0.253,0.236,43.2838,0.814
+0.5,hasty 2,Quantum Trinity Pro,0.183,0.183,33.5288,0.814
+0.5,hasty 2,AgEagle eBee X,0.173,0.173,35.5192,0.814
+0.5,hasty 2,DeltaQuad Evo-LE (press),0.34,0.235,82.7763,0.814
+0.5,hasty 4,Lodestar SiCore,0.291,0.29,29.7636,0.814
+0.5,hasty 4,Lodestar P50B,0.287,0.286,31.3693,0.814
+0.5,hasty 4,DeltaQuad Evo GOV,0.305,0.274,63.4792,0.814
+0.5,hasty 4,C-Astral Bramor ppX,0.293,0.274,62.0316,0.814
+0.5,hasty 4,Quantum Trinity Pro,0.219,0.219,47.4468,0.814
+0.5,hasty 4,AgEagle eBee X,0.21,0.21,53.2463,0.814
+0.5,hasty 4,DeltaQuad Evo-LE (press),0.372,0.273,75.0858,0.814
+0.5,hasty 6,Lodestar SiCore,0.318,0.317,38.0125,0.814
+0.5,hasty 6,Lodestar P50B,0.309,0.308,39.4453,0.814
+0.5,hasty 6,DeltaQuad Evo GOV,0.33,0.296,79.0327,0.814
+0.5,hasty 6,C-Astral Bramor ppX,0.317,0.295,79.1628,0.814
+0.5,hasty 6,Quantum Trinity Pro,0.234,0.234,61.6943,0.814
+0.5,hasty 6,AgEagle eBee X,0.22,0.22,70.5625,0.814
+0.5,hasty 6,DeltaQuad Evo-LE (press),0.397,0.295,94.7031,0.814
+0.5,hasty 9,Lodestar SiCore,0.324,0.32,50.5115,0.814
+0.5,hasty 9,Lodestar P50B,0.311,0.308,52.5111,0.814
+0.5,hasty 9,DeltaQuad Evo GOV,0.343,0.286,98.5891,0.814
+0.5,hasty 9,C-Astral Bramor ppX,0.317,0.287,95.7718,0.814
+0.5,hasty 9,Quantum Trinity Pro,0.218,0.208,77.8673,0.814
+0.5,hasty 9,AgEagle eBee X,0.172,0.164,77.9439,0.814
+0.5,hasty 9,DeltaQuad Evo-LE (press),0.405,0.286,112.5414,0.814
+0.3,box,Lodestar SiCore,0.206,0.206,118.7361,0.814
+0.3,box,Lodestar P50B,0.162,0.161,108.2187,0.814
+0.3,box,DeltaQuad Evo GOV,0.216,0.138,158.9046,0.814
+0.3,box,C-Astral Bramor ppX,0.164,0.126,140.5479,0.814
+0.3,box,Quantum Trinity Pro,0.043,0.043,75.0609,0.814
+0.3,box,AgEagle eBee X,0.034,0.034,77.4167,0.814
+0.3,box,DeltaQuad Evo-LE (press),0.296,0.136,184.7592,0.814
+0.3,spiral,Lodestar SiCore,0.216,0.215,55.7483,0.814
+0.3,spiral,Lodestar P50B,0.2,0.2,56.525,0.814
+0.3,spiral,DeltaQuad Evo GOV,0.223,0.185,82.7768,0.814
+0.3,spiral,C-Astral Bramor ppX,0.202,0.185,75.1005,0.814
+0.3,spiral,Quantum Trinity Pro,0.129,0.129,38.6334,0.814
+0.3,spiral,AgEagle eBee X,0.115,0.115,38.952,0.814
+0.3,spiral,DeltaQuad Evo-LE (press),0.315,0.185,141.3608,0.814
+0.3,hasty 2,Lodestar SiCore,0.255,0.254,40.6519,0.814
+0.3,hasty 2,Lodestar P50B,0.241,0.24,39.0746,0.814
+0.3,hasty 2,DeltaQuad Evo GOV,0.266,0.231,57.558,0.814
+0.3,hasty 2,C-Astral Bramor ppX,0.247,0.231,52.5532,0.814
+0.3,hasty 2,Quantum Trinity Pro,0.168,0.168,33.6893,0.814
+0.3,hasty 2,AgEagle eBee X,0.155,0.155,36.5036,0.814
+0.3,hasty 2,DeltaQuad Evo-LE (press),0.35,0.231,104.1648,0.814
+0.3,hasty 4,Lodestar SiCore,0.274,0.272,38.2126,0.814
+0.3,hasty 4,Lodestar P50B,0.259,0.259,40.2856,0.814
+0.3,hasty 4,DeltaQuad Evo GOV,0.281,0.244,71.1092,0.814
+0.3,hasty 4,C-Astral Bramor ppX,0.263,0.243,67.0083,0.814
+0.3,hasty 4,Quantum Trinity Pro,0.182,0.182,46.3136,0.814
+0.3,hasty 4,AgEagle eBee X,0.168,0.168,52.5405,0.814
+0.3,hasty 4,DeltaQuad Evo-LE (press),0.364,0.243,98.6979,0.814
+0.3,hasty 6,Lodestar SiCore,0.287,0.285,48.2773,0.814
+0.3,hasty 6,Lodestar P50B,0.271,0.269,50.7423,0.814
+0.3,hasty 6,DeltaQuad Evo GOV,0.293,0.255,84.1395,0.814
+0.3,hasty 6,C-Astral Bramor ppX,0.278,0.253,81.4184,0.814
+0.3,hasty 6,Quantum Trinity Pro,0.185,0.185,60.9065,0.814
+0.3,hasty 6,AgEagle eBee X,0.166,0.166,68.3584,0.814
+0.3,hasty 6,DeltaQuad Evo-LE (press),0.377,0.254,110.4771,0.814
+0.3,hasty 9,Lodestar SiCore,0.282,0.277,64.0691,0.814
+0.3,hasty 9,Lodestar P50B,0.263,0.26,65.0974,0.814
+0.3,hasty 9,DeltaQuad Evo GOV,0.294,0.237,106.5894,0.814
+0.3,hasty 9,C-Astral Bramor ppX,0.266,0.238,100.4326,0.814
+0.3,hasty 9,Quantum Trinity Pro,0.158,0.15,73.8971,0.814
+0.3,hasty 9,AgEagle eBee X,0.119,0.113,74.0123,0.814
+0.3,hasty 9,DeltaQuad Evo-LE (press),0.376,0.237,130.6849,0.814
