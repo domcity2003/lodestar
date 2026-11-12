@@ -6,6 +6,7 @@ Options:
   wing build: foam-core (halfway wing drag, no moulds) vs moulded (laminar-quality skins, moulds)
   cells:      Molicel P50B ($8.25) vs Amprius SiCore (no public price; $23 assumed, $10-35 range)
   search speed: 18 m/s (P50B best) and 20 m/s (top of the search requirement)
+Camera motion blur is counted (10 ms thermal time constant, v3_blur.py), added 2026-11-12.
 
 Run:  uv run python scripts/cost_trades.py
 Writes: out/cost/trades.csv, trades.png, trades_log.txt
@@ -24,12 +25,14 @@ sys.path.insert(0, str(Path(__file__).parent))
 import mission_sim as ms  # noqa: E402
 import v3_mission as v3m  # noqa: E402
 import cost_model as cm  # noqa: E402
+import v3_blur as vb  # noqa: E402
 from stability import Tee  # noqa: E402
 
 OUT = cm.OUT
 SICORE_PRICE = {"low": 10.0, "mid": 22.7, "high": 35.0}
 
 if __name__ == "__main__":
+    ms.W_OF_GS = vb.w_of_gs(0.010)       # motion blur on (base case)
     sys.stdout = Tee(OUT / "trades_log.txt")
     print("Lodestar milestone 6: cost vs design trades, 2026-11-12\n")
     configs = []

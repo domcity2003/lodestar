@@ -194,7 +194,13 @@ if __name__ == "__main__":
         p_v3 = float(t_[(t_.scenario == "A") & (t_.option == "P50B, foam-core, 18 m/s")].p_help_3h.iloc[0])
     else:
         p_v3 = float(simA[simA.aircraft == "v3 (P50B, kit) @ 18 m/s"].p_help_3h.iloc[0])
-    comp = pd.read_csv(ROOT / "out" / "v3" / "mission_summary.csv")
+    # competitors with the same 10 ms motion blur as the trades (v3_blur_fair.py); else the no-blur milestone 4 run
+    fair = ROOT / "out" / "v3" / "blur_fair.csv"
+    if fair.exists():
+        comp = pd.read_csv(fair)
+        comp = comp[comp.case == "blur 10 ms"]
+    else:
+        comp = pd.read_csv(ROOT / "out" / "v3" / "mission_summary.csv")
     compA = comp[comp.scenario.str.startswith("A")].set_index("aircraft")
     base = ph[(ph.build == "foam-core") & (ph.kit == "FRS radio") & (ph.crew_type == "volunteer crew")].iloc[0]
     alt = [dict(option="Lodestar v3 (foam-core, 10 built, volunteer crew)", per_hour=base.total,

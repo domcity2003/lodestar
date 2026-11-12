@@ -33,9 +33,9 @@ foam-core   inReach paid crew (2 x $50/h)     7322.5          17.5      0.2     
 
 Cost per 3-h sortie vs alternatives (aircraft cost only unless stated):
                                            option  per_hour  p_help_3h                                            note  per_3h_sortie  per_help_within_3h
-Lodestar v3 (foam-core, 10 built, volunteer crew)      26.4        0.4                        kit dropped; mission sim           79.2               196.9
-                      senseFly eBee VISION (NDAA)     182.5        0.1 same ownership model; finds only, team walks in          547.4              4719.0
-               Quantum Systems Trinity Pro (base)      65.0        0.1 same ownership model; finds only, team walks in          194.9              1325.7
+Lodestar v3 (foam-core, 10 built, volunteer crew)      26.4        0.4                        kit dropped; mission sim           79.2               214.0
+                      senseFly eBee VISION (NDAA)     182.5        0.1 same ownership model; finds only, team walks in          547.4              5092.1
+               Quantum Systems Trinity Pro (base)      65.0        0.1 same ownership model; finds only, team walks in          194.9              1433.0
            Civil Air Patrol Cessna 182 (dry rate)      93.0        NaN                           published hourly rate          279.0                 NaN
                 Civil Air Patrol national blended     170.0        NaN                           published hourly rate          510.0                 NaN
                          sheriff helicopter (low)    1200.0        NaN                           published hourly rate         3600.0                 NaN

@@ -55,6 +55,7 @@ H_AGL = 120.0
 SWATH = 2 * H_AGL * math.tan(math.radians(32 / 2))
 W_SWEEP = 0.8 * SWATH            # effective sweep width, m
 TRACK = W_SWEEP                  # track spacing (coverage factor 1, standard first search)
+W_OF_GS = None                   # None = sweep width ignores speed; else a function of ground speed (m/s) -> W (m)
 RESERVE = 0.10                   # land with 10% of published-flight energy
 BANK = math.radians(30)          # turns between search legs
 TURN_POWER = 1.15                # power factor in a 30 deg banked turn (induced drag x 1.33)
@@ -201,7 +202,8 @@ def fly_mission(ac, box, target, wind, draws):
         t, E = t + t_turn, E + e_turn
         # abeam the target on this leg?
         x_abeam = abs(target[0] - start[0])
-        p = 1 - math.exp(-W_SWEEP**2 / (4 * math.pi * max((target[1] - y) ** 2, 1e-6)))
+        W = W_SWEEP if W_OF_GS is None else W_OF_GS(gs)   # optional motion-blur model (v3_blur.py)
+        p = 1 - math.exp(-W**2 / (4 * math.pi * max((target[1] - y) ** 2, 1e-6)))
         if draws[k] < p:
             found_t = t + x_abeam / gs
             t_here = found_t

@@ -1,0 +1,54 @@
+Lodestar v3: motion blur vs search speed, 2026-11-12
+
+Effective sweep width (m) by ground speed (m/s); 55 m = no blur:
+ground_speed    0     10    15    18    20    22    25
+tau_ms n50                                            
+7.0    0.75   55.1  53.9  52.6  51.8  51.2  50.6  49.8
+       1.00   55.1  53.1  51.2  50.0  49.2  48.4  47.2
+       1.50   55.1  52.0  49.2  47.5  46.3  45.2  43.6
+10.0   0.75   55.1  52.8  50.8  49.5  48.7  47.9  46.7
+       1.00   55.1  51.5  48.6  46.9  45.8  44.7  43.2
+       1.50   55.1  49.6  45.5  43.3  41.8  40.5  38.7
+12.0   0.75   55.1  52.0  49.5  48.1  47.1  46.2  44.9
+       1.00   55.1  50.4  46.9  44.9  43.7  42.6  40.9
+       1.50   55.1  48.0  43.3  40.8  39.3  37.9  36.0 
+
+done: tau 7 ms N50 1.0
+done: tau 10 ms N50 1.0
+done: tau 12 ms N50 1.0
+done: tau 10 ms N50 0.75
+done: tau 10 ms N50 1.5
+
+Help within 3 h, average of the two scenarios (%):
+v_search                                   15.0  16.0  17.0  18.0  19.0  20.0  21.0  22.0
+design case                                                                              
+SiCore no blur (old model)                 25.8  28.4  30.7  32.3  34.0  35.7  37.0  35.7
+       tau 7 ms, N50 1.0                   24.9  27.2  29.3  30.8  32.2  33.5  34.5  33.2
+       tau 10 ms, N50 1.0                  24.2  26.4  28.3  29.7  30.9  32.1  33.0  31.7
+       tau 12 ms, N50 1.0                  23.8  25.9  27.7  28.9  30.2  31.2  31.9  30.7
+       tau 10 ms, N50 0.75                 24.8  27.1  29.2  30.6  32.1  33.3  34.3  33.1
+       tau 10 ms, N50 1.5                  23.4  25.4  27.0  28.2  29.2  30.1  30.8  29.6
+       tau 10 ms, N50 1.0, tighter tracks  23.5  24.6  26.2  26.8  29.3  30.0  30.8  30.1
+P50B   no blur (old model)                 25.8  28.4  30.7  31.5  30.6  30.2  29.5  28.3
+       tau 7 ms, N50 1.0                   24.9  27.2  29.3  30.0  29.0  28.4  27.6  26.3
+       tau 10 ms, N50 1.0                  24.2  26.4  28.3  28.9  27.9  27.2  26.4  25.1
+       tau 12 ms, N50 1.0                  23.8  25.9  27.7  28.1  27.2  26.4  25.4  24.2
+       tau 10 ms, N50 0.75                 24.8  27.1  29.2  29.8  28.9  28.2  27.4  26.2
+       tau 10 ms, N50 1.5                  23.4  25.4  27.0  27.4  26.2  25.4  24.6  23.3
+       tau 10 ms, N50 1.0, tighter tracks  23.5  24.6  26.1  25.8  26.1  25.0  23.7  22.8
+
+Best speed per case:
+  SiCore  no blur (old model)                    best 21 m/s -> 37.0%
+  P50B    no blur (old model)                    best 18 m/s -> 31.5%
+  SiCore  tau 7 ms, N50 1.0                      best 21 m/s -> 34.5%
+  P50B    tau 7 ms, N50 1.0                      best 18 m/s -> 30.0%
+  SiCore  tau 10 ms, N50 1.0                     best 21 m/s -> 33.0%
+  P50B    tau 10 ms, N50 1.0                     best 18 m/s -> 28.9%
+  SiCore  tau 12 ms, N50 1.0                     best 21 m/s -> 31.9%
+  P50B    tau 12 ms, N50 1.0                     best 18 m/s -> 28.1%
+  SiCore  tau 10 ms, N50 0.75                    best 21 m/s -> 34.3%
+  P50B    tau 10 ms, N50 0.75                    best 18 m/s -> 29.8%
+  SiCore  tau 10 ms, N50 1.5                     best 21 m/s -> 30.8%
+  P50B    tau 10 ms, N50 1.5                     best 18 m/s -> 27.4%
+  SiCore  tau 10 ms, N50 1.0, tighter tracks     best 21 m/s -> 30.8%
+  P50B    tau 10 ms, N50 1.0, tighter tracks     best 19 m/s -> 26.1%
