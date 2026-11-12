@@ -1,0 +1,54 @@
+Rescue Wing milestone 6: cost model, 2026-11-12, claude-opus-5-5
+
+Parts (same for both wing builds), USD:
+            line_usd  low_usd  high_usd
+group                                  
+propulsion     230.0    187.0     327.0
+power          308.0    265.0     450.0
+avionics      1210.0    906.0    1580.0
+payload       2940.0   2575.0    3700.0
+kit system     100.0     60.0     150.0
+  subtotal 4,788 (range 3,993-6,207)
+
+Unit cost per aircraft (USD) by wing build and number built (paid labour):
+build  foam-core  moulded
+fleet                    
+1         7862.0  18738.0
+3         7462.0  10738.0
+10        7322.0   7938.0
+30        7282.0   7138.0
+100       7268.0   6858.0
+  Requirement: <= $8,000 in parts. Parts + airframe materials: foam-core 5,238, moulded 5,388
+
+Cost per flight hour (60 sorties x 3 h a year, 400 h airframe life, 10 kits dropped a year; 10 aircraft built):
+    build       kit             crew_type  unit_cost  depreciation  battery  maintenance  kits  crew  total
+foam-core FRS radio        volunteer crew     7322.5          17.5      0.2          4.1   4.6   0.0   26.4
+foam-core FRS radio paid crew (2 x $50/h)     7322.5          17.5      0.2          4.1   4.6 100.0  126.4
+foam-core   inReach        volunteer crew     7322.5          17.5      0.2          4.1  19.3   0.0   41.1
+foam-core   inReach paid crew (2 x $50/h)     7322.5          17.5      0.2          4.1  19.3 100.0  141.1
+  moulded FRS radio        volunteer crew     7937.5          19.1      0.2          4.4   4.6   0.0   28.3
+  moulded FRS radio paid crew (2 x $50/h)     7937.5          19.1      0.2          4.4   4.6 100.0  128.3
+  moulded   inReach        volunteer crew     7937.5          19.1      0.2          4.4  19.3   0.0   43.0
+  moulded   inReach paid crew (2 x $50/h)     7937.5          19.1      0.2          4.4  19.3 100.0  143.0
+
+Cost per 3-h sortie vs alternatives (aircraft cost only unless stated):
+                                              option  per_hour  p_help_3h                                            note  per_3h_sortie  per_help_within_3h
+Rescue Wing v3 (foam-core, 10 built, volunteer crew)      26.4        0.4                        kit dropped; mission sim           79.2               196.9
+                         senseFly eBee VISION (NDAA)     182.5        0.1 same ownership model; finds only, team walks in          547.4              4719.0
+                  Quantum Systems Trinity Pro (base)      65.0        0.1 same ownership model; finds only, team walks in          194.9              1325.7
+              Civil Air Patrol Cessna 182 (dry rate)      93.0        NaN                           published hourly rate          279.0                 NaN
+                   Civil Air Patrol national blended     170.0        NaN                           published hourly rate          510.0                 NaN
+                            sheriff helicopter (low)    1200.0        NaN                           published hourly rate         3600.0                 NaN
+                     sheriff helicopter (LAPD audit)    2916.0        NaN                           published hourly rate         8748.0                 NaN
+                 sheriff helicopter (Sonoma Henry 1)    4050.0        NaN                           published hourly rate        12150.0                 NaN
+
+Sensitivity of the unit cost (foam-core, 10 built, paid labour) to each estimate, USD:
+                                                    change  total   delta
+                                                  mid case 7322.0     0.0
+                                   all parts at low prices 5958.0 -1364.0
+                                  all parts at high prices 9607.0  2284.0
+                                 gimbal at $3,700 (Irlock) 8082.0   760.0
+                          volunteer build (no labour cost) 5298.0 -2025.0
+SiCore cells at $23 each (assumed $1,000/kWh small-volume) 7756.0   434.0
+
+Written: out/cost/parts_list.csv, unit_cost.csv, cost_per_hour.csv, vs_alternatives.csv, sensitivity.csv, charts

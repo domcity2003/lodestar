@@ -1,0 +1,36 @@
+Rescue Wing milestone 6: cost vs design trades, 2026-11-12, claude-opus-5-5
+
+Lost hiker (A) and wide area (B); reference = P50B, foam-core wing, 18 m/s:
+scenario                    option  published_h  unit_cost  p_find  p_help_3h  d_cost  d_points  usd_per_point
+       A   P50B, foam-core, 18 m/s        4.081     7322.5   0.408      0.402     0.0      0.00            NaN
+       A   P50B, foam-core, 20 m/s        4.081     7322.5   0.396      0.388     0.0     -1.40            NaN
+       A     P50B, moulded, 18 m/s        4.296     7937.5   0.447      0.442   615.0      4.00        153.750
+       A     P50B, moulded, 20 m/s        4.296     7937.5   0.433      0.424   615.0      2.15        286.047
+       A SiCore, foam-core, 18 m/s        5.118     7756.0   0.513      0.452   433.5      4.95         87.576
+       A SiCore, foam-core, 20 m/s        5.118     7756.0   0.503      0.500   433.5      9.70         44.691
+       A   SiCore, moulded, 18 m/s        5.390     8371.0   0.562      0.452  1048.5      4.95        211.818
+       A   SiCore, moulded, 20 m/s        5.390     8371.0   0.544      0.502  1048.5     10.00        104.850
+       B   P50B, foam-core, 18 m/s        4.081     7322.5   0.170      0.168     0.0      0.00            NaN
+       B   P50B, foam-core, 20 m/s        4.081     7322.5   0.166      0.164     0.0     -0.40            NaN
+       B     P50B, moulded, 18 m/s        4.296     7937.5   0.188      0.187   615.0      1.95        315.385
+       B     P50B, moulded, 20 m/s        4.296     7937.5   0.180      0.180   615.0      1.20        512.500
+       B SiCore, foam-core, 18 m/s        5.118     7756.0   0.212      0.194   433.5      2.65        163.585
+       B SiCore, foam-core, 20 m/s        5.118     7756.0   0.210      0.207   433.5      3.95        109.747
+       B   SiCore, moulded, 18 m/s        5.390     8371.0   0.229      0.194  1048.5      2.65        395.660
+       B   SiCore, moulded, 20 m/s        5.390     8371.0   0.225      0.211  1048.5      4.35        241.034
+
+Unit cost by fleet size (moulds shared over more aircraft):
+fleet                           3       10      30
+option                                            
+P50B, foam-core, 18 m/s     7462.0  7322.0  7282.0
+P50B, foam-core, 20 m/s     7462.0  7322.0  7282.0
+P50B, moulded, 18 m/s      10738.0  7938.0  7138.0
+P50B, moulded, 20 m/s      10738.0  7938.0  7138.0
+SiCore, foam-core, 18 m/s   7896.0  7756.0  7716.0
+SiCore, foam-core, 20 m/s   7896.0  7756.0  7716.0
+SiCore, moulded, 18 m/s    11171.0  8371.0  7571.0
+SiCore, moulded, 20 m/s    11171.0  8371.0  7571.0
+
+SiCore price range check (foam-core, 10 built): unit cost $7,375 at $10/cell, $7,756 at $23/cell, $8,125 at $35/cell
+
+Written: out/cost/trades.csv, trades.png
