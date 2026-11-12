@@ -79,6 +79,7 @@ Details: `research/2026-11-12-cost-model.md`, `research/2026-11-12-v3-improvemen
 | 7b | Camera blur | **Done 2026-11-12**: Johnson-criteria detection with thermal-camera blur (7-12 ms) on every aircraft. Scores drop 2-5 points; best speeds unchanged (20 m/s SiCore, 18 m/s P50B); lead holds, 45% vs 15% help within 3 h. Cost trades now include blur. `research/2026-11-12-camera-blur.md` | Python |
 | 7c | Search pattern | **Done 2026-11-12**: ISRID lost-hiker statistics (via SAREnv) and a trailhead launch. Trails first to 6 km, then an expanding square: help within 3 h 20% -> 32%; help within 1 h 21% vs 8-11% for drones that only report. `research/2026-11-12-search-pattern.md` | Python |
 | 7d | PDF | One tall-page PDF of the report with every image, `out/report/Lodestar_report.pdf` (`scripts/report_pdf.py`, headless Edge) | Edge |
+| 7e | Drop accuracy | **Done 2026-11-12**: full error budget for the 40 m kit drop (camera fix, map height, wind estimate, gusts, shear, timing, canopy). 92% of kits land within reach; headline 45% -> 43%. A 7 m/s chute (1.1 m, 60 g lighter) wins back to 44%. Rangefinder +1 point; live wind reading doesn't help. `research/2026-11-12-drop-accuracy.md`, `scripts/drop_accuracy.py` | Python |
 
 ## Folder layout
 - `PLAN.md`: this file
