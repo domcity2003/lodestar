@@ -42,3 +42,12 @@ AeroSandbox, Feather-RC-Glider, solar-seaplane-preliminary-sizing (all Peter Sha
 4. Re-render hero shots: fill the frame, real ground plane, mid-grey materials, one accent.
 5. README rewrite as design narrative: decision, rejected alternatives with numbers, one command per study.
 6. `CITATION.cff`, `CHANGELOG.md`, trimmed badges.
+
+## Text rules (owner preference, 2026-11-13)
+
+Technical, not editorial. Titles name the quantity, the independent variable and the grouping, with
+symbols and units, e.g. "Mission score vs. unit cost, by cell type, wing construction, search speed".
+Test conditions (wind model, Monte Carlo run count, mission, camera) go in a small caption line, not
+in axis labels. Axis labels are "quantity [unit]". No rhetorical or question-style titles and no
+"what X buys" phrasing in figures, README or report headings. Figures are numbered
+("Figure 3. ...") with a plain description.
