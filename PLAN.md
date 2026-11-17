@@ -35,6 +35,8 @@ This is a civil search-and-rescue and wildfire-scouting aircraft. All design wor
 | Cost | ≤ $8K in parts | A fraction of eBee VISION's about $45K |
 
 ## Current design (v2)
+
+> Historical: this section describes design v2 (2026-11-11). The released design is v1 (revision v1.1); see [README.md](README.md) and [`scripts/lodestar_v1.py`](scripts/lodestar_v1.py).
 Same airframe as v0.1 (3.0 m span flying wing, 1.29 m² of wing, 0.25 m winglets, 3° washout, centre pod 0.82 m long, stall 11.8 m/s). Balance point and kit bay at x = 0.422 m; battery packs at x = 0.46 m.
 
 **v2 changes:**
@@ -64,6 +66,8 @@ Details: `research/2026-11-12-cost-model.md`, `research/2026-11-12-v3-improvemen
 3. **Hitting the person with the kit.** The kit drifts with the wind while it falls, so the drone must release it upwind at the right point. This is the "computed air release point" problem that cargo aircraft solve.
 
 ## Milestones
+
+For the current design and results, see [README.md](README.md) and [the Step 2 results](research/2026-11-16-step2-results.md). The earlier flat-terrain and original-mass mission scores below describe their respective study runs.
 | # | Milestone | Output | Tools |
 |---|---|---|---|
 | 0 | Prior art, requirements v1, tools | **Done 2026-11-11**: toolchain reused, smoke test 8/8 | web research |
@@ -75,11 +79,16 @@ Details: `research/2026-11-12-cost-model.md`, `research/2026-11-12-v3-improvemen
 | 5 | Detailed CAD, renders, 6-DOF check | **Done 2026-11-11**: STEP assembly (31 parts), all parts fit with ≥1.5 mm skin clearance, balance point from the CAD within 1.7 mm of design; 5 Blender renders; JSBSim kit release: ≤0.7 m height change in calm air, no stalls in light turbulence; operating rules: fly the drop at 18 m/s in moderate turbulence, don't descend into sustained sink | build123d, Blender, JSBSim |
 | 5b | Design v3: improvements before cost | **Done 2026-11-12**: matched folding prop + motor from measured data, smooth skins, 18 m/s search; 3.6 h design case (was 3.0 h); help within 3 h 44% (was 35%); airfoil, area and 3.4 m span checked and rejected | NeuralFoil, UIUC prop data, AVL, build123d, mission sim |
 | 6 | Cost model | **Done 2026-11-12**: about $7,300 per aircraft ($4,800 parts + airframe), $26 per flight hour, a 3-h search about $80 vs $3,600+ for a sheriff helicopter; best value is SiCore cells + foam-core wing at 20 m/s (50% help within 3 h for +$430; 45% once camera blur is counted, row 7b) | Python |
-| 7 | Write-up | **Done 2026-11-12**: one-page report with renders and charts, `out/report/index.html`, Project renamed from Rescue Wing to Lodestar the same day | HTML page |
+| 7 | Write-up | **Done 2026-11-12**: one-page report with renders and charts, `out/report/index.html`. Project renamed from Rescue Wing to Lodestar the same day | HTML page |
 | 7b | Camera blur | **Done 2026-11-12**: Johnson-criteria detection with thermal-camera blur (7-12 ms) on every aircraft. Scores drop 2-5 points; best speeds unchanged (20 m/s SiCore, 18 m/s P50B); lead holds, 45% vs 15% help within 3 h. Cost trades now include blur. `research/2026-11-12-camera-blur.md` | Python |
 | 7c | Search pattern | **Done 2026-11-12**: ISRID lost-hiker statistics (via SAREnv) and a trailhead launch. Trails first to 6 km, then an expanding square: help within 3 h 20% -> 32%; help within 1 h 21% vs 8-11% for drones that only report. `research/2026-11-12-search-pattern.md` | Python |
 | 7d | PDF | One tall-page PDF of the report with every image, `out/report/Lodestar_report.pdf` (`scripts/report_pdf.py`, headless Edge) | Edge |
 | 7e | Drop accuracy | **Done 2026-11-12**: full error budget for the 40 m kit drop (camera fix, map height, wind estimate, gusts, shear, timing, canopy). 92% of kits land within reach; headline 45% -> 43%. A 7 m/s chute (1.1 m, 60 g lighter) wins back to 44%. Rangefinder +1 point; live wind reading doesn't help. `research/2026-11-12-drop-accuracy.md`, `scripts/drop_accuracy.py` | Python |
+| 8 | Wing structure and aeroelasticity | **Joint concept selected 2026-11-12.** A 20 × 16 mm carbon tube with 24 mm sleeves and XPS core brings stationary full-command tube stress from 563 to 277 MPa in the updated comparison. The modeled wing weighs 2.29 kg with joint allowances. Next, detail and test sleeve load transfer and the aft key, then correlate the assembled and free-flight modes. See [wing redesign](research/2026-11-12-wing-redesign.md). | Python, AVL, build123d |
+| 9 | Terrain replay and verification | **Continuous route replay complete.** Compact XPS SiCore scores 5.40% at three hours on the 6 km trails-first route with wind-adaptive turns, compared with 11.08% in the original sharp-corner replay. The 3 km adaptive route reaches 6.43%. See [continuous route replay](research/2026-11-13-continuous-route-replay.md). | Python |
+| 10 | v1 freeze ("make v1 legit") | **Done 2026-11-14/15**: one frozen parameter file, CAD v4 in FreeCAD, wing FE (CalculiX), p-k flutter, controls sizing, propulsion margins, 6-DOF (JSBSim), system safety, mass growth, verification matrix; `freeze_check.py` and a 24-script test suite | FreeCAD, CalculiX, AVL, JSBSim |
+| 11 | Step 2: simulation, test and improvement (v1.1) | **Done 2026-11-16**: twin splayed Boson 640 camera, safety fit, ply-drop rule; held-out confirmation +3.5 pp help within 1 h over v1; headline 18.0% help within 3 h vs 14.9% for the best competitor (nominal). [Results](research/2026-11-16-step2-results.md) | Python |
+| 12 | v1 release | **Done 2026-11-16**: README, general arrangement drawing LOD-GA-001, parts list, v1.1 compliance note, design report and PDF | — |
 
 ## Folder layout
 - `PLAN.md`: this file

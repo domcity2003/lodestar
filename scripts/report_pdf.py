@@ -1,6 +1,6 @@
-"""Print the one-page report (out/report/index.html) to a single tall PDF page, with every image.
+"""Print the design report (out/report/index.html) to a single tall PDF page, with every image.
 
-Uses headless Microsoft Edge (Chromium) so the PDF looks exactly like the web page, light theme.
+Uses headless Chrome or Microsoft Edge (Chromium) so the PDF looks exactly like the web page, light theme.
 Pass 1 measures the page height at a 1200 px window; pass 2 prints with the page sized to fit.
 
 Run:  uv run python scripts/report_pdf.py
@@ -13,7 +13,9 @@ import tempfile
 
 ROOT = Path(__file__).resolve().parents[1]
 REP = ROOT / "out" / "report"
-EDGE = r"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+# Headless Chromium: Chrome if installed (Edge headless prints nothing on some locked-down machines), else Edge.
+EDGE = next((b for b in (r"C:\Program Files\Google\Chrome\Application\chrome.exe",
+                         r"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe") if Path(b).exists()))
 WIDTH = 1200
 
 
@@ -30,7 +32,7 @@ html, body {{ -webkit-print-color-adjust: exact; print-color-adjust: exact; }}
 
 
 def edge(args):
-    with tempfile.TemporaryDirectory() as prof:
+    with tempfile.TemporaryDirectory(ignore_cleanup_errors=True) as prof:
         return subprocess.run([EDGE, "--headless=new", "--disable-gpu", f"--user-data-dir={prof}",
                                f"--window-size={WIDTH},1000", "--virtual-time-budget=8000",
                                "--run-all-compositor-stages-before-draw", *args],

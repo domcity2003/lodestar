@@ -1,4 +1,4 @@
-<title>Lodestar Flying Wing</title>
+<title>Lodestar v1 design report</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Public+Sans:ital,wght@0,400;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>
@@ -120,26 +120,25 @@ footer { border-top: 1px solid var(--rule); padding-top: 16px; font-size: 14px; 
   .fill { transition: width 0.6s ease-out; }
 }
 </style>
-
 <main>
   <header class="hero">
-    <div class="eyebrow">Civil search-and-rescue aircraft · design study · November 2026</div>
-    <h1>Lodestar</h1>
-    <p class="lede">A 3-metre flying wing that searches for a lost hiker with a thermal camera for over four hours. When it finds them, it drops a survival kit with a radio, water and a foil blanket by parachute, within about 25 m.</p>
+    <div class="eyebrow">Civil search-and-rescue aircraft · design revision v1.1 · 16 November 2026</div>
+    <h1>Lodestar v1</h1>
+    <p class="lede">A 3-metre flying wing that searches mountain trails for a lost hiker with a twin thermal camera for three and a half hours. When it finds them, it drops a 1.5 kg survival kit with a radio, water and a foil blanket by parachute.</p>
     <figure>
-      <img src="img/v2_hero.jpg" alt="Lodestar rendered in white with orange winglets: a swept flying wing with a short central pod and a camera ball under the nose." width="1600" height="978">
+      <img src="img/ga_v1.png" alt="General arrangement drawing LOD-GA-001: plan, front, side and isometric views of the Lodestar flying wing with dimensions, geometry, mass and performance tables." width="3637" height="2572">
     </figure>
     <div class="plate" aria-label="Specification plate">
-      <div class="plate-head"><span>Lodestar · recommended build</span><span>SiCore cells · foam-core wing</span></div>
+      <div class="plate-head"><span>Lodestar v1 · revision v1.1</span><span>SiCore cells · foam-core wing</span></div>
       <dl>
-        <div><dt>Span</dt><dd>3.0 m <small>3 pieces, fits a car</small></dd></div>
-        <div><dt>Take-off mass</dt><dd>7.4 kg</dd></div>
-        <div><dt>Flight time</dt><dd>4.25 h <small>2,000 m, kit aboard</small></dd></div>
-        <div><dt>Search speed</dt><dd>20 m/s</dd></div>
-        <div><dt>Stall</dt><dd>11.8 m/s</dd></div>
+        <div><dt>Span</dt><dd>3.0 m <small>3 pieces</small></dd></div>
+        <div><dt>Take-off mass</dt><dd>8.76 kg <small>limit 10 kg</small></dd></div>
+        <div><dt>Endurance</dt><dd>3.49 h <small>2,000 m, kit aboard</small></dd></div>
+        <div><dt>Search speed</dt><dd>18–20 m/s</dd></div>
+        <div><dt>Stall</dt><dd>11.7 m/s <small>EAS</small></dd></div>
+        <div><dt>Max speed</dt><dd>29.5 m/s</dd></div>
+        <div><dt>Camera</dt><dd>2 × 640 px <small>95° thermal</small></dd></div>
         <div><dt>Kit</dt><dd>1.5 kg <small>by parachute</small></dd></div>
-        <div><dt>Camera</dt><dd>640 × 512 <small>thermal + 4K</small></dd></div>
-        <div><dt>Unit cost</dt><dd>≈ $7,760</dd></div>
       </dl>
     </div>
   </header>
@@ -147,177 +146,132 @@ footer { border-top: 1px solid var(--rule); padding-top: 16px; font-size: 14px; 
   <section>
     <div class="eyebrow">The answer</div>
     <div class="answer">
-      <p>In 2,000 simulated lost-hiker missions, Lodestar gets help to the person within 3 hours in <strong>45%</strong> of them. The best search drone on the market does it in <strong>15%</strong>. Both numbers count the blur a thermal camera picks up at search speed. Allowing for the kit sometimes landing out of the person's reach, Lodestar's figure is 44%.</p>
-      <p>Each aircraft costs about $7,800 to build. Each 3-hour search costs about $80 in aircraft costs; a sheriff's helicopter costs $3,600 or more for the same 3 hours.</p>
+      <p>Across 3,500 simulated lost-hiker searches on seven real US trail areas, Lodestar gets help to the person within 3 hours in <strong>18%</strong> of them at the nominal detection calibration. The best fixed-wing search drone gets <strong>15%</strong>.</p>
+      <p>Within the first hour the gap is wider: <strong>11.6%</strong> against <strong>7.3%</strong>, because the kit makes contact without waiting for a ground team to walk in.</p>
     </div>
-    <p class="col">The gap comes from what happens after the find. Today's drones report the location, and a ground team still has to walk in, often for hours. Lodestar drops a radio, water and a blanket on the spot. In the simulation, help counts as arriving when the kit lands.</p>
+    <p class="col">Lodestar leads every aircraft in the comparison at all three detection calibrations, on both trail patterns, at 1 hour and at 3 hours. These numbers come from a random seed that was never used to tune the design. One comparison is not clearly ahead: against the DeltaQuad Evo-LE at 3 hours, on the 6-trail pattern at the pessimistic calibration, the lead is +0.9 points with an interval from −0.1 to +1.9.</p>
   </section>
 
   <section>
     <h2>Help within 3 hours</h2>
-    <div class="bars" role="img" aria-label="Share of lost-hiker missions where help reaches the person within 3 hours">
-      <div class="bar"><div class="name">Lodestar <small>SiCore cells, 20 m/s</small></div><div class="track"><div class="fill lodestar" style="width:75.2%"></div><span class="val" style="left:75.2%">45%</span></div></div>
-      <div class="bar"><div class="name">Lodestar <small>P50B cells, 18 m/s (fallback)</small></div><div class="track"><div class="fill lodestar" style="width:61.7%"></div><span class="val" style="left:61.7%">37%</span></div></div>
-      <div class="bar"><div class="name">DeltaQuad Evo GOV <small>4.25 h, VTOL</small></div><div class="track"><div class="fill" style="width:25.7%"></div><span class="val" style="left:25.7%">15%</span></div></div>
-      <div class="bar"><div class="name">DeltaQuad Evo-LE <small>8 h (press-reported)</small></div><div class="track"><div class="fill" style="width:25.7%"></div><span class="val" style="left:25.7%">15%</span></div></div>
-      <div class="bar"><div class="name">C-Astral Bramor ppX <small>3.5 h</small></div><div class="track"><div class="fill" style="width:25%"></div><span class="val" style="left:25%">15%</span></div></div>
-      <div class="bar"><div class="name">Quantum Trinity Pro <small>1.5 h</small></div><div class="track"><div class="fill" style="width:22.7%"></div><span class="val" style="left:22.7%">14%</span></div></div>
-      <div class="bar"><div class="name">AgEagle eBee X <small>1.5 h</small></div><div class="track"><div class="fill" style="width:18%"></div><span class="val" style="left:18%">11%</span></div></div>
+    <div class="bars" role="img" aria-label="Share of lost-hiker searches where help reaches the person within 3 hours, nominal calibration">
+      <div class="bar"><div class="name">Lodestar v1.1 <small>SiCore cells</small></div><div class="track"><div class="fill lodestar" style="width:71.8%"></div><span class="val" style="left:71.8%">18.0%</span></div></div>
+      <div class="bar"><div class="name">Lodestar v1.1 <small>P50B cells (budget pack)</small></div><div class="track"><div class="fill lodestar" style="width:63.8%"></div><span class="val" style="left:63.8%">16.0%</span></div></div>
+      <div class="bar"><div class="name">DeltaQuad Evo-LE <small>8 h (press-reported)</small></div><div class="track"><div class="fill" style="width:59.7%"></div><span class="val" style="left:59.7%">14.9%</span></div></div>
+      <div class="bar"><div class="name">DeltaQuad Evo GOV <small>4.25 h, VTOL</small></div><div class="track"><div class="fill" style="width:53.3%"></div><span class="val" style="left:53.3%">13.3%</span></div></div>
+      <div class="bar"><div class="name">C-Astral Bramor ppX <small>3.5 h</small></div><div class="track"><div class="fill" style="width:49.3%"></div><span class="val" style="left:49.3%">12.3%</span></div></div>
+      <div class="bar"><div class="name">Quantum Trinity Pro <small>1.5 h</small></div><div class="track"><div class="fill" style="width:30.3%"></div><span class="val" style="left:30.3%">7.6%</span></div></div>
+      <div class="bar"><div class="name">AgEagle eBee X <small>1.5 h</small></div><div class="track"><div class="fill" style="width:29.5%"></div><span class="val" style="left:29.5%">7.4%</span></div></div>
     </div>
-    <p class="axisnote">The scenario: a lost hiker somewhere in a 16 km² area, 5 km from the launch point. Every aircraft gets the same thermal camera, with the same 10 ms image blur, the same random winds (0-10 m/s) and the same hidden hiker positions. A ground team walks in from the launch point at 3 km/h. Bars run from 0 to 60%. Even the 8-hour Evo-LE scores 15%: it finds more people, but the team rarely walks in within 3 hours.</p>
+    <p class="axisnote">Seed 20261115, nominal detection calibration, mean of the 3-trail and 6-trail patterns. 7 sites × 500 hikers, terrain-following routes flown at each aircraft's own speed and turn radius, ISRID lost-hiker statistics, real canopy cover. Competitors fly a single 32° thermal camera, carry no kit, and use their published endurance. Bars run from 0 to 25%.</p>
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th>Aircraft</th><th class="num">Low</th><th class="num">Nominal</th><th class="num">High</th><th class="num">Within 1 h (nominal)</th></tr></thead>
+        <tbody>
+          <tr class="pick"><td>Lodestar v1.1, SiCore</td><td class="num">12.9</td><td class="num">18.0</td><td class="num">22.7</td><td class="num">11.6</td></tr>
+          <tr><td>Lodestar v1.1, P50B</td><td class="num">11.2</td><td class="num">16.0</td><td class="num">20.3</td><td class="num">11.3</td></tr>
+          <tr><td>DeltaQuad Evo-LE (press)</td><td class="num">11.3</td><td class="num">14.9</td><td class="num">17.8</td><td class="num">7.3</td></tr>
+          <tr><td>DeltaQuad Evo GOV</td><td class="num">10.3</td><td class="num">13.3</td><td class="num">16.2</td><td class="num">7.1</td></tr>
+          <tr><td>C-Astral Bramor ppX</td><td class="num">9.4</td><td class="num">12.3</td><td class="num">14.9</td><td class="num">7.3</td></tr>
+          <tr><td>Quantum Trinity Pro</td><td class="num">5.8</td><td class="num">7.6</td><td class="num">9.2</td><td class="num">7.1</td></tr>
+          <tr><td>AgEagle eBee X</td><td class="num">5.8</td><td class="num">7.4</td><td class="num">8.8</td><td class="num">6.8</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="axisnote">Help within 3 h [%] at the low, nominal and high detection calibrations (thermal detection odds 0.735 / 1.5 / 3.0, canopy porosity 0.20 / 0.35 / 0.50), and help within 1 h [%] at nominal. The calibration moves every aircraft together; the ranking does not change.</p>
   </section>
 
   <section>
     <h2>The aircraft</h2>
-    <p class="col">A tailless swept wing keeps drag low and packs into a car in three pieces. The 30 battery cells sit in the wing roots. The kit bay sits exactly on the balance point, so dropping 23% of the aircraft's weight barely changes how it flies. A thermal camera ball hangs under the nose and a folding prop pushes from the back.</p>
-    <div class="gallery">
-      <figure class="wide"><img src="img/v2_cutaway.jpg" alt="Cutaway render: see-through skins show blue battery cells in the wing roots, carbon spar joiners, the kit bay in the pod and the camera ball under the nose." width="1600" height="978" loading="lazy"><figcaption>Cutaway: battery cells in the wing roots (blue), spar joiners, kit bay on the balance point, flight controller, camera.</figcaption></figure>
-      <figure><img src="img/v2_inflight.jpg" alt="Lodestar banking against a blue sky, seen from below, with the camera ball and the orange bay door visible." width="1600" height="978" loading="lazy"><figcaption>In flight, seen from below: camera ball and the orange kit-bay door.</figcaption></figure>
-      <figure><img src="img/v2_kitdrop.jpg" alt="The bay door open and the survival kit falling under an orange cross-shaped parachute." width="1600" height="978" loading="lazy"><figcaption>The drop: the kit falls under a cross parachute. The render shows the original 1.5 m, 5 m/s chute; the drop-accuracy check switched to a 1.1 m chute that lands at 7 m/s.</figcaption></figure>
-      <figure class="wide"><img src="img/v2_exploded.jpg" alt="Exploded view: the centre section and two outer wing panels pulled apart, with the internal parts lifted out above them." width="1600" height="978" loading="lazy"><figcaption>Exploded view: the 0.9 m centre section and two 1.05 m outer panels, with the internals lifted out. The renders show the earlier 13-inch prop; the final design uses a 15-inch folding prop.</figcaption></figure>
+    <p class="col">A tailless swept wing with winglets keeps drag low and breaks down into three pieces for a car. The 30 battery cells sit in the wing roots either side of the kit bay, which is on the balance point, so the trim barely moves when the kit drops (static margin 7.3% loaded, 7.7% released). Two FLIR Boson 640 thermal cores look straight down, splayed ±22.5° across track, for a combined 95° view. That gives a 136 m search track, 2.5 times the spacing of a single gimbal camera. A SIYI ZT6 gimbal confirms finds and aims the drop. Recovery is a belly landing on a 70 mm EPP crush skid.</p>
+    <figure>
+      <div class="chart"><img src="img/internals_v1.png" alt="CAD views of Lodestar with translucent skins showing the battery packs in the wing roots, the kit bay and container under the centre section, the avionics in the pod, the camera ball and the aircraft parachute in the nose." width="1560" height="1032"></div>
+      <figcaption>Figure 1. CAD v4 (FreeCAD, built from the frozen parameter file) with translucent skins: battery packs (red), kit container (green), avionics (blue), aircraft parachute (grey, nose), gimbal ball and belly skid.</figcaption>
+    </figure>
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th>Mass</th><th class="num">kg</th><th>Basis</th></tr></thead>
+        <tbody>
+          <tr><td>Wing structure, joints, servos</td><td class="num">2.01</td><td>spanwise sizing model, checked by FE</td></tr>
+          <tr><td>Battery: 30 SiCore cells, 6S5P, 680 Wh, with heater and BMS</td><td class="num">2.60</td><td>datasheet cells + pack build</td></tr>
+          <tr><td>Rescue kit + kit parachute + container</td><td class="num">1.70</td><td>weighed kit; drop study chute</td></tr>
+          <tr><td>Cameras: twin Boson 640 + ZT6 gimbal</td><td class="num">0.36</td><td>datasheets + mounts</td></tr>
+          <tr><td>Aircraft parachute + trigger (ASTM F3322 class)</td><td class="num">0.40</td><td>vendor class estimate</td></tr>
+          <tr><td>Everything else: pod, winglets, avionics, motor, safety fit, wiring</td><td class="num">1.68</td><td>budgets and datasheets</td></tr>
+          <tr class="pick"><td>Take-off mass (SiCore, kit on)</td><td class="num">8.76</td><td>9.82 kg with the growth allowance; limit 10 kg</td></tr>
+        </tbody>
+      </table>
     </div>
   </section>
 
   <section>
-    <h2>The drop</h2>
-    <div class="col" style="display:grid;gap:14px">
-      <p>The aircraft circles once to measure the wind, then makes a low pass about 40 m above the person and releases the kit upwind. The kit falls for about 8 seconds, and in that time the wind can carry it up to 70 m. So the release point has to be computed, and how close the kit lands depends on how well the aircraft knows the wind and its height above the person.</p>
-      <p>The release itself is a non-event. In a full 6-degree-of-freedom flight simulation, the autopilot holds height to within 0.7 m as the kit falls away. With the autopilot switched off, the aircraft just climbs about 9 m and settles on its own. The real limit is turbulence near the ground. That gives two operating rules: fly the drop run faster in rough air, and don't descend into strong sinking air.</p>
+    <h2>Mission numbers</h2>
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th>Metric</th><th class="num">Lodestar v1.1</th><th>Best competitor</th></tr></thead>
+        <tbody>
+          <tr><td>Time to first contact, median / P90 (among contacted within 3 h)</td><td class="num">38 / 104 min</td><td>Evo-LE 64 / 153 min</td></tr>
+          <tr><td>Area searched per sortie (calm wind)</td><td class="num">28 km²</td><td>Evo-LE 23 km²</td></tr>
+          <tr><td>Endurance with kit, 2,000 m, +20 °C (P10 / P50)</td><td class="num">2.95 / 3.21 h</td><td>—</td></tr>
+          <tr><td>Endurance, published style (sea level, best speed)</td><td class="num">4.2 h</td><td>Evo-LE 8 h claimed</td></tr>
+          <tr><td>Search only, battery module in the kit bay</td><td class="num">6.9 h</td><td>Evo-LE 8 h claimed</td></tr>
+          <tr><td>Groundspeed home into a 12 m/s wind</td><td class="num">17.5 m/s</td><td>eBee X 18.0 m/s</td></tr>
+          <tr><td>Dash to a point 5 km away, still air</td><td class="num">2.8 min</td><td>eBee X 2.8 min</td></tr>
+        </tbody>
+      </table>
     </div>
-    <figure>
-      <div class="chart"><img src="img/release_turbulence.png" alt="Three panels of height over time through the kit release at 40 m: light turbulence, moderate turbulence at 18 m/s, and long downdrafts, each with 30 simulated runs." width="2100" height="690" loading="lazy"></div>
-      <figcaption>Height through the release, 100 simulated drops per case (30 shown). In light turbulence: no ground strikes. In moderate turbulence, flown at 18 m/s: no ground strikes and one brief stall. Long mountain downdrafts: 10 of 100 hit the ground, so the aircraft must not descend into them.</figcaption>
-    </figure>
-    <p class="col"><strong>Does the kit land close enough to reach?</strong> Until this check, the simulation assumed every kit lands beside the person. I built the full error budget for a 40 m drop and ran it 33,000 times per option. It covers:</p>
-    <ul class="clean">
-      <li>the camera's fix on the person's position (3 m);</li>
-      <li>height above the person from a terrain map (8 m);</li>
-      <li>the wind estimate;</li>
-      <li>gusts and wind shear during the fall;</li>
-      <li>release timing;</li>
-      <li>parachute opening and swing.</li>
-    </ul>
-    <p class="col">The aircraft aims 5 m beside the person so the kit can't hit them. I assumed 30% of people are hurt and can only crawl 15 m, and the rest can walk 50 m to it.</p>
-    <ul class="clean">
-      <li><strong>The drop mostly works.</strong> As designed, 92% of kits land within reach, so the 45% score becomes 43%. Help still arrives 3× as often as with today's drones.</li>
-      <li><strong>Gusts during the fall set the miss, so falling faster is the fix.</strong> A smaller parachute that lands the kit at 7 m/s instead of 5 cuts the fall time by about a third. The kit then lands like a drop from 2.5 m, so it needs padding. 96% of kits land within reach, and the score is 44%. The smaller chute (1.1 m across) is also about 60 g lighter, so it's the recommended change.</li>
-      <li><strong>Two things helped less than expected.</strong> A laser rangefinder in place of the terrain map gains about 1 point, and is worth adding only with the faster chute (95% within 16 m). A "live" 2-second wind reading doesn't help: the gust at release has mostly changed by the time the kit lands, and the short reading is noisier.</li>
-      <li><strong>Strong wind is the hard case.</strong> At 10 m/s, 95% of kits land within 37 m with the old chute and 27 m with the faster one.</li>
-    </ul>
-    <figure>
-      <div class="chart"><img src="img/drop.png" alt="Left: lines of the distance within which 95% of kits land, against wind speed from 0 to 10 m/s, for six drop options; all rise with wind, the 7 m/s chute options lowest. Right: bars of help within 3 hours for two Lodestar builds: perfect drops 45% and 37%, realistic as designed 43% and 35%, realistic with a 7 m/s chute 44% and 36%." width="1950" height="720" loading="lazy"></div>
-      <figcaption>Left: how far from the aim point 95% of kits land, by wind. Right: help within 3 hours, lost-hiker scenario, with the kit counted only when it lands within reach. From the trailhead the effect is under 1 point, because a team that's already walking covers most misses.</figcaption>
-    </figure>
+    <p class="axisnote">Time to contact and area at the low calibration. Endurance from a 4,000-draw Monte Carlo over cell capacity and resistance, drag, propeller efficiency and avionics load. Competitor speeds and endurance are published figures.</p>
   </section>
 
   <section>
-    <h2>Getting more from the same airframe</h2>
-    <p class="col">After the first full design, three changes added endurance without touching the airframe:</p>
-    <ul class="clean">
-      <li><strong>A propeller and motor matched to the job.</strong> I used measured wind-tunnel data for 41 propellers and five real motors. That picked a 15-inch folding prop and a T-Motor AT3520, which turn 64% of battery power into thrust.</li>
-      <li><strong>Searching faster.</strong> Inside a 3-hour window, ground covered per hour matters more than ground covered per unit of battery. Help within 3 h peaks at 18 m/s with the cheaper cells, and keeps climbing to 20 m/s with SiCore cells.</li>
-      <li><strong>Better cells.</strong> Amprius SiCore silicon-anode cells drop into the same 21700 slots and store 26% more energy.</li>
-    </ul>
-    <figure>
-      <div class="chart"><img src="img/search_speed.png" alt="Two line charts of help-within-3-hours against search airspeed from 15 to 20 m/s for three Lodestar versions, in the lost-hiker and wide-area scenarios." width="1800" height="660" loading="lazy"></div>
-      <figcaption>Help within 3 h against search speed. The cheaper cells (dark blue) peak at 18 m/s; with SiCore cells (light blue) it keeps rising to 50% at 20 m/s. A 3.4 m span (green) adds endurance but barely moves the score, so the span stays at 3.0 m. This chart is before camera blur; the next one adds it.</figcaption>
-    </figure>
-    <p class="col"><strong>Then I checked whether searching fast blurs the camera too much.</strong> A thermal camera's pixels take 7-12 ms to respond, so at 20 m/s a person smears across about two pixels. I modelled detection with the Johnson criteria (how many pixels across a person the camera needs to spot them), using each search leg's actual ground speed. Blur shrinks the useful search strip from 55 m to about 46 m at 20 m/s and costs 2-5 points of help within 3 hours. It doesn't move the best speed: 20 m/s with SiCore cells and 18 m/s with P50B, for every camera response time and detection threshold I tried. Flying tighter tracks to fill the gaps is worse than accepting them, so the track spacing stays at 55 m.</p>
-    <figure>
-      <div class="chart"><img src="img/blur.png" alt="Three charts: effective sweep width falling from 55 m with ground speed for 7, 10 and 12 ms camera time constants; and help within 3 hours against search speed for SiCore and P50B builds, with and without blur." width="2250" height="690" loading="lazy"></div>
-      <figcaption>Left: blur narrows the strip the camera can search. Middle and right: average of the two scenarios, moulded wing. Grey is the old no-blur model, blues are 7, 10 and 12 ms cameras, green is flying tighter tracks to make up for blur. Every curve peaks at the same speed.</figcaption>
-    </figure>
-    <p class="col">Two things I checked didn't help. MH45 is already about the best airfoil for the job: of 52 candidates, the ones that beat it gain about 1% or are too thin for the cells. And a bigger wing can't fly slow enough to pay for itself, because the 12 m/s stall limit already sets the area.</p>
-  </section>
-
-  <section>
-    <h2>Where to look first</h2>
-    <p class="col">The scores above hide the hiker anywhere in a box. Real lost people aren't spread evenly. In the international lost-person database (ISRID), hikers in temperate mountains are found a median 3.1 km from where they were last seen, and half of them on a trail, road or stream bed. So I added a second scenario: launch from the trailhead and compare search patterns, with the same camera blur and winds for every aircraft.</p>
-    <ul class="clean">
-      <li><strong>Fly the trails first.</strong> Following the four mapped trails and drainages out to 6 km, then spiralling out from the trailhead, raises help within 3 hours from 20% (back-and-forth sweep of a box) to 32%. It helps every aircraft, so it's a search procedure, not a design change.</li>
-      <li><strong>The kit shows up as speed.</strong> From the trailhead, a ground team often reaches the person within 3 hours anyway, so every aircraft with 3.5+ hours ends up near 30% on that score. But Lodestar gets help to the person <strong>within 1 hour in 21%</strong> of searches, about twice the 8-11% for drones that only report the location. Once the person is found, help arrives in a median of 38 minutes instead of 79.</li>
-    </ul>
-    <figure>
-      <div class="chart"><img src="img/patterns.png" alt="Left: grouped bars of help within 3 hours for six search patterns, rising from the box lawnmower to trails-first patterns, for Lodestar, DeltaQuad Evo GOV and Quantum Trinity Pro. Right: share of searches with help on scene against minutes after launch for the trails-to-6-km pattern; Lodestar's curve rises about 40 minutes ahead of the others." width="1950" height="720" loading="lazy"></div>
-      <figcaption>1,000 simulated hikers per case, launched from the trailhead. Left: help within 3 hours by search pattern. Right: how soon help arrives with the trails-first pattern; Lodestar (blue) passes 20% at about 50 minutes, the others at about 95.</figcaption>
-    </figure>
+    <h2>What was checked</h2>
+    <p class="col">Every number on this page comes from one parameter file, <code>scripts/lodestar_v1.py</code>. A freeze check confirms that each analysis and each saved result agrees with it, and a 24-script test suite runs known-answer checks on every model. The thinnest margins are listed, not hidden.</p>
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th>Discipline</th><th>Method</th><th>Result</th></tr></thead>
+        <tbody>
+          <tr><td>Wing structure</td><td>CalculiX shell FE: manoeuvre, gust and rolling load cases, landing, mesh convergence</td><td>every design margin ≥ 0; lowest +0.27 (upper-skin wrinkling on EPS, needs a coupon test)</td></tr>
+          <tr><td>Flutter</td><td>p-k with FE modes and AVL lift slopes; joint, hinge and free-play sweeps</td><td>lowest 43.6 m/s EAS at the minimum joint stiffness, against a 34.5 m/s screen (1.15 VD)</td></tr>
+          <tr><td>Stability and control</td><td>AVL with pod and winglets; hinge moments, roll, lateral modes</td><td>CG envelope 365–422 mm; CG at 413 mm; all lateral modes Level 1</td></tr>
+          <tr><td>Flight dynamics</td><td>JSBSim 6-DOF: trim, Dryden turbulence, kit release, motor-out, bungee launch, belly landing</td><td>drop run-in 18–20 m/s; landing design sink 2.0 m/s; launch rules above 3,000 m DA</td></tr>
+          <tr><td>Propulsion and battery</td><td>UIUC propeller data, motor and cell models, 4,400 m and −10 °C to +40 °C corners</td><td>worst-corner climb 3.09 m/s and 15.3% banked gradient with the high-altitude charge rule</td></tr>
+          <tr><td>System safety</td><td>hazard assessment, component FMEA, glide reach, link budget on 7 sites</td><td>aircraft parachute, backup supply, ADS-B In, dual GNSS fitted; autonomous search on link loss</td></tr>
+          <tr><td>Mass</td><td>line list with maturity classes and growth allowance (AIAA S-120A style)</td><td>9.82 kg predicted against 10 kg: 0.18 kg margin</td></tr>
+        </tbody>
+      </table>
+    </div>
   </section>
 
   <section>
     <h2>Cost</h2>
-    <p class="col">The thermal camera is the biggest single item, at $2,940. The airframe comes next, and most of that is labour; a volunteer build saves about $2,000 per aircraft. The battery cells cost about $250, and wear costs about 20 cents per flight hour.</p>
-    <div class="tablewrap">
-      <table>
-        <thead><tr><th>Option</th><th class="num">Cost per hour</th><th class="num">3-hour search</th><th class="num">Help within 3 h</th></tr></thead>
-        <tbody>
-          <tr class="pick"><td>Lodestar, volunteer crew</td><td class="num">$26</td><td class="num">$79</td><td class="num">37-45%</td></tr>
-          <tr><td>Quantum Trinity Pro ($21,260)</td><td class="num">$65</td><td class="num">$195</td><td class="num">14%</td></tr>
-          <tr><td>senseFly eBee VISION ($59,717)</td><td class="num">$183</td><td class="num">$547</td><td class="num">≈ 11%</td></tr>
-          <tr><td>Civil Air Patrol light aircraft</td><td class="num">$93-170</td><td class="num">$279-510</td><td class="num">not modelled</td></tr>
-          <tr><td>Sheriff's helicopter</td><td class="num">$1,200-4,050</td><td class="num">$3,600-12,150</td><td class="num">not modelled</td></tr>
-        </tbody>
-      </table>
-    </div>
-    <p class="axisnote">Drone hourly costs use the same ownership assumptions for every aircraft: purchase price spread over a 400-hour life, plus repairs. A helicopter does things Lodestar can't, such as lifting the person out. The point is the search hours it burns before anyone is found.</p>
-    <figure>
-      <div class="chart"><img src="img/trades.png" alt="Scatter chart of help within 3 hours against unit cost for eight builds: two cell types, two wing builds, two search speeds." width="1200" height="690" loading="lazy"></div>
-      <figcaption>What each upgrade buys. SiCore cells add 8 points for about $430, the best value at about $53 per point. Moulded, smooth wing skins add nothing once the SiCore cells give spare energy. They only pay off with the cheaper cells and a fleet of about 25 or more aircraft.</figcaption>
-    </figure>
-    <div class="tablewrap">
-      <table>
-        <thead><tr><th>Build</th><th class="num">Unit cost</th><th class="num">Help within 3 h</th></tr></thead>
-        <tbody>
-          <tr class="pick"><td>SiCore cells, foam-core wing, 20 m/s (recommended)</td><td class="num">$7,760</td><td class="num">45%</td></tr>
-          <tr><td>P50B cells, foam-core wing, 18 m/s (if SiCore can't be bought)</td><td class="num">$7,320</td><td class="num">37%</td></tr>
-          <tr><td>P50B cells, moulded wing, 18 m/s (fleet of 25+)</td><td class="num">$7,140 at 30 built</td><td class="num">41%</td></tr>
-        </tbody>
-      </table>
-    </div>
+    <p class="col">Parts and materials are about <strong>$16,900</strong> per aircraft, and the unit cost for a 10-aircraft build including labour is about <strong>$19,000</strong>. Two Boson 640 cores are $8,900 of that. At $61 per flight hour with a volunteer crew, each expected person helped within 3 hours costs <strong>$810–$1,420</strong>, the lowest in the comparison (Trinity Pro $1,060–$1,680; eBee VISION $3,100–$4,700). The original $8,000 parts target was set aside in favour of performance; a cost-down pass on the cameras is planned.</p>
   </section>
 
   <section>
     <h2>Operating rules</h2>
     <div class="rules">
-      <div class="rule"><b>Search at 20 m/s</b><span>18 m/s with the cheaper P50B cells. Faster finds people sooner inside the 3-hour window, even after camera blur. Keep tracks 55 m apart.</span></div>
-      <div class="rule"><b>Trails first, then spiral</b><span>Fly the mapped trails, roads and stream beds out to 6 km from the last known point, then search in an expanding square from there.</span></div>
-      <div class="rule"><b>Circle, then drop from 40 m</b><span>Measure the wind first. Release upwind about 40 m above the person, aiming 5 m beside them. With the 7 m/s chute, 95% of kits land within 18 m on average, and within 27 m in a 10 m/s wind.</span></div>
-      <div class="rule"><b>Drop at 18 m/s in rough air</b><span>At 15 m/s, moderate turbulence stalls the wing briefly in about half of runs; at 18 m/s it's 1 in 100.</span></div>
-      <div class="rule"><b>Don't descend into sink</b><span>If the aircraft measures sustained sinking air above about 2 m/s, release from higher or wait.</span></div>
+      <div class="rule"><b>Search at 18–20 m/s</b><span>20 m/s above 3,200 m density altitude, where 30° turns at 18 m/s lose the 1.25 Vs margin.</span></div>
+      <div class="rule"><b>Drop run-in 18–20 m/s</b><span>18 m/s in calm or light turbulence, 20 m/s in moderate. Release at 40 m above ground.</span></div>
+      <div class="rule"><b>Keep charge for climbs</b><span>No full-power climb below 25% charge, or below 35% above 3,000 m density altitude.</span></div>
+      <div class="rule"><b>Warm packs</b><span>Packs held at 15 °C or more by insulation and a 5 W heater, with a 50 °C cut-out.</span></div>
+      <div class="rule"><b>Launch</b><span>Full power at release above 3,000 m density altitude, or release at 16.5 m/s or faster.</span></div>
+      <div class="rule"><b>Bingo</b><span>Head home when usable energy less the 10% reserve falls to 1.2 × the return energy into the wind + 3 m/s. Computed on board.</span></div>
     </div>
-  </section>
-
-  <section>
-    <h2>How it was designed</h2>
-    <ol class="log">
-      <li><span class="m">M0</span><div><h3>Prior art and requirements</h3><p>Today's fixed-wing search drones fly about 90 minutes and cost around $45,000-60,000. Targets set: 3+ hours, a 1.5 kg kit, 12 m/s stall, three pieces that fit a car.</p></div></li>
-      <li><span class="m">M1</span><div><h3>Sizing and the kit drop</h3><p>A sweep of 13,834 designs showed a 2.5 m wing can't reach 3 hours; 3.0 m can. Parachute sized so the kit lands at 5 m/s.</p></div></li>
-      <li><span class="m">M2</span><div><h3>Stability without a tail</h3><p>AVL vortex-lattice analysis: 6% static margin, 3° washout, 0.25 m winglets. Stable and trimmed from 12.5 to 22 m/s with the kit aboard and after the drop.</p></div></li>
-      <li><span class="m">M3</span><div><h3>3D model and aero check</h3><p>OpenVSP model with the pod. The pod moves the balance point 15 mm forward. Endurance depends on how smooth the wing stays.</p></div></li>
-      <li><span class="m">M4</span><div><h3>Mission simulation</h3><p>2,000 missions against five real drones with the same camera and winds. The kit drop is the edge, not raw endurance.</p></div></li>
-      <li><span class="m">M5</span><div><h3>Detailed CAD and flight simulation</h3><p>A 31-part STEP assembly with every part inside the skin and the balance point within 1.7 mm of design. JSBSim flight simulation of the release in calm air and turbulence.</p></div></li>
-      <li><span class="m">v3</span><div><h3>Improvements</h3><p>Matched prop and motor, faster search, airfoil and span checked and kept. Design-case flight time up from 3.0 to 3.6 hours on the cheaper cells.</p></div></li>
-      <li><span class="m">M6</span><div><h3>Cost model</h3><p>Parts list from current retail prices, cost per flight hour, and the cost-vs-score trades that picked the recommended build.</p></div></li>
-      <li><span class="m">v3.1</span><div><h3>Camera blur</h3><p>Johnson-criteria detection with thermal-camera blur, applied to every aircraft. Scores drop 2-5 points; the best speeds and the 3× lead over today's drones hold.</p></div></li>
-      <li><span class="m">v3.2</span><div><h3>Search pattern</h3><p>Real lost-person statistics (ISRID) and a trailhead launch. Flying trails first lifts help within 3 hours from 20% to 32% for Lodestar, and doubles help within 1 hour against today's drones.</p></div></li>
-      <li><span class="m">v3.3</span><div><h3>Drop accuracy</h3><p>Full error budget for the kit drop, fed back into the score: 92% of kits land within reach, costing 2 points. A faster 7 m/s parachute wins most of that back and is 60 g lighter.</p></div></li>
-    </ol>
   </section>
 
   <section>
     <h2>Not proven yet</h2>
     <ul class="clean">
-      <li><strong>Nothing has flown.</strong> Every number comes from analysis and simulation with free tools and public data. A flight-test prototype is the next step.</li>
-      <li><strong>SiCore cells are only sold as evaluation samples</strong> and have no public price; $23 a cell is assumed. The P50B fallback uses cells in volume production.</li>
-      <li><strong>The blur model is a standard rule of thumb, not a test of this camera.</strong> It uses the Johnson criteria and a 7-12 ms response time, and the scores above use 10 ms. The SIYI ZT6's actual response time isn't published; a flight over a person lying in grass would measure it.</li>
-      <li><strong>The trailhead scenario uses a simplified map:</strong> four straight trails or drainages from the last known point, and a log-normal fit to ISRID distances that runs slightly wide (it puts the 95% point at 23 km against ISRID's 18 km). Real terrain, canopy and the person moving aren't modelled.</li>
-      <li><strong>The drop model doesn't cover trees or steep slopes.</strong> A parachute can snag in a tree, and a kit can roll downhill. How far a hurt person can crawl (15 m) and how many are hurt (30%) are assumptions. The gust model is the standard flat-ground one, and mountains can be rougher.</li>
-      <li><strong>The flight model can't simulate a real stall;</strong> it flags when the wing would stall. The bay-door drag is an estimate, though doubling it barely matters.</li>
-      <li><strong>Mould and labour costs are estimates.</strong> Certification, insurance, training and the FAA waiver for flying beyond line of sight aren't costed.</li>
+      <li><strong>Detection is the largest uncertainty.</strong> Absolute help rates move by a factor of 1.6 across the calibration range; field trials with the real camera would pin it down.</li>
+      <li><strong>Competitors are modelled from spec sheets.</strong> No mass or drag model is published for them; an 80%-endurance case is reported and Lodestar's lead grows in it.</li>
+      <li><strong>Assumed allowables.</strong> Skin wrinkling on EPS, the joint stiffness and the SiCore cell resistance all need coupon or bench tests before flight.</li>
+      <li><strong>Thin margins.</strong> 0.18 kg to the 10 kg limit; 2.97 h at a fixed 20 m/s (3.49 h at best speed); the parachute's packed size is a vendor-class estimate.</li>
+      <li><strong>Not built.</strong> This is a virtual design study with free tools and public data. Certification, insurance and the waivers for flight over people and beyond line of sight are not costed.</li>
     </ul>
   </section>
 
   <footer>
-    <span>Design study and report, 12 November 2026 (US Central).</span>
-    <span>Tools: AeroSandbox and NeuralFoil, AVL, OpenVSP, JSBSim, build123d, Blender, and the UIUC Propeller Data Site. Prices are US retail listings checked 12 November 2026.</span>
+    <span>Design report, revision v1.1, 16 November 2026 (US Central). Full results: research/2026-11-16-step2-results.md; drawing LOD-GA-001; parts list docs/parts_list.md.</span>
+    <span>Tools: FreeCAD and CalculiX, AVL, OpenVSP, AeroSandbox and NeuralFoil, JSBSim, PyVista, the UIUC Propeller Data Site, AWS terrain tiles, OpenStreetMap and NLCD canopy data.</span>
   </footer>
 </main>

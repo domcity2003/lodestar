@@ -1,0 +1,26 @@
+group,item,qty,unit_usd,line_usd,low_usd,high_usd,source
+airframe,"Airframe materials: EPS 20 / XPS cores, glass and carbon, Rohacell web, G10, epoxy",1,450.0,450.0,350.0,600.0,ESTIMATE (cost_model.BUILD foam-core)
+propulsion,"ESC, 60 A class",1,90.0,90.0,60.0,130.0,ESTIMATE (Hobbywing/T-Motor 60 A fixed-wing ESCs)
+propulsion,Motor: T-Motor AT3520-550,1,80.0,80.0,80.0,122.0,Altitude Hobbies $79.99; others to $122
+propulsion,Prop hub + spinner (40 mm),1,35.0,35.0,25.0,45.0,ESTIMATE (Aeronaut hub/spinner sets)
+propulsion,Prop: Aeronaut CAM carbon 15x10 folding blades,1,25.0,25.0,22.0,30.0,Buchmann CHF 25.65; ModelFlight AU$21.99
+power,"Cells: Amprius SiCore 6.3 Ah 18650 (30, 6S5P in the wing roots)",30,22.7,681.0,300.0,1050.0,ESTIMATE: no public unit price; $10-35 range (research/2026-11-12-cost-model.md)
+power,"Pack build: nickel, BMS, leads, XT connectors (2 packs)",2,30.0,60.0,40.0,90.0,ESTIMATE
+power,8 AWG pack leads (increment),1,20.0,20.0,10.0,30.0,ESTIMATE
+avionics,Autopilot: Holybro Pixhawk 6X + M10 GPS set,1,550.0,550.0,450.0,750.0,Fruugo $549 (RRP $749)
+avionics,"Video, telemetry + RC link: SIYI HM30 (air + ground)",1,380.0,380.0,245.0,450.0,SIYI store $284-$382 by bundle
+avionics,"Elevon servos: KST A12-S HV (v1.1, 1.35 N m)",2,90.0,180.0,140.0,240.0,ESTIMATE (KST A-series HV retail)
+avionics,"Wiring, connectors, power module",1,80.0,80.0,50.0,120.0,ESTIMATE
+avionics,Airspeed sensor + pitot,1,60.0,60.0,45.0,90.0,ESTIMATE (Matek/Holybro digital airspeed)
+avionics,Kit release servo,1,30.0,30.0,20.0,40.0,ESTIMATE
+payload,Nadir thermal: FLIR Boson 640 50 deg core + mount (v1),1,4454.0,4454.0,4236.0,6500.0,"FLIR Boson 640, 9.2 mm 50 deg lens: OEMCameras $4,354 list ($4,136 at qty 5, to $6,400 by grade), https://www.oemcameras.com/?p=4037 + $100 mount"
+payload,Twin camera: second Boson 640 50 deg core + splayed mount (v1.1),1,4454.0,4454.0,4236.0,6500.0,"FLIR Boson 640, 9.2 mm 50 deg lens: OEMCameras $4,354 list ($4,136 at qty 5, to $6,400 by grade), https://www.oemcameras.com/?p=4037 + $100 mount"
+payload,"Gimbal: SIYI ZT6 (640x512 thermal + 4K, 3-axis)",1,2940.0,2940.0,2575.0,3700.0,"Druav $2,940; Irlock $3,700; Alibaba $2,575 (10+)"
+safety,Aircraft parachute: fixed-wing bundle + launcher + independent trigger (RC1),1,1500.0,1500.0,800.0,2500.0,"ESTIMATE; anchor Fruity Chutes fixed-wing bundle 12.7 kg from $788 (10 kg size by quote), https://shop.fruitychutes.com/collections/fixed-wing-bundle"
+safety,ADS-B In: uAvionix pingRX Pro (RC8),1,349.0,349.0,319.0,420.0,"uAvionix launch price $349, https://uavionix.com/press/introducing-pingrx-pro/"
+safety,Second GNSS + antenna (RC10),1,120.0,120.0,60.0,200.0,ESTIMATE
+safety,Backup avionics supply (2S) + locking connectors (RC2),1,90.0,90.0,60.0,140.0,ESTIMATE
+safety,"Anti-collision strobes, 3 sm (RC8)",2,40.0,80.0,50.0,120.0,ESTIMATE
+safety,"BMS, heater 50 C cut-out, liner (RC3)",1,60.0,60.0,40.0,100.0,ESTIMATE
+kit system,"Kit parachute: 1.5 m cross chute (ripstop, lines, swivel)",1,60.0,60.0,35.0,90.0,ESTIMATE (204 g chute from milestone 1b)
+kit system,Kit container + bay door hardware,1,40.0,40.0,25.0,60.0,ESTIMATE

@@ -1,6 +1,6 @@
 ﻿[project]
 name = "lodestar"
-version = "0.1.0"
+version = "1.1.0"
 description = "Design study: a long-endurance flying-wing search-and-rescue drone with a thermal camera and a parachute rescue-kit drop. Virtual only, free tools, public data."
 requires-python = ">=3.13,<3.14"
 dependencies = [
