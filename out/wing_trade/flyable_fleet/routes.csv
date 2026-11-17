@@ -1,0 +1,491 @@
+site,pattern,aircraft,wind_bound_mps,airspeed_mps,radius_m,path_km,straight_search_km,end_reason
+yosemite_happy_isles,trails 3,Lodestar SiCore,8,18.0,119.35436757559236,319.66361056881897,51.154797865874365,energy envelope
+yosemite_happy_isles,trails 3,Lodestar SiCore,2,18.0,70.62388613940377,246.11540453021829,63.77573799217214,energy envelope
+yosemite_happy_isles,trails 3,Lodestar SiCore,10,18.0,138.4228168332314,344.4151192971559,44.127467297551334,energy envelope
+yosemite_happy_isles,trails 3,Lodestar SiCore,6,18.0,101.69839604074143,295.258477153963,54.975181925931615,energy envelope
+yosemite_happy_isles,trails 3,Lodestar SiCore,4,18.0,85.45490222867856,270.5973988679246,60.58511392867942,energy envelope
+yosemite_happy_isles,trails 3,Lodestar P50B,8,18.0,119.35436757559236,255.43465272291016,37.22430634309353,energy envelope
+yosemite_happy_isles,trails 3,Lodestar P50B,2,18.0,70.62388613940377,196.7627029894452,51.4883241923435,energy envelope
+yosemite_happy_isles,trails 3,Lodestar P50B,10,18.0,138.4228168332314,275.3079686087695,34.91390462266658,energy envelope
+yosemite_happy_isles,trails 3,Lodestar P50B,6,18.0,101.69839604074143,236.20325881118828,39.617428398431834,energy envelope
+yosemite_happy_isles,trails 3,Lodestar P50B,4,18.0,85.45490222867856,216.15255612869197,44.89029644036078,energy envelope
+yosemite_happy_isles,trails 3,DeltaQuad Evo GOV,8,16.54,106.3263086755704,321.2639121497652,58.58610854404445,energy envelope
+yosemite_happy_isles,trails 3,DeltaQuad Evo GOV,2,16.54,60.68915345228769,242.58246523840756,70.4689829188503,energy envelope
+yosemite_happy_isles,trails 3,DeltaQuad Evo GOV,10,16.54,124.36364919557413,347.0508824510111,52.793922802571124,energy envelope
+yosemite_happy_isles,trails 3,DeltaQuad Evo GOV,6,16.54,89.70144587835476,294.7074788624151,62.28732247365397,energy envelope
+yosemite_happy_isles,trails 3,DeltaQuad Evo GOV,4,16.54,74.48906080392719,268.63419126425646,64.2329169442426,energy envelope
+yosemite_happy_isles,trails 3,C-Astral Bramor ppX,8,16.0,101.69839604074143,259.3128778019213,46.0588043760221,energy envelope
+yosemite_happy_isles,trails 3,C-Astral Bramor ppX,2,16.0,57.20534777291705,194.4291534875122,62.33342013671418,energy envelope
+yosemite_happy_isles,trails 3,C-Astral Bramor ppX,10,16.0,119.35436757559236,281.19796326574306,40.33389998231398,energy envelope
+yosemite_happy_isles,trails 3,C-Astral Bramor ppX,6,16.0,85.45490222867856,237.60962593665027,51.98803043221268,energy envelope
+yosemite_happy_isles,trails 3,C-Astral Bramor ppX,4,16.0,70.62388613940377,216.17821047730925,57.10874261272897,energy envelope
+yosemite_happy_isles,trails 3,Quantum Trinity Pro,8,17.0,110.34982209281839,118.50093482196498,16.28477502609804,energy envelope
+yosemite_happy_isles,trails 3,Quantum Trinity Pro,2,17.0,63.7380572408119,90.31748582753565,21.590067229496025,energy envelope
+yosemite_happy_isles,trails 3,Quantum Trinity Pro,10,17.0,128.71203248906338,128.1789663934374,13.412160457227404,energy envelope
+yosemite_happy_isles,trails 3,Quantum Trinity Pro,6,17.0,93.40008941936148,109.05982340340564,17.573886829820022,energy envelope
+yosemite_happy_isles,trails 3,Quantum Trinity Pro,4,17.0,77.86283446869265,99.49957751361698,19.32039321385864,energy envelope
+yosemite_happy_isles,trails 3,AgEagle eBee X,8,14.0,85.45490222867856,104.2588481603695,18.08961423889044,energy envelope
+yosemite_happy_isles,trails 3,AgEagle eBee X,2,14.0,45.19928712921841,75.8093970399122,25.717053569001994,energy envelope
+yosemite_happy_isles,trails 3,AgEagle eBee X,10,14.0,101.69839604074143,113.99030842895428,16.82865402685141,energy envelope
+yosemite_happy_isles,trails 3,AgEagle eBee X,6,14.0,70.62388613940377,94.76343491408194,20.673242780548637,energy envelope
+yosemite_happy_isles,trails 3,AgEagle eBee X,4,14.0,57.20534777291705,85.34354786663555,22.38978065433909,energy envelope
+yosemite_happy_isles,trails 3,DeltaQuad Evo-LE (press),8,16.5,105.97996913794277,601.0315824272058,213.89381317786248,energy envelope
+yosemite_happy_isles,trails 3,DeltaQuad Evo-LE (press),2,16.5,60.42756257802735,453.77444283708815,252.9289953487224,energy envelope
+yosemite_happy_isles,trails 3,DeltaQuad Evo-LE (press),10,16.5,123.98906010349074,648.1550456872384,181.1452531375979,energy envelope
+yosemite_happy_isles,trails 3,DeltaQuad Evo-LE (press),6,16.5,89.38335589518289,551.4619184257405,233.62215037498314,energy envelope
+yosemite_happy_isles,trails 3,DeltaQuad Evo-LE (press),4,16.5,74.19922037521108,502.34780569328797,245.94863505861485,energy envelope
+yosemite_happy_isles,trails 6,Lodestar SiCore,8,18.0,119.35436757559236,319.9196259287619,46.32291369333887,energy envelope
+yosemite_happy_isles,trails 6,Lodestar SiCore,2,18.0,70.62388613940377,246.28097438372737,61.36400744586089,energy envelope
+yosemite_happy_isles,trails 6,Lodestar SiCore,10,18.0,138.4228168332314,344.6023753974036,40.69743766451199,energy envelope
+yosemite_happy_isles,trails 6,Lodestar SiCore,6,18.0,101.69839604074143,295.17642292077954,52.86937436380815,energy envelope
+yosemite_happy_isles,trails 6,Lodestar SiCore,4,18.0,85.45490222867856,270.8847294718037,56.261380379509276,energy envelope
+yosemite_happy_isles,trails 6,Lodestar P50B,8,18.0,119.35436757559236,255.42781012325872,32.879014525178086,energy envelope
+yosemite_happy_isles,trails 6,Lodestar P50B,2,18.0,70.62388613940377,196.50634061320173,47.24345087296217,energy envelope
+yosemite_happy_isles,trails 6,Lodestar P50B,10,18.0,138.4228168332314,275.62950094159214,28.301805554402232,energy envelope
+yosemite_happy_isles,trails 6,Lodestar P50B,6,18.0,101.69839604074143,236.3082730663942,37.54552381101952,energy envelope
+yosemite_happy_isles,trails 6,Lodestar P50B,4,18.0,85.45490222867856,216.14003139605768,42.313428226939095,energy envelope
+yosemite_happy_isles,trails 6,DeltaQuad Evo GOV,8,16.54,106.3263086755704,321.1504739047419,54.12171053205538,energy envelope
+yosemite_happy_isles,trails 6,DeltaQuad Evo GOV,2,16.54,60.68915345228769,242.4312547425151,69.83708684112877,energy envelope
+yosemite_happy_isles,trails 6,DeltaQuad Evo GOV,10,16.54,124.36364919557413,347.02454722563664,49.7667098473511,energy envelope
+yosemite_happy_isles,trails 6,DeltaQuad Evo GOV,6,16.54,89.70144587835476,294.770337211137,58.64865459502739,energy envelope
+yosemite_happy_isles,trails 6,DeltaQuad Evo GOV,4,16.54,74.48906080392719,268.58631083734485,65.34270270396422,energy envelope
+yosemite_happy_isles,trails 6,C-Astral Bramor ppX,8,16.0,101.69839604074143,259.20659670483644,42.754324463904304,energy envelope
+yosemite_happy_isles,trails 6,C-Astral Bramor ppX,2,16.0,57.20534777291705,194.52857398809715,58.39206762680765,energy envelope
+yosemite_happy_isles,trails 6,C-Astral Bramor ppX,10,16.0,119.35436757559236,281.1983401015741,37.83415989918769,energy envelope
+yosemite_happy_isles,trails 6,C-Astral Bramor ppX,6,16.0,85.45490222867856,237.6552058158138,48.97376785902244,energy envelope
+yosemite_happy_isles,trails 6,C-Astral Bramor ppX,4,16.0,70.62388613940377,216.33685390484965,53.67669380787441,energy envelope
+yosemite_happy_isles,trails 6,Quantum Trinity Pro,8,17.0,110.34982209281839,118.55612634592123,13.964070950112168,energy envelope
+yosemite_happy_isles,trails 6,Quantum Trinity Pro,2,17.0,63.7380572408119,90.29912095296571,17.699392366029812,energy envelope
+yosemite_happy_isles,trails 6,Quantum Trinity Pro,10,17.0,128.71203248906338,128.1494932465336,12.231054843050101,energy envelope
+yosemite_happy_isles,trails 6,Quantum Trinity Pro,6,17.0,93.40008941936148,108.93074986541698,15.644614774929774,energy envelope
+yosemite_happy_isles,trails 6,Quantum Trinity Pro,4,17.0,77.86283446869265,99.4889869584962,16.658481866838223,energy envelope
+yosemite_happy_isles,trails 6,AgEagle eBee X,8,14.0,85.45490222867856,104.2630311179803,16.27535065328502,energy envelope
+yosemite_happy_isles,trails 6,AgEagle eBee X,2,14.0,45.19928712921841,75.7802141227331,20.66458612955378,energy envelope
+yosemite_happy_isles,trails 6,AgEagle eBee X,10,14.0,101.69839604074143,113.7094890561148,14.89568319586688,energy envelope
+yosemite_happy_isles,trails 6,AgEagle eBee X,6,14.0,70.62388613940377,94.9967599630605,17.194805755718868,energy envelope
+yosemite_happy_isles,trails 6,AgEagle eBee X,4,14.0,57.20534777291705,85.28232606811015,18.29869823814468,energy envelope
+yosemite_happy_isles,trails 6,DeltaQuad Evo-LE (press),8,16.5,105.97996913794277,599.4160393564973,118.29919640260586,energy envelope
+yosemite_happy_isles,trails 6,DeltaQuad Evo-LE (press),2,16.5,60.42756257802735,452.2662980844194,145.44441591268762,energy envelope
+yosemite_happy_isles,trails 6,DeltaQuad Evo-LE (press),10,16.5,123.98906010349074,648.4386738306279,106.42720452167077,energy envelope
+yosemite_happy_isles,trails 6,DeltaQuad Evo-LE (press),6,16.5,89.38335589518289,550.4940843961816,130.406843810944,energy envelope
+yosemite_happy_isles,trails 6,DeltaQuad Evo-LE (press),4,16.5,74.19922037521108,501.293977165814,137.1755704930022,energy envelope
+sequoia_lodgepole,trails 3,Lodestar SiCore,8,18.0,119.35436757559236,356.70266406881484,217.03511235904128,energy envelope
+sequoia_lodgepole,trails 3,Lodestar SiCore,2,18.0,70.62388613940377,273.2291006613999,201.20413862298062,energy envelope
+sequoia_lodgepole,trails 3,Lodestar SiCore,10,18.0,138.4228168332314,383.55818077738724,215.2586000571675,energy envelope
+sequoia_lodgepole,trails 3,Lodestar SiCore,6,18.0,101.69839604074143,327.8469841744692,214.01384057398047,energy envelope
+sequoia_lodgepole,trails 3,Lodestar SiCore,4,18.0,85.45490222867856,302.7964295133678,211.0161332175712,energy envelope
+sequoia_lodgepole,trails 3,Lodestar P50B,8,18.0,119.35436757559236,290.22721072834514,154.30928706206498,energy envelope
+sequoia_lodgepole,trails 3,Lodestar P50B,2,18.0,70.62388613940377,222.95409316295274,152.70410297944164,energy envelope
+sequoia_lodgepole,trails 3,Lodestar P50B,10,18.0,138.4228168332314,314.26832398763185,150.53485836416326,energy envelope
+sequoia_lodgepole,trails 3,Lodestar P50B,6,18.0,101.69839604074143,268.49017202698474,157.53248283144714,energy envelope
+sequoia_lodgepole,trails 3,Lodestar P50B,4,18.0,85.45490222867856,247.46244799817669,157.96409989334626,energy envelope
+sequoia_lodgepole,trails 3,DeltaQuad Evo GOV,8,16.54,106.3263086755704,336.91527645556613,214.56338912296926,energy envelope
+sequoia_lodgepole,trails 3,DeltaQuad Evo GOV,2,16.54,60.68915345228769,255.85621254648046,195.37808002233442,energy envelope
+sequoia_lodgepole,trails 3,DeltaQuad Evo GOV,10,16.54,124.36364919557413,365.06725711472916,213.96734397576947,energy envelope
+sequoia_lodgepole,trails 3,DeltaQuad Evo GOV,6,16.54,89.70144587835476,309.2596758618215,209.85486226222187,energy envelope
+sequoia_lodgepole,trails 3,DeltaQuad Evo GOV,4,16.54,74.48906080392719,283.3173851693484,204.65915417814546,energy envelope
+sequoia_lodgepole,trails 3,C-Astral Bramor ppX,8,16.0,101.69839604074143,277.095230800168,164.0608245343879,energy envelope
+sequoia_lodgepole,trails 3,C-Astral Bramor ppX,2,16.0,57.20534777291705,208.19812171320984,152.84849256319944,energy envelope
+sequoia_lodgepole,trails 3,C-Astral Bramor ppX,10,16.0,119.35436757559236,300.36597813105817,160.85599097540188,energy envelope
+sequoia_lodgepole,trails 3,C-Astral Bramor ppX,6,16.0,85.45490222867856,254.20663372461615,162.6840920443153,energy envelope
+sequoia_lodgepole,trails 3,C-Astral Bramor ppX,4,16.0,70.62388613940377,232.5025367554411,160.8103819398171,energy envelope
+sequoia_lodgepole,trails 3,Quantum Trinity Pro,8,17.0,110.34982209281839,143.2076761507053,37.69236201899063,energy envelope
+sequoia_lodgepole,trails 3,Quantum Trinity Pro,2,17.0,63.7380572408119,108.64784600406469,51.48461476573367,energy envelope
+sequoia_lodgepole,trails 3,Quantum Trinity Pro,10,17.0,128.71203248906338,156.72843971672842,33.821604613831944,energy envelope
+sequoia_lodgepole,trails 3,Quantum Trinity Pro,6,17.0,93.40008941936148,131.80473246628978,42.233344409902834,energy envelope
+sequoia_lodgepole,trails 3,Quantum Trinity Pro,4,17.0,77.86283446869265,120.00828508559911,46.92444952596383,energy envelope
+sequoia_lodgepole,trails 3,AgEagle eBee X,8,14.0,85.45490222867856,126.00245056936102,44.54732737861709,energy envelope
+sequoia_lodgepole,trails 3,AgEagle eBee X,2,14.0,45.19928712921841,91.68184849688998,54.57132357962834,energy envelope
+sequoia_lodgepole,trails 3,AgEagle eBee X,10,14.0,101.69839604074143,137.18731938788557,38.689932613802824,energy envelope
+sequoia_lodgepole,trails 3,AgEagle eBee X,6,14.0,70.62388613940377,114.71313082434648,50.34273491021841,energy envelope
+sequoia_lodgepole,trails 3,AgEagle eBee X,4,14.0,57.20534777291705,103.38673369128543,53.33872360040374,energy envelope
+sequoia_lodgepole,trails 3,DeltaQuad Evo-LE (press),8,16.62,107.02068272409304,603.8365725245163,469.926762081146,energy envelope
+sequoia_lodgepole,trails 3,DeltaQuad Evo-LE (press),2,16.5,60.42756257802735,459.21406857113504,393.87097010926584,energy envelope
+sequoia_lodgepole,trails 3,DeltaQuad Evo-LE (press),10,16.64,125.30259376179751,653.9891619042936,488.364355544856,energy envelope
+sequoia_lodgepole,trails 3,DeltaQuad Evo-LE (press),6,16.57,89.94038414113591,556.1870345164467,447.8941579302879,energy envelope
+sequoia_lodgepole,trails 3,DeltaQuad Evo-LE (press),4,16.55,74.56160919096389,506.49668139478774,421.0859386616125,energy envelope
+sequoia_lodgepole,trails 6,Lodestar SiCore,8,18.0,119.35436757559236,354.4717022879424,88.66629617457944,energy envelope
+sequoia_lodgepole,trails 6,Lodestar SiCore,2,18.0,70.62388613940377,273.5019385940393,124.75781760344667,energy envelope
+sequoia_lodgepole,trails 6,Lodestar SiCore,10,18.0,138.4228168332314,381.9372736793538,84.75662785516303,energy envelope
+sequoia_lodgepole,trails 6,Lodestar SiCore,6,18.0,101.69839604074143,327.21566940947235,100.09884851363135,energy envelope
+sequoia_lodgepole,trails 6,Lodestar SiCore,4,18.0,85.45490222867856,299.9253033455825,112.61862659279289,energy envelope
+sequoia_lodgepole,trails 6,Lodestar P50B,8,18.0,119.35436757559236,289.47111839875464,81.36124533904241,energy envelope
+sequoia_lodgepole,trails 6,Lodestar P50B,2,18.0,70.62388613940377,222.9350378403126,90.49322338600058,energy envelope
+sequoia_lodgepole,trails 6,Lodestar P50B,10,18.0,138.4228168332314,312.2988136615957,73.41429761745991,energy envelope
+sequoia_lodgepole,trails 6,Lodestar P50B,6,18.0,101.69839604074143,267.3540871594727,83.95510072465035,energy envelope
+sequoia_lodgepole,trails 6,Lodestar P50B,4,18.0,85.45490222867856,245.0222376885774,86.47059597748827,energy envelope
+sequoia_lodgepole,trails 6,DeltaQuad Evo GOV,8,16.54,106.3263086755704,337.8234409650663,98.68766376688957,energy envelope
+sequoia_lodgepole,trails 6,DeltaQuad Evo GOV,2,16.54,60.68915345228769,254.61002628123336,130.69382012955,energy envelope
+sequoia_lodgepole,trails 6,DeltaQuad Evo GOV,10,16.54,124.36364919557413,364.00148744596567,88.18198520403685,energy envelope
+sequoia_lodgepole,trails 6,DeltaQuad Evo GOV,6,16.54,89.70144587835476,309.15816036513723,110.71116175108325,energy envelope
+sequoia_lodgepole,trails 6,DeltaQuad Evo GOV,4,16.54,74.48906080392719,281.9254754410257,122.74503684387527,energy envelope
+sequoia_lodgepole,trails 6,C-Astral Bramor ppX,8,16.0,101.69839604074143,276.7733508055626,85.2435025762183,energy envelope
+sequoia_lodgepole,trails 6,C-Astral Bramor ppX,2,16.0,57.20534777291705,210.39192379301758,101.82939141484972,energy envelope
+sequoia_lodgepole,trails 6,C-Astral Bramor ppX,10,16.0,119.35436757559236,300.26103430337434,82.31151897010004,energy envelope
+sequoia_lodgepole,trails 6,C-Astral Bramor ppX,6,16.0,85.45490222867856,253.77090317311772,88.65552766080415,energy envelope
+sequoia_lodgepole,trails 6,C-Astral Bramor ppX,4,16.0,70.62388613940377,230.82569563871294,93.48093562460568,energy envelope
+sequoia_lodgepole,trails 6,Quantum Trinity Pro,8,17.0,110.34982209281839,142.84846693454728,35.708393701323175,energy envelope
+sequoia_lodgepole,trails 6,Quantum Trinity Pro,2,17.0,63.7380572408119,108.7095909676264,46.27195583823926,energy envelope
+sequoia_lodgepole,trails 6,Quantum Trinity Pro,10,17.0,128.71203248906338,154.54099113681593,29.448986574342104,energy envelope
+sequoia_lodgepole,trails 6,Quantum Trinity Pro,6,17.0,93.40008941936148,131.94974076884625,39.30016379758155,energy envelope
+sequoia_lodgepole,trails 6,Quantum Trinity Pro,4,17.0,77.86283446869265,119.99148458016037,41.44522458030694,energy envelope
+sequoia_lodgepole,trails 6,AgEagle eBee X,8,14.0,85.45490222867856,125.84107195580248,40.19876081532285,energy envelope
+sequoia_lodgepole,trails 6,AgEagle eBee X,2,14.0,45.19928712921841,91.55123934854403,49.02590981526276,energy envelope
+sequoia_lodgepole,trails 6,AgEagle eBee X,10,14.0,101.69839604074143,137.58720064863616,36.393159373775774,energy envelope
+sequoia_lodgepole,trails 6,AgEagle eBee X,6,14.0,70.62388613940377,114.27943513922605,44.709117487513154,energy envelope
+sequoia_lodgepole,trails 6,AgEagle eBee X,4,14.0,57.20534777291705,103.14086321955533,47.28257561655159,energy envelope
+sequoia_lodgepole,trails 6,DeltaQuad Evo-LE (press),8,16.5,105.97996913794277,605.4005820976876,337.52368707191636,energy envelope
+sequoia_lodgepole,trails 6,DeltaQuad Evo-LE (press),2,16.5,60.42756257802735,458.8894258998728,327.24935348475094,energy envelope
+sequoia_lodgepole,trails 6,DeltaQuad Evo-LE (press),10,16.5,123.98906010349074,655.503785844777,322.8488181977111,energy envelope
+sequoia_lodgepole,trails 6,DeltaQuad Evo-LE (press),6,16.5,89.38335589518289,556.612481845373,342.44203892565326,energy envelope
+sequoia_lodgepole,trails 6,DeltaQuad Evo-LE (press),4,16.5,74.19922037521108,506.4019491484906,336.5353584094171,energy envelope
+rocky_bear_lake,trails 3,Lodestar SiCore,8,18.46,123.61503600249647,336.15031168234196,209.52082248545486,energy envelope
+rocky_bear_lake,trails 3,Lodestar SiCore,2,18.37,73.26114095159292,260.9846013957047,196.62507407549268,energy envelope
+rocky_bear_lake,trails 3,Lodestar SiCore,10,18.44,142.80743018031012,361.88463302849067,205.0443252042061,energy envelope
+rocky_bear_lake,trails 3,Lodestar SiCore,6,18.44,105.46151918979342,311.0339152207172,207.1911037772239,energy envelope
+rocky_bear_lake,trails 3,Lodestar SiCore,4,18.41,88.66971918171575,285.2225888803102,201.66063520754196,energy envelope
+rocky_bear_lake,trails 3,Lodestar P50B,8,18.25,121.66067885733227,272.55077482460337,151.55428016325365,energy envelope
+rocky_bear_lake,trails 3,Lodestar P50B,2,18.18,71.90083662469033,210.53740120160361,149.17995920485,energy envelope
+rocky_bear_lake,trails 3,Lodestar P50B,10,18.21,140.50694536917672,291.05184716524127,142.84710888077365,energy envelope
+rocky_bear_lake,trails 3,Lodestar P50B,6,18.21,103.48590425490127,251.5336398244931,152.48976812160848,energy envelope
+rocky_bear_lake,trails 3,Lodestar P50B,4,18.21,87.09410028194566,229.4244960039656,150.51232979403267,energy envelope
+rocky_bear_lake,trails 3,DeltaQuad Evo GOV,8,16.96,109.99698515766593,300.5663328275662,190.57667530330306,energy envelope
+rocky_bear_lake,trails 3,DeltaQuad Evo GOV,2,16.87,62.86883610617966,229.289171887962,175.633643301103,energy envelope
+rocky_bear_lake,trails 3,DeltaQuad Evo GOV,10,16.96,128.33094599945517,323.7494643373861,189.3165799005525,energy envelope
+rocky_bear_lake,trails 3,DeltaQuad Evo GOV,6,16.93,92.83243227854449,276.1683195729299,186.69580595085006,energy envelope
+rocky_bear_lake,trails 3,DeltaQuad Evo GOV,4,16.9,77.12304926138239,253.22240289125455,184.13206717231503,energy envelope
+rocky_bear_lake,trails 3,C-Astral Bramor ppX,8,16.3,104.25674631614133,245.18303028365503,144.3279271518796,energy envelope
+rocky_bear_lake,trails 3,C-Astral Bramor ppX,2,16.3,59.12808307306233,184.62575827742936,136.1669383078855,energy envelope
+rocky_bear_lake,trails 3,C-Astral Bramor ppX,10,16.3,122.12458950941048,264.6752569242235,140.88477874681902,energy envelope
+rocky_bear_lake,trails 3,C-Astral Bramor ppX,6,16.3,87.80138084566025,224.97413465466263,143.6306260759646,energy envelope
+rocky_bear_lake,trails 3,C-Astral Bramor ppX,4,16.3,72.75849309796725,205.2542517418314,142.36489688280116,energy envelope
+rocky_bear_lake,trails 3,Quantum Trinity Pro,8,17.32,113.19285725324622,115.3890349527187,34.86931612913462,energy envelope
+rocky_bear_lake,trails 3,Quantum Trinity Pro,2,17.32,65.90310309430146,88.11280739017941,40.801777653669646,energy envelope
+rocky_bear_lake,trails 3,Quantum Trinity Pro,10,17.32,131.78106408513727,124.6577519028942,32.556943252730214,energy envelope
+rocky_bear_lake,trails 3,Quantum Trinity Pro,6,17.32,96.01712814414323,106.27710578621036,37.41528042177294,energy envelope
+rocky_bear_lake,trails 3,Quantum Trinity Pro,4,17.32,80.25387675782831,97.16923282628694,39.098903020307006,energy envelope
+rocky_bear_lake,trails 3,AgEagle eBee X,8,14.27,87.56530285026776,101.45007672504828,38.464858138790994,energy envelope
+rocky_bear_lake,trails 3,AgEagle eBee X,2,14.27,46.737634273078434,74.24611974657199,44.66165079847828,energy envelope
+rocky_bear_lake,trails 3,AgEagle eBee X,10,14.27,103.999481154907,111.0117783761975,35.98726653144818,energy envelope
+rocky_bear_lake,trails 3,AgEagle eBee X,6,14.27,72.54360226841656,92.36890301870831,39.12324226658432,energy envelope
+rocky_bear_lake,trails 3,AgEagle eBee X,4,14.27,58.93437940935346,83.39488419877196,41.76013665780733,energy envelope
+rocky_bear_lake,trails 3,DeltaQuad Evo-LE (press),8,17.17,111.85568224905431,550.687308279618,426.66112845371566,energy envelope
+rocky_bear_lake,trails 3,DeltaQuad Evo-LE (press),2,17.14,64.68081549688681,419.32862962738574,358.4244184157893,energy envelope
+rocky_bear_lake,trails 3,DeltaQuad Evo-LE (press),10,17.17,130.33795325173628,593.2424806021821,442.98995547545064,energy envelope
+rocky_bear_lake,trails 3,DeltaQuad Evo-LE (press),6,17.16,94.70408885303942,505.93438361700265,405.732304886927,energy envelope
+rocky_bear_lake,trails 3,DeltaQuad Evo-LE (press),4,17.15,78.97913326898359,463.35433895133355,384.417062654716,energy envelope
+rocky_bear_lake,trails 6,Lodestar SiCore,8,18.67,125.5849657145544,335.1130564265888,87.18655757455313,energy envelope
+rocky_bear_lake,trails 6,Lodestar SiCore,2,18.64,75.21613371173237,260.36091662165705,106.76442790200478,energy envelope
+rocky_bear_lake,trails 6,Lodestar SiCore,10,18.67,145.12659500932742,360.4249908817734,82.59060710992777,energy envelope
+rocky_bear_lake,trails 6,Lodestar SiCore,6,18.66,107.36871723498801,310.6439064245687,93.65258480784351,energy envelope
+rocky_bear_lake,trails 6,Lodestar SiCore,4,18.65,90.57910656738066,284.97029856140693,99.51822674709017,energy envelope
+rocky_bear_lake,trails 6,Lodestar P50B,8,18.63,125.20854040143135,269.8833962013437,74.0542629004727,energy envelope
+rocky_bear_lake,trails 6,Lodestar P50B,2,18.6,74.92488080529347,208.69515756690137,85.84005901769255,energy envelope
+rocky_bear_lake,trails 6,Lodestar P50B,10,18.63,144.7219201417486,290.31324604214586,66.11365248298998,energy envelope
+rocky_bear_lake,trails 6,Lodestar P50B,6,18.62,107.02068272409304,249.59009598192296,81.24296333432375,energy envelope
+rocky_bear_lake,trails 6,Lodestar P50B,4,18.61,90.25946285871372,229.10860105871566,82.50624946696934,energy envelope
+rocky_bear_lake,trails 6,DeltaQuad Evo GOV,8,17.27,112.74624945327217,297.05869430696345,86.34259981996692,energy envelope
+rocky_bear_lake,trails 6,DeltaQuad Evo GOV,2,17.25,65.42640951883202,226.3417044143151,103.35107478865571,energy envelope
+rocky_bear_lake,trails 6,DeltaQuad Evo GOV,10,17.28,131.39545766681616,320.2168928491412,82.43800744911131,energy envelope
+rocky_bear_lake,trails 6,DeltaQuad Evo GOV,6,17.26,95.52367905168724,273.4790667080601,89.51886893206144,energy envelope
+rocky_bear_lake,trails 6,DeltaQuad Evo GOV,4,17.26,79.80280199705594,249.82514610578804,97.73408813432877,energy envelope
+rocky_bear_lake,trails 6,C-Astral Bramor ppX,8,16.71,107.80455489232581,241.01137775801288,77.4440041120619,energy envelope
+rocky_bear_lake,trails 6,C-Astral Bramor ppX,2,16.69,61.67515118265146,182.41628819616813,86.70001599454264,energy envelope
+rocky_bear_lake,trails 6,C-Astral Bramor ppX,10,16.71,125.96195601876653,260.2989568480964,67.72277261544598,energy envelope
+rocky_bear_lake,trails 6,C-Astral Bramor ppX,6,16.7,90.9794557219334,221.81108804750681,81.5770071693492,energy envelope
+rocky_bear_lake,trails 6,C-Astral Bramor ppX,4,16.69,75.58099436350007,202.167482659948,83.31316926519541,energy envelope
+rocky_bear_lake,trails 6,Quantum Trinity Pro,8,17.24,112.47870851660456,115.6022349600083,31.796274621853314,energy envelope
+rocky_bear_lake,trails 6,Quantum Trinity Pro,2,17.23,65.29052916189981,88.3635348623513,40.27770430235565,energy envelope
+rocky_bear_lake,trails 6,Quantum Trinity Pro,10,17.26,131.202866329314,124.72931183408102,30.37424144137284,energy envelope
+rocky_bear_lake,trails 6,Quantum Trinity Pro,6,17.24,95.35947851641309,106.47702288492559,33.47625217109719,energy envelope
+rocky_bear_lake,trails 6,Quantum Trinity Pro,4,17.23,79.5777413279012,97.29643577173965,35.748136498048055,energy envelope
+rocky_bear_lake,trails 6,AgEagle eBee X,8,14.2,87.01569011235938,101.7421377752664,34.47434542975612,energy envelope
+rocky_bear_lake,trails 6,AgEagle eBee X,2,14.17,46.16487455648789,74.18448452647962,42.17836122868668,energy envelope
+rocky_bear_lake,trails 6,AgEagle eBee X,10,14.21,103.48590425490127,111.15988451696282,32.953831798978136,energy envelope
+rocky_bear_lake,trails 6,AgEagle eBee X,6,14.19,71.9721137817765,92.53674661346588,37.61125910621753,energy envelope
+rocky_bear_lake,trails 6,AgEagle eBee X,4,14.17,58.29099580662351,83.36056540355622,40.63213583798322,energy envelope
+rocky_bear_lake,trails 6,DeltaQuad Evo-LE (press),8,17.34,113.37174755683733,546.6798883155304,239.72350406842185,energy envelope
+rocky_bear_lake,trails 6,DeltaQuad Evo-LE (press),2,17.34,66.03961906620893,419.39859092419186,269.67337515661865,energy envelope
+rocky_bear_lake,trails 6,DeltaQuad Evo-LE (press),10,17.34,131.97407916595628,590.6081985271657,219.56156582719478,energy envelope
+rocky_bear_lake,trails 6,DeltaQuad Evo-LE (press),6,17.34,96.18189367050645,503.2995408678014,255.14844189383825,energy envelope
+rocky_bear_lake,trails 6,DeltaQuad Evo-LE (press),4,17.34,80.40451750696366,460.22351196050073,263.94950682851976,energy envelope
+olympic_hurricane_ridge,trails 3,Lodestar SiCore,8,18.0,119.35436757559236,349.44118787903795,269.81276399381125,energy envelope
+olympic_hurricane_ridge,trails 3,Lodestar SiCore,2,18.0,70.62388613940377,269.2862943635108,227.05322980644988,energy envelope
+olympic_hurricane_ridge,trails 3,Lodestar SiCore,10,18.0,138.4228168332314,377.63723276114615,281.7027017713768,energy envelope
+olympic_hurricane_ridge,trails 3,Lodestar SiCore,6,18.0,101.69839604074143,325.3617706128619,258.7021649902982,energy envelope
+olympic_hurricane_ridge,trails 3,Lodestar SiCore,4,18.0,85.45490222867856,295.9365844672055,242.57612598507706,energy envelope
+olympic_hurricane_ridge,trails 3,Lodestar P50B,8,18.0,119.35436757559236,286.00082520666217,209.37210375623022,energy envelope
+olympic_hurricane_ridge,trails 3,Lodestar P50B,2,18.0,70.62388613940377,219.62566280236953,178.94569861835313,energy envelope
+olympic_hurricane_ridge,trails 3,Lodestar P50B,10,18.0,138.4228168332314,308.3797296456299,216.14157754370663,energy envelope
+olympic_hurricane_ridge,trails 3,Lodestar P50B,6,18.0,101.69839604074143,263.96015981509794,199.8565136636019,energy envelope
+olympic_hurricane_ridge,trails 3,Lodestar P50B,4,18.0,85.45490222867856,244.00257027822454,192.52136324748014,energy envelope
+olympic_hurricane_ridge,trails 3,DeltaQuad Evo GOV,8,16.54,106.3263086755704,340.71079622797293,268.01145637508097,energy envelope
+olympic_hurricane_ridge,trails 3,DeltaQuad Evo GOV,2,16.54,60.68915345228769,260.2685453983138,224.21234512572877,energy envelope
+olympic_hurricane_ridge,trails 3,DeltaQuad Evo GOV,10,16.54,124.36364919557413,369.08096544412683,281.46917954151616,energy envelope
+olympic_hurricane_ridge,trails 3,DeltaQuad Evo GOV,6,16.54,89.70144587835476,313.5443172966919,254.24489370845433,energy envelope
+olympic_hurricane_ridge,trails 3,DeltaQuad Evo GOV,4,16.54,74.48906080392719,288.0983010788355,240.87954172757884,energy envelope
+olympic_hurricane_ridge,trails 3,C-Astral Bramor ppX,8,16.0,101.69839604074143,281.4531212877221,214.63376819821667,energy envelope
+olympic_hurricane_ridge,trails 3,C-Astral Bramor ppX,2,16.0,57.20534777291705,211.11509220098483,178.6855022075136,energy envelope
+olympic_hurricane_ridge,trails 3,C-Astral Bramor ppX,10,16.0,119.35436757559236,304.14218327746914,223.1714727289625,energy envelope
+olympic_hurricane_ridge,trails 3,C-Astral Bramor ppX,6,16.0,85.45490222867856,256.35095557740163,202.30862598507713,energy envelope
+olympic_hurricane_ridge,trails 3,C-Astral Bramor ppX,4,16.0,70.62388613940377,235.59567030081675,193.14073426189225,energy envelope
+olympic_hurricane_ridge,trails 3,Quantum Trinity Pro,8,17.0,110.34982209281839,143.5543958614657,78.91931096852815,energy envelope
+olympic_hurricane_ridge,trails 3,Quantum Trinity Pro,2,17.0,63.7380572408119,109.85532575912679,77.59568539037322,energy envelope
+olympic_hurricane_ridge,trails 3,Quantum Trinity Pro,10,17.0,128.71203248906338,154.03208986116755,77.84080150540946,energy envelope
+olympic_hurricane_ridge,trails 3,Quantum Trinity Pro,6,17.0,93.40008941936148,132.3955257834106,80.4003161565539,energy envelope
+olympic_hurricane_ridge,trails 3,Quantum Trinity Pro,4,17.0,77.86283446869265,121.14357127595686,79.09689840177312,energy envelope
+olympic_hurricane_ridge,trails 3,AgEagle eBee X,8,14.0,85.45490222867856,126.96727878530069,79.90502601240235,energy envelope
+olympic_hurricane_ridge,trails 3,AgEagle eBee X,2,14.0,45.19928712921841,92.43725980321277,72.62598648480541,energy envelope
+olympic_hurricane_ridge,trails 3,AgEagle eBee X,10,14.0,101.69839604074143,137.88383417040862,79.85059176269824,energy envelope
+olympic_hurricane_ridge,trails 3,AgEagle eBee X,6,14.0,70.62388613940377,115.14595983682224,78.12687510355384,energy envelope
+olympic_hurricane_ridge,trails 3,AgEagle eBee X,4,14.0,57.20534777291705,103.45451848897594,75.158394202622,energy envelope
+olympic_hurricane_ridge,trails 3,DeltaQuad Evo-LE (press),8,16.5,105.97996913794277,618.1866596051836,535.9022214343669,energy envelope
+olympic_hurricane_ridge,trails 3,DeltaQuad Evo-LE (press),2,16.5,60.42756257802735,463.77318074336995,423.1264252795397,energy envelope
+olympic_hurricane_ridge,trails 3,DeltaQuad Evo-LE (press),10,16.5,123.98906010349074,665.7162901577466,566.2931782959249,energy envelope
+olympic_hurricane_ridge,trails 3,DeltaQuad Evo-LE (press),6,16.5,89.38335589518289,567.5470001903344,500.45488439481255,energy envelope
+olympic_hurricane_ridge,trails 3,DeltaQuad Evo-LE (press),4,16.5,74.19922037521108,514.4022617726051,461.1899840990141,energy envelope
+olympic_hurricane_ridge,trails 6,Lodestar SiCore,8,18.0,119.35436757559236,350.99198410666816,192.79304225762533,energy envelope
+olympic_hurricane_ridge,trails 6,Lodestar SiCore,2,18.0,70.62388613940377,270.9308621490417,187.39032736641593,energy envelope
+olympic_hurricane_ridge,trails 6,Lodestar SiCore,10,18.0,138.4228168332314,377.53141572904923,189.08351112054643,energy envelope
+olympic_hurricane_ridge,trails 6,Lodestar SiCore,6,18.0,101.69839604074143,323.25326717712,193.37854070525128,energy envelope
+olympic_hurricane_ridge,trails 6,Lodestar SiCore,4,18.0,85.45490222867856,296.2494241923791,192.12702392361916,energy envelope
+olympic_hurricane_ridge,trails 6,Lodestar P50B,8,18.0,119.35436757559236,286.61144009810454,132.91205190125376,energy envelope
+olympic_hurricane_ridge,trails 6,Lodestar P50B,2,18.0,70.62388613940377,221.15179074463563,139.71903503971325,energy envelope
+olympic_hurricane_ridge,trails 6,Lodestar P50B,10,18.0,138.4228168332314,306.92546248016146,124.13084322954087,energy envelope
+olympic_hurricane_ridge,trails 6,Lodestar P50B,6,18.0,101.69839604074143,264.07105233019456,137.71077013104394,energy envelope
+olympic_hurricane_ridge,trails 6,Lodestar P50B,4,18.0,85.45490222867856,242.30797535097764,140.8702200127663,energy envelope
+olympic_hurricane_ridge,trails 6,DeltaQuad Evo GOV,8,16.54,106.3263086755704,342.45265563585554,203.60124097833892,energy envelope
+olympic_hurricane_ridge,trails 6,DeltaQuad Evo GOV,2,16.54,60.68915345228769,259.10963934641234,188.9862773940471,energy envelope
+olympic_hurricane_ridge,trails 6,DeltaQuad Evo GOV,10,16.54,124.36364919557413,368.4420030904481,197.66014577160252,energy envelope
+olympic_hurricane_ridge,trails 6,DeltaQuad Evo GOV,6,16.54,89.70144587835476,314.78301486337335,201.26823959637224,energy envelope
+olympic_hurricane_ridge,trails 6,DeltaQuad Evo GOV,4,16.54,74.48906080392719,287.15640877788803,196.55598634031782,energy envelope
+olympic_hurricane_ridge,trails 6,C-Astral Bramor ppX,8,16.0,101.69839604074143,280.05881245309826,151.30231824982167,energy envelope
+olympic_hurricane_ridge,trails 6,C-Astral Bramor ppX,2,16.0,57.20534777291705,211.7203403392447,147.6256919852946,energy envelope
+olympic_hurricane_ridge,trails 6,C-Astral Bramor ppX,10,16.0,119.35436757559236,304.1702528348646,146.50383834428834,energy envelope
+olympic_hurricane_ridge,trails 6,C-Astral Bramor ppX,6,16.0,85.45490222867856,256.6588059615573,152.92839255482065,energy envelope
+olympic_hurricane_ridge,trails 6,C-Astral Bramor ppX,4,16.0,70.62388613940377,232.99867007805574,150.01281400008884,energy envelope
+olympic_hurricane_ridge,trails 6,Quantum Trinity Pro,8,17.0,110.34982209281839,142.7553163778881,47.318839532333996,energy envelope
+olympic_hurricane_ridge,trails 6,Quantum Trinity Pro,2,17.0,63.7380572408119,108.3126454826458,53.70476909218733,energy envelope
+olympic_hurricane_ridge,trails 6,Quantum Trinity Pro,10,17.0,128.71203248906338,154.40071536819707,44.25935071013041,energy envelope
+olympic_hurricane_ridge,trails 6,Quantum Trinity Pro,6,17.0,93.40008941936148,131.04700267524538,47.47641987337342,energy envelope
+olympic_hurricane_ridge,trails 6,Quantum Trinity Pro,4,17.0,77.86283446869265,119.85411788031143,51.862440205536146,energy envelope
+olympic_hurricane_ridge,trails 6,AgEagle eBee X,8,14.0,85.45490222867856,126.31218371133137,51.41631633258114,energy envelope
+olympic_hurricane_ridge,trails 6,AgEagle eBee X,2,14.0,45.19928712921841,91.26755680297028,54.38663166128718,energy envelope
+olympic_hurricane_ridge,trails 6,AgEagle eBee X,10,14.0,101.69839604074143,137.0071589513895,48.04344235474433,energy envelope
+olympic_hurricane_ridge,trails 6,AgEagle eBee X,6,14.0,70.62388613940377,114.0750188047251,53.02285136645907,energy envelope
+olympic_hurricane_ridge,trails 6,AgEagle eBee X,4,14.0,57.20534777291705,102.68941465866946,53.92583566836653,energy envelope
+olympic_hurricane_ridge,trails 6,DeltaQuad Evo-LE (press),8,16.5,105.97996913794277,617.1224751150503,466.9037657126803,energy envelope
+olympic_hurricane_ridge,trails 6,DeltaQuad Evo-LE (press),2,16.5,60.42756257802735,464.22704990781796,388.80569926745284,energy envelope
+olympic_hurricane_ridge,trails 6,DeltaQuad Evo-LE (press),10,16.5,123.98906010349074,664.7561420169652,479.8815705776959,energy envelope
+olympic_hurricane_ridge,trails 6,DeltaQuad Evo-LE (press),6,16.5,89.38335589518289,566.5429701278742,444.5033178975047,energy envelope
+olympic_hurricane_ridge,trails 6,DeltaQuad Evo-LE (press),4,16.5,74.19922037521108,516.171536561722,418.58087725908376,energy envelope
+rainier_paradise,trails 3,Lodestar SiCore,8,18.0,119.35436757559236,343.29041744473403,93.30730321903212,energy envelope
+rainier_paradise,trails 3,Lodestar SiCore,2,18.0,70.62388613940377,264.9515447635637,132.30703750659924,energy envelope
+rainier_paradise,trails 3,Lodestar SiCore,10,18.0,138.4228168332314,369.5923646386342,70.53988861000715,energy envelope
+rainier_paradise,trails 3,Lodestar SiCore,6,18.0,101.69839604074143,318.137013244612,112.47837625796186,energy envelope
+rainier_paradise,trails 3,Lodestar SiCore,4,18.0,85.45490222867856,292.08111652825863,125.36437742827705,energy envelope
+rainier_paradise,trails 3,Lodestar P50B,8,18.0,119.35436757559236,279.06300608439534,52.54232315613965,energy envelope
+rainier_paradise,trails 3,Lodestar P50B,2,18.0,70.62388613940377,214.844657578587,85.08447958584826,energy envelope
+rainier_paradise,trails 3,Lodestar P50B,10,18.0,138.4228168332314,300.0431514851535,45.921474701543374,energy envelope
+rainier_paradise,trails 3,Lodestar P50B,6,18.0,101.69839604074143,257.2159803428426,58.5862319016286,energy envelope
+rainier_paradise,trails 3,Lodestar P50B,4,18.0,85.45490222867856,236.01479838201647,73.59349117091249,energy envelope
+rainier_paradise,trails 3,DeltaQuad Evo GOV,8,16.54,106.3263086755704,334.38339932535973,114.64363623338004,energy envelope
+rainier_paradise,trails 3,DeltaQuad Evo GOV,2,16.54,60.68915345228769,253.87086468656994,143.81164729317274,energy envelope
+rainier_paradise,trails 3,DeltaQuad Evo GOV,10,16.54,124.36364919557413,362.5834144089442,97.59951700912832,energy envelope
+rainier_paradise,trails 3,DeltaQuad Evo GOV,6,16.54,89.70144587835476,307.7501152720071,128.44538342798552,energy envelope
+rainier_paradise,trails 3,DeltaQuad Evo GOV,4,16.54,74.48906080392719,279.69846763772506,137.31651303024645,energy envelope
+rainier_paradise,trails 3,C-Astral Bramor ppX,8,16.0,101.69839604074143,274.2322983976866,72.08810568375449,energy envelope
+rainier_paradise,trails 3,C-Astral Bramor ppX,2,16.0,57.20534777291705,206.5474016921948,105.01417553531469,energy envelope
+rainier_paradise,trails 3,C-Astral Bramor ppX,10,16.0,119.35436757559236,296.1107823177816,56.007551816722604,energy envelope
+rainier_paradise,trails 3,C-Astral Bramor ppX,6,16.0,85.45490222867856,251.53727387673618,86.55484410405212,energy envelope
+rainier_paradise,trails 3,C-Astral Bramor ppX,4,16.0,70.62388613940377,228.1152891397283,96.80201077394493,energy envelope
+rainier_paradise,trails 3,Quantum Trinity Pro,8,17.0,110.34982209281839,136.5241766060827,21.494527183937972,energy envelope
+rainier_paradise,trails 3,Quantum Trinity Pro,2,17.0,63.7380572408119,103.57559943023296,30.17228798486286,energy envelope
+rainier_paradise,trails 3,Quantum Trinity Pro,10,17.0,128.71203248906338,147.39963170552596,20.585260122198537,energy envelope
+rainier_paradise,trails 3,Quantum Trinity Pro,6,17.0,93.40008941936148,125.3753212647826,23.333502164864207,energy envelope
+rainier_paradise,trails 3,Quantum Trinity Pro,4,17.0,77.86283446869265,114.8731424414895,27.719698188646362,energy envelope
+rainier_paradise,trails 3,AgEagle eBee X,8,14.0,85.45490222867856,120.17707464849276,24.300640358086074,energy envelope
+rainier_paradise,trails 3,AgEagle eBee X,2,14.0,45.19928712921841,87.38305589202483,35.929141737216966,energy envelope
+rainier_paradise,trails 3,AgEagle eBee X,10,14.0,101.69839604074143,130.8740792216226,22.29550959015066,energy envelope
+rainier_paradise,trails 3,AgEagle eBee X,6,14.0,70.62388613940377,109.3625567331086,28.131434773779244,energy envelope
+rainier_paradise,trails 3,AgEagle eBee X,4,14.0,57.20534777291705,98.11048102639363,31.426598538596547,energy envelope
+rainier_paradise,trails 3,DeltaQuad Evo-LE (press),8,16.5,105.97996913794277,608.541668896151,375.03452370686523,energy envelope
+rainier_paradise,trails 3,DeltaQuad Evo-LE (press),2,16.5,60.42756257802735,460.03828926331687,344.28370392953104,energy envelope
+rainier_paradise,trails 3,DeltaQuad Evo-LE (press),10,16.5,123.98906010349074,656.7880973047108,373.7104723841082,energy envelope
+rainier_paradise,trails 3,DeltaQuad Evo-LE (press),6,16.5,89.38335589518289,556.889128457485,367.5928041243547,energy envelope
+rainier_paradise,trails 3,DeltaQuad Evo-LE (press),4,16.5,74.19922037521108,510.4705993025379,360.3674772974028,energy envelope
+rainier_paradise,trails 6,Lodestar SiCore,8,18.0,119.35436757559236,343.3653835230094,77.02381012019175,energy envelope
+rainier_paradise,trails 6,Lodestar SiCore,2,18.0,70.62388613940377,264.3377342706845,113.06555066817567,energy envelope
+rainier_paradise,trails 6,Lodestar SiCore,10,18.0,138.4228168332314,369.98252311621275,64.73798414697906,energy envelope
+rainier_paradise,trails 6,Lodestar SiCore,6,18.0,101.69839604074143,316.6900114407747,89.72057441485643,energy envelope
+rainier_paradise,trails 6,Lodestar SiCore,4,18.0,85.45490222867856,290.3047514833365,99.10355140826492,energy envelope
+rainier_paradise,trails 6,Lodestar P50B,8,18.0,119.35436757559236,278.6777469522631,55.101713368644795,energy envelope
+rainier_paradise,trails 6,Lodestar P50B,2,18.0,70.62388613940377,219.25634591398827,85.29444503326167,energy envelope
+rainier_paradise,trails 6,Lodestar P50B,10,18.0,138.4228168332314,300.5082577105826,49.98729949887865,energy envelope
+rainier_paradise,trails 6,Lodestar P50B,6,18.0,101.69839604074143,257.17182579906273,62.05773416817075,energy envelope
+rainier_paradise,trails 6,Lodestar P50B,4,18.0,85.45490222867856,235.8356760408601,67.2958421728783,energy envelope
+rainier_paradise,trails 6,DeltaQuad Evo GOV,8,16.6,106.84687734030398,333.69922094772835,90.64921105560393,energy envelope
+rainier_paradise,trails 6,DeltaQuad Evo GOV,2,16.58,60.95130931763716,252.56428900082688,124.29297923578075,energy envelope
+rainier_paradise,trails 6,DeltaQuad Evo GOV,10,16.61,125.02053961652825,366.5497035256411,84.41944511772826,energy envelope
+rainier_paradise,trails 6,DeltaQuad Evo GOV,6,16.59,90.09985287603867,307.0367558007243,100.24268470048717,energy envelope
+rainier_paradise,trails 6,DeltaQuad Evo GOV,4,16.58,74.77946622373241,279.9695929856715,113.65764749672451,energy envelope
+rainier_paradise,trails 6,C-Astral Bramor ppX,8,16.0,101.69839604074143,273.7433639700115,66.19732578179833,energy envelope
+rainier_paradise,trails 6,C-Astral Bramor ppX,2,16.03,57.39619116923726,205.05446111414693,96.78385041222549,energy envelope
+rainier_paradise,trails 6,C-Astral Bramor ppX,10,16.0,119.35436757559236,296.2473630842746,60.25047435768106,energy envelope
+rainier_paradise,trails 6,C-Astral Bramor ppX,6,16.0,85.45490222867856,250.53955488862707,76.23000429354421,energy envelope
+rainier_paradise,trails 6,C-Astral Bramor ppX,4,16.04,70.90666417950594,227.70018673718047,89.88754512046324,energy envelope
+rainier_paradise,trails 6,Quantum Trinity Pro,8,17.0,110.34982209281839,136.50728657990223,29.703899619405316,energy envelope
+rainier_paradise,trails 6,Quantum Trinity Pro,2,17.0,63.7380572408119,103.68086420531375,33.389391669859236,energy envelope
+rainier_paradise,trails 6,Quantum Trinity Pro,10,17.0,128.71203248906338,147.702178063482,28.87565356764063,energy envelope
+rainier_paradise,trails 6,Quantum Trinity Pro,6,17.0,93.40008941936148,125.55784702180178,31.068175031028048,energy envelope
+rainier_paradise,trails 6,Quantum Trinity Pro,4,17.0,77.86283446869265,114.51592702464716,32.25279771007517,energy envelope
+rainier_paradise,trails 6,AgEagle eBee X,8,14.0,85.45490222867856,120.0972681752109,31.649555010103423,energy envelope
+rainier_paradise,trails 6,AgEagle eBee X,2,14.0,45.19928712921841,87.34063875423898,36.69840344839266,energy envelope
+rainier_paradise,trails 6,AgEagle eBee X,10,14.0,101.69839604074143,131.23063864792942,30.787390257222228,energy envelope
+rainier_paradise,trails 6,AgEagle eBee X,6,14.0,70.62388613940377,109.12250279172532,32.66515937940832,energy envelope
+rainier_paradise,trails 6,AgEagle eBee X,4,14.0,57.20534777291705,98.12587207167944,34.65981535516746,energy envelope
+rainier_paradise,trails 6,DeltaQuad Evo-LE (press),8,16.56,106.49969031604265,607.2392235539355,320.67492407893764,energy envelope
+rainier_paradise,trails 6,DeltaQuad Evo-LE (press),2,16.54,60.68915345228769,460.7757296064057,324.41679162381615,energy envelope
+rainier_paradise,trails 6,DeltaQuad Evo-LE (press),10,16.57,124.64496179003892,656.207352148842,309.5905957614613,energy envelope
+rainier_paradise,trails 6,DeltaQuad Evo-LE (press),6,16.55,89.78105665400543,559.657625862827,329.44089380983655,energy envelope
+rainier_paradise,trails 6,DeltaQuad Evo-LE (press),4,16.54,74.48906080392719,508.6826863582205,327.3125475065156,energy envelope
+smokies_newfound_gap,trails 3,Lodestar SiCore,8,18.0,119.35436757559236,341.55718646716883,229.8485298316882,energy envelope
+smokies_newfound_gap,trails 3,Lodestar SiCore,2,18.0,70.62388613940377,263.4019295528872,205.88906610398578,energy envelope
+smokies_newfound_gap,trails 3,Lodestar SiCore,10,18.0,138.4228168332314,369.59188424926384,230.39765192039516,energy envelope
+smokies_newfound_gap,trails 3,Lodestar SiCore,6,18.0,101.69839604074143,315.86268177479593,223.23881266060465,energy envelope
+smokies_newfound_gap,trails 3,Lodestar SiCore,4,18.0,85.45490222867856,290.6604195791158,216.46738359924328,energy envelope
+smokies_newfound_gap,trails 3,Lodestar P50B,8,18.0,119.35436757559236,277.4767784607462,169.14278706440956,energy envelope
+smokies_newfound_gap,trails 3,Lodestar P50B,2,18.0,70.62388613940377,213.97411002309303,158.1252826881679,energy envelope
+smokies_newfound_gap,trails 3,Lodestar P50B,10,18.0,138.4228168332314,298.55511587806825,163.70956459372445,energy envelope
+smokies_newfound_gap,trails 3,Lodestar P50B,6,18.0,101.69839604074143,256.6647203021717,166.75655812598987,energy envelope
+smokies_newfound_gap,trails 3,Lodestar P50B,4,18.0,85.45490222867856,236.1672605059947,164.12194047056101,energy envelope
+smokies_newfound_gap,trails 3,DeltaQuad Evo GOV,8,16.54,106.3263086755704,335.58797161572613,235.33541435513249,energy envelope
+smokies_newfound_gap,trails 3,DeltaQuad Evo GOV,2,16.54,60.68915345228769,254.28372421467805,205.27559164480212,energy envelope
+smokies_newfound_gap,trails 3,DeltaQuad Evo GOV,10,16.54,124.36364919557413,363.36638967540256,241.14126872166335,energy envelope
+smokies_newfound_gap,trails 3,DeltaQuad Evo GOV,6,16.54,89.70144587835476,308.9381908089787,226.86497045939865,energy envelope
+smokies_newfound_gap,trails 3,DeltaQuad Evo GOV,4,16.54,74.48906080392719,279.99899082151217,217.49834279258187,energy envelope
+smokies_newfound_gap,trails 3,C-Astral Bramor ppX,8,16.0,101.69839604074143,272.9263310999356,180.46220945268612,energy envelope
+smokies_newfound_gap,trails 3,C-Astral Bramor ppX,2,16.0,57.20534777291705,204.6504824249469,160.19685690440068,energy envelope
+smokies_newfound_gap,trails 3,C-Astral Bramor ppX,10,16.0,119.35436757559236,298.00063653155314,185.32465603714178,energy envelope
+smokies_newfound_gap,trails 3,C-Astral Bramor ppX,6,16.0,85.45490222867856,250.44391355864437,175.97170320815803,energy envelope
+smokies_newfound_gap,trails 3,C-Astral Bramor ppX,4,16.0,70.62388613940377,228.28942955288727,170.77656610398577,energy envelope
+smokies_newfound_gap,trails 3,Quantum Trinity Pro,8,17.0,110.34982209281839,134.90089034632345,44.10390278458933,energy envelope
+smokies_newfound_gap,trails 3,Quantum Trinity Pro,2,17.0,63.7380572408119,103.3544524798749,58.06043372551755,energy envelope
+smokies_newfound_gap,trails 3,Quantum Trinity Pro,10,17.0,128.71203248906338,145.43891797333623,37.1262167568838,energy envelope
+smokies_newfound_gap,trails 3,Quantum Trinity Pro,6,17.0,93.40008941936148,123.9539569282732,50.3803401931906,energy envelope
+smokies_newfound_gap,trails 3,Quantum Trinity Pro,4,17.0,77.86283446869265,113.27987484836727,55.367812170918,energy envelope
+smokies_newfound_gap,trails 3,AgEagle eBee X,8,14.0,85.45490222867856,118.49959970823006,52.484020888971514,energy envelope
+smokies_newfound_gap,trails 3,AgEagle eBee X,2,14.0,45.19928712921841,86.35312686482204,57.541918973829226,energy envelope
+smokies_newfound_gap,trails 3,AgEagle eBee X,10,14.0,101.69839604074143,130.03448520943888,48.43319131422692,energy envelope
+smokies_newfound_gap,trails 3,AgEagle eBee X,6,14.0,70.62388613940377,108.52221533966919,57.332689123877806,energy envelope
+smokies_newfound_gap,trails 3,AgEagle eBee X,4,14.0,57.20534777291705,97.38177793067577,57.6906237683299,energy envelope
+smokies_newfound_gap,trails 3,DeltaQuad Evo-LE (press),8,16.5,105.97996913794277,612.2898912265696,501.8760936973312,energy envelope
+smokies_newfound_gap,trails 3,DeltaQuad Evo-LE (press),2,16.5,60.42756257802735,461.9465333208041,408.1189146090975,energy envelope
+smokies_newfound_gap,trails 3,DeltaQuad Evo-LE (press),10,16.5,123.98906010349074,660.8920329141154,526.1807967345527,energy envelope
+smokies_newfound_gap,trails 3,DeltaQuad Evo-LE (press),6,16.5,89.38335589518289,558.767635347506,468.70167477736936,energy envelope
+smokies_newfound_gap,trails 3,DeltaQuad Evo-LE (press),4,16.5,74.19922037521108,509.0643264529153,440.2799670586829,energy envelope
+smokies_newfound_gap,trails 6,Lodestar SiCore,8,18.0,119.35436757559236,341.3323137539496,169.67270684200614,energy envelope
+smokies_newfound_gap,trails 6,Lodestar SiCore,2,18.0,70.62388613940377,262.7579958206388,179.6184177768272,energy envelope
+smokies_newfound_gap,trails 6,Lodestar SiCore,10,18.0,138.4228168332314,367.88221809728253,155.12453807605826,energy envelope
+smokies_newfound_gap,trails 6,Lodestar SiCore,6,18.0,101.69839604074143,315.9479240526505,179.37530191830587,energy envelope
+smokies_newfound_gap,trails 6,Lodestar SiCore,4,18.0,85.45490222867856,289.4658164338724,180.9198882351381,energy envelope
+smokies_newfound_gap,trails 6,Lodestar P50B,8,18.0,119.35436757559236,275.79040641026853,109.56776016139047,energy envelope
+smokies_newfound_gap,trails 6,Lodestar P50B,2,18.0,70.62388613940377,213.4142364475799,132.49337322240336,energy envelope
+smokies_newfound_gap,trails 6,Lodestar P50B,10,18.0,138.4228168332314,297.12103502913044,92.19098088805096,energy envelope
+smokies_newfound_gap,trails 6,Lodestar P50B,6,18.0,101.69839604074143,255.00665718114433,122.42772172034292,energy envelope
+smokies_newfound_gap,trails 6,Lodestar P50B,4,18.0,85.45490222867856,234.58522270833095,128.99240393319988,energy envelope
+smokies_newfound_gap,trails 6,DeltaQuad Evo GOV,8,16.54,106.3263086755704,334.1116390309317,185.74651666967114,energy envelope
+smokies_newfound_gap,trails 6,DeltaQuad Evo GOV,2,16.54,60.68915345228769,254.20752778896102,185.75036506618375,energy envelope
+smokies_newfound_gap,trails 6,DeltaQuad Evo GOV,10,16.54,124.36364919557413,361.806366131241,176.5730980861663,energy envelope
+smokies_newfound_gap,trails 6,DeltaQuad Evo GOV,6,16.54,89.70144587835476,306.8266006547895,188.36260946836043,energy envelope
+smokies_newfound_gap,trails 6,DeltaQuad Evo GOV,4,16.54,74.48906080392719,280.72964247194136,189.37625083746192,energy envelope
+smokies_newfound_gap,trails 6,C-Astral Bramor ppX,8,16.0,101.69839604074143,273.04326797890826,137.90837304703916,energy envelope
+smokies_newfound_gap,trails 6,C-Astral Bramor ppX,2,16.0,57.20534777291705,204.78856195924607,142.65743805873942,energy envelope
+smokies_newfound_gap,trails 6,C-Astral Bramor ppX,10,16.0,119.35436757559236,296.6442644810756,126.07962913412268,energy envelope
+smokies_newfound_gap,trails 6,C-Astral Bramor ppX,6,16.0,85.45490222867856,251.2993757609806,143.27966667079693,energy envelope
+smokies_newfound_gap,trails 6,C-Astral Bramor ppX,4,16.0,70.62388613940377,227.52486800872114,145.05090441050007,energy envelope
+smokies_newfound_gap,trails 6,Quantum Trinity Pro,8,17.0,110.34982209281839,134.87419007606903,37.40245160909744,energy envelope
+smokies_newfound_gap,trails 6,Quantum Trinity Pro,2,17.0,63.7380572408119,102.32133270299805,50.663433005934046,energy envelope
+smokies_newfound_gap,trails 6,Quantum Trinity Pro,10,17.0,128.71203248906338,145.29942381126088,34.85840225641299,energy envelope
+smokies_newfound_gap,trails 6,Quantum Trinity Pro,6,17.0,93.40008941936148,123.81668896220671,40.63904806669577,energy envelope
+smokies_newfound_gap,trails 6,Quantum Trinity Pro,4,17.0,77.86283446869265,113.17615805273962,45.29068642349379,energy envelope
+smokies_newfound_gap,trails 6,AgEagle eBee X,8,14.0,85.45490222867856,118.4086255682273,42.519410813178524,energy envelope
+smokies_newfound_gap,trails 6,AgEagle eBee X,2,14.0,45.19928712921841,86.11514264810367,52.221327752335085,energy envelope
+smokies_newfound_gap,trails 6,AgEagle eBee X,10,14.0,101.69839604074143,129.7810823917384,40.76405465707643,energy envelope
+smokies_newfound_gap,trails 6,AgEagle eBee X,6,14.0,70.62388613940377,109.06234074221197,49.85557787303621,energy envelope
+smokies_newfound_gap,trails 6,AgEagle eBee X,4,14.0,57.20534777291705,97.06543763354505,51.572417397528646,energy envelope
+smokies_newfound_gap,trails 6,DeltaQuad Evo-LE (press),8,16.5,105.97996913794277,611.8837191081553,451.51639947242256,energy envelope
+smokies_newfound_gap,trails 6,DeltaQuad Evo-LE (press),2,16.5,60.42756257802735,458.72158069659326,384.8643280076081,energy envelope
+smokies_newfound_gap,trails 6,DeltaQuad Evo-LE (press),10,16.5,123.98906010349074,661.094038196018,460.64301499032166,energy envelope
+smokies_newfound_gap,trails 6,DeltaQuad Evo-LE (press),6,16.5,89.38335589518289,561.7944654254549,433.92234568524,energy envelope
+smokies_newfound_gap,trails 6,DeltaQuad Evo-LE (press),4,16.5,74.19922037521108,511.2073068038032,413.0346321078744,energy envelope
+whites_pinkham_notch,trails 3,Lodestar SiCore,8,18.0,119.35436757559236,319.6029291040819,151.25039549730568,energy envelope
+whites_pinkham_notch,trails 3,Lodestar SiCore,2,18.0,70.62388613940377,247.98862494647733,159.4940369004036,energy envelope
+whites_pinkham_notch,trails 3,Lodestar SiCore,10,18.0,138.4228168332314,344.02324393008195,139.6840235910915,energy envelope
+whites_pinkham_notch,trails 3,Lodestar SiCore,6,18.0,101.69839604074143,296.36957652235054,159.1227913892629,energy envelope
+whites_pinkham_notch,trails 3,Lodestar SiCore,4,18.0,85.45490222867856,271.515714547217,161.1604392579642,energy envelope
+whites_pinkham_notch,trails 3,Lodestar P50B,8,18.0,119.35436757559236,256.5898130252497,93.67424008153883,energy envelope
+whites_pinkham_notch,trails 3,Lodestar P50B,2,18.0,70.62388613940377,197.9326776047654,111.76774011825853,energy envelope
+whites_pinkham_notch,trails 3,Lodestar P50B,10,18.0,138.4228168332314,275.82830364682314,79.09927513575121,energy envelope
+whites_pinkham_notch,trails 3,Lodestar P50B,6,18.0,101.69839604074143,237.11580965084434,103.86271119129992,energy envelope
+whites_pinkham_notch,trails 3,Lodestar P50B,4,18.0,85.45490222867856,218.12012082167547,110.71795495602608,energy envelope
+whites_pinkham_notch,trails 3,DeltaQuad Evo GOV,8,16.54,106.3263086755704,332.47893046385144,183.8991205530758,energy envelope
+whites_pinkham_notch,trails 3,DeltaQuad Evo GOV,2,16.54,60.68915345228769,252.7870889849324,180.02490502873516,energy envelope
+whites_pinkham_notch,trails 3,DeltaQuad Evo GOV,10,16.54,124.36364919557413,361.76287308358894,180.34592730231319,energy envelope
+whites_pinkham_notch,trails 3,DeltaQuad Evo GOV,6,16.54,89.70144587835476,307.6909783118564,186.8307483906881,energy envelope
+whites_pinkham_notch,trails 3,DeltaQuad Evo GOV,4,16.54,74.48906080392719,278.8051435559586,182.50504466532348,energy envelope
+whites_pinkham_notch,trails 3,C-Astral Bramor ppX,8,16.0,101.69839604074143,269.84187517263,132.91458497342583,energy envelope
+whites_pinkham_notch,trails 3,C-Astral Bramor ppX,2,16.0,57.20534777291705,202.536789656525,136.57876928640542,energy envelope
+whites_pinkham_notch,trails 3,C-Astral Bramor ppX,10,16.0,119.35436757559236,291.44007976522107,122.87014790821274,energy envelope
+whites_pinkham_notch,trails 3,C-Astral Bramor ppX,6,16.0,85.45490222867856,247.7767085267455,137.14225886687893,energy envelope
+whites_pinkham_notch,trails 3,C-Astral Bramor ppX,4,16.0,70.62388613940377,224.75143697782437,136.36778467268238,energy envelope
+whites_pinkham_notch,trails 3,Quantum Trinity Pro,8,17.0,110.34982209281839,123.77726509001891,32.63909576152154,energy envelope
+whites_pinkham_notch,trails 3,Quantum Trinity Pro,2,17.0,63.7380572408119,94.27756112998921,40.757441932591696,energy envelope
+whites_pinkham_notch,trails 3,Quantum Trinity Pro,10,17.0,128.71203248906338,133.71853855105414,31.071829641277024,energy envelope
+whites_pinkham_notch,trails 3,Quantum Trinity Pro,6,17.0,93.40008941936148,113.89776965430757,34.574394119070014,energy envelope
+whites_pinkham_notch,trails 3,Quantum Trinity Pro,4,17.0,77.86283446869265,104.51333970702434,37.69685469463894,energy envelope
+whites_pinkham_notch,trails 3,AgEagle eBee X,8,14.0,85.45490222867856,108.92396889256261,35.381386267483215,energy envelope
+whites_pinkham_notch,trails 3,AgEagle eBee X,2,14.0,45.19928712921841,79.29095570672435,45.17981310793491,energy envelope
+whites_pinkham_notch,trails 3,AgEagle eBee X,10,14.0,101.69839604074143,119.03657400325086,34.383246522465086,energy envelope
+whites_pinkham_notch,trails 3,AgEagle eBee X,6,14.0,70.62388613940377,99.12958486581695,38.58021226695993,energy envelope
+whites_pinkham_notch,trails 3,AgEagle eBee X,4,14.0,57.20534777291705,89.25073918540866,42.0551529345782,energy envelope
+whites_pinkham_notch,trails 3,DeltaQuad Evo-LE (press),8,16.5,105.97996913794277,620.3545005260611,459.9396655945632,energy envelope
+whites_pinkham_notch,trails 3,DeltaQuad Evo-LE (press),2,16.5,60.42756257802735,468.24016890434245,390.0015316930148,energy envelope
+whites_pinkham_notch,trails 3,DeltaQuad Evo-LE (press),10,16.5,123.98906010349074,673.8692568899153,477.4178225681415,energy envelope
+whites_pinkham_notch,trails 3,DeltaQuad Evo-LE (press),6,16.5,89.38335589518289,572.2586180335684,441.99875685240227,energy envelope
+whites_pinkham_notch,trails 3,DeltaQuad Evo-LE (press),4,16.5,74.19922037521108,519.6394910939306,416.02167745814086,energy envelope
+whites_pinkham_notch,trails 6,Lodestar SiCore,8,18.0,119.35436757559236,319.48331993955253,94.02411915729436,energy envelope
+whites_pinkham_notch,trails 6,Lodestar SiCore,2,18.0,70.62388613940377,245.809304194687,114.08108808919133,energy envelope
+whites_pinkham_notch,trails 6,Lodestar SiCore,10,18.0,138.4228168332314,344.55062105844695,85.28088291750775,energy envelope
+whites_pinkham_notch,trails 6,Lodestar SiCore,6,18.0,101.69839604074143,294.9052937242555,101.71118774426678,energy envelope
+whites_pinkham_notch,trails 6,Lodestar SiCore,4,18.0,85.45490222867856,270.2856646522327,110.06690295888673,energy envelope
+whites_pinkham_notch,trails 6,Lodestar P50B,8,18.0,119.35436757559236,255.62421198306188,77.48757326150007,energy envelope
+whites_pinkham_notch,trails 6,Lodestar P50B,2,18.0,70.62388613940377,196.6545047507172,88.67431129530085,energy envelope
+whites_pinkham_notch,trails 6,Lodestar P50B,10,18.0,138.4228168332314,275.5510437335883,72.11071800698971,energy envelope
+whites_pinkham_notch,trails 6,Lodestar P50B,6,18.0,101.69839604074143,235.98115331495418,84.09998346913596,energy envelope
+whites_pinkham_notch,trails 6,Lodestar P50B,4,18.0,85.45490222867856,216.2903750043398,86.37504994011444,energy envelope
+whites_pinkham_notch,trails 6,DeltaQuad Evo GOV,8,16.54,106.3263086755704,332.77958121150346,112.00089655496281,energy envelope
+whites_pinkham_notch,trails 6,DeltaQuad Evo GOV,2,16.54,60.68915345228769,252.1002755561178,134.97787480382993,energy envelope
+whites_pinkham_notch,trails 6,DeltaQuad Evo GOV,10,16.54,124.36364919557413,360.0306216888856,102.78972492833618,energy envelope
+whites_pinkham_notch,trails 6,DeltaQuad Evo GOV,6,16.54,89.70144587835476,306.72615899330935,124.28314636348126,energy envelope
+whites_pinkham_notch,trails 6,DeltaQuad Evo GOV,4,16.54,74.48906080392719,278.2301071190423,127.93535739116523,energy envelope
+whites_pinkham_notch,trails 6,C-Astral Bramor ppX,8,16.0,101.69839604074143,268.82456625934515,90.1889303783174,energy envelope
+whites_pinkham_notch,trails 6,C-Astral Bramor ppX,2,16.0,57.20534777291705,202.8842586409848,108.34422229091305,energy envelope
+whites_pinkham_notch,trails 6,C-Astral Bramor ppX,10,16.0,119.35436757559236,291.26892956683895,84.49022568648479,energy envelope
+whites_pinkham_notch,trails 6,C-Astral Bramor ppX,6,16.0,85.45490222867856,246.71209427871113,97.35587084380269,energy envelope
+whites_pinkham_notch,trails 6,C-Astral Bramor ppX,4,16.0,70.62388613940377,224.149532599051,101.85483589482281,energy envelope
+whites_pinkham_notch,trails 6,Quantum Trinity Pro,8,17.0,110.34982209281839,124.05125993954917,37.36662328529753,energy envelope
+whites_pinkham_notch,trails 6,Quantum Trinity Pro,2,17.0,63.7380572408119,95.43498006423673,47.61184794780574,energy envelope
+whites_pinkham_notch,trails 6,Quantum Trinity Pro,10,17.0,128.71203248906338,133.85750248861086,32.45418919467509,energy envelope
+whites_pinkham_notch,trails 6,Quantum Trinity Pro,6,17.0,93.40008941936148,114.09699129114247,41.666170007841224,energy envelope
+whites_pinkham_notch,trails 6,Quantum Trinity Pro,4,17.0,77.86283446869265,103.9618908645394,44.513093243411404,energy envelope
+whites_pinkham_notch,trails 6,AgEagle eBee X,8,14.0,85.45490222867856,109.38383103214126,43.394973581722255,energy envelope
+whites_pinkham_notch,trails 6,AgEagle eBee X,2,14.0,45.19928712921841,79.32304593036632,49.077243284597905,energy envelope
+whites_pinkham_notch,trails 6,AgEagle eBee X,10,14.0,101.69839604074143,118.8925899167358,38.88576185395921,energy envelope
+whites_pinkham_notch,trails 6,AgEagle eBee X,6,14.0,70.62388613940377,99.05242662802769,45.17546844716168,energy envelope
+whites_pinkham_notch,trails 6,AgEagle eBee X,4,14.0,57.20534777291705,89.83532058202286,48.07175470621771,energy envelope
+whites_pinkham_notch,trails 6,DeltaQuad Evo-LE (press),8,16.5,105.97996913794277,621.1709558659584,279.21606285774686,energy envelope
+whites_pinkham_notch,trails 6,DeltaQuad Evo-LE (press),2,16.5,60.42756257802735,468.648525219338,301.0888492915463,energy envelope
+whites_pinkham_notch,trails 6,DeltaQuad Evo-LE (press),10,16.5,123.98906010349074,671.1209570124431,250.20234285438764,energy envelope
+whites_pinkham_notch,trails 6,DeltaQuad Evo-LE (press),6,16.5,89.38335589518289,570.5041686400028,294.51216623401467,energy envelope
+whites_pinkham_notch,trails 6,DeltaQuad Evo-LE (press),4,16.5,74.19922037521108,519.8777435476554,301.698326363027,energy envelope

@@ -1,0 +1,10 @@
+variant,x_np,SM,elevon,e,Cnb_avl,Cnb_vlm,Clb_avl,dutch_roll_zeta,spiral_t2,lateral_ok,CD_ab,dx_np_mm,dCD_counts
+"baseline: 0.25 m, 35 deg sweep, taper 0.6, vertical",0.4461,0.0537,0.6879,1.016,0.014,0.0213,-0.0518,0.1256,inf,True,0.0204,0.0,0.0
+winglet cant 15 deg outward,0.4502,0.0628,0.4207,1.0307,0.0122,0.0194,-0.0673,0.1194,inf,True,0.0204,4.083,0.7577
+winglet cant 15 deg inward,0.4437,0.0483,0.8155,0.9999,0.0132,0.0207,-0.0344,0.1306,inf,True,0.0204,-2.411,0.7518
+winglet sweep 45 deg,0.4461,0.0536,0.6972,1.0158,0.0143,0.0216,-0.0499,0.1279,inf,True,0.0204,-0.057,0.0
+"winglet sweep 50 deg, taper 0.4 (shark fin)",0.446,0.0535,0.7075,1.0151,0.0134,0.0206,-0.048,0.1281,inf,True,0.0203,-0.103,-0.6549
+"winglet sweep 50 deg, taper 0.4, height 0.28 m",0.4461,0.0536,0.7049,1.0188,0.018,0.0252,-0.0501,0.1332,inf,True,0.0204,-0.045,0.0642
+winglet taper 0.4,0.4461,0.0536,0.6927,1.0156,0.0134,0.0206,-0.051,0.1245,inf,True,0.0203,-0.022,-0.6549
+"pod nose pointier (first station 0.12 L, 70 x 60 mm)",0.446,0.0535,0.6844,1.016,0.0141,,-0.0518,0.1246,inf,True,0.0203,-0.104,-0.6321
+"pod nose blunter (first station 0.05 L, 110 x 100 mm)",0.446,0.0534,0.7023,1.0159,0.0137,,-0.0519,0.1283,inf,True,0.0204,-0.134,0.5501

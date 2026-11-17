@@ -1,0 +1,28 @@
+item,basic_kg,x_m,maturity,category,basis,mga_pct,mga_kg,predicted_kg,droppable
+"wing shell, core, caps, elevons (spanwise model)",1.60641,0.48191,Calculated,structure,structures.size_wing strip masses; FE-checked; skin coupon T3 open,10.0,0.16064,1.76705,False
+"wing joints: tubes, sleeves, ribs",0.24932,0.48191,Calculated,structure,CAD v4 volumes x density (wing_trade joint model),10.0,0.02493,0.27425,False
+"wing joint allowance (blocks, wraps, key, adhesive)",0.09,0.48191,Estimated,structure,lodestar_v1 45 g per break,25.0,0.0225,0.1125,False
+elevon servos (2),0.06,0.48191,Estimated,mechanism,"structures.M_SERVO 30 g each; KST A12-S HV chosen in v1.1, datasheet mass to confirm",25.0,0.015,0.075,False
+winglets (2),0.1064,0.9471,Estimated,structure,area x 0.8 kg/m2 (cad_v4 budget),25.0,0.0266,0.133,False
+"cells, SiCore x 30",2.16,0.447,Measured,battery,cell datasheet mass,3.0,0.0648,2.2248,False
+"pack build: nickel, BMS, leads, wrap",0.2945,0.447,Estimated,battery,cells / 0.88 rule (design_v2.PACK_EFF),25.0,0.07362,0.36812,False
+pack thermal kit (foam + heater),0.1,0.447,Estimated,thermal,upper end of the 50-100 g estimate,25.0,0.025,0.125,False
+elevon mass balance (2),0.12,0.7147,Calculated,structure,flutter_v2 static balance 2.23 g m on a 40 mm arm,10.0,0.012,0.132,False
+rescue kit,1.5,0.422,Measured,controlled,requirement mass; packed and weighed to 1.50 kg,0.0,0.0,1.5,True
+kit parachute,0.124,0.422,Calculated,mechanism,"drop study: canopy, lines, swivel",10.0,0.0124,0.1364,True
+kit container + release servo,0.08,0.415,Estimated,mechanism,budget,25.0,0.02,0.1,False
+"gimbal, SIYI ZT6 with damper",0.197,0.07,Measured,electronics,SIYI spec page 197 g,3.0,0.00591,0.20291,False
+"nadir thermal camera, Boson 640 50 deg + mount",0.07,0.07,Calculated,electronics,Boson core + lens datasheet + mount estimate,15.0,0.0105,0.0805,False
+twin camera: second Boson core + splayed mount (v1.1),0.09,0.07,Estimated,electronics,step2_trades winner,30.0,0.027,0.117,False
+aircraft parachute + independent trigger (v1.1 RC1),0.4,0.035,Estimated,mechanism,vendor class ~0.32 kg for <= 9.3 kg UAV + launcher/trigger,25.0,0.1,0.5,False
+"avionics: FC, GPS, radio, airspeed, Remote ID",0.35,0.2342,Estimated,electronics,sizing.A.m_avionics budget,30.0,0.105,0.455,False
+"pod structure, door, skid",0.3,0.2667,Estimated,structure,budget,25.0,0.075,0.375,False
+motor T-Motor AT3520-550,0.218,0.6656,Measured,propulsion,T-Motor spec page 218 g,3.0,0.00654,0.22454,False
+"ESC, prop blades, hub, spinner",0.122,0.6656,Estimated,propulsion,v3 propulsion pick total 0.34 kg less the motor,25.0,0.0305,0.1525,False
+"misc: wiring, connectors, glue",0.2574,0.35,Estimated,harness,fixed 0.257 kg from the 7.364 kg placeholder (3.1% of v1),60.0,0.15444,0.41184,False
+backup avionics supply + locking connectors (RC2),0.07,0.22,Estimated,electronics,2S backup cell ~50 g + clips,30.0,0.021,0.091,False
+"BMS, heater 50 C cut-out, cell liner (RC3)",0.05,0.447,Estimated,electronics,at the packs,30.0,0.015,0.065,False
+ADS-B In receiver + anti-collision strobes (RC8),0.03,0.3,Estimated,electronics,receiver in pod; strobes on winglets,30.0,0.009,0.039,False
+second GNSS + antenna (RC10),0.04,0.14,Estimated,electronics,on the mast ahead of the first,30.0,0.012,0.052,False
+8 AWG pack leads (increment over 10 AWG),0.045,0.49,Estimated,harness,~28 g/m x 1.6 m,60.0,0.027,0.072,False
+70 mm EPP belly skid (increment over 4 mm pad),0.025,0.27,Estimated,structure,"0.30 x 0.06 x 0.07 m tapered, 20 g/L",25.0,0.00625,0.03125,False

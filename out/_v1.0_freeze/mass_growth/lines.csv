@@ -1,0 +1,20 @@
+item,basic_kg,x_m,maturity,category,basis,mga_pct,mga_kg,predicted_kg,droppable
+"wing shell, core, caps, elevons (spanwise model)",1.58327,0.48396,Calculated,structure,structures.size_wing strip masses; FE-checked; skin coupon T3 open,10.0,0.15833,1.74159,False
+"wing joints: tubes, sleeves, ribs",0.24932,0.48396,Calculated,structure,CAD v4 volumes x density (wing_trade joint model),10.0,0.02493,0.27425,False
+"wing joint allowance (blocks, wraps, key, adhesive)",0.09,0.48396,Estimated,structure,lodestar_v1 45 g per break,25.0,0.0225,0.1125,False
+elevon servos (2),0.06,0.48396,Estimated,mechanism,structures.M_SERVO 30 g each; 0.9 N m 13 mm servo not yet chosen,25.0,0.015,0.075,False
+winglets (2),0.1064,0.9471,Estimated,structure,area x 0.8 kg/m2 (cad_v4 budget),25.0,0.0266,0.133,False
+"cells, SiCore x 30",2.16,0.412,Measured,battery,cell datasheet mass,3.0,0.0648,2.2248,False
+"pack build: nickel, BMS, leads, wrap",0.2945,0.412,Estimated,battery,cells / 0.88 rule (design_v2.PACK_EFF),25.0,0.07362,0.36812,False
+pack thermal kit (foam + heater),0.1,0.412,Estimated,thermal,upper end of the 50-100 g estimate,25.0,0.025,0.125,False
+elevon mass balance (2),0.12,0.7147,Calculated,structure,flutter_v2 static balance 2.23 g m on a 40 mm arm,10.0,0.012,0.132,False
+rescue kit,1.5,0.422,Measured,controlled,requirement mass; packed and weighed to 1.50 kg,0.0,0.0,1.5,True
+kit parachute,0.124,0.422,Calculated,mechanism,"drop study: canopy, lines, swivel",10.0,0.0124,0.1364,True
+kit container + release servo,0.08,0.415,Estimated,mechanism,budget,25.0,0.02,0.1,False
+"gimbal, SIYI ZT6 with damper",0.197,0.07,Measured,electronics,SIYI spec page 197 g,3.0,0.00591,0.20291,False
+gimbal budget not yet used (R5 allocation),0.403,0.07,Estimated,controlled,0.6 kg requirement budget less the datasheet part,0.0,0.0,0.403,False
+"avionics: FC, GPS, radio, airspeed, Remote ID",0.35,0.2342,Estimated,electronics,sizing.A.m_avionics budget,30.0,0.105,0.455,False
+"pod structure, door, skid",0.3,0.2665,Estimated,structure,budget,25.0,0.075,0.375,False
+motor T-Motor AT3520-550,0.218,0.6656,Measured,propulsion,T-Motor spec page 218 g,3.0,0.00654,0.22454,False
+"ESC, prop blades, hub, spinner",0.122,0.6656,Estimated,propulsion,v3 propulsion pick total 0.34 kg less the motor,25.0,0.0305,0.1525,False
+"misc: wiring, connectors, glue",0.2574,0.35,Estimated,harness,fixed 0.257 kg from the 7.364 kg placeholder (3.1% of v1),60.0,0.15444,0.41184,False

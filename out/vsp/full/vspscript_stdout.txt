@@ -65,7 +65,7 @@ Parasite drag buildup results.
    TurbCfEqnName                 string       	1	Compressible Schlichting 
    Vinf_Label                    string       	1	Vinf (m/s) 
    f_Label                       string       	1	f (m^2) 
-<aero-tools>\OpenVSP-3.56.0-win64\vspaero.exe -omp 8 <repo>/out/vsp/full/lodestar
+<aero-tools>\OpenVSP-3.56.0-win64\vspaero.exe -omp 8 <home>/DOM/5_Projects/lodestar/out/vsp/full/lodestar
 Setting Sref to: 1.285710 
 
 Setting Cref to: 0.449130 
@@ -374,7 +374,7 @@ DumChar: # VSPGEOM v3 Tag Key File
 
  
 
-DumChar: <repo>/out/vsp/full/lodestar.vspgeom
+DumChar: <home>/DOM/5_Projects/lodestar/out/vsp/full/lodestar.vspgeom
 
  
 
@@ -514,7 +514,7 @@ Pure tri mesh has 5480 tris
 
 After building ...pure tri mesh has 5480 tris 
 
-Looking for <repo>/out/vsp/full/lodestar.ControlSurfaces.taglist control surface definition file ... 
+Looking for <home>/DOM/5_Projects/lodestar/out/vsp/full/lodestar.ControlSurfaces.taglist control surface definition file ... 
 
 Did not find any control surface definitions... 
 

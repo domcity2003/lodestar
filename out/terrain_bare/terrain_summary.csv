@@ -1,0 +1,197 @@
+site,pattern,aircraft,found,help_1h,help_3h,help_3h_perfect,median_help_min_from_launch
+yosemite_happy_isles,box,Lodestar SiCore,0.074,0.0117,0.0618,0.062,98.5469
+yosemite_happy_isles,box,Lodestar P50B,0.046,0.0097,0.0378,0.038,92.2874
+yosemite_happy_isles,box,DeltaQuad Evo GOV,0.086,0.0,0.06,0.06,151.3856
+yosemite_happy_isles,box,C-Astral Bramor ppX,0.054,0.0,0.042,0.042,161.251
+yosemite_happy_isles,box,Quantum Trinity Pro,0.008,0.0,0.006,0.006,124.6986
+yosemite_happy_isles,box,AgEagle eBee X,0.006,0.0,0.006,0.006,105.2428
+yosemite_happy_isles,box,DeltaQuad Evo-LE (press),0.218,0.0,0.076,0.076,214.1812
+yosemite_happy_isles,spiral,Lodestar SiCore,0.136,0.0935,0.1319,0.132,38.7075
+yosemite_happy_isles,spiral,Lodestar P50B,0.13,0.0876,0.128,0.128,38.2139
+yosemite_happy_isles,spiral,DeltaQuad Evo GOV,0.162,0.086,0.142,0.142,58.1265
+yosemite_happy_isles,spiral,C-Astral Bramor ppX,0.142,0.084,0.13,0.13,48.703
+yosemite_happy_isles,spiral,Quantum Trinity Pro,0.086,0.076,0.086,0.086,29.6732
+yosemite_happy_isles,spiral,AgEagle eBee X,0.08,0.07,0.08,0.08,25.7191
+yosemite_happy_isles,spiral,DeltaQuad Evo-LE (press),0.24,0.086,0.156,0.156,118.9994
+yosemite_happy_isles,trails 3,Lodestar SiCore,0.194,0.0899,0.192,0.192,62.7725
+yosemite_happy_isles,trails 3,Lodestar P50B,0.164,0.0879,0.164,0.164,57.2846
+yosemite_happy_isles,trails 3,DeltaQuad Evo GOV,0.212,0.084,0.192,0.192,79.2941
+yosemite_happy_isles,trails 3,C-Astral Bramor ppX,0.164,0.084,0.164,0.164,58.3116
+yosemite_happy_isles,trails 3,Quantum Trinity Pro,0.104,0.086,0.104,0.104,38.3641
+yosemite_happy_isles,trails 3,AgEagle eBee X,0.096,0.078,0.096,0.096,39.6884
+yosemite_happy_isles,trails 3,DeltaQuad Evo-LE (press),0.298,0.084,0.192,0.192,128.8376
+yosemite_happy_isles,trails 6,Lodestar SiCore,0.174,0.056,0.174,0.174,81.904
+yosemite_happy_isles,trails 6,Lodestar P50B,0.17,0.056,0.17,0.17,82.8693
+yosemite_happy_isles,trails 6,DeltaQuad Evo GOV,0.19,0.056,0.18,0.18,91.0864
+yosemite_happy_isles,trails 6,C-Astral Bramor ppX,0.174,0.056,0.174,0.174,89.7783
+yosemite_happy_isles,trails 6,Quantum Trinity Pro,0.07,0.056,0.07,0.07,21.1203
+yosemite_happy_isles,trails 6,AgEagle eBee X,0.068,0.056,0.068,0.068,21.0714
+yosemite_happy_isles,trails 6,DeltaQuad Evo-LE (press),0.264,0.056,0.18,0.18,116.7401
+sequoia_lodgepole,box,Lodestar SiCore,0.116,0.0177,0.116,0.116,93.3252
+sequoia_lodgepole,box,Lodestar P50B,0.072,0.0177,0.072,0.072,82.2122
+sequoia_lodgepole,box,DeltaQuad Evo GOV,0.098,0.004,0.092,0.092,136.6126
+sequoia_lodgepole,box,C-Astral Bramor ppX,0.046,0.004,0.046,0.046,110.2398
+sequoia_lodgepole,box,Quantum Trinity Pro,0.01,0.004,0.01,0.01,75.7709
+sequoia_lodgepole,box,AgEagle eBee X,0.008,0.004,0.008,0.008,65.2369
+sequoia_lodgepole,box,DeltaQuad Evo-LE (press),0.266,0.004,0.144,0.144,173.6943
+sequoia_lodgepole,spiral,Lodestar SiCore,0.182,0.1019,0.18,0.18,49.258
+sequoia_lodgepole,spiral,Lodestar P50B,0.166,0.0999,0.166,0.166,34.3918
+sequoia_lodgepole,spiral,DeltaQuad Evo GOV,0.174,0.086,0.174,0.174,62.2888
+sequoia_lodgepole,spiral,C-Astral Bramor ppX,0.164,0.078,0.162,0.162,60.4456
+sequoia_lodgepole,spiral,Quantum Trinity Pro,0.094,0.076,0.094,0.094,31.6789
+sequoia_lodgepole,spiral,AgEagle eBee X,0.098,0.076,0.098,0.098,35.6259
+sequoia_lodgepole,spiral,DeltaQuad Evo-LE (press),0.222,0.086,0.18,0.18,79.5472
+sequoia_lodgepole,trails 3,Lodestar SiCore,0.196,0.0816,0.196,0.196,65.5005
+sequoia_lodgepole,trails 3,Lodestar P50B,0.178,0.0719,0.178,0.178,65.1942
+sequoia_lodgepole,trails 3,DeltaQuad Evo GOV,0.204,0.072,0.196,0.196,77.0214
+sequoia_lodgepole,trails 3,C-Astral Bramor ppX,0.19,0.072,0.19,0.19,76.65
+sequoia_lodgepole,trails 3,Quantum Trinity Pro,0.092,0.074,0.092,0.092,19.966
+sequoia_lodgepole,trails 3,AgEagle eBee X,0.082,0.07,0.082,0.082,20.3936
+sequoia_lodgepole,trails 3,DeltaQuad Evo-LE (press),0.264,0.072,0.198,0.198,103.7024
+sequoia_lodgepole,trails 6,Lodestar SiCore,0.2,0.0997,0.2,0.2,60.1908
+sequoia_lodgepole,trails 6,Lodestar P50B,0.184,0.098,0.184,0.184,49.4565
+sequoia_lodgepole,trails 6,DeltaQuad Evo GOV,0.202,0.092,0.194,0.194,68.9338
+sequoia_lodgepole,trails 6,C-Astral Bramor ppX,0.18,0.092,0.174,0.174,58.5388
+sequoia_lodgepole,trails 6,Quantum Trinity Pro,0.104,0.09,0.104,0.104,24.3839
+sequoia_lodgepole,trails 6,AgEagle eBee X,0.106,0.09,0.106,0.106,24.2638
+sequoia_lodgepole,trails 6,DeltaQuad Evo-LE (press),0.324,0.092,0.194,0.194,151.5512
+rocky_bear_lake,box,Lodestar SiCore,0.116,0.012,0.116,0.116,96.4
+rocky_bear_lake,box,Lodestar P50B,0.072,0.012,0.072,0.072,93.1801
+rocky_bear_lake,box,DeltaQuad Evo GOV,0.074,0.004,0.074,0.074,123.4102
+rocky_bear_lake,box,C-Astral Bramor ppX,0.046,0.004,0.046,0.046,99.4072
+rocky_bear_lake,box,Quantum Trinity Pro,0.01,0.006,0.01,0.01,59.973
+rocky_bear_lake,box,AgEagle eBee X,0.01,0.002,0.01,0.01,66.3224
+rocky_bear_lake,box,DeltaQuad Evo-LE (press),0.232,0.004,0.126,0.126,171.3324
+rocky_bear_lake,spiral,Lodestar SiCore,0.156,0.092,0.156,0.156,36.0843
+rocky_bear_lake,spiral,Lodestar P50B,0.144,0.092,0.144,0.144,32.6413
+rocky_bear_lake,spiral,DeltaQuad Evo GOV,0.18,0.096,0.174,0.174,57.1821
+rocky_bear_lake,spiral,C-Astral Bramor ppX,0.152,0.094,0.152,0.152,50.7854
+rocky_bear_lake,spiral,Quantum Trinity Pro,0.1,0.096,0.1,0.1,36.339
+rocky_bear_lake,spiral,AgEagle eBee X,0.1,0.084,0.1,0.1,41.0773
+rocky_bear_lake,spiral,DeltaQuad Evo-LE (press),0.238,0.096,0.18,0.18,97.1485
+rocky_bear_lake,trails 3,Lodestar SiCore,0.202,0.0836,0.202,0.202,68.327
+rocky_bear_lake,trails 3,Lodestar P50B,0.184,0.0857,0.184,0.184,65.8701
+rocky_bear_lake,trails 3,DeltaQuad Evo GOV,0.202,0.074,0.202,0.202,87.4272
+rocky_bear_lake,trails 3,C-Astral Bramor ppX,0.196,0.076,0.196,0.196,85.0512
+rocky_bear_lake,trails 3,Quantum Trinity Pro,0.092,0.074,0.092,0.092,37.3495
+rocky_bear_lake,trails 3,AgEagle eBee X,0.084,0.07,0.084,0.084,39.4383
+rocky_bear_lake,trails 3,DeltaQuad Evo-LE (press),0.262,0.074,0.208,0.208,103.206
+rocky_bear_lake,trails 6,Lodestar SiCore,0.186,0.1118,0.182,0.182,52.6572
+rocky_bear_lake,trails 6,Lodestar P50B,0.166,0.1098,0.162,0.162,48.8806
+rocky_bear_lake,trails 6,DeltaQuad Evo GOV,0.194,0.102,0.19,0.19,58.3715
+rocky_bear_lake,trails 6,C-Astral Bramor ppX,0.172,0.098,0.166,0.166,55.8431
+rocky_bear_lake,trails 6,Quantum Trinity Pro,0.112,0.102,0.112,0.112,46.3142
+rocky_bear_lake,trails 6,AgEagle eBee X,0.102,0.08,0.102,0.102,49.7538
+rocky_bear_lake,trails 6,DeltaQuad Evo-LE (press),0.29,0.102,0.192,0.192,124.1572
+olympic_hurricane_ridge,box,Lodestar SiCore,0.074,0.0133,0.074,0.074,106.707
+olympic_hurricane_ridge,box,Lodestar P50B,0.05,0.0077,0.05,0.05,91.3514
+olympic_hurricane_ridge,box,DeltaQuad Evo GOV,0.066,0.0,0.064,0.064,144.1135
+olympic_hurricane_ridge,box,C-Astral Bramor ppX,0.03,0.0,0.03,0.03,140.8662
+olympic_hurricane_ridge,box,Quantum Trinity Pro,0.008,0.0,0.008,0.008,114.0947
+olympic_hurricane_ridge,box,AgEagle eBee X,0.006,0.0,0.006,0.006,113.9617
+olympic_hurricane_ridge,box,DeltaQuad Evo-LE (press),0.268,0.0,0.106,0.106,185.5422
+olympic_hurricane_ridge,spiral,Lodestar SiCore,0.168,0.1038,0.168,0.168,39.4375
+olympic_hurricane_ridge,spiral,Lodestar P50B,0.164,0.1058,0.164,0.164,40.9557
+olympic_hurricane_ridge,spiral,DeltaQuad Evo GOV,0.184,0.092,0.18,0.18,60.2946
+olympic_hurricane_ridge,spiral,C-Astral Bramor ppX,0.168,0.094,0.168,0.168,48.8753
+olympic_hurricane_ridge,spiral,Quantum Trinity Pro,0.112,0.096,0.112,0.112,33.4544
+olympic_hurricane_ridge,spiral,AgEagle eBee X,0.114,0.092,0.114,0.114,39.5925
+olympic_hurricane_ridge,spiral,DeltaQuad Evo-LE (press),0.258,0.092,0.186,0.186,97.9532
+olympic_hurricane_ridge,trails 3,Lodestar SiCore,0.196,0.1219,0.194,0.194,46.3898
+olympic_hurricane_ridge,trails 3,Lodestar P50B,0.184,0.124,0.184,0.184,44.3542
+olympic_hurricane_ridge,trails 3,DeltaQuad Evo GOV,0.198,0.112,0.198,0.198,52.8048
+olympic_hurricane_ridge,trails 3,C-Astral Bramor ppX,0.184,0.11,0.184,0.184,47.1957
+olympic_hurricane_ridge,trails 3,Quantum Trinity Pro,0.118,0.114,0.118,0.118,29.5594
+olympic_hurricane_ridge,trails 3,AgEagle eBee X,0.11,0.102,0.11,0.11,32.3441
+olympic_hurricane_ridge,trails 3,DeltaQuad Evo-LE (press),0.268,0.112,0.202,0.202,84.3961
+olympic_hurricane_ridge,trails 6,Lodestar SiCore,0.216,0.1131,0.2158,0.216,49.7318
+olympic_hurricane_ridge,trails 6,Lodestar P50B,0.194,0.1191,0.194,0.194,40.9649
+olympic_hurricane_ridge,trails 6,DeltaQuad Evo GOV,0.234,0.1,0.226,0.226,83.3736
+olympic_hurricane_ridge,trails 6,C-Astral Bramor ppX,0.202,0.1,0.202,0.202,63.9973
+olympic_hurricane_ridge,trails 6,Quantum Trinity Pro,0.124,0.1,0.124,0.124,32.8839
+olympic_hurricane_ridge,trails 6,AgEagle eBee X,0.114,0.1,0.114,0.114,34.9419
+olympic_hurricane_ridge,trails 6,DeltaQuad Evo-LE (press),0.296,0.1,0.23,0.23,111.5647
+rainier_paradise,box,Lodestar SiCore,0.146,0.0514,0.146,0.146,74.4573
+rainier_paradise,box,Lodestar P50B,0.106,0.0457,0.106,0.106,66.1178
+rainier_paradise,box,DeltaQuad Evo GOV,0.128,0.034,0.128,0.128,93.0064
+rainier_paradise,box,C-Astral Bramor ppX,0.1,0.034,0.1,0.1,84.8933
+rainier_paradise,box,Quantum Trinity Pro,0.04,0.036,0.04,0.04,32.9096
+rainier_paradise,box,AgEagle eBee X,0.038,0.032,0.038,0.038,36.197
+rainier_paradise,box,DeltaQuad Evo-LE (press),0.286,0.034,0.158,0.158,172.3232
+rainier_paradise,spiral,Lodestar SiCore,0.204,0.1238,0.204,0.204,40.8933
+rainier_paradise,spiral,Lodestar P50B,0.188,0.1198,0.188,0.188,41.0231
+rainier_paradise,spiral,DeltaQuad Evo GOV,0.19,0.09,0.186,0.186,66.8118
+rainier_paradise,spiral,C-Astral Bramor ppX,0.17,0.084,0.17,0.17,60.3189
+rainier_paradise,spiral,Quantum Trinity Pro,0.098,0.092,0.098,0.098,28.8867
+rainier_paradise,spiral,AgEagle eBee X,0.088,0.076,0.088,0.088,30.9326
+rainier_paradise,spiral,DeltaQuad Evo-LE (press),0.258,0.09,0.19,0.19,97.5993
+rainier_paradise,trails 3,Lodestar SiCore,0.188,0.1,0.188,0.188,58.3668
+rainier_paradise,trails 3,Lodestar P50B,0.178,0.096,0.178,0.178,56.7267
+rainier_paradise,trails 3,DeltaQuad Evo GOV,0.208,0.078,0.204,0.204,86.5523
+rainier_paradise,trails 3,C-Astral Bramor ppX,0.188,0.078,0.188,0.188,78.5047
+rainier_paradise,trails 3,Quantum Trinity Pro,0.088,0.078,0.088,0.088,32.1898
+rainier_paradise,trails 3,AgEagle eBee X,0.082,0.074,0.082,0.082,35.3255
+rainier_paradise,trails 3,DeltaQuad Evo-LE (press),0.266,0.078,0.208,0.208,112.6974
+rainier_paradise,trails 6,Lodestar SiCore,0.182,0.0858,0.176,0.176,62.3197
+rainier_paradise,trails 6,Lodestar P50B,0.168,0.0815,0.164,0.164,61.3418
+rainier_paradise,trails 6,DeltaQuad Evo GOV,0.192,0.07,0.176,0.176,72.8436
+rainier_paradise,trails 6,C-Astral Bramor ppX,0.176,0.07,0.17,0.17,69.9813
+rainier_paradise,trails 6,Quantum Trinity Pro,0.086,0.07,0.086,0.086,43.0439
+rainier_paradise,trails 6,AgEagle eBee X,0.082,0.06,0.082,0.082,45.3162
+rainier_paradise,trails 6,DeltaQuad Evo-LE (press),0.276,0.07,0.178,0.178,134.7044
+smokies_newfound_gap,box,Lodestar SiCore,0.126,0.0333,0.126,0.126,85.0141
+smokies_newfound_gap,box,Lodestar P50B,0.078,0.0333,0.078,0.078,69.742
+smokies_newfound_gap,box,DeltaQuad Evo GOV,0.1,0.016,0.098,0.098,87.1657
+smokies_newfound_gap,box,C-Astral Bramor ppX,0.076,0.016,0.076,0.076,83.473
+smokies_newfound_gap,box,Quantum Trinity Pro,0.024,0.016,0.024,0.024,48.4597
+smokies_newfound_gap,box,AgEagle eBee X,0.018,0.016,0.018,0.018,44.8816
+smokies_newfound_gap,box,DeltaQuad Evo-LE (press),0.286,0.016,0.142,0.142,180.3213
+smokies_newfound_gap,spiral,Lodestar SiCore,0.18,0.1138,0.18,0.18,41.3813
+smokies_newfound_gap,spiral,Lodestar P50B,0.162,0.1078,0.162,0.162,39.4859
+smokies_newfound_gap,spiral,DeltaQuad Evo GOV,0.198,0.094,0.196,0.196,68.7679
+smokies_newfound_gap,spiral,C-Astral Bramor ppX,0.168,0.092,0.168,0.168,54.0774
+smokies_newfound_gap,spiral,Quantum Trinity Pro,0.092,0.088,0.092,0.092,32.6931
+smokies_newfound_gap,spiral,AgEagle eBee X,0.1,0.094,0.1,0.1,32.4505
+smokies_newfound_gap,spiral,DeltaQuad Evo-LE (press),0.254,0.094,0.202,0.202,87.3285
+smokies_newfound_gap,trails 3,Lodestar SiCore,0.204,0.1255,0.204,0.204,50.3703
+smokies_newfound_gap,trails 3,Lodestar P50B,0.2,0.1193,0.2,0.2,51.7669
+smokies_newfound_gap,trails 3,DeltaQuad Evo GOV,0.214,0.112,0.214,0.214,56.0867
+smokies_newfound_gap,trails 3,C-Astral Bramor ppX,0.198,0.11,0.198,0.198,51.4408
+smokies_newfound_gap,trails 3,Quantum Trinity Pro,0.134,0.112,0.134,0.134,37.6388
+smokies_newfound_gap,trails 3,AgEagle eBee X,0.128,0.11,0.128,0.128,41.0641
+smokies_newfound_gap,trails 3,DeltaQuad Evo-LE (press),0.276,0.112,0.224,0.224,74.725
+smokies_newfound_gap,trails 6,Lodestar SiCore,0.216,0.1256,0.216,0.216,52.8985
+smokies_newfound_gap,trails 6,Lodestar P50B,0.188,0.1157,0.188,0.188,43.4292
+smokies_newfound_gap,trails 6,DeltaQuad Evo GOV,0.232,0.102,0.23,0.23,71.6204
+smokies_newfound_gap,trails 6,C-Astral Bramor ppX,0.198,0.102,0.196,0.196,58.7692
+smokies_newfound_gap,trails 6,Quantum Trinity Pro,0.106,0.1,0.106,0.106,32.8102
+smokies_newfound_gap,trails 6,AgEagle eBee X,0.106,0.094,0.106,0.106,35.8607
+smokies_newfound_gap,trails 6,DeltaQuad Evo-LE (press),0.32,0.102,0.236,0.236,129.5078
+whites_pinkham_notch,box,Lodestar SiCore,0.074,0.0257,0.074,0.074,74.1724
+whites_pinkham_notch,box,Lodestar P50B,0.052,0.0176,0.052,0.052,70.3238
+whites_pinkham_notch,box,DeltaQuad Evo GOV,0.084,0.01,0.08,0.08,108.1601
+whites_pinkham_notch,box,C-Astral Bramor ppX,0.062,0.006,0.062,0.062,89.2252
+whites_pinkham_notch,box,Quantum Trinity Pro,0.016,0.01,0.016,0.016,58.8525
+whites_pinkham_notch,box,AgEagle eBee X,0.012,0.006,0.012,0.012,54.354
+whites_pinkham_notch,box,DeltaQuad Evo-LE (press),0.26,0.01,0.098,0.098,204.5111
+whites_pinkham_notch,spiral,Lodestar SiCore,0.182,0.102,0.182,0.182,43.3046
+whites_pinkham_notch,spiral,Lodestar P50B,0.168,0.1019,0.168,0.168,33.4619
+whites_pinkham_notch,spiral,DeltaQuad Evo GOV,0.192,0.09,0.182,0.182,66.0516
+whites_pinkham_notch,spiral,C-Astral Bramor ppX,0.178,0.092,0.174,0.174,53.1487
+whites_pinkham_notch,spiral,Quantum Trinity Pro,0.104,0.09,0.104,0.104,28.3517
+whites_pinkham_notch,spiral,AgEagle eBee X,0.104,0.088,0.104,0.104,30.9582
+whites_pinkham_notch,spiral,DeltaQuad Evo-LE (press),0.258,0.09,0.188,0.188,95.9563
+whites_pinkham_notch,trails 3,Lodestar SiCore,0.218,0.1399,0.218,0.218,48.5399
+whites_pinkham_notch,trails 3,Lodestar P50B,0.206,0.1398,0.206,0.206,47.1114
+whites_pinkham_notch,trails 3,DeltaQuad Evo GOV,0.25,0.116,0.248,0.248,61.3055
+whites_pinkham_notch,trails 3,C-Astral Bramor ppX,0.242,0.114,0.242,0.242,62.0
+whites_pinkham_notch,trails 3,Quantum Trinity Pro,0.136,0.124,0.136,0.136,40.5496
+whites_pinkham_notch,trails 3,AgEagle eBee X,0.13,0.108,0.13,0.13,44.7489
+whites_pinkham_notch,trails 3,DeltaQuad Evo-LE (press),0.312,0.116,0.248,0.248,104.3194
+whites_pinkham_notch,trails 6,Lodestar SiCore,0.196,0.1137,0.192,0.192,45.4829
+whites_pinkham_notch,trails 6,Lodestar P50B,0.19,0.1137,0.188,0.188,44.3402
+whites_pinkham_notch,trails 6,DeltaQuad Evo GOV,0.21,0.102,0.192,0.192,65.4294
+whites_pinkham_notch,trails 6,C-Astral Bramor ppX,0.196,0.098,0.19,0.19,59.347
+whites_pinkham_notch,trails 6,Quantum Trinity Pro,0.12,0.102,0.12,0.12,36.4979
+whites_pinkham_notch,trails 6,AgEagle eBee X,0.112,0.096,0.112,0.112,39.2769
+whites_pinkham_notch,trails 6,DeltaQuad Evo-LE (press),0.298,0.1,0.192,0.192,98.9744

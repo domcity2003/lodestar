@@ -1,0 +1,197 @@
+pattern,mode,aircraft,site,found,help_1h,help_3h,searched_km
+trails 3,pursuit_1,AgEagle eBee X,olympic_hurricane_ridge,0.05,0.05,0.05,21.466933635246008
+trails 3,pursuit_1,AgEagle eBee X,rainier_paradise,0.036,0.036,0.036,18.2675451504847
+trails 3,pursuit_1,AgEagle eBee X,rocky_bear_lake,0.042,0.04,0.042,18.504610477624624
+trails 3,pursuit_1,AgEagle eBee X,sequoia_lodgepole,0.054,0.054,0.054,19.881707640153422
+trails 3,pursuit_1,AgEagle eBee X,smokies_newfound_gap,0.034,0.034,0.034,19.544685785924845
+trails 3,pursuit_1,AgEagle eBee X,whites_pinkham_notch,0.068,0.068,0.068,21.379533607870464
+trails 3,pursuit_1,AgEagle eBee X,yosemite_happy_isles,0.058,0.056,0.058,20.017949893642967
+trails 3,pursuit_1,C-Astral Bramor ppX,olympic_hurricane_ridge,0.106,0.066,0.106,55.53596528999381
+trails 3,pursuit_1,C-Astral Bramor ppX,rainier_paradise,0.092,0.05,0.092,47.68314535051418
+trails 3,pursuit_1,C-Astral Bramor ppX,rocky_bear_lake,0.086,0.042,0.086,49.80018879280203
+trails 3,pursuit_1,C-Astral Bramor ppX,sequoia_lodgepole,0.086,0.052,0.086,57.64188987402628
+trails 3,pursuit_1,C-Astral Bramor ppX,smokies_newfound_gap,0.068,0.044,0.068,52.709839534526
+trails 3,pursuit_1,C-Astral Bramor ppX,whites_pinkham_notch,0.076,0.064,0.076,56.436541639554925
+trails 3,pursuit_1,C-Astral Bramor ppX,yosemite_happy_isles,0.094,0.062,0.094,48.431610108565316
+trails 3,pursuit_1,DeltaQuad Evo GOV,olympic_hurricane_ridge,0.104,0.064,0.104,68.73786202687984
+trails 3,pursuit_1,DeltaQuad Evo GOV,rainier_paradise,0.094,0.042,0.094,61.714900801516045
+trails 3,pursuit_1,DeltaQuad Evo GOV,rocky_bear_lake,0.096,0.036,0.096,62.89084162406175
+trails 3,pursuit_1,DeltaQuad Evo GOV,sequoia_lodgepole,0.124,0.076,0.124,70.6281974714624
+trails 3,pursuit_1,DeltaQuad Evo GOV,smokies_newfound_gap,0.058,0.032,0.058,67.20506675786575
+trails 3,pursuit_1,DeltaQuad Evo GOV,whites_pinkham_notch,0.082,0.058,0.082,72.36298242206144
+trails 3,pursuit_1,DeltaQuad Evo GOV,yosemite_happy_isles,0.108,0.062,0.108,59.39720275308254
+trails 3,pursuit_1,DeltaQuad Evo-LE (press),olympic_hurricane_ridge,0.126,0.07,0.122,131.99110074912977
+trails 3,pursuit_1,DeltaQuad Evo-LE (press),rainier_paradise,0.15,0.048,0.116,127.14279454330676
+trails 3,pursuit_1,DeltaQuad Evo-LE (press),rocky_bear_lake,0.138,0.046,0.136,124.95769225676119
+trails 3,pursuit_1,DeltaQuad Evo-LE (press),sequoia_lodgepole,0.146,0.064,0.128,134.98333474383446
+trails 3,pursuit_1,DeltaQuad Evo-LE (press),smokies_newfound_gap,0.088,0.034,0.078,132.99703946773622
+trails 3,pursuit_1,DeltaQuad Evo-LE (press),whites_pinkham_notch,0.12,0.074,0.104,140.70577860729088
+trails 3,pursuit_1,DeltaQuad Evo-LE (press),yosemite_happy_isles,0.138,0.054,0.106,121.96967925717465
+trails 3,pursuit_1,Lodestar P50B,olympic_hurricane_ridge,0.116,0.08797571220158056,0.116,59.060114266946194
+trails 3,pursuit_1,Lodestar P50B,rainier_paradise,0.13,0.07765133189981631,0.13,50.67558898411818
+trails 3,pursuit_1,Lodestar P50B,rocky_bear_lake,0.142,0.09346803205116279,0.142,57.749933332256596
+trails 3,pursuit_1,Lodestar P50B,sequoia_lodgepole,0.128,0.0799302763377934,0.128,64.00572416479926
+trails 3,pursuit_1,Lodestar P50B,smokies_newfound_gap,0.078,0.057896932724472064,0.078,56.905453780252046
+trails 3,pursuit_1,Lodestar P50B,whites_pinkham_notch,0.102,0.078,0.102,56.20898547299586
+trails 3,pursuit_1,Lodestar P50B,yosemite_happy_isles,0.114,0.08971803014349851,0.114,49.941927502822615
+trails 3,pursuit_1,Lodestar SiCore,olympic_hurricane_ridge,0.13,0.08997579203070673,0.13,75.13666564450132
+trails 3,pursuit_1,Lodestar SiCore,rainier_paradise,0.162,0.08141007748044689,0.162,65.98472611556733
+trails 3,pursuit_1,Lodestar SiCore,rocky_bear_lake,0.158,0.10343203290671084,0.158,73.44762712797622
+trails 3,pursuit_1,Lodestar SiCore,sequoia_lodgepole,0.16,0.09194133875084073,0.16,79.1619821542118
+trails 3,pursuit_1,Lodestar SiCore,smokies_newfound_gap,0.09,0.06598760161770274,0.09,73.21432448709521
+trails 3,pursuit_1,Lodestar SiCore,whites_pinkham_notch,0.124,0.07395151763398741,0.124,71.93644557607463
+trails 3,pursuit_1,Lodestar SiCore,yosemite_happy_isles,0.146,0.093910910147362,0.14196788764303647,63.92279080072464
+trails 3,pursuit_1,Quantum Trinity Pro,olympic_hurricane_ridge,0.056,0.056,0.056,23.060407338884797
+trails 3,pursuit_1,Quantum Trinity Pro,rainier_paradise,0.04,0.04,0.04,19.323301519272057
+trails 3,pursuit_1,Quantum Trinity Pro,rocky_bear_lake,0.038,0.038,0.038,19.7554190821777
+trails 3,pursuit_1,Quantum Trinity Pro,sequoia_lodgepole,0.054,0.054,0.054,23.365594958774636
+trails 3,pursuit_1,Quantum Trinity Pro,smokies_newfound_gap,0.032,0.032,0.032,20.811252337211968
+trails 3,pursuit_1,Quantum Trinity Pro,whites_pinkham_notch,0.068,0.066,0.068,23.408939229214496
+trails 3,pursuit_1,Quantum Trinity Pro,yosemite_happy_isles,0.058,0.056,0.058,21.846684852022374
+trails 3,sharp,AgEagle eBee X,olympic_hurricane_ridge,0.072,0.07,0.072,
+trails 3,sharp,AgEagle eBee X,rainier_paradise,0.038,0.038,0.038,
+trails 3,sharp,AgEagle eBee X,rocky_bear_lake,0.068,0.066,0.068,
+trails 3,sharp,AgEagle eBee X,sequoia_lodgepole,0.064,0.064,0.064,
+trails 3,sharp,AgEagle eBee X,smokies_newfound_gap,0.046,0.046,0.046,
+trails 3,sharp,AgEagle eBee X,whites_pinkham_notch,0.064,0.064,0.064,
+trails 3,sharp,AgEagle eBee X,yosemite_happy_isles,0.054,0.054,0.054,
+trails 3,sharp,C-Astral Bramor ppX,olympic_hurricane_ridge,0.112,0.082,0.112,
+trails 3,sharp,C-Astral Bramor ppX,rainier_paradise,0.104,0.042,0.104,
+trails 3,sharp,C-Astral Bramor ppX,rocky_bear_lake,0.122,0.066,0.122,
+trails 3,sharp,C-Astral Bramor ppX,sequoia_lodgepole,0.108,0.064,0.108,
+trails 3,sharp,C-Astral Bramor ppX,smokies_newfound_gap,0.07,0.048,0.07,
+trails 3,sharp,C-Astral Bramor ppX,whites_pinkham_notch,0.09,0.07,0.09,
+trails 3,sharp,C-Astral Bramor ppX,yosemite_happy_isles,0.108,0.062,0.108,
+trails 3,sharp,DeltaQuad Evo GOV,olympic_hurricane_ridge,0.122,0.08,0.122,
+trails 3,sharp,DeltaQuad Evo GOV,rainier_paradise,0.122,0.042,0.122,
+trails 3,sharp,DeltaQuad Evo GOV,rocky_bear_lake,0.136,0.066,0.136,
+trails 3,sharp,DeltaQuad Evo GOV,sequoia_lodgepole,0.118,0.066,0.118,
+trails 3,sharp,DeltaQuad Evo GOV,smokies_newfound_gap,0.074,0.048,0.074,
+trails 3,sharp,DeltaQuad Evo GOV,whites_pinkham_notch,0.1,0.068,0.1,
+trails 3,sharp,DeltaQuad Evo GOV,yosemite_happy_isles,0.112,0.062,0.112,
+trails 3,sharp,DeltaQuad Evo-LE (press),olympic_hurricane_ridge,0.138,0.08,0.136,
+trails 3,sharp,DeltaQuad Evo-LE (press),rainier_paradise,0.174,0.042,0.142,
+trails 3,sharp,DeltaQuad Evo-LE (press),rocky_bear_lake,0.174,0.066,0.152,
+trails 3,sharp,DeltaQuad Evo-LE (press),sequoia_lodgepole,0.168,0.066,0.132,
+trails 3,sharp,DeltaQuad Evo-LE (press),smokies_newfound_gap,0.104,0.048,0.086,
+trails 3,sharp,DeltaQuad Evo-LE (press),whites_pinkham_notch,0.12,0.07,0.112,
+trails 3,sharp,DeltaQuad Evo-LE (press),yosemite_happy_isles,0.174,0.062,0.128,
+trails 3,sharp,Lodestar P50B,olympic_hurricane_ridge,0.078,0.059977934065073416,0.078,
+trails 3,sharp,Lodestar P50B,rainier_paradise,0.074,0.047985507879797364,0.074,
+trails 3,sharp,Lodestar P50B,rocky_bear_lake,0.098,0.04398259342503314,0.098,
+trails 3,sharp,Lodestar P50B,sequoia_lodgepole,0.106,0.0638539736939495,0.106,
+trails 3,sharp,Lodestar P50B,smokies_newfound_gap,0.042,0.038,0.042,
+trails 3,sharp,Lodestar P50B,whites_pinkham_notch,0.074,0.059802816241442,0.074,
+trails 3,sharp,Lodestar P50B,yosemite_happy_isles,0.098,0.06590484846844938,0.098,
+trails 3,sharp,Lodestar SiCore,olympic_hurricane_ridge,0.078,0.059977934065073416,0.078,
+trails 3,sharp,Lodestar SiCore,rainier_paradise,0.082,0.047985507879797364,0.082,
+trails 3,sharp,Lodestar SiCore,rocky_bear_lake,0.104,0.04398259342503314,0.104,
+trails 3,sharp,Lodestar SiCore,sequoia_lodgepole,0.114,0.0638539736939495,0.11398324009846497,
+trails 3,sharp,Lodestar SiCore,smokies_newfound_gap,0.048,0.038,0.048,
+trails 3,sharp,Lodestar SiCore,whites_pinkham_notch,0.086,0.059802816241442,0.086,
+trails 3,sharp,Lodestar SiCore,yosemite_happy_isles,0.108,0.06590484846844938,0.10788348370697967,
+trails 3,sharp,Quantum Trinity Pro,olympic_hurricane_ridge,0.074,0.072,0.074,
+trails 3,sharp,Quantum Trinity Pro,rainier_paradise,0.038,0.038,0.038,
+trails 3,sharp,Quantum Trinity Pro,rocky_bear_lake,0.072,0.068,0.072,
+trails 3,sharp,Quantum Trinity Pro,sequoia_lodgepole,0.064,0.064,0.064,
+trails 3,sharp,Quantum Trinity Pro,smokies_newfound_gap,0.048,0.046,0.048,
+trails 3,sharp,Quantum Trinity Pro,whites_pinkham_notch,0.062,0.062,0.062,
+trails 3,sharp,Quantum Trinity Pro,yosemite_happy_isles,0.056,0.056,0.056,
+trails 6,pursuit_1,AgEagle eBee X,olympic_hurricane_ridge,0.048,0.046,0.048,19.05191441728512
+trails 6,pursuit_1,AgEagle eBee X,rainier_paradise,0.038,0.036,0.038,18.503046674266958
+trails 6,pursuit_1,AgEagle eBee X,rocky_bear_lake,0.05,0.05,0.05,17.730236019802266
+trails 6,pursuit_1,AgEagle eBee X,sequoia_lodgepole,0.058,0.058,0.058,19.41834960381095
+trails 6,pursuit_1,AgEagle eBee X,smokies_newfound_gap,0.04,0.04,0.04,19.83437563568868
+trails 6,pursuit_1,AgEagle eBee X,whites_pinkham_notch,0.064,0.062,0.064,21.440029586741904
+trails 6,pursuit_1,AgEagle eBee X,yosemite_happy_isles,0.054,0.054,0.054,18.695174558676705
+trails 6,pursuit_1,C-Astral Bramor ppX,olympic_hurricane_ridge,0.074,0.054,0.074,53.61391193943699
+trails 6,pursuit_1,C-Astral Bramor ppX,rainier_paradise,0.092,0.052,0.092,45.85602171638935
+trails 6,pursuit_1,C-Astral Bramor ppX,rocky_bear_lake,0.07,0.056,0.07,45.566372344034505
+trails 6,pursuit_1,C-Astral Bramor ppX,sequoia_lodgepole,0.08,0.052,0.08,53.548704206213856
+trails 6,pursuit_1,C-Astral Bramor ppX,smokies_newfound_gap,0.046,0.044,0.046,52.50488281776587
+trails 6,pursuit_1,C-Astral Bramor ppX,whites_pinkham_notch,0.1,0.074,0.1,53.244862939831
+trails 6,pursuit_1,C-Astral Bramor ppX,yosemite_happy_isles,0.1,0.066,0.1,53.49706617348949
+trails 6,pursuit_1,DeltaQuad Evo GOV,olympic_hurricane_ridge,0.114,0.066,0.114,66.32726396606357
+trails 6,pursuit_1,DeltaQuad Evo GOV,rainier_paradise,0.098,0.05,0.098,57.48317572013982
+trails 6,pursuit_1,DeltaQuad Evo GOV,rocky_bear_lake,0.074,0.056,0.074,57.4074998596469
+trails 6,pursuit_1,DeltaQuad Evo GOV,sequoia_lodgepole,0.08,0.054,0.08,67.44237180933257
+trails 6,pursuit_1,DeltaQuad Evo GOV,smokies_newfound_gap,0.064,0.042,0.064,67.98729689274757
+trails 6,pursuit_1,DeltaQuad Evo GOV,whites_pinkham_notch,0.084,0.058,0.084,62.34448193021109
+trails 6,pursuit_1,DeltaQuad Evo GOV,yosemite_happy_isles,0.1,0.056,0.098,65.60934463837064
+trails 6,pursuit_1,DeltaQuad Evo-LE (press),olympic_hurricane_ridge,0.158,0.056,0.138,126.7354715003805
+trails 6,pursuit_1,DeltaQuad Evo-LE (press),rainier_paradise,0.15,0.052,0.13,118.87159460004015
+trails 6,pursuit_1,DeltaQuad Evo-LE (press),rocky_bear_lake,0.138,0.06,0.118,113.74850258271019
+trails 6,pursuit_1,DeltaQuad Evo-LE (press),sequoia_lodgepole,0.152,0.056,0.118,129.88446997756938
+trails 6,pursuit_1,DeltaQuad Evo-LE (press),smokies_newfound_gap,0.092,0.04,0.082,131.61621043794972
+trails 6,pursuit_1,DeltaQuad Evo-LE (press),whites_pinkham_notch,0.108,0.058,0.086,127.51718961587703
+trails 6,pursuit_1,DeltaQuad Evo-LE (press),yosemite_happy_isles,0.146,0.064,0.116,120.84544303171432
+trails 6,pursuit_1,Lodestar P50B,olympic_hurricane_ridge,0.12,0.08586302304745923,0.12,57.28685998886203
+trails 6,pursuit_1,Lodestar P50B,rainier_paradise,0.13,0.07993942336750834,0.13,47.56931559671782
+trails 6,pursuit_1,Lodestar P50B,rocky_bear_lake,0.11,0.09389188618896249,0.11,52.15829863742611
+trails 6,pursuit_1,Lodestar P50B,sequoia_lodgepole,0.116,0.09181228674776076,0.116,59.33049764955666
+trails 6,pursuit_1,Lodestar P50B,smokies_newfound_gap,0.066,0.051988464196981554,0.066,57.97229336661487
+trails 6,pursuit_1,Lodestar P50B,whites_pinkham_notch,0.088,0.07194576471496035,0.088,53.47215767342376
+trails 6,pursuit_1,Lodestar P50B,yosemite_happy_isles,0.13,0.09187655351774475,0.128,57.93480957847655
+trails 6,pursuit_1,Lodestar SiCore,olympic_hurricane_ridge,0.13,0.07949221137784737,0.13,72.17662341079678
+trails 6,pursuit_1,Lodestar SiCore,rainier_paradise,0.132,0.07767470869701847,0.132,62.69117255047232
+trails 6,pursuit_1,Lodestar SiCore,rocky_bear_lake,0.13,0.10163323195133175,0.13,68.50871815576978
+trails 6,pursuit_1,Lodestar SiCore,sequoia_lodgepole,0.13,0.08984378822336822,0.13,74.79393198374457
+trails 6,pursuit_1,Lodestar SiCore,smokies_newfound_gap,0.096,0.05798635216541081,0.096,73.20014827971949
+trails 6,pursuit_1,Lodestar SiCore,whites_pinkham_notch,0.09,0.06596317128992721,0.09,63.3538904354183
+trails 6,pursuit_1,Lodestar SiCore,yosemite_happy_isles,0.14,0.0979835853015742,0.13798337960961657,69.697615388125
+trails 6,pursuit_1,Quantum Trinity Pro,olympic_hurricane_ridge,0.058,0.05,0.058,22.54710095050541
+trails 6,pursuit_1,Quantum Trinity Pro,rainier_paradise,0.042,0.038,0.042,19.891502061353147
+trails 6,pursuit_1,Quantum Trinity Pro,rocky_bear_lake,0.058,0.058,0.058,18.458148691028995
+trails 6,pursuit_1,Quantum Trinity Pro,sequoia_lodgepole,0.056,0.056,0.056,21.685855571116498
+trails 6,pursuit_1,Quantum Trinity Pro,smokies_newfound_gap,0.034,0.034,0.034,21.706462413331064
+trails 6,pursuit_1,Quantum Trinity Pro,whites_pinkham_notch,0.058,0.056,0.058,23.6540896138408
+trails 6,pursuit_1,Quantum Trinity Pro,yosemite_happy_isles,0.052,0.052,0.052,21.66014676265117
+trails 6,sharp,AgEagle eBee X,olympic_hurricane_ridge,0.08,0.074,0.08,
+trails 6,sharp,AgEagle eBee X,rainier_paradise,0.048,0.046,0.048,
+trails 6,sharp,AgEagle eBee X,rocky_bear_lake,0.062,0.062,0.062,
+trails 6,sharp,AgEagle eBee X,sequoia_lodgepole,0.066,0.062,0.066,
+trails 6,sharp,AgEagle eBee X,smokies_newfound_gap,0.036,0.036,0.036,
+trails 6,sharp,AgEagle eBee X,whites_pinkham_notch,0.062,0.062,0.062,
+trails 6,sharp,AgEagle eBee X,yosemite_happy_isles,0.044,0.044,0.044,
+trails 6,sharp,C-Astral Bramor ppX,olympic_hurricane_ridge,0.11,0.082,0.11,
+trails 6,sharp,C-Astral Bramor ppX,rainier_paradise,0.096,0.05,0.096,
+trails 6,sharp,C-Astral Bramor ppX,rocky_bear_lake,0.102,0.078,0.102,
+trails 6,sharp,C-Astral Bramor ppX,sequoia_lodgepole,0.108,0.064,0.108,
+trails 6,sharp,C-Astral Bramor ppX,smokies_newfound_gap,0.062,0.04,0.062,
+trails 6,sharp,C-Astral Bramor ppX,whites_pinkham_notch,0.096,0.064,0.096,
+trails 6,sharp,C-Astral Bramor ppX,yosemite_happy_isles,0.116,0.048,0.116,
+trails 6,sharp,DeltaQuad Evo GOV,olympic_hurricane_ridge,0.138,0.082,0.138,
+trails 6,sharp,DeltaQuad Evo GOV,rainier_paradise,0.11,0.05,0.108,
+trails 6,sharp,DeltaQuad Evo GOV,rocky_bear_lake,0.11,0.08,0.104,
+trails 6,sharp,DeltaQuad Evo GOV,sequoia_lodgepole,0.128,0.064,0.128,
+trails 6,sharp,DeltaQuad Evo GOV,smokies_newfound_gap,0.066,0.04,0.066,
+trails 6,sharp,DeltaQuad Evo GOV,whites_pinkham_notch,0.098,0.064,0.096,
+trails 6,sharp,DeltaQuad Evo GOV,yosemite_happy_isles,0.13,0.048,0.13,
+trails 6,sharp,DeltaQuad Evo-LE (press),olympic_hurricane_ridge,0.18,0.082,0.156,
+trails 6,sharp,DeltaQuad Evo-LE (press),rainier_paradise,0.174,0.05,0.12,
+trails 6,sharp,DeltaQuad Evo-LE (press),rocky_bear_lake,0.182,0.08,0.126,
+trails 6,sharp,DeltaQuad Evo-LE (press),sequoia_lodgepole,0.182,0.064,0.14,
+trails 6,sharp,DeltaQuad Evo-LE (press),smokies_newfound_gap,0.114,0.04,0.098,
+trails 6,sharp,DeltaQuad Evo-LE (press),whites_pinkham_notch,0.136,0.064,0.102,
+trails 6,sharp,DeltaQuad Evo-LE (press),yosemite_happy_isles,0.162,0.048,0.136,
+trails 6,sharp,Lodestar P50B,olympic_hurricane_ridge,0.076,0.05398422244865132,0.076,
+trails 6,sharp,Lodestar P50B,rainier_paradise,0.084,0.04791158491934642,0.084,
+trails 6,sharp,Lodestar P50B,rocky_bear_lake,0.106,0.08147419969013048,0.102,
+trails 6,sharp,Lodestar P50B,sequoia_lodgepole,0.088,0.053819938324297115,0.088,
+trails 6,sharp,Lodestar P50B,smokies_newfound_gap,0.05,0.037988464196981556,0.05,
+trails 6,sharp,Lodestar P50B,whites_pinkham_notch,0.07,0.05569851797739549,0.07,
+trails 6,sharp,Lodestar P50B,yosemite_happy_isles,0.094,0.05193067815914745,0.094,
+trails 6,sharp,Lodestar SiCore,olympic_hurricane_ridge,0.086,0.05398422244865132,0.086,
+trails 6,sharp,Lodestar SiCore,rainier_paradise,0.094,0.04791158491934642,0.09398202206021442,
+trails 6,sharp,Lodestar SiCore,rocky_bear_lake,0.114,0.08147419969013048,0.108,
+trails 6,sharp,Lodestar SiCore,sequoia_lodgepole,0.1,0.053819938324297115,0.1,
+trails 6,sharp,Lodestar SiCore,smokies_newfound_gap,0.062,0.037988464196981556,0.062,
+trails 6,sharp,Lodestar SiCore,whites_pinkham_notch,0.076,0.05569851797739549,0.07591328765105856,
+trails 6,sharp,Lodestar SiCore,yosemite_happy_isles,0.108,0.05193067815914745,0.108,
+trails 6,sharp,Quantum Trinity Pro,olympic_hurricane_ridge,0.09,0.08,0.09,
+trails 6,sharp,Quantum Trinity Pro,rainier_paradise,0.05,0.048,0.05,
+trails 6,sharp,Quantum Trinity Pro,rocky_bear_lake,0.068,0.068,0.068,
+trails 6,sharp,Quantum Trinity Pro,sequoia_lodgepole,0.066,0.064,0.066,
+trails 6,sharp,Quantum Trinity Pro,smokies_newfound_gap,0.034,0.034,0.034,
+trails 6,sharp,Quantum Trinity Pro,whites_pinkham_notch,0.062,0.062,0.062,
+trails 6,sharp,Quantum Trinity Pro,yosemite_happy_isles,0.048,0.048,0.048,

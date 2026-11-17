@@ -1,0 +1,5 @@
+case,V,CL,n,elevon_at_0p38,elevon_at_0p43,deg_per_cm,x_fwd_limit,fwd_limit_pct_mac
+1 g at CLmax (stall approach),11.3789,0.8,1.0,-9.108,-0.649,1.6918,0.3467,1.2556
+"flare: 1.2 Vs, pull to CLmax (n 1.44)",12.2488,0.8,1.44,-10.1845,-1.725,1.6919,0.353,2.6727
+pull-up n 3.8 at VD,30.0,0.4374,3.8,-4.8078,-0.333,0.895,0.2689,-16.055
+pull-up n 3.8 at Vc,22.0,0.8133,3.8,-11.4461,-2.8325,1.7227,0.3608,4.4108

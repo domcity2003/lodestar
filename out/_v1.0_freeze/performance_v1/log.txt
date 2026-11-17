@@ -1,0 +1,21 @@
+v1 structure mass passed to the power model: 2.2026 kg
+Monte Carlo: 4000 draws, seed 20261115
+
+  cell                          bay            case  altitude_m  takeoff_kg  battery_wh  nominal_h  best_speed_mps  p10_h  p50_h  p90_h  p_below_3h
+SiCore                   rescue kit     design case      2000.0       8.306      680.40      3.740          15.695  3.254  3.522  3.819       0.002
+SiCore                   rescue kit published style         0.0       8.306      680.40      4.511          14.216  3.927  4.244  4.599       0.000
+SiCore battery module (search only)     design case      2000.0       8.126     1088.64      6.133          15.524  5.340  5.777  6.262       0.000
+SiCore battery module (search only) published style         0.0       8.126     1088.64      7.397          14.061  6.445  6.960  7.539       0.000
+  P50B                   rescue kit     design case      2000.0       8.270      540.00      2.983          15.661  2.596  2.809  3.046       0.850
+  P50B                   rescue kit published style         0.0       8.270      540.00      3.598          14.185  3.132  3.385  3.668       0.017
+  P50B battery module (search only)     design case      2000.0       8.068      864.00      4.907          15.469  4.273  4.622  5.009       0.000
+  P50B battery module (search only) published style         0.0       8.068      864.00      5.917          14.011  5.157  5.568  6.030       0.000
+
+                aircraft  v_max_mps                                                   basis  groundspeed_into_12_mps  dash_5km_still_min  dash_5km_into_10_min
+         Lodestar SiCore      29.55 propulsion_margins worst corner (DA 0 m, -10 C, kit on)                    17.55                2.82                  4.26
+           Lodestar P50B      34.98 propulsion_margins worst corner (DA 0 m, -10 C, kit on)                    22.98                2.38                  3.34
+       DeltaQuad Evo GOV      23.00         published-style v_max (mission_sim.COMPETITORS)                    11.00                3.62                  6.41
+     C-Astral Bramor ppX      22.00         published-style v_max (mission_sim.COMPETITORS)                    10.00                3.79                  6.94
+     Quantum Trinity Pro      22.00         published-style v_max (mission_sim.COMPETITORS)                    10.00                3.79                  6.94
+          AgEagle eBee X      30.00         published-style v_max (mission_sim.COMPETITORS)                    18.00                2.78                  4.17
+DeltaQuad Evo-LE (press)      23.00         published-style v_max (mission_sim.COMPETITORS)                    11.00                3.62                  6.41

@@ -1,0 +1,71 @@
+pattern,mode,aircraft,site,found,help_1h,help_3h,searched_km
+trails 6,pursuit_0.5,DeltaQuad Evo GOV,olympic_hurricane_ridge,0.122,0.044,0.12,72.37324549160962
+trails 6,pursuit_0.5,DeltaQuad Evo GOV,rainier_paradise,0.072,0.032,0.066,63.172902925362635
+trails 6,pursuit_0.5,DeltaQuad Evo GOV,rocky_bear_lake,0.084,0.04,0.08,55.09774572021891
+trails 6,pursuit_0.5,DeltaQuad Evo GOV,sequoia_lodgepole,0.102,0.052,0.102,68.89846711585876
+trails 6,pursuit_0.5,DeltaQuad Evo GOV,smokies_newfound_gap,0.066,0.048,0.066,72.5043731819913
+trails 6,pursuit_0.5,DeltaQuad Evo GOV,whites_pinkham_notch,0.054,0.034,0.054,68.60811700214067
+trails 6,pursuit_0.5,DeltaQuad Evo GOV,yosemite_happy_isles,0.094,0.038,0.088,68.19087341964695
+trails 6,pursuit_0.5,Lodestar SiCore,olympic_hurricane_ridge,0.108,0.037685800643600526,0.108,66.2866983069478
+trails 6,pursuit_0.5,Lodestar SiCore,rainier_paradise,0.07,0.032,0.068,56.6249203335556
+trails 6,pursuit_0.5,Lodestar SiCore,rocky_bear_lake,0.076,0.046,0.07591333489288134,57.15309754527584
+trails 6,pursuit_0.5,Lodestar SiCore,sequoia_lodgepole,0.092,0.054,0.092,63.733171567791636
+trails 6,pursuit_0.5,Lodestar SiCore,smokies_newfound_gap,0.058,0.04,0.058,65.59877476470567
+trails 6,pursuit_0.5,Lodestar SiCore,whites_pinkham_notch,0.066,0.048,0.066,58.09454814412256
+trails 6,pursuit_0.5,Lodestar SiCore,yosemite_happy_isles,0.068,0.047785821336009775,0.068,62.0530445294023
+trails 6,pursuit_1,DeltaQuad Evo GOV,olympic_hurricane_ridge,0.13,0.052,0.13,75.64978395519825
+trails 6,pursuit_1,DeltaQuad Evo GOV,rainier_paradise,0.094,0.038,0.088,67.83332830579037
+trails 6,pursuit_1,DeltaQuad Evo GOV,rocky_bear_lake,0.074,0.046,0.074,63.31109448468665
+trails 6,pursuit_1,DeltaQuad Evo GOV,sequoia_lodgepole,0.116,0.06,0.11,76.34608366999834
+trails 6,pursuit_1,DeltaQuad Evo GOV,smokies_newfound_gap,0.062,0.042,0.062,78.3533336624375
+trails 6,pursuit_1,DeltaQuad Evo GOV,whites_pinkham_notch,0.066,0.034,0.06,73.41293658174008
+trails 6,pursuit_1,DeltaQuad Evo GOV,yosemite_happy_isles,0.096,0.054,0.092,71.67857174629013
+trails 6,pursuit_1,Lodestar SiCore,olympic_hurricane_ridge,0.088,0.039821474658578195,0.088,70.3415700738339
+trails 6,pursuit_1,Lodestar SiCore,rainier_paradise,0.098,0.04590722814999144,0.098,60.88359590351648
+trails 6,pursuit_1,Lodestar SiCore,rocky_bear_lake,0.082,0.04776191205669423,0.08,64.03127928546495
+trails 6,pursuit_1,Lodestar SiCore,sequoia_lodgepole,0.108,0.07197492792316028,0.106,70.32818133331011
+trails 6,pursuit_1,Lodestar SiCore,smokies_newfound_gap,0.06,0.044,0.06,69.48717477224426
+trails 6,pursuit_1,Lodestar SiCore,whites_pinkham_notch,0.064,0.04386925936805803,0.064,61.91180963038435
+trails 6,pursuit_1,Lodestar SiCore,yosemite_happy_isles,0.078,0.044,0.078,66.99303509137697
+trails 6,pursuit_2,DeltaQuad Evo GOV,olympic_hurricane_ridge,0.108,0.038,0.108,81.29870154955884
+trails 6,pursuit_2,DeltaQuad Evo GOV,rainier_paradise,0.086,0.026,0.084,75.01919579982247
+trails 6,pursuit_2,DeltaQuad Evo GOV,rocky_bear_lake,0.094,0.06,0.094,67.63835893637946
+trails 6,pursuit_2,DeltaQuad Evo GOV,sequoia_lodgepole,0.12,0.06,0.114,80.0310484884285
+trails 6,pursuit_2,DeltaQuad Evo GOV,smokies_newfound_gap,0.06,0.034,0.06,81.70358521425516
+trails 6,pursuit_2,DeltaQuad Evo GOV,whites_pinkham_notch,0.05,0.034,0.046,82.27740713923933
+trails 6,pursuit_2,DeltaQuad Evo GOV,yosemite_happy_isles,0.082,0.052,0.082,77.36162844692215
+trails 6,pursuit_2,Lodestar SiCore,olympic_hurricane_ridge,0.108,0.04179800633184531,0.108,74.1522720658393
+trails 6,pursuit_2,Lodestar SiCore,rainier_paradise,0.094,0.047827412345243445,0.08998787037836609,66.59679611581984
+trails 6,pursuit_2,Lodestar SiCore,rocky_bear_lake,0.084,0.045838123185673055,0.084,70.44708705579623
+trails 6,pursuit_2,Lodestar SiCore,sequoia_lodgepole,0.106,0.06181914681162427,0.102,76.20907181207964
+trails 6,pursuit_2,Lodestar SiCore,smokies_newfound_gap,0.056,0.026,0.056,73.82302267582692
+trails 6,pursuit_2,Lodestar SiCore,whites_pinkham_notch,0.042,0.028,0.042,67.7610564137983
+trails 6,pursuit_2,Lodestar SiCore,yosemite_happy_isles,0.082,0.06,0.0818007229037216,69.91918915835657
+trails 6,rounded_adaptive,DeltaQuad Evo GOV,olympic_hurricane_ridge,0.08,0.048,0.078,43.949212721812245
+trails 6,rounded_adaptive,DeltaQuad Evo GOV,rainier_paradise,0.04,0.012,0.04,31.85787021759774
+trails 6,rounded_adaptive,DeltaQuad Evo GOV,rocky_bear_lake,0.074,0.02,0.074,37.08904386129427
+trails 6,rounded_adaptive,DeltaQuad Evo GOV,sequoia_lodgepole,0.068,0.044,0.068,38.3981627305415
+trails 6,rounded_adaptive,DeltaQuad Evo GOV,smokies_newfound_gap,0.058,0.036,0.058,39.808391449347596
+trails 6,rounded_adaptive,DeltaQuad Evo GOV,whites_pinkham_notch,0.07,0.03,0.07,48.58615333930871
+trails 6,rounded_adaptive,DeltaQuad Evo GOV,yosemite_happy_isles,0.04,0.026,0.04,25.019987002278747
+trails 6,rounded_adaptive,Lodestar SiCore,olympic_hurricane_ridge,0.07,0.04998854095246866,0.07,37.4756683995777
+trails 6,rounded_adaptive,Lodestar SiCore,rainier_paradise,0.038,0.017834400435933383,0.038,26.238166084450405
+trails 6,rounded_adaptive,Lodestar SiCore,rocky_bear_lake,0.064,0.021746508611970923,0.064,34.34394667129276
+trails 6,rounded_adaptive,Lodestar SiCore,sequoia_lodgepole,0.062,0.044,0.062,32.03736597463886
+trails 6,rounded_adaptive,Lodestar SiCore,smokies_newfound_gap,0.054,0.039780079577092925,0.054,30.951513168024793
+trails 6,rounded_adaptive,Lodestar SiCore,whites_pinkham_notch,0.062,0.03390777119958805,0.062,38.40668226185451
+trails 6,rounded_adaptive,Lodestar SiCore,yosemite_happy_isles,0.028,0.022,0.028,19.8689544363439
+trails 6,rounded_passes,DeltaQuad Evo GOV,olympic_hurricane_ridge,0.088,0.056,0.086,43.45694850171417
+trails 6,rounded_passes,DeltaQuad Evo GOV,rainier_paradise,0.05,0.02,0.05,31.61533841741825
+trails 6,rounded_passes,DeltaQuad Evo GOV,rocky_bear_lake,0.064,0.024,0.064,37.20476724677385
+trails 6,rounded_passes,DeltaQuad Evo GOV,sequoia_lodgepole,0.066,0.036,0.066,38.756118090732386
+trails 6,rounded_passes,DeltaQuad Evo GOV,smokies_newfound_gap,0.062,0.034,0.062,39.72972118026257
+trails 6,rounded_passes,DeltaQuad Evo GOV,whites_pinkham_notch,0.064,0.026,0.064,48.815656850489155
+trails 6,rounded_passes,DeltaQuad Evo GOV,yosemite_happy_isles,0.04,0.018,0.04,25.103293210532367
+trails 6,rounded_passes,Lodestar SiCore,olympic_hurricane_ridge,0.072,0.05,0.072,37.35263856484568
+trails 6,rounded_passes,Lodestar SiCore,rainier_paradise,0.052,0.021834400435933383,0.052,26.059127883621194
+trails 6,rounded_passes,Lodestar SiCore,rocky_bear_lake,0.068,0.03376193828055275,0.068,34.076608557167944
+trails 6,rounded_passes,Lodestar SiCore,sequoia_lodgepole,0.058,0.036,0.058,32.208275460863284
+trails 6,rounded_passes,Lodestar SiCore,smokies_newfound_gap,0.052,0.03591078839650696,0.052,30.982782205477527
+trails 6,rounded_passes,Lodestar SiCore,whites_pinkham_notch,0.066,0.03190777119958805,0.066,38.429917369954765
+trails 6,rounded_passes,Lodestar SiCore,yosemite_happy_isles,0.028,0.016,0.028,19.986144573479983

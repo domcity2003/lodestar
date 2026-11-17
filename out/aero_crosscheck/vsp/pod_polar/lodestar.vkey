@@ -1,0 +1,17 @@
+# VSPGEOM v3 Tag Key File
+<repo>/out/aero_crosscheck/vsp/pod_polar/lodestar.vspgeom
+4
+
+# part#,geom#,surf#,gname,gid,thick,plate,copy#,geomcopy#
+1,2,0,Wing_C,FRKZDOIBVH,0,3,1,3
+2,2,1,Wing_C,FRKZDOIBVH,0,3,2,3
+3,1,0,Pod_S,KGDUTIMCUB,1,0,1,2
+4,0,0,Gimbal_S,VDTQSJIDAZ,1,0,1,1
+
+4
+
+# tag#,part#,ssname1,ssname2,...,ssid1,ssid2,...
+1,1
+2,2
+3,3
+4,4

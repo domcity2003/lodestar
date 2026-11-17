@@ -1,0 +1,80 @@
+<repo>\scripts\flyable_mission.py:148: RuntimeWarning: invalid value encountered in sqrt
+  air_along = np.sqrt(speed**2 - across**2)
+--- test_route_modes
+PASS  default route mode is pursuit_1
+PASS  archived modes have no lookahead
+PASS  pursuit_<k> parses k
+PASS  unknown or invalid mode 'sharp' is rejected
+PASS  unknown or invalid mode 'rounded_fixed' is rejected
+PASS  unknown or invalid mode 'pursuit_0' is rejected
+PASS  unknown or invalid mode 'pursuit_x' is rejected
+PASS  adaptive band is the next enclosing bound
+--- test_routes_turns_energy
+PASS  rounded_adaptive, 2 m/s band: every arc radius >= wind-band limit  min 70.6 m vs 70.6 m
+PASS  rounded_adaptive, 2 m/s band: bank <= 30 deg in every wind direction at the band edge  max bank 30.00 deg
+PASS  rounded_adaptive, 2 m/s band: energy never negative or decreasing, time increasing
+PASS  rounded_adaptive, 2 m/s band: per-leg draws index the flown legs
+PASS  rounded_adaptive, 10 m/s band: every arc radius >= wind-band limit  min 138.4 m vs 138.4 m
+PASS  rounded_adaptive, 10 m/s band: bank <= 30 deg in every wind direction at the band edge  max bank 30.00 deg
+PASS  rounded_adaptive, 10 m/s band: energy never negative or decreasing, time increasing
+PASS  rounded_adaptive, 10 m/s band: per-leg draws index the flown legs
+PASS  rounded_passes, 2 m/s band: every arc radius >= wind-band limit  min 70.6 m vs 70.6 m
+PASS  rounded_passes, 2 m/s band: bank <= 30 deg in every wind direction at the band edge  max bank 30.00 deg
+PASS  rounded_passes, 2 m/s band: energy never negative or decreasing, time increasing
+PASS  rounded_passes, 2 m/s band: per-pass draws start at 0, never decrease, fit the draw array
+PASS  rounded_passes, 10 m/s band: every arc radius >= wind-band limit  min 138.4 m vs 138.4 m
+PASS  rounded_passes, 10 m/s band: bank <= 30 deg in every wind direction at the band edge  max bank 30.00 deg
+PASS  rounded_passes, 10 m/s band: energy never negative or decreasing, time increasing
+PASS  rounded_passes, 10 m/s band: per-pass draws start at 0, never decrease, fit the draw array
+PASS  pursuit_1, 2 m/s band: every arc radius >= wind-band limit  min 70.6 m vs 70.6 m
+PASS  pursuit_1, 2 m/s band: bank <= 30 deg in every wind direction at the band edge  max bank 30.00 deg
+PASS  pursuit_1, 2 m/s band: energy never negative or decreasing, time increasing
+PASS  pursuit_1, 2 m/s band: per-pass draws start at 0, never decrease, fit the draw array
+PASS  pursuit_1, 2 m/s band: pursuit trail coverage measured
+PASS  pursuit_1, 10 m/s band: every arc radius >= wind-band limit  min 138.4 m vs 138.4 m
+PASS  pursuit_1, 10 m/s band: bank <= 30 deg in every wind direction at the band edge  max bank 30.00 deg
+PASS  pursuit_1, 10 m/s band: energy never negative or decreasing, time increasing
+PASS  pursuit_1, 10 m/s band: per-pass draws start at 0, never decrease, fit the draw array
+PASS  pursuit_1, 10 m/s band: pursuit trail coverage measured
+PASS  pursuit route needs fewer turnaround loops than the trail tour (10 m/s band)  2 vs 50
+--- test_reserve
+PASS  reserve: usable budget is 90% of battery energy
+PASS  reserve: far hiker is cut off by the reserve, not found
+PASS  reserve: searched distance ends at the last piece that keeps the reserve  4.50 km
+PASS  reserve: a hiker just past the reserve limit is not found
+PASS  reserve: a hiker inside the limit is found
+--- test_kit
+PASS  kit: released after a find on open flat ground
+PASS  kit: arrives DROP_TIME + fall time after the find
+PASS  kit: release height above the person >= DROP_HEIGHT
+PASS  kit: no release when the drop altitude would be < 40 m above the ground below
+PASS  kit: competitor finds but never releases
+--- test_help_windows
+PASS  help within 1 h is inclusive at exactly 3600 s
+PASS  help 0.5 s after the hour does not count
+PASS  kit at 3600 s counts with the chute's reach probability
+PASS  no find, no help
+PASS  help within 3 h is inclusive at exactly 10800 s
+--- test_units_and_density
+PASS  still-air radius at 18 m/s, 30 deg bank is 57.2 m
+PASS  Lodestar power model density is the site density (search altitude)
+PASS  Lodestar turn floor at site altitude = v_min / sqrt(cos bank)
+PASS  competitor turn floor is a sea-level value: v_min / sqrt(cos bank) at 0 m
+PASS  turn floor (TAS) rises with altitude
+PASS  Lodestar induced power is a fraction of straight-flight power  42.2 W of 144.4 W
+PASS  competitor induced power = 0.5 x cruise power x V_cruise / V
+PASS  climb energy per metre (Wh/m) = m g / eta / 3600 for Lodestar
+--- test_guards
+PASS  guard: wind above the planned band (bank limit) raises instead of passing silently
+PASS  guard: crosswind above airspeed (NaN ground speed) raises instead of passing silently
+PASS  guard: pursuit on a plain line finishes inside its step cap
+--- test_seeds
+PASS  tuning seed is mission_sim.RNG_SEED = 20261111
+PASS  held-out seed is 20261114
+PASS  canopy hiding draws differ between tuning and held-out seeds
+PASS  canopy hiding draws are reproducible
+PASS  cached held-out hikers differ from tuning hikers
+PASS  every hiker has one detection draw per possible leg or pass
+
+0 failed
+inv exit 0

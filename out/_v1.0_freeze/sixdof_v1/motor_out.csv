@@ -1,0 +1,3 @@
+config,V_cmd,V_steady,sink_steady,glide_ratio_sim,glide_ratio_polar,theta_min_transition,V_min_transition,V_max_transition,elevon_steady_geo,bank_in_turn,sink_in_turn,V_in_turn,aileron_max_turn_entry,elevon_max_geo,cl_max,height_lost_80s
+kit on,17.75,17.7566,0.9976,17.7719,17.8264,3.0203,17.3481,20.0069,-0.4911,30.3381,1.1126,17.5851,11.9212,2.413,0.5768,76.6661
+kit off,16.0,16.0101,0.9136,17.4959,17.606,2.916,15.2976,20.0076,-0.5971,30.4002,1.0122,15.8421,12.298,2.3973,0.5414,66.8167

@@ -1,0 +1,57 @@
+Lodestar real-terrain round, 2026-11-12. N = 500 hikers per site.
+
+Sites (DEM trailhead elevation vs published; trails reachable within 3 / 6 km walking):
+  Yosemite: Happy Isles             1231 m (pub. 1230), relief 885-3558 m; trail tour 64 / 125 km; hikers on map 94%, ground team reaches 76% within 3 h if it knew where; median slope at hiker 13 deg
+  Sequoia: Lodgepole                2056 m (pub. 2050), relief 340-3762 m; trail tour 25 / 73 km; hikers on map 93%, ground team reaches 82% within 3 h if it knew where; median slope at hiker 17 deg
+  Rocky Mountain: Bear Lake         2898 m (pub. 2880), relief 2235-4347 m; trail tour 30 / 83 km; hikers on map 93%, ground team reaches 89% within 3 h if it knew where; median slope at hiker 13 deg
+  Olympic: Hurricane Ridge          1602 m (pub. 1590), relief 16-2121 m; trail tour 17 / 39 km; hikers on map 93%, ground team reaches 86% within 3 h if it knew where; median slope at hiker 23 deg
+  Mount Rainier: Paradise           1649 m (pub. 1645), relief 346-4388 m; trail tour 44 / 76 km; hikers on map 93%, ground team reaches 81% within 3 h if it knew where; median slope at hiker 18 deg
+  Great Smoky Mtns: Newfound Gap    1535 m (pub. 1538), relief 343-2026 m; trail tour 19 / 48 km; hikers on map 94%, ground team reaches 90% within 3 h if it knew where; median slope at hiker 24 deg
+  White Mtns NH: Pinkham Notch       619 m (pub. 620), relief 182-1916 m; trail tour 39 / 123 km; hikers on map 93%, ground team reaches 94% within 3 h if it knew where; median slope at hiker 13 deg
+
+Help within 3 h (%), realistic drops, average of the 7 sites:
+pattern                    box  spiral  trails 3  trails 6
+aircraft                                                  
+Lodestar SiCore           16.7    21.9      23.0      23.5
+Lodestar P50B             11.2    19.7      20.9      21.5
+DeltaQuad Evo GOV         10.4    19.7      20.8      21.2
+C-Astral Bramor ppX        7.4    17.6      19.5      19.3
+Quantum Trinity Pro        2.1    10.6      11.1      11.2
+AgEagle eBee X             1.5     9.8      10.4      10.6
+DeltaQuad Evo-LE (press)  14.2    20.6      21.3      21.4
+
+Help within 1 h (%), average of the 7 sites:
+pattern                   box  spiral  trails 3  trails 6
+aircraft                                                 
+Lodestar SiCore           4.8    13.8      12.9      13.0
+Lodestar P50B             4.4    13.2      12.5      12.5
+DeltaQuad Evo GOV         1.2     9.3       9.7       9.7
+C-Astral Bramor ppX       1.1     9.3       9.5       9.5
+Quantum Trinity Pro       1.2     9.3       9.8       9.8
+AgEagle eBee X            0.9     8.6       9.0       9.0
+DeltaQuad Evo-LE (press)  1.1     9.3       9.7       9.7
+
+Help within 3 h (%) by site, trails 6 km first:
+aircraft                 Lodestar SiCore  Lodestar P50B  DeltaQuad Evo GOV  C-Astral Bramor ppX  Quantum Trinity Pro  AgEagle eBee X  DeltaQuad Evo-LE (press)
+site                                                                                                                                                          
+yosemite_happy_isles                19.6           18.8               18.2                 17.6                  8.0             7.6                      18.2
+sequoia_lodgepole                   25.4           24.0               21.8                 20.0                 12.4            11.6                      22.2
+rocky_bear_lake                     22.0           19.4               19.2                 17.4                 11.6            11.2                      19.6
+olympic_hurricane_ridge             26.8           24.2               24.6                 22.4                 14.0            12.8                      24.8
+rainier_paradise                    22.9           20.8               19.8                 18.0                  8.2             8.0                      20.2
+smokies_newfound_gap                25.4           22.6               25.0                 20.4                 12.2            11.6                      25.4
+whites_pinkham_notch                22.6           21.0               19.6                 19.6                 12.2            11.4                      19.6
+
+Help within 1 h (%) by site, trails 6 km first:
+aircraft                 Lodestar SiCore  Lodestar P50B  DeltaQuad Evo GOV  C-Astral Bramor ppX  Quantum Trinity Pro  AgEagle eBee X  DeltaQuad Evo-LE (press)
+site                                                                                                                                                          
+yosemite_happy_isles                 7.2            7.2                6.4                  6.4                  6.4             6.4                       6.4
+sequoia_lodgepole                   14.5           14.1               10.4                 10.2                 10.6             9.4                      10.4
+rocky_bear_lake                     13.7           13.1               10.8                 10.4                 11.2             9.2                      10.8
+olympic_hurricane_ridge             15.8           15.6               11.4                 11.2                 11.4            11.2                      11.4
+rainier_paradise                    10.2            9.8                7.0                  7.0                  7.2             6.2                       7.0
+smokies_newfound_gap                15.0           13.9               11.4                 11.4                 11.6            11.0                      11.4
+whites_pinkham_notch                14.3           13.7               10.4                 10.2                 10.4             9.8                      10.4
+
+Median height above the person at detection (m), trails 6: {'Lodestar SiCore': 122.0, 'Lodestar P50B': 121.0, 'DeltaQuad Evo GOV': 122.0, 'C-Astral Bramor ppX': 121.0, 'Quantum Trinity Pro': 121.0, 'AgEagle eBee X': 121.0, 'DeltaQuad Evo-LE (press)': 123.0}
+Median minutes from launch to help (helped cases), trails 6: {'Lodestar SiCore': 46.0, 'Lodestar P50B': 44.0, 'DeltaQuad Evo GOV': 67.0, 'C-Astral Bramor ppX': 59.0, 'Quantum Trinity Pro': 31.0, 'AgEagle eBee X': 32.0, 'DeltaQuad Evo-LE (press)': 119.0}

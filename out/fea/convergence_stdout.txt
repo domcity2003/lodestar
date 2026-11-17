@@ -1,0 +1,20 @@
+{'mesh': 'coarse', 'nodes': 1460, 'elements': 2040, 'tip_w_ult_mm': np.float64(44.08758), 'cap_U_y0p3_MPa': np.float64(-120.4217625), 'skin_U_min_y0p3_MPa': np.float64(-16.93024175972103), 'skin_U_min_max_MPa': np.float64(-19.625373758150065), 'f_bend1': 12.28994, 'f_bend2': 35.54956, 'f_tors1': 46.52456, 'f_inplane1': None, 'time_s': 0.0}
+{'mesh': 'medium', 'nodes': 8970, 'elements': 11280, 'tip_w_ult_mm': np.float64(43.75949), 'cap_U_y0p3_MPa': np.float64(-119.50249921875), 'skin_U_min_y0p3_MPa': np.float64(-16.7764326293185), 'skin_U_min_max_MPa': np.float64(-19.403359040810138), 'f_bend1': 12.32647, 'f_bend2': 36.24878, 'f_tors1': 46.61951, 'f_inplane1': None, 'time_s': 0.0}
+Traceback (most recent call last):
+  File "<repo>\scripts\fea_extra.py", line 633, in <module>
+    c = F.convergence(tab, loads, F.governing_cases(loads)["pos"])
+  File "<repo>\scripts\fea_wing.py", line 862, in convergence
+    rows.append(dict(case_key=key, y=1.5, tip_w_limit_fe_mm=1e3 * tb.w.iloc[-1] / FOS, tip_w_limit_beam_mm=1e3 * w_beam))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>\scripts\fea_wing.py", line 183, in run_ccx
+    inp = workdir / f"{job}.inp"
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<python>\cpython-3.13-windows-x86_64-none\Lib\subprocess.py", line 557, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+                     ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<python>\cpython-3.13-windows-x86_64-none\Lib\subprocess.py", line 1223, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+                     ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<python>\cpython-3.13-windows-x86_64-none\Lib\subprocess.py", line 1666, in _communicate
+    raise TimeoutExpired(self.args, orig_timeout)
+subprocess.TimeoutExpired: Command '['<tools>\\FreeCAD_1.1.4-Windows-x86_64-py311\\bin\\ccx.exe', 'conv']' timed out after 3600 seconds

@@ -159,7 +159,7 @@ def write_aircraft(g, c, mi_on, mi_off, kit):
 
     xml = f"""<?xml version="1.0"?>
 <fdm_config name="lodestar" version="2.0" release="ALPHA">
-  <fileheader><author>Lodestar design study</author><description>Lodestar v2, linear aero from AVL at {V_REL} m/s, 2026-11-11</description></fileheader>
+  <fileheader><author>Lodestar</author><description>Lodestar v2, linear aero from AVL at {V_REL} m/s, 2026-11-11</description></fileheader>
   <metrics>
     <wingarea unit="M2">{g.S:.5f}</wingarea>
     <wingspan unit="M">{g.span:.5f}</wingspan>

@@ -1,0 +1,9 @@
+pack,case,kit_on,v_max,v_return,P_batt,return_min,E_return_Wh,E_return_pct_usable,reserve_10pct_Wh,E_still_air_Wh
+Amprius SiCore 6.3 Ah,design case,True,34.6737,25.2512,246.9218,12.5775,51.761,8.9499,57.834,23.6144
+Amprius SiCore 6.3 Ah,design case,False,34.764,24.3898,218.9775,13.4519,49.0944,8.4888,57.834,21.5018
+Amprius SiCore 6.3 Ah,worst: high and cold,True,33.5264,27.331,253.5024,10.8712,45.9314,8.8244,52.0506,22.7628
+Amprius SiCore 6.3 Ah,worst: high and cold,False,33.7911,26.0069,217.4851,11.8989,43.1307,8.2863,52.0506,19.9628
+Molicel P50B,design case,True,38.1128,25.2174,246.0024,12.6097,51.7002,11.2637,45.9,23.8275
+Molicel P50B,design case,False,38.1627,24.3521,218.0664,13.4929,49.0393,10.6839,45.9,21.1164
+Molicel P50B,worst: high and cold,True,38.489,27.2927,252.5143,10.8985,45.867,11.1031,41.31,23.5025
+Molicel P50B,worst: high and cold,False,38.5985,25.9642,216.5259,11.9353,43.0716,10.4264,41.31,20.0381

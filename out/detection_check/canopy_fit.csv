@@ -1,0 +1,9 @@
+source,canopy_class,cover_mid,pd_published_nadir_dawn,pd_published_oblique_dusk,ratio_published,model_pd_p020,model_ratio_p010,model_ratio_p020,model_ratio_p035,model_ratio_p050,porosity_fit
+Doull 2021 manual,open,0.125,0.9217,0.857,1.0,0.6705,1.0,1.0,1.0,1.0,0.4882
+Doull 2021 manual,low,0.375,0.8359,0.7218,0.907,0.5215,0.7465,0.7778,0.8231,0.8667,0.4882
+Doull 2021 manual,medium,0.625,0.7087,0.5533,0.769,0.3725,0.493,0.5556,0.6463,0.7333,0.4882
+Doull 2021 manual,high,0.875,0.5043,0.3412,0.5472,0.2235,0.2394,0.3333,0.4694,0.6,0.4882
+Doull 2021 automated,open,0.125,0.8579,0.8269,1.0,0.6705,1.0,1.0,1.0,1.0,0.6299
+Doull 2021 automated,low,0.375,0.8616,0.8312,1.0043,0.5215,0.7465,0.7778,0.8231,0.8667,0.6299
+Doull 2021 automated,medium,0.625,0.7045,0.6536,0.8212,0.3725,0.493,0.5556,0.6463,0.7333,0.6299
+Doull 2021 automated,high,0.875,0.5705,0.5125,0.665,0.2235,0.2394,0.3333,0.4694,0.6,0.6299

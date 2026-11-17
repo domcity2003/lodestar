@@ -1,0 +1,21 @@
+item,mass_kg,x,z,source
+"wing structure (centre, outer panels, elevons)",1.2857,0.48,0.0071,CAD centroid (volume-weighted)
+winglets,0.1064,0.9471,0.1046,CAD centroid (volume-weighted)
+batteries (P50B 30 cells),2.4205,0.447,0.0077,CAD centroid (volume-weighted)
+rescue kit,1.5,0.422,-0.062,CAD centroid (volume-weighted)
+kit parachute,0.124,0.422,-0.0085,CAD centroid (volume-weighted)
+kit container + release,0.08,0.415,-0.0236,CAD centroid (volume-weighted)
+gimbal (thermal + RGB),0.357,0.07,-0.1131,CAD centroid (volume-weighted)
+"aircraft parachute (RC1, ASTM F3322) + independent trigger",0.4,0.035,-0.045,CAD centroid (volume-weighted)
+"avionics (FC, GPS, radio)",0.35,0.2342,-0.0268,CAD centroid (volume-weighted)
+pod structure + door + skid,0.3,0.2667,-0.0435,CAD centroid (volume-weighted)
+motor + ESC + prop,0.34,0.6656,-0.035,CAD centroid (volume-weighted)
+"misc (wiring, glue) 5%",0.2574,0.35,-0.02,not modelled; same assumption as milestone 2
+pack thermal kit (foam + heater),0.1,0.447,0.0077,lodestar_v1.ADDED_MASS; carried at the pack centroid
+elevon mass balance (2 per aircraft),0.12,0.7147,0.0,lodestar_v1.ADDED_MASS; flutter_v2 static balance at the servo station
+backup avionics supply + locking connectors (RC2),0.07,0.22,-0.03,lodestar_v1.V11_MASS; 2S backup cell ~50 g + clips
+"BMS, heater 50 C cut-out, cell liner (RC3)",0.05,0.447,0.008,lodestar_v1.V11_MASS; at the packs
+ADS-B In receiver + anti-collision strobes (RC8),0.03,0.3,-0.02,lodestar_v1.V11_MASS; receiver in pod; strobes on winglets
+second GNSS + antenna (RC10),0.04,0.14,0.05,lodestar_v1.V11_MASS; on the mast ahead of the first
+8 AWG pack leads (increment over 10 AWG),0.045,0.49,-0.01,lodestar_v1.V11_MASS; ~28 g/m x 1.6 m
+70 mm EPP belly skid (increment over 4 mm pad),0.025,0.27,-0.13,"lodestar_v1.V11_MASS; 0.30 x 0.06 x 0.07 m tapered, 20 g/L"

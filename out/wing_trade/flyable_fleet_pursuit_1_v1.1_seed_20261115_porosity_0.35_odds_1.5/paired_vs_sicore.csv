@@ -1,0 +1,49 @@
+pattern,mode,metric,aircraft,reference,delta_pp,low_95_pp,high_95_pp
+trails 3,pursuit_1,help_1h,AgEagle eBee X,Lodestar SiCore,-5.140847434121299,-6.0718858290199345,-4.22526471012691
+trails 3,pursuit_1,help_1h,C-Astral Bramor ppX,Lodestar SiCore,-4.597990291264158,-5.495489242243108,-3.6911932348081544
+trails 3,pursuit_1,help_1h,DeltaQuad Evo GOV,Lodestar SiCore,-5.026561719835587,-5.923517192417515,-4.1678759252123045
+trails 3,pursuit_1,help_1h,DeltaQuad Evo-LE (press),Lodestar SiCore,-4.683704576978444,-5.556483133015263,-3.8247720708405515
+trails 3,pursuit_1,help_1h,Lodestar P50B,Lodestar SiCore,-0.48649359359734057,-1.0525298698200423,0.058833126817561254
+trails 3,pursuit_1,help_1h,Quantum Trinity Pro,Lodestar SiCore,-4.969418862692729,-5.858904516990989,-4.06494536779415
+trails 3,pursuit_1,help_3h,AgEagle eBee X,Lodestar SiCore,-11.224298317444921,-12.623906107783206,-9.823802458242751
+trails 3,pursuit_1,help_3h,C-Astral Bramor ppX,Lodestar SiCore,-5.910012603159207,-7.077441986200171,-4.882226743090136
+trails 3,pursuit_1,help_3h,DeltaQuad Evo GOV,Lodestar SiCore,-4.624298317444922,-5.680951547822002,-3.571053797536536
+trails 3,pursuit_1,help_3h,DeltaQuad Evo-LE (press),Lodestar SiCore,-3.0528697460163503,-3.96069165939448,-2.193568404850585
+trails 3,pursuit_1,help_3h,Lodestar P50B,Lodestar SiCore,-1.881441174587779,-2.57093630695317,-1.1954150562173615
+trails 3,pursuit_1,help_3h,Quantum Trinity Pro,Lodestar SiCore,-11.25286974601635,-12.652286248498362,-9.912818976120894
+trails 3,sharp,help_1h,AgEagle eBee X,Lodestar SiCore,-1.7018817838829243,-2.4413188933194694,-0.9879269295948543
+trails 3,sharp,help_1h,C-Astral Bramor ppX,Lodestar SiCore,-1.3018817838829242,-2.0438869814438645,-0.5910869586073985
+trails 3,sharp,help_1h,DeltaQuad Evo GOV,Lodestar SiCore,-1.2733103553114955,-1.988925571202959,-0.5613380992641127
+trails 3,sharp,help_1h,DeltaQuad Evo-LE (press),Lodestar SiCore,-1.2733103553114955,-1.9931922550111059,-0.5659317944810336
+trails 3,sharp,help_1h,Lodestar P50B,Lodestar SiCore,0.0,0.0,0.0
+trails 3,sharp,help_1h,Quantum Trinity Pro,Lodestar SiCore,-1.1590246410257812,-1.8677837098306875,-0.44599055864649045
+trails 3,sharp,help_3h,AgEagle eBee X,Lodestar SiCore,-5.938136286384094,-7.0543427847571945,-4.906212996739226
+trails 3,sharp,help_3h,C-Astral Bramor ppX,Lodestar SiCore,-0.3667077149555235,-1.3098042849774523,0.5465628223334255
+trails 3,sharp,help_3h,DeltaQuad Evo GOV,Lodestar SiCore,0.6332922850444764,-0.277274405976419,1.4923883662576096
+trails 3,sharp,help_3h,DeltaQuad Evo-LE (press),Lodestar SiCore,1.1190065707587622,0.23493801468440342,2.0285774142505484
+trails 3,sharp,help_3h,Lodestar P50B,Lodestar SiCore,-0.9095648578126664,-1.2374856317995964,-0.6195677887875449
+trails 3,sharp,help_3h,Quantum Trinity Pro,Lodestar SiCore,-5.595279143526951,-6.655501994595571,-4.5686056749129085
+trails 6,pursuit_1,help_1h,AgEagle eBee X,Lodestar SiCore,-4.370418863330675,-5.327464614105695,-3.4336963245653482
+trails 6,pursuit_1,help_1h,C-Astral Bramor ppX,Lodestar SiCore,-3.9989902919021034,-4.999571771649172,-3.056300248377868
+trails 6,pursuit_1,help_1h,DeltaQuad Evo GOV,Lodestar SiCore,-3.8847045776163895,-4.828766938304345,-2.9527173660215715
+trails 6,pursuit_1,help_1h,DeltaQuad Evo-LE (press),Lodestar SiCore,-3.913276006187817,-4.825998147372391,-3.0219428367581602
+trails 6,pursuit_1,help_1h,Lodestar P50B,Lodestar SiCore,-0.10601406463916509,-0.7921114663260408,0.5430188252230039
+trails 6,pursuit_1,help_1h,Quantum Trinity Pro,Lodestar SiCore,-3.9418474347592465,-4.8523915939842555,-3.0414606394476573
+trails 6,pursuit_1,help_3h,AgEagle eBee X,Lodestar SiCore,-9.942619708708806,-11.256905422994521,-8.628571428571426
+trails 6,pursuit_1,help_3h,C-Astral Bramor ppX,Lodestar SiCore,-5.371191137280236,-6.5138108459890445,-4.285239417417616
+trails 6,pursuit_1,help_3h,DeltaQuad Evo GOV,Lodestar SiCore,-4.628333994423093,-5.77095963898561,-3.5428571428571427
+trails 6,pursuit_1,help_3h,DeltaQuad Evo-LE (press),Lodestar SiCore,-2.999762565851665,-4.000690542299452,-2.028322122715677
+trails 6,pursuit_1,help_3h,Lodestar P50B,Lodestar SiCore,-2.1140482801373794,-2.971428571428571,-1.3138049101353366
+trails 6,pursuit_1,help_3h,Quantum Trinity Pro,Lodestar SiCore,-9.51404828013738,-10.771191137280235,-8.257142857142856
+trails 6,sharp,help_1h,AgEagle eBee X,Lodestar SiCore,-1.0667640311506135,-1.8022779653554784,-0.3522439051840089
+trails 6,sharp,help_1h,C-Astral Bramor ppX,Lodestar SiCore,-0.6381926025791849,-1.369294784024193,0.09213860550535173
+trails 6,sharp,help_1h,DeltaQuad Evo GOV,Lodestar SiCore,-0.5239068882934707,-1.2405195177585169,0.15755415050705557
+trails 6,sharp,help_1h,DeltaQuad Evo-LE (press),Lodestar SiCore,-0.5239068882934707,-1.2706665680736888,0.18927164181584705
+trails 6,sharp,help_1h,Lodestar P50B,Lodestar SiCore,0.0,0.0,0.0
+trails 6,sharp,help_1h,Quantum Trinity Pro,Lodestar SiCore,-0.38104974543632775,-1.0896574806462798,0.3637678097845415
+trails 6,sharp,help_3h,AgEagle eBee X,Lodestar SiCore,-5.3123408648264165,-6.395068810589086,-4.254662634611912
+trails 6,sharp,help_3h,C-Astral Bramor ppX,Lodestar SiCore,0.03051627803072603,-0.8559126143015843,0.971685399139794
+trails 6,sharp,help_3h,DeltaQuad Evo GOV,Lodestar SiCore,1.4019448494592972,0.4891478152639881,2.3721459048934994
+trails 6,sharp,help_3h,DeltaQuad Evo-LE (press),Lodestar SiCore,1.7162305637450117,0.7716789784470133,2.686682026197656
+trails 6,sharp,help_3h,Lodestar P50B,Lodestar SiCore,-1.3123408648264168,-1.7108606897367595,-0.9424078689510883
+trails 6,sharp,help_3h,Quantum Trinity Pro,Lodestar SiCore,-4.883769436254988,-5.943034059732093,-3.856173032351519

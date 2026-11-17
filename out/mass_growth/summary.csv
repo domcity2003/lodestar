@@ -1,0 +1,25 @@
+cell,kit,case,mass_kg,delta_vs_basic_kg,margin_to_10kg,margin_pct_of_limit,x_cg_m,dx_cg_mm,x_np_m,static_margin_pct,aft_limit_margin_mm,inside_envelope_with_tol,sm_ge_6,nose_ballast_kg
+SiCore,True,basic,8.75503,0.0,1.24497,12.44973,0.41257,0.0,0.44514,7.25314,9.43385,True,True,0.0
+SiCore,True,"predicted, growth at each line",9.81767,1.06264,0.18233,1.82335,0.40746,-5.10211,0.44514,8.38922,14.53597,True,True,0.0
+SiCore,True,"predicted, aft lines only grow",9.29157,0.53654,0.70843,7.08435,0.41806,5.49816,0.44514,6.02888,3.93569,False,True,0.00172
+SiCore,True,"predicted, forward lines only grow",9.28113,0.5261,0.71887,7.18873,0.40166,-10.90141,0.44514,9.68053,20.33526,True,True,0.0
+SiCore,True,"predicted, all MGA at the motor station",9.81767,1.06264,0.18233,1.82335,0.43995,27.38771,0.44514,1.15479,-17.95385,False,False,0.61936
+SiCore,True,"predicted, gimbal at ZT6 mass (allocation removed)",9.81767,1.06264,0.18233,1.82335,0.40746,-5.10211,0.44514,8.38922,14.53597,True,True,0.0
+SiCore,False,basic,7.13103,0.0,2.86897,28.68973,0.41042,0.0,0.44407,7.49327,11.58229,True,True,0.0
+SiCore,False,"predicted, growth at each line",8.18127,1.05024,1.81873,18.18735,0.40456,-5.86113,0.44407,8.79836,17.44342,True,True,0.0
+SiCore,False,"predicted, aft lines only grow",7.65517,0.52414,2.34483,23.44835,0.41722,6.80529,0.44407,5.97796,4.777,True,False,0.0
+SiCore,False,"predicted, forward lines only grow",7.65713,0.5261,2.34287,23.42873,0.39735,-13.06587,0.44407,10.40262,24.64817,True,True,0.0
+SiCore,False,"predicted, all MGA at the motor station",8.18127,1.05024,1.81873,18.18735,0.44318,32.75802,0.44407,0.19912,-21.17573,False,False,0.59187
+SiCore,False,"predicted, gimbal at ZT6 mass (allocation removed)",8.18127,1.05024,1.81873,18.18735,0.40456,-5.86113,0.44407,8.79836,17.44342,True,True,0.0
+P50B,True,basic,8.72103,0.0,1.27897,12.78973,0.41243,0.0,0.44514,7.28355,9.57043,True,True,0.0
+P50B,True,"predicted, growth at each line",9.78177,1.06074,0.21823,2.18235,0.40732,-5.11295,0.44514,8.42204,14.68337,True,True,0.0
+P50B,True,"predicted, aft lines only grow",9.25567,0.53464,0.74433,7.44335,0.41795,5.52006,0.44514,6.05441,4.05036,True,True,0.0
+P50B,True,"predicted, forward lines only grow",9.24713,0.5261,0.75287,7.52873,0.4015,-10.93372,0.44514,9.71814,20.50415,True,True,0.0
+P50B,True,"predicted, all MGA at the motor station",9.78177,1.06074,0.21823,2.18235,0.43988,27.45388,0.44514,1.17046,-17.88345,False,False,0.61511
+P50B,True,"predicted, gimbal at ZT6 mass (allocation removed)",9.78177,1.06074,0.21823,2.18235,0.40732,-5.11295,0.44514,8.42204,14.68337,True,True,0.0
+P50B,False,basic,7.09703,0.0,2.90297,29.02973,0.41024,0.0,0.44407,7.53294,11.76041,True,True,0.0
+P50B,False,"predicted, growth at each line",8.14537,1.04834,1.85463,18.54635,0.40437,-5.87285,0.44407,8.84063,17.63326,True,True,0.0
+P50B,False,"predicted, aft lines only grow",7.61927,0.52224,2.38073,23.80735,0.41708,6.84014,0.44407,6.00986,4.92027,True,True,0.0
+P50B,False,"predicted, forward lines only grow",7.62313,0.5261,2.37687,23.76873,0.39713,-13.11186,0.44407,10.45252,24.87227,True,True,0.0
+P50B,False,"predicted, all MGA at the motor station",8.14537,1.04834,1.85463,18.54635,0.44311,32.8658,0.44407,0.21479,-21.10539,False,False,0.58762
+P50B,False,"predicted, gimbal at ZT6 mass (allocation removed)",8.14537,1.04834,1.85463,18.54635,0.40437,-5.87285,0.44407,8.84063,17.63326,True,True,0.0

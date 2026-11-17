@@ -1,0 +1,12 @@
+,value
+x_fwd,0.3608215361253457
+x_aft,0.42160990685645394
+x_np_min,0.444065
+pitch_budget,15.0
+roll_reserve,5.0
+h_design_Nm,0.8906998588977895
+servo_stall_Nm,1.781399717795579
+k_hinge_at_ratio2_Nm_rad,136.0889139406434
+tau_roll,0.09129005259767671
+pss_per_deg,0.014553411360522423
+mass_source,"out/cad_v4/mass_cg.csv (FreeCAD rebuild, packs already moved)"

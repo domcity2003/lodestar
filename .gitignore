@@ -3,3 +3,23 @@ __pycache__/
 *.pyc
 .env
 .env.*
+data/terrain/
+STATUS.md
+
+# Regenerable bulk: solver working folders, caches and smoke/subset runs (rerun the scripts to rebuild)
+out/fea/ccx_*/
+out/fea/inputs_v1_*/
+out/step2_trades_cache/
+out/step2_trades_smoke/
+out/**/*_subset/
+out/**/fcad_work/
+*.adb
+*.frd
+out/fea/**/*.dat
+*.log
+scripts/p.out
+
+# Internal working notes (process, not engineering)
+HANDOFF.md
+research/2026-11-14-cad-tooling-survey.md
+style-notes.md

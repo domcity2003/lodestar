@@ -1,0 +1,7 @@
+skid,theta_deg,tip_te_clearance_wings_level_mm,bank_for_tip_contact_deg
+"CAD v4 skid (4 mm strip), bottom z -0.111 m",4.0,56.547,2.163
+"CAD v4 skid (4 mm strip), bottom z -0.111 m",6.5,22.357,0.859
+"CAD v4 skid (4 mm strip), bottom z -0.111 m",8.0,1.819,0.07
+"EPP skid, 40 mm stroke / 0.70 usable strain = 57 mm, bottom z -0.164 m",4.0,109.418,4.177
+"EPP skid, 40 mm stroke / 0.70 usable strain = 57 mm, bottom z -0.164 m",6.5,75.017,2.877
+"EPP skid, 40 mm stroke / 0.70 usable strain = 57 mm, bottom z -0.164 m",8.0,54.303,2.091

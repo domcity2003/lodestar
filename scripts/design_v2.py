@@ -42,7 +42,7 @@ CELLS = {
     # name: (Wh per cell, g per cell, source / status)
     "v1 assumption (200 Wh/kg pack)": (None, None, "milestone 1 assumption"),
     "Molicel P50B": (18.0, 71.0, "Molicel datasheet: 5.0 Ah, 3.6 V, 18.0 Wh, 71 g max; in volume production"),
-    "Amprius SiCore 6.3 Ah": (6.3 * 3.6, 72.0, "Amprius: 315 Wh/kg 21700, 3C; evaluation samples, 3.6 V nominal assumed"),
+    "Amprius SiCore 6.3 Ah": (6.3 * 3.6, 72.0, "Amprius SA112: 315 Wh/kg 21700, 2C continuous, 3.46 V nominal, 22.5 Wh typ (model 22.68 Wh, 0.8% high)"),
 }
 N_WING = 30   # 6S5P in the wing roots (milestone 3 layout)
 N_BAY = 18    # 6S3P module in the kit bay, sized to weigh no more than kit + chute

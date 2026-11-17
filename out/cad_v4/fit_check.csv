@@ -1,0 +1,13 @@
+part,parent,share_inside,min_clearance_mm,ok
+battery_R,wing,1.0,2.5519,True
+battery_L,wing,1.0,2.5519,True
+joint_tube_R,wing,1.0,12.8885,True
+joint_sleeve_in_R,wing,1.0,12.4467,True
+joint_sleeve_out_R,wing,1.0,10.8886,True
+elevon_servo_R,wing,1.0,3.2379,True
+kit_container,pod,1.0,5.5409,True
+flight_controller,pod,1.0,40.7056,True
+esc,pod,1.0,30.7027,True
+bay_battery_module (alt),pod,1.0,23.5014,True
+aircraft_parachute,pod,1.0,4.8064,True
+propeller disc 15 in,wing (gap),0.0,40.2555,True

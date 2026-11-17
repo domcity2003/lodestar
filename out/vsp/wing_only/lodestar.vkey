@@ -1,5 +1,5 @@
 # VSPGEOM v3 Tag Key File
-<repo>/out/vsp/wing_only/lodestar.vspgeom
+<home>/DOM/5_Projects/lodestar/out/vsp/wing_only/lodestar.vspgeom
 4
 
 # part#,geom#,surf#,gname,gid,thick,plate,copy#,geomcopy#

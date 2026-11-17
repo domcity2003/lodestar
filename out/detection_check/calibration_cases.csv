@@ -1,0 +1,5 @@
+case,camera_odds_scale,crown_porosity,sweep_factor_32deg_noblur,n50_equiv_lodestar_18,pd_doull_geometry,pd_lodestar_open,pd_lodestar_light,pd_lodestar_heavy,pd_other_open,pd_other_light,pd_other_heavy,sweep_lodestar_18_m,ratio_lodestar_to_other_open
+low (current baseline),0.7353,0.2,0.8061,1.1865,0.745,0.4831,0.3341,0.1392,0.6681,0.4655,0.1972,54.0673,0.7231
+nominal,1.5,0.35,0.8945,0.8096,0.8563,0.6558,0.4912,0.2748,0.8042,0.6059,0.3429,73.3918,0.8155
+high,3.0,0.5,0.9443,0.5873,0.9226,0.792,0.6389,0.4368,0.8914,0.7223,0.4976,88.6371,0.8885
+stress (below evidence),0.7353,0.1,0.8061,1.1865,0.745,0.4831,0.3156,0.0975,0.6681,0.4402,0.1391,54.0673,0.7231

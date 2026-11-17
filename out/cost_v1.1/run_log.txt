@@ -1,0 +1,39 @@
+Lodestar v1.1 cost (Step 2, P8)
+Unit cost, foam-core wing, 10 built, SiCore cells at $22.7/cell, paid build: $18,953 (range $15,888-$26,917); parts $16,418
+Per flight hour (volunteer crew): $61.1
+
+ change                                                                         item  qty  unit_usd
+removed                                                   Elevon servos: KST X10 Pro    2        55
+  added                                 Elevon servos: KST A12-S HV (v1.1, 1.35 N m)    2        90
+  added                       Nadir thermal: FLIR Boson 640 50 deg core + mount (v1)    1      4454
+  added             Twin camera: second Boson 640 50 deg core + splayed mount (v1.1)    1      4454
+  added Aircraft parachute: fixed-wing bundle + launcher + independent trigger (RC1)    1      1500
+  added                                          ADS-B In: uAvionix pingRX Pro (RC8)    1       349
+  added                                           Anti-collision strobes, 3 sm (RC8)    2        40
+  added                                                 Second GNSS + antenna (RC10)    1       120
+  added                       Backup avionics supply (2S) + locking connectors (RC2)    1        90
+  added                                        BMS, heater 50 C cut-out, liner (RC3)    1        60
+  added                                                 8 AWG pack leads (increment)    1        20
+
+case          labour   parts  airframe  tooling_share   total
+ low      paid build 13923.0    1925.0           40.0 15888.0
+ low volunteer build 13923.0     350.0           40.0 14313.0
+unit      paid build 16418.0    2475.0           60.0 18953.0
+unit volunteer build 16418.0     450.0           60.0 16928.0
+high      paid build 23517.0    3300.0          100.0 26917.0
+high volunteer build 23517.0     600.0          100.0 24217.0
+
+            crew_type  depreciation  battery  maintenance  kits  crew  total
+       volunteer crew         45.53     0.41        10.53  4.61   0.0  61.08
+paid crew (2 x $50/h)         45.53     0.41        10.53  4.61 100.0 161.08
+
+calibration                                                        option  sortie_h  per_hour  per_sortie  p_help_3h  per_expected_help
+        low               Lodestar v1.1 SiCore (10 built, volunteer crew)       3.0    61.082     183.247      0.129           1415.851
+        low             senseFly eBee VISION (NDAA) (sim: AgEagle eBee X)       1.5   182.469     273.703      0.058           4695.883
+        low Quantum Systems Trinity Pro (base) (sim: Quantum Trinity Pro)       1.5    64.961      97.442      0.058           1675.901
+    nominal               Lodestar v1.1 SiCore (10 built, volunteer crew)       3.0    61.082     183.247      0.180           1020.595
+    nominal             senseFly eBee VISION (NDAA) (sim: AgEagle eBee X)       1.5   182.469     273.703      0.074           3713.024
+    nominal Quantum Systems Trinity Pro (base) (sim: Quantum Trinity Pro)       1.5    64.961      97.442      0.076           1286.965
+       high               Lodestar v1.1 SiCore (10 built, volunteer crew)       3.0    61.082     183.247      0.227            808.857
+       high             senseFly eBee VISION (NDAA) (sim: AgEagle eBee X)       1.5   182.469     273.703      0.088           3125.482
+       high Quantum Systems Trinity Pro (base) (sim: Quantum Trinity Pro)       1.5    64.961      97.442      0.092           1062.448

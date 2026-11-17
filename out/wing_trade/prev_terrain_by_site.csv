@@ -1,0 +1,85 @@
+design,aircraft,site,found,help_1h,help_3h,delta_help_3h
+compact_mixed_core,Lodestar P50B,olympic_hurricane_ridge,0.222,0.15604855682127355,0.222,-0.022
+compact_mixed_core,Lodestar P50B,rainier_paradise,0.196,0.09763320457274566,0.196,-0.011762579113858553
+compact_mixed_core,Lodestar P50B,rocky_bear_lake,0.194,0.1314460937986381,0.19196626295853966,-0.0019133348928813433
+compact_mixed_core,Lodestar P50B,sequoia_lodgepole,0.238,0.14125912802838655,0.238,-0.002
+compact_mixed_core,Lodestar P50B,smokies_newfound_gap,0.202,0.13938374626550382,0.20186360577856194,-0.024
+compact_mixed_core,Lodestar P50B,whites_pinkham_notch,0.2,0.1371334383743095,0.2,-0.01
+compact_mixed_core,Lodestar P50B,yosemite_happy_isles,0.186,0.0718627623839886,0.186,-0.002
+compact_mixed_core,Lodestar SiCore,olympic_hurricane_ridge,0.256,0.15812455959352653,0.256,-0.011837550034793913
+compact_mixed_core,Lodestar SiCore,rainier_paradise,0.222,0.10184075014900949,0.22150748704602935,-0.007907248368041813
+compact_mixed_core,Lodestar SiCore,rocky_bear_lake,0.212,0.1374444298871334,0.21191333489288136,-0.008
+compact_mixed_core,Lodestar SiCore,sequoia_lodgepole,0.246,0.14498003306464213,0.246,-0.008
+compact_mixed_core,Lodestar SiCore,smokies_newfound_gap,0.24,0.14961427433901667,0.24,-0.014
+compact_mixed_core,Lodestar SiCore,whites_pinkham_notch,0.22,0.14292278599565725,0.21792285330406436,-0.007984143077834113
+compact_mixed_core,Lodestar SiCore,yosemite_happy_isles,0.196,0.0718627623839886,0.196,0.0
+compact_xps,Lodestar P50B,olympic_hurricane_ridge,0.22,0.15604855682127355,0.22,-0.024
+compact_xps,Lodestar P50B,rainier_paradise,0.192,0.09763320457274566,0.192,-0.015762579113858553
+compact_xps,Lodestar P50B,rocky_bear_lake,0.192,0.1314460937986381,0.19196626295853966,-0.0019133348928813433
+compact_xps,Lodestar P50B,sequoia_lodgepole,0.236,0.14125912802838655,0.236,-0.004
+compact_xps,Lodestar P50B,smokies_newfound_gap,0.202,0.13938374626550382,0.20186360577856194,-0.024
+compact_xps,Lodestar P50B,whites_pinkham_notch,0.2,0.1371334383743095,0.2,-0.01
+compact_xps,Lodestar P50B,yosemite_happy_isles,0.184,0.0718627623839886,0.184,-0.004
+compact_xps,Lodestar SiCore,olympic_hurricane_ridge,0.256,0.15812455959352653,0.256,-0.011837550034793913
+compact_xps,Lodestar SiCore,rainier_paradise,0.222,0.10184075014900949,0.22150748704602935,-0.007907248368041813
+compact_xps,Lodestar SiCore,rocky_bear_lake,0.208,0.1374444298871334,0.20791333489288136,-0.012
+compact_xps,Lodestar SiCore,sequoia_lodgepole,0.244,0.14498003306464213,0.244,-0.01
+compact_xps,Lodestar SiCore,smokies_newfound_gap,0.24,0.14961427433901667,0.24,-0.014
+compact_xps,Lodestar SiCore,whites_pinkham_notch,0.218,0.14292278599565725,0.21792285330406436,-0.007984143077834113
+compact_xps,Lodestar SiCore,yosemite_happy_isles,0.194,0.0718627623839886,0.194,-0.002
+legacy_xps,Lodestar P50B,olympic_hurricane_ridge,0.222,0.15604855682127355,0.222,-0.022
+legacy_xps,Lodestar P50B,rainier_paradise,0.196,0.09763320457274566,0.196,-0.011762579113858553
+legacy_xps,Lodestar P50B,rocky_bear_lake,0.194,0.1314460937986381,0.19196626295853966,-0.0019133348928813433
+legacy_xps,Lodestar P50B,sequoia_lodgepole,0.24,0.14125912802838655,0.24,0.0
+legacy_xps,Lodestar P50B,smokies_newfound_gap,0.202,0.13938374626550382,0.20186360577856194,-0.024
+legacy_xps,Lodestar P50B,whites_pinkham_notch,0.2,0.1371334383743095,0.2,-0.01
+legacy_xps,Lodestar P50B,yosemite_happy_isles,0.186,0.0718627623839886,0.186,-0.002
+legacy_xps,Lodestar SiCore,olympic_hurricane_ridge,0.256,0.15812455959352653,0.256,-0.011837550034793913
+legacy_xps,Lodestar SiCore,rainier_paradise,0.222,0.10184075014900949,0.22150748704602935,-0.007907248368041813
+legacy_xps,Lodestar SiCore,rocky_bear_lake,0.212,0.1374444298871334,0.21191333489288136,-0.008
+legacy_xps,Lodestar SiCore,sequoia_lodgepole,0.246,0.14498003306464213,0.246,-0.008
+legacy_xps,Lodestar SiCore,smokies_newfound_gap,0.24,0.14961427433901667,0.24,-0.014
+legacy_xps,Lodestar SiCore,whites_pinkham_notch,0.22,0.14292278599565725,0.21792285330406436,-0.007984143077834113
+legacy_xps,Lodestar SiCore,yosemite_happy_isles,0.196,0.0718627623839886,0.196,0.0
+original mass budget,Lodestar P50B,olympic_hurricane_ridge,0.244,0.15604855682127355,0.244,0.0
+original mass budget,Lodestar P50B,rainier_paradise,0.208,0.09763320457274566,0.20776257911385854,0.0
+original mass budget,Lodestar P50B,rocky_bear_lake,0.194,0.1314460937986381,0.193879597851421,0.0
+original mass budget,Lodestar P50B,sequoia_lodgepole,0.24,0.14125912802838655,0.24,0.0
+original mass budget,Lodestar P50B,smokies_newfound_gap,0.226,0.13938374626550382,0.22586360577856196,0.0
+original mass budget,Lodestar P50B,whites_pinkham_notch,0.21,0.1371334383743095,0.21,0.0
+original mass budget,Lodestar P50B,yosemite_happy_isles,0.188,0.0718627623839886,0.188,0.0
+original mass budget,Lodestar SiCore,olympic_hurricane_ridge,0.268,0.15812455959352653,0.2678375500347939,0.0
+original mass budget,Lodestar SiCore,rainier_paradise,0.23,0.10184075014900949,0.22941473541407117,0.0
+original mass budget,Lodestar SiCore,rocky_bear_lake,0.222,0.1374444298871334,0.21991333489288134,0.0
+original mass budget,Lodestar SiCore,sequoia_lodgepole,0.254,0.14498003306464213,0.254,0.0
+original mass budget,Lodestar SiCore,smokies_newfound_gap,0.254,0.14961427433901667,0.254,0.0
+original mass budget,Lodestar SiCore,whites_pinkham_notch,0.226,0.14292278599565725,0.22590699638189843,0.0
+original mass budget,Lodestar SiCore,yosemite_happy_isles,0.196,0.0718627623839886,0.196,0.0
+sleeved_mixed_core,Lodestar P50B,olympic_hurricane_ridge,0.22,0.15604855682127355,0.22,-0.024
+sleeved_mixed_core,Lodestar P50B,rainier_paradise,0.192,0.09763320457274566,0.192,-0.015762579113858553
+sleeved_mixed_core,Lodestar P50B,rocky_bear_lake,0.194,0.1314460937986381,0.19196626295853966,-0.0019133348928813433
+sleeved_mixed_core,Lodestar P50B,sequoia_lodgepole,0.238,0.14125912802838655,0.238,-0.002
+sleeved_mixed_core,Lodestar P50B,smokies_newfound_gap,0.202,0.13938374626550382,0.20186360577856194,-0.024
+sleeved_mixed_core,Lodestar P50B,whites_pinkham_notch,0.2,0.1371334383743095,0.2,-0.01
+sleeved_mixed_core,Lodestar P50B,yosemite_happy_isles,0.184,0.0718627623839886,0.184,-0.004
+sleeved_mixed_core,Lodestar SiCore,olympic_hurricane_ridge,0.256,0.15812455959352653,0.256,-0.011837550034793913
+sleeved_mixed_core,Lodestar SiCore,rainier_paradise,0.222,0.10184075014900949,0.22150748704602935,-0.007907248368041813
+sleeved_mixed_core,Lodestar SiCore,rocky_bear_lake,0.208,0.1374444298871334,0.20791333489288136,-0.012
+sleeved_mixed_core,Lodestar SiCore,sequoia_lodgepole,0.244,0.14498003306464213,0.244,-0.01
+sleeved_mixed_core,Lodestar SiCore,smokies_newfound_gap,0.24,0.14961427433901667,0.24,-0.014
+sleeved_mixed_core,Lodestar SiCore,whites_pinkham_notch,0.218,0.14292278599565725,0.21792285330406436,-0.007984143077834113
+sleeved_mixed_core,Lodestar SiCore,yosemite_happy_isles,0.196,0.0718627623839886,0.196,0.0
+sleeved_xps,Lodestar P50B,olympic_hurricane_ridge,0.218,0.15604855682127355,0.218,-0.026
+sleeved_xps,Lodestar P50B,rainier_paradise,0.186,0.09763320457274566,0.186,-0.02176257911385855
+sleeved_xps,Lodestar P50B,rocky_bear_lake,0.19,0.1314460937986381,0.18996626295853966,-0.003913334892881344
+sleeved_xps,Lodestar P50B,sequoia_lodgepole,0.236,0.14125912802838655,0.236,-0.004
+sleeved_xps,Lodestar P50B,smokies_newfound_gap,0.202,0.13938374626550382,0.20186360577856194,-0.024
+sleeved_xps,Lodestar P50B,whites_pinkham_notch,0.2,0.1371334383743095,0.2,-0.01
+sleeved_xps,Lodestar P50B,yosemite_happy_isles,0.184,0.0718627623839886,0.184,-0.004
+sleeved_xps,Lodestar SiCore,olympic_hurricane_ridge,0.256,0.15812455959352653,0.256,-0.011837550034793913
+sleeved_xps,Lodestar SiCore,rainier_paradise,0.222,0.10184075014900949,0.22150748704602935,-0.007907248368041813
+sleeved_xps,Lodestar SiCore,rocky_bear_lake,0.204,0.1374444298871334,0.20391333489288135,-0.016
+sleeved_xps,Lodestar SiCore,sequoia_lodgepole,0.244,0.14498003306464213,0.244,-0.01
+sleeved_xps,Lodestar SiCore,smokies_newfound_gap,0.238,0.14961427433901667,0.238,-0.016
+sleeved_xps,Lodestar SiCore,whites_pinkham_notch,0.218,0.14292278599565725,0.216,-0.00990699638189845
+sleeved_xps,Lodestar SiCore,yosemite_happy_isles,0.194,0.0718627623839886,0.194,-0.002

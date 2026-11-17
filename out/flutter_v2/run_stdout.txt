@@ -1,0 +1,306 @@
+Lodestar flutter_v2 run, design v1 (comparison: compact_eps20_light)
+AVL wing: CLa 4.601/rad; section cl_a root 4.34, y=0.75 m 4.89, tip 0.41 /rad (2 pi cos L = 5.72)
+Elastic-axis sweep 24.44 deg, hinge sweep 19.69 deg
+Model aircraft (P50B packs, kit on): 7.957 kg, CG x 0.4135 m, Iyy 0.242 kg m2; kit off 6.333 kg, Iyy 0.236 kg m2
+Joint bending stiffness estimate (tube only) 4168 N m/rad
+Elevon per side: 60.6 g, static moment 2.23 g.m aft of hinge (CG 36.7 mm aft), I_hinge 142 kg.mm2, GJ_e(y=1 m) 4.387 N m2
+
+[short period, 20 m/s sea level]
+    correction  dCma   dCmq  strip_wn_hz  strip_zeta  avl_wn_hz  avl_zeta  avl_Xnp  model_x_cg  model_Iyy  avl_items_Iyy
+          none 0.000 0.0000       2.9222      0.6842     2.0948    0.6523    0.446      0.4135     0.2415         0.2365
+matched to AVL 0.203 1.3389       2.0948      0.6523     2.0948    0.6523    0.446      0.4135     0.2415         0.2365
+Running 193 p-k cases in parallel ...
+
+[repro]
+             design                                   name      bc  altitude_m  flutter_tas_mps  flutter_eas_mps  freq_hz                  mode  margin_vs_36eas  static_instability_tas  vg_reference_tas
+                 v1 clamped straight, 2 pi, (repro of V-g) clamped           0          108.250          108.250   36.044 bending 14.9 Hz (91%)            3.007                   170.0           109.208
+                 v1 clamped straight, 2 pi, (repro of V-g) clamped        4400          120.233           96.198   35.302 bending 14.9 Hz (92%)            2.672                     inf           121.067
+compact_eps20_light clamped straight, 2 pi, (repro of V-g) clamped           0          105.639          105.639   35.311 bending 14.9 Hz (91%)            2.934                   170.0           106.518
+compact_eps20_light clamped straight, 2 pi, (repro of V-g) clamped        4400          117.205           93.775   34.562 bending 14.9 Hz (91%)            2.605                     inf           117.924
+
+[ladder]
+design                                      name      bc  altitude_m  flutter_tas_mps  flutter_eas_mps  freq_hz                                          mode  margin_vs_36eas  static_instability_tas  joint_kb
+    v1          clamped straight, AVL lift slope clamped           0          134.420          134.420   31.880                         bending 14.9 Hz (95%)            3.734                     inf       NaN
+    v1          clamped straight, AVL lift slope clamped        4400          149.010          119.222   31.451                         bending 14.9 Hz (95%)            3.312                     inf       NaN
+    v1                clamped swept, eta = cos L clamped           0           97.500           97.500   37.080 bending 12.6 Hz (84%) + torsion 57.3 Hz (14%)            2.708                     inf       NaN
+    v1                clamped swept, eta = cos L clamped        4400          112.426           89.952   36.099 bending 12.6 Hz (85%) + torsion 57.3 Hz (13%)            2.499                     inf       NaN
+    v1             clamped swept, AVL lift slope clamped           0          111.898          111.898   33.115                         bending 12.6 Hz (88%)            3.108                     inf       NaN
+    v1             clamped swept, AVL lift slope clamped        4400          128.656          102.937   32.533                         bending 12.6 Hz (89%)            2.859                     inf       NaN
+    v1         clamped swept, AVL, streamwise GJ clamped           0          117.386          117.386   34.577                         bending 12.6 Hz (87%)            3.261                     inf       NaN
+    v1         clamped swept, AVL, streamwise GJ clamped        4400          135.127          108.115   33.923                         bending 12.6 Hz (88%)            3.003                     inf       NaN
+    v1     free-free symmetric, kit on (nominal)     sym           0           83.065           83.065   10.704           rigid (84%) + bending 18.3 Hz (16%)            2.307                     inf       NaN
+    v1     free-free symmetric, kit on (nominal)     sym        4400           95.576           76.470   10.960           rigid (81%) + bending 18.3 Hz (19%)            2.124                     inf       NaN
+    v1         free-free symmetric, kit released     sym           0           88.283           88.283   12.865           rigid (80%) + bending 19.4 Hz (19%)            2.452                     inf       NaN
+    v1         free-free symmetric, kit released     sym        4400           98.601           78.890   13.016           rigid (77%) + bending 19.4 Hz (23%)            2.191                     inf       NaN
+    v1           free-free antisymmetric, kit on    anti           0          127.166          127.166   30.604                                   rigid (82%)            3.532                     inf       NaN
+    v1           free-free antisymmetric, kit on    anti        4400          139.548          111.652   31.784           rigid (75%) + bending 26.0 Hz (16%)            3.101                     inf       NaN
+    v1 free-free symmetric, joint tube stiffness     sym           0           79.130           79.130    8.249                                   rigid (90%)            2.198                   150.0  4167.961
+    v1 free-free symmetric, joint tube stiffness     sym        4400           90.100           72.088    8.712           rigid (87%) + bending 15.5 Hz (13%)            2.002                   170.0  4167.961
+
+[calibrated]
+design                                           name  bc  altitude_m  flutter_tas_mps  flutter_eas_mps  freq_hz                  mode  margin_vs_36eas  static_instability_tas  joint_kb  k_hinge elevon
+    v1       free-free sym, AVL-matched pitch, kit on sym           0           57.242           57.242    5.154           rigid (99%)            1.590                    95.0       NaN      NaN    NaN
+    v1 free-free sym, AVL-matched pitch, kit released sym           0           62.347           62.347    6.894           rigid (98%)            1.732                   110.0       NaN      NaN    NaN
+    v1         AVL-matched pitch, joint bending sweep sym           0           50.464           50.464    3.658          rigid (100%)            1.402                    75.0  4167.961      NaN    NaN
+    v1         AVL-matched pitch, joint bending sweep sym           0           39.180           39.180    1.823          rigid (100%)            1.088                    48.0  1000.000      NaN    NaN
+    v1         AVL-matched pitch, joint bending sweep sym           0           29.615           29.615    1.094          rigid (100%)            0.823                    36.0   500.000      NaN    NaN
+    v1         AVL-matched pitch, joint bending sweep sym           0           23.319           23.319    0.846          rigid (100%)            0.648                    26.0   250.000      NaN    NaN
+    v1                      AVL-matched pitch, elevon sym           0           49.892           49.892   56.198 torsion 60.5 Hz (91%)            1.386                     2.0       NaN      0.0   True
+    v1                      AVL-matched pitch, elevon sym           0           55.260           55.260    4.091          rigid (100%)            1.535                    85.0       NaN    136.0   True
+    v1       free-free sym, AVL-matched pitch, kit on sym        4400           71.749           57.406    5.056           rigid (99%)            1.595                   115.0       NaN      NaN    NaN
+    v1 free-free sym, AVL-matched pitch, kit released sym        4400           77.390           61.920    6.880           rigid (98%)            1.720                   140.0       NaN      NaN    NaN
+    v1         AVL-matched pitch, joint bending sweep sym        4400           64.572           51.664    3.352          rigid (100%)            1.435                    85.0  4167.961      NaN    NaN
+    v1         AVL-matched pitch, joint bending sweep sym        4400           49.386           39.514    1.224          rigid (100%)            1.098                    56.0  1000.000      NaN    NaN
+    v1         AVL-matched pitch, joint bending sweep sym        4400           35.742           28.597    0.656          rigid (100%)            0.794                    42.0   500.000      NaN    NaN
+    v1         AVL-matched pitch, joint bending sweep sym        4400           25.818           20.657    0.393          rigid (100%)            0.574                    30.0   250.000      NaN    NaN
+    v1                      AVL-matched pitch, elevon sym        4400           56.988           45.595   56.557 torsion 60.5 Hz (91%)            1.267                     2.0       NaN      0.0   True
+    v1                      AVL-matched pitch, elevon sym        4400           70.056           56.051    3.962          rigid (100%)            1.557                   105.0       NaN    136.0   True
+
+[eps20]
+             design                                  name      bc  altitude_m  flutter_tas_mps  flutter_eas_mps  freq_hz                                mode  margin_vs_36eas  static_instability_tas
+compact_eps20_light         clamped swept, AVL lift slope clamped           0          110.557          110.557   32.947               bending 12.6 Hz (89%)            3.071                     inf
+compact_eps20_light         clamped swept, AVL lift slope clamped        4400          127.094          101.687   32.263               bending 12.6 Hz (89%)            2.825                     inf
+compact_eps20_light free-free symmetric, kit on (nominal)     sym           0           84.437           84.437    9.856                         rigid (88%)            2.345                     inf
+compact_eps20_light free-free symmetric, kit on (nominal)     sym        4400           98.634           78.917   10.119 rigid (86%) + bending 18.2 Hz (14%)            2.192                     inf
+compact_eps20_light       free-free antisymmetric, kit on    anti           0          122.293          122.293   30.089 rigid (77%) + bending 25.5 Hz (15%)            3.397                     inf
+compact_eps20_light       free-free antisymmetric, kit on    anti        4400          134.777          107.834   31.292 rigid (68%) + bending 25.5 Hz (22%)            2.995                     inf
+
+[convergence]
+design                             name  bc  altitude_m  flutter_tas_mps  flutter_eas_mps  freq_hz                                mode  margin_vs_36eas  static_instability_tas
+    v1    free-free symmetric, 10 modes sym           0           83.096           83.096   10.716 rigid (84%) + bending 18.3 Hz (16%)            2.308                     inf
+    v1    free-free symmetric, 24 modes sym           0           83.055           83.055   10.705 rigid (84%) + bending 18.3 Hz (16%)            2.307                     inf
+    v1 free-free symmetric, 60 elements sym           0           83.249           83.249   10.680 rigid (84%) + bending 18.2 Hz (16%)            2.312                     inf
+
+[joint]
+design                name   bc  altitude_m  flutter_tas_mps  flutter_eas_mps  freq_hz                                mode  margin_vs_36eas  static_instability_tas  joint_kb  joint_kt
+    v1 joint bending sweep  sym           0           83.065           83.065   10.704 rigid (84%) + bending 18.3 Hz (16%)            2.307                     inf       NaN       NaN
+    v1 joint bending sweep  sym        4400           95.576           76.470   10.960 rigid (81%) + bending 18.3 Hz (19%)            2.124                     inf       NaN       NaN
+    v1 joint bending sweep anti           0          127.166          127.166   30.604                         rigid (82%)            3.532                     inf       NaN       NaN
+    v1 joint bending sweep anti        4400          139.548          111.652   31.784 rigid (75%) + bending 26.0 Hz (16%)            3.101                     inf       NaN       NaN
+    v1 joint bending sweep  sym           0           81.885           81.885   10.117 rigid (86%) + bending 17.6 Hz (14%)            2.275                     inf 20000.000       NaN
+    v1 joint bending sweep  sym        4400           94.042           75.243   10.414 rigid (82%) + bending 17.6 Hz (18%)            2.090                     inf 20000.000       NaN
+    v1 joint bending sweep anti           0          123.175          123.175   31.179 rigid (78%) + bending 24.9 Hz (14%)            3.422                     inf 20000.000       NaN
+    v1 joint bending sweep anti        4400          137.087          109.682   31.750 rigid (75%) + bending 24.9 Hz (16%)            3.047                     inf 20000.000       NaN
+    v1 joint bending sweep  sym           0           79.130           79.130    8.249                         rigid (90%)            2.198                   150.0  4167.961       NaN
+    v1 joint bending sweep  sym        4400           90.100           72.088    8.712 rigid (87%) + bending 15.5 Hz (13%)            2.002                   170.0  4167.961       NaN
+    v1 joint bending sweep anti           0          117.976          117.976   31.254 rigid (77%) + bending 21.8 Hz (15%)            3.277                     inf  4167.961       NaN
+    v1 joint bending sweep anti        4400          134.085          107.281   31.272 rigid (76%) + bending 21.8 Hz (15%)            2.980                     inf  4167.961       NaN
+    v1 joint bending sweep  sym           0           78.518           78.518    2.429                        rigid (100%)            2.181                    95.0  1000.000       NaN
+    v1 joint bending sweep  sym        4400           89.075           71.268    1.887                        rigid (100%)            1.980                   105.0  1000.000       NaN
+    v1 joint bending sweep anti           0          115.483          115.483   30.694 rigid (79%) + bending 15.4 Hz (12%)            3.208                     inf  1000.000       NaN
+    v1 joint bending sweep anti        4400          133.141          106.526   30.445 rigid (79%) + bending 15.4 Hz (12%)            2.959                     inf  1000.000       NaN
+    v1 joint bending sweep  sym           0           57.669           57.669    1.572                        rigid (100%)            1.602                    70.0   500.000       NaN
+    v1 joint bending sweep  sym        4400           69.029           55.230    1.469                        rigid (100%)            1.534                    80.0   500.000       NaN
+    v1 joint bending sweep anti           0          115.157          115.157   30.473                         rigid (81%)            3.199                     inf   500.000       NaN
+    v1 joint bending sweep anti        4400          133.175          106.552   30.177                         rigid (81%)            2.960                     inf   500.000       NaN
+    v1 joint bending sweep  sym           0           41.725           41.725    1.088                        rigid (100%)            1.159                    50.0   250.000       NaN
+    v1 joint bending sweep  sym        4400           47.803           38.247    0.830                        rigid (100%)            1.062                    56.0   250.000       NaN
+    v1 joint bending sweep anti           0          115.041          115.041   30.338                         rigid (81%)            3.196                     inf   250.000       NaN
+    v1 joint bending sweep anti        4400          133.250          106.612   30.019                         rigid (81%)            2.961                     inf   250.000       NaN
+    v1 joint bending sweep  sym           0           27.656           27.656    0.784                        rigid (100%)            0.768                    34.0   100.000       NaN
+    v1 joint bending sweep  sym        4400           31.726           25.384    0.654                        rigid (100%)            0.705                    36.0   100.000       NaN
+    v1 joint bending sweep anti           0          114.995          114.995   30.249                         rigid (81%)            3.194                   110.0   100.000       NaN
+    v1 joint bending sweep anti        4400          133.319          106.667   29.917                         rigid (82%)            2.963                   135.0   100.000       NaN
+    v1 joint torsion sweep  sym           0           71.675           71.675    8.626 rigid (88%) + bending 15.5 Hz (12%)            1.991                   160.0  4167.961    2000.0
+    v1 joint torsion sweep anti           0          112.862          112.862   27.680 rigid (77%) + bending 21.7 Hz (16%)            3.135                     inf  4167.961    2000.0
+    v1 joint torsion sweep  sym           0           60.174           60.174    8.739 rigid (85%) + bending 15.5 Hz (15%)            1.672                   145.0  4167.961     500.0
+    v1 joint torsion sweep anti           0          101.363          101.363   16.965                         rigid (96%)            2.816                     inf  4167.961     500.0
+
+[servo]
+design                name   bc  altitude_m  flutter_tas_mps  flutter_eas_mps  freq_hz                                mode  margin_vs_36eas  static_instability_tas  k_hinge elevon
+    v1 servo at y = 1.08 m  sym           0           54.888           54.888   56.334               torsion 60.7 Hz (88%)            1.525                     inf      2.0   True
+    v1 servo at y = 1.08 m anti           0           48.249           48.249   54.051               torsion 58.5 Hz (90%)            1.340                     inf      2.0   True
+    v1 servo at y = 1.08 m  sym           0           59.383           59.383   56.611               torsion 61.0 Hz (82%)            1.650                     inf      5.0   True
+    v1 servo at y = 1.08 m anti           0           69.069           69.069   52.775               torsion 58.9 Hz (74%)            1.919                     inf      5.0   True
+    v1 servo at y = 1.08 m  sym           0           78.258           78.258    9.196                         rigid (91%)            2.174                     inf     20.0   True
+    v1 servo at y = 1.08 m anti           0          109.764          109.764   40.088 rigid (69%) + torsion 60.6 Hz (13%)            3.049                     inf     20.0   True
+    v1 servo at y = 1.08 m  sym           0           78.799           78.799    9.934 rigid (87%) + bending 18.3 Hz (13%)            2.189                     inf    136.0   True
+    v1 servo at y = 1.08 m anti           0          114.615          114.615   36.375 rigid (72%) + bending 25.9 Hz (15%)            3.184                     inf    136.0   True
+
+[elevon]
+                        name   bc  altitude_m  k_hinge   where  balance_g  arm_mm  flutter_tas_mps  flutter_eas_mps  freq_hz                                          mode
+elevon hinge stiffness sweep  sym           0      0.0    none        0.0     0.0           53.462           53.462   55.970                         torsion 60.5 Hz (91%)
+elevon hinge stiffness sweep  sym        4400      0.0    none        0.0     0.0           60.168           48.140   56.314                         torsion 60.5 Hz (87%)
+elevon hinge stiffness sweep anti           0      0.0    none        0.0     0.0           43.369           43.369   53.863                         torsion 58.2 Hz (94%)
+elevon hinge stiffness sweep anti        4400      0.0    none        0.0     0.0           45.434           36.351   54.713                         torsion 58.2 Hz (96%)
+elevon hinge stiffness sweep  sym           0      0.5    none        0.0     0.0           52.882           52.882   56.176                         torsion 60.6 Hz (91%)
+elevon hinge stiffness sweep  sym        4400      0.5    none        0.0     0.0           58.967           47.179   56.567                         torsion 60.6 Hz (91%)
+elevon hinge stiffness sweep anti           0      0.5    none        0.0     0.0           43.520           43.520   54.019                         torsion 58.3 Hz (94%)
+elevon hinge stiffness sweep anti        4400      0.5    none        0.0     0.0           45.164           36.135   54.887                         torsion 58.3 Hz (96%)
+elevon hinge stiffness sweep  sym           0      1.0    none        0.0     0.0           52.402           52.402   56.369                         torsion 60.7 Hz (90%)
+elevon hinge stiffness sweep  sym        4400      1.0    none        0.0     0.0           57.929           46.349   56.797                         torsion 60.7 Hz (92%)
+elevon hinge stiffness sweep anti           0      1.0    none        0.0     0.0           43.788           43.788   54.166                         torsion 58.4 Hz (93%)
+elevon hinge stiffness sweep anti        4400      1.0    none        0.0     0.0           44.996           36.001   55.053                         torsion 58.4 Hz (96%)
+elevon hinge stiffness sweep  sym           0      2.0    none        0.0     0.0           51.683           51.683   56.724                         torsion 60.9 Hz (90%)
+elevon hinge stiffness sweep  sym        4400      2.0    none        0.0     0.0           56.172           44.943   57.214                         torsion 60.9 Hz (91%)
+elevon hinge stiffness sweep anti           0      2.0    none        0.0     0.0           44.697           44.697   54.429                         torsion 58.6 Hz (91%)
+elevon hinge stiffness sweep anti        4400      2.0    none        0.0     0.0           44.985           35.992   55.366                         torsion 58.6 Hz (95%)
+elevon hinge stiffness sweep  sym           0      5.0    none        0.0     0.0           51.762           51.762   57.579                         torsion 61.5 Hz (87%)
+elevon hinge stiffness sweep  sym        4400      5.0    none        0.0     0.0           53.855           43.089   58.209                         torsion 61.5 Hz (90%)
+elevon hinge stiffness sweep anti           0      5.0    none        0.0     0.0           52.012           52.012   54.826  torsion 59.4 Hz (83%) + elevon 30.3 Hz (12%)
+elevon hinge stiffness sweep anti        4400      5.0    none        0.0     0.0           48.163           38.535   56.144                         torsion 59.4 Hz (90%)
+elevon hinge stiffness sweep  sym           0     10.0    none        0.0     0.0           60.347           60.347   58.223  torsion 63.0 Hz (66%) + elevon 40.5 Hz (24%)
+elevon hinge stiffness sweep  sym        4400     10.0    none        0.0     0.0           61.323           49.064   59.202  torsion 63.0 Hz (73%) + elevon 40.5 Hz (23%)
+elevon hinge stiffness sweep anti           0     10.0    none        0.0     0.0          104.939          104.939   43.966           rigid (60%) + torsion 61.1 Hz (23%)
+elevon hinge stiffness sweep anti        4400     10.0    none        0.0     0.0           95.503           76.411   79.375                         bending 82.3 Hz (78%)
+elevon hinge stiffness sweep  sym           0     20.0    none        0.0     0.0           79.936           79.936    9.193                                   rigid (91%)
+elevon hinge stiffness sweep  sym        4400     20.0    none        0.0     0.0           95.583           76.476    9.348                                   rigid (90%)
+elevon hinge stiffness sweep anti           0     20.0    none        0.0     0.0          109.435          109.435   41.110                                   rigid (69%)
+elevon hinge stiffness sweep anti        4400     20.0    none        0.0     0.0          133.495          106.809   38.859           rigid (73%) + bending 25.9 Hz (13%)
+elevon hinge stiffness sweep  sym           0     50.0    none        0.0     0.0           81.278           81.278    9.693                                   rigid (90%)
+elevon hinge stiffness sweep  sym        4400     50.0    none        0.0     0.0           96.286           77.038    9.897           rigid (88%) + bending 18.3 Hz (12%)
+elevon hinge stiffness sweep anti           0     50.0    none        0.0     0.0          113.704          113.704   37.810                                   rigid (75%)
+elevon hinge stiffness sweep anti        4400     50.0    none        0.0     0.0          134.467          107.587   36.391           rigid (73%) + bending 25.9 Hz (16%)
+elevon hinge stiffness sweep  sym           0    100.0    none        0.0     0.0           82.013           82.013    9.945                                   rigid (88%)
+elevon hinge stiffness sweep  sym        4400    100.0    none        0.0     0.0           96.654           77.332   10.168           rigid (86%) + bending 18.3 Hz (14%)
+elevon hinge stiffness sweep anti           0    100.0    none        0.0     0.0          115.108          115.108   36.446                                   rigid (78%)
+elevon hinge stiffness sweep anti        4400    100.0    none        0.0     0.0          134.614          107.704   35.404           rigid (73%) + bending 25.9 Hz (17%)
+elevon hinge stiffness sweep  sym           0    136.0    none        0.0     0.0           82.239           82.239   10.023                                   rigid (88%)
+elevon hinge stiffness sweep  sym        4400    136.0    none        0.0     0.0           96.757           77.415   10.252           rigid (86%) + bending 18.3 Hz (14%)
+elevon hinge stiffness sweep anti           0    136.0    none        0.0     0.0          115.601          115.601   36.040                                   rigid (78%)
+elevon hinge stiffness sweep anti        4400    136.0    none        0.0     0.0          134.651          107.733   35.121           rigid (73%) + bending 25.9 Hz (18%)
+elevon hinge stiffness sweep  sym           0    300.0    none        0.0     0.0           82.605           82.605   10.153           rigid (87%) + bending 18.3 Hz (13%)
+elevon hinge stiffness sweep  sym        4400    300.0    none        0.0     0.0           96.912           77.539   10.390           rigid (85%) + bending 18.3 Hz (15%)
+elevon hinge stiffness sweep anti           0    300.0    none        0.0     0.0          116.370          116.370   35.384           rigid (78%) + bending 25.9 Hz (12%)
+elevon hinge stiffness sweep anti        4400    300.0    none        0.0     0.0          134.662          107.742   34.668           rigid (72%) + bending 25.9 Hz (18%)
+elevon hinge stiffness sweep  sym           0   1000.0    none        0.0     0.0           82.846           82.846   10.232           rigid (87%) + bending 18.3 Hz (13%)
+elevon hinge stiffness sweep  sym        4400   1000.0    none        0.0     0.0           97.019           77.625   10.474           rigid (85%) + bending 18.3 Hz (15%)
+elevon hinge stiffness sweep anti           0   1000.0    none        0.0     0.0          116.826          116.826   34.970           rigid (77%) + bending 25.9 Hz (13%)
+elevon hinge stiffness sweep anti        4400   1000.0    none        0.0     0.0          134.624          107.712   34.387           rigid (72%) + bending 25.9 Hz (19%)
+        elevon balance sweep  sym           0      0.0 uniform        5.0    15.0           53.746           53.746   55.602                         torsion 60.3 Hz (91%)
+        elevon balance sweep anti           0      0.0 uniform        5.0    15.0           42.553           42.553   53.546                         torsion 57.9 Hz (94%)
+        elevon balance sweep  sym           0    136.0 uniform        5.0    15.0           82.210           82.210    9.993                                   rigid (88%)
+        elevon balance sweep anti           0    136.0 uniform        5.0    15.0          114.304          114.304   35.670                                   rigid (77%)
+        elevon balance sweep  sym           0      0.0 uniform       10.0    15.0           54.120           54.120   55.234                         torsion 60.0 Hz (91%)
+        elevon balance sweep anti           0      0.0 uniform       10.0    15.0           41.868           41.868   53.233                         torsion 57.6 Hz (95%)
+        elevon balance sweep  sym           0    136.0 uniform       10.0    15.0           82.182           82.182    9.964                                   rigid (88%)
+        elevon balance sweep anti           0    136.0 uniform       10.0    15.0          113.179          113.179   35.310                                   rigid (78%)
+        elevon balance sweep  sym           0      0.0 uniform       20.0    15.0           55.062           55.062   54.499                         torsion 59.5 Hz (92%)
+        elevon balance sweep anti           0      0.0 uniform       20.0    15.0           40.809           40.809   52.618                         torsion 57.0 Hz (95%)
+        elevon balance sweep  sym           0    136.0 uniform       20.0    15.0           82.131           82.131    9.904                                   rigid (88%)
+        elevon balance sweep anti           0    136.0 uniform       20.0    15.0          111.169          111.169   34.642                                   rigid (80%)
+        elevon balance sweep  sym           0      0.0 uniform       40.0    15.0           58.194           58.194   52.932                         torsion 58.7 Hz (91%)
+        elevon balance sweep anti           0      0.0 uniform       40.0    15.0           40.000           40.000   51.382                         torsion 55.8 Hz (96%)
+        elevon balance sweep  sym           0    136.0 uniform       40.0    15.0           82.054           82.054    9.783                                   rigid (89%)
+        elevon balance sweep anti           0    136.0 uniform       40.0    15.0          108.337          108.337   33.369           rigid (82%) + torsion 53.0 Hz (12%)
+        elevon balance sweep  sym           0      0.0 uniform       80.0    15.0           67.098           67.098   48.787                         torsion 57.4 Hz (88%)
+        elevon balance sweep anti           0      0.0 uniform       80.0    15.0           42.254           42.254   48.813                         torsion 53.9 Hz (96%)
+        elevon balance sweep  sym           0    136.0 uniform       80.0    15.0           82.034           82.034    9.529                                   rigid (90%)
+        elevon balance sweep anti           0    136.0 uniform       80.0    15.0          105.221          105.221   30.843                                   rigid (87%)
+        elevon balance sweep  sym           0      0.0     tip        5.0    40.0           45.897           45.897   56.136                         torsion 60.2 Hz (95%)
+        elevon balance sweep anti           0      0.0     tip        5.0    40.0           38.784           38.784   53.462                         torsion 57.8 Hz (96%)
+        elevon balance sweep  sym           0    136.0     tip        5.0    40.0           81.644           81.644   10.012                                   rigid (88%)
+        elevon balance sweep anti           0    136.0     tip        5.0    40.0          112.104          112.104   34.476                                   rigid (82%)
+        elevon balance sweep  sym           0      0.0     tip       10.0    40.0           39.646           39.646   56.046                         torsion 59.6 Hz (95%)
+        elevon balance sweep anti           0      0.0     tip       10.0    40.0           36.582           36.582   52.799                         torsion 57.2 Hz (97%)
+        elevon balance sweep  sym           0    136.0     tip       10.0    40.0           81.040           81.040    9.998                                   rigid (88%)
+        elevon balance sweep anti           0    136.0     tip       10.0    40.0          111.071          111.071   32.793                                   rigid (86%)
+        elevon balance sweep  sym           0      0.0     tip       20.0    40.0           42.651           42.651   54.401 torsion 57.9 Hz (84%) + bending 51.3 Hz (13%)
+        elevon balance sweep anti           0      0.0     tip       20.0    40.0           42.843           42.843   49.893                         torsion 55.5 Hz (95%)
+        elevon balance sweep  sym           0    136.0     tip       20.0    40.0           79.879           79.879    9.955           rigid (87%) + bending 17.6 Hz (13%)
+        elevon balance sweep anti           0    136.0     tip       20.0    40.0          111.306          111.306   25.682                                   rigid (89%)
+        elevon balance sweep  sym           0      0.0     tip       40.0    40.0           54.661           54.661   53.152 torsion 54.1 Hz (69%) + bending 50.4 Hz (19%)
+        elevon balance sweep anti           0      0.0     tip       40.0    40.0           58.113           58.113   44.644                         torsion 51.8 Hz (80%)
+        elevon balance sweep  sym           0    136.0     tip       40.0    40.0           79.904           79.904    9.731           rigid (88%) + bending 16.9 Hz (12%)
+        elevon balance sweep anti           0    136.0     tip       40.0    40.0           96.659           96.659   20.248           rigid (76%) + bending 23.4 Hz (20%)
+        elevon balance sweep  sym           0      0.0     tip       80.0    40.0           49.737           49.737    1.983                                   rigid (99%)
+        elevon balance sweep anti           0      0.0     tip       80.0    40.0           80.628           80.628   75.599                         bending 81.4 Hz (67%)
+        elevon balance sweep  sym           0    136.0     tip       80.0    40.0           76.800           76.800    9.334                                   rigid (90%)
+        elevon balance sweep anti           0    136.0     tip       80.0    40.0           87.206           87.206   16.516           rigid (60%) + bending 21.2 Hz (37%)
+        elevon balance sweep  sym           0      0.0   servo        5.0    40.0           57.455           57.455   54.907                         torsion 60.2 Hz (89%)
+        elevon balance sweep anti           0      0.0   servo        5.0    40.0           42.844           42.844   53.229                         torsion 57.7 Hz (95%)
+        elevon balance sweep  sym           0    136.0   servo        5.0    40.0           82.298           82.298    9.983                                   rigid (88%)
+        elevon balance sweep anti           0    136.0   servo        5.0    40.0          114.747          114.747   35.882           rigid (76%) + bending 25.9 Hz (13%)
+        elevon balance sweep  sym           0      0.0   servo       10.0    40.0           61.535           61.535   53.732                         torsion 59.8 Hz (82%)
+        elevon balance sweep anti           0      0.0   servo       10.0    40.0           43.167           43.167   52.506                         torsion 57.2 Hz (95%)
+        elevon balance sweep  sym           0    136.0   servo       10.0    40.0           82.334           82.334    9.945                                   rigid (88%)
+        elevon balance sweep anti           0    136.0   servo       10.0    40.0          114.049          114.049   35.723           rigid (76%) + bending 25.9 Hz (13%)
+        elevon balance sweep  sym           0      0.0   servo       20.0    40.0           67.204           67.204   50.349 torsion 59.4 Hz (68%) + bending 50.3 Hz (22%)
+        elevon balance sweep anti           0      0.0   servo       20.0    40.0           46.005           46.005   50.786                         torsion 56.3 Hz (95%)
+        elevon balance sweep  sym           0    136.0   servo       20.0    40.0           82.368           82.368    9.873                                   rigid (89%)
+        elevon balance sweep anti           0    136.0   servo       20.0    40.0          112.683          112.683   35.423           rigid (76%) + bending 25.9 Hz (12%)
+        elevon balance sweep  sym           0      0.0   servo       40.0    40.0           72.952           72.952   47.072 torsion 58.7 Hz (46%) + bending 49.2 Hz (45%)
+        elevon balance sweep anti           0      0.0   servo       40.0    40.0           56.160           56.160   46.471                         torsion 54.7 Hz (93%)
+        elevon balance sweep  sym           0    136.0   servo       40.0    40.0           82.553           82.553    9.730                                   rigid (89%)
+        elevon balance sweep anti           0    136.0   servo       40.0    40.0          109.959          109.959   34.891           rigid (74%) + bending 25.9 Hz (13%)
+        elevon balance sweep  sym           0      0.0   servo       80.0    40.0           35.790           35.790    2.115                                  rigid (100%)
+        elevon balance sweep anti           0      0.0   servo       80.0    40.0           70.872           70.872   38.218                         torsion 52.6 Hz (82%)
+        elevon balance sweep  sym           0    136.0   servo       80.0    40.0           83.011           83.011    9.430                                   rigid (91%)
+        elevon balance sweep anti           0    136.0   servo       80.0    40.0          105.315          105.315   33.923                                   rigid (75%)
+         servo at y = 1.08 m  sym           0      2.0     NaN        NaN     NaN           54.888           54.888   56.334                         torsion 60.7 Hz (88%)
+         servo at y = 1.08 m anti           0      2.0     NaN        NaN     NaN           48.249           48.249   54.051                         torsion 58.5 Hz (90%)
+         servo at y = 1.08 m  sym           0      5.0     NaN        NaN     NaN           59.383           59.383   56.611                         torsion 61.0 Hz (82%)
+         servo at y = 1.08 m anti           0      5.0     NaN        NaN     NaN           69.069           69.069   52.775                         torsion 58.9 Hz (74%)
+         servo at y = 1.08 m  sym           0     20.0     NaN        NaN     NaN           78.258           78.258    9.196                                   rigid (91%)
+         servo at y = 1.08 m anti           0     20.0     NaN        NaN     NaN          109.764          109.764   40.088           rigid (69%) + torsion 60.6 Hz (13%)
+         servo at y = 1.08 m  sym           0    136.0     NaN        NaN     NaN           78.799           78.799    9.934           rigid (87%) + bending 18.3 Hz (13%)
+         servo at y = 1.08 m anti           0    136.0     NaN        NaN     NaN          114.615          114.615   36.375           rigid (72%) + bending 25.9 Hz (15%)
+
+[free play]
+  bc  altitude_m  screen_eas_mps  screen_tas_mps  vf_free_floating_tas  vf_min_over_k_tas  k_crit_Nm_per_rad  k_first_tested_ok  k_nominal  lco_amplitude_over_half_freeplay
+anti           0            36.0          36.000                43.369             43.369                0.0                0.5        5.0                             0.000
+anti           0            36.0          36.000                43.369             43.369                0.0                0.5       10.0                             0.000
+anti           0            36.0          36.000                43.369             43.369                0.0                0.5       20.0                             0.000
+anti           0            36.0          36.000                43.369             43.369                0.0                0.5       50.0                             0.000
+anti           0            36.0          36.000                43.369             43.369                0.0                0.5      100.0                             0.000
+anti           0            36.0          36.000                43.369             43.369                0.0                0.5      136.0                             0.000
+anti           0            36.0          36.000                43.369             43.369                0.0                0.5      300.0                             0.000
+anti           0            34.5          34.500                43.369             43.369                0.0                0.5        5.0                             0.000
+anti           0            34.5          34.500                43.369             43.369                0.0                0.5       10.0                             0.000
+anti           0            34.5          34.500                43.369             43.369                0.0                0.5       20.0                             0.000
+anti           0            34.5          34.500                43.369             43.369                0.0                0.5       50.0                             0.000
+anti           0            34.5          34.500                43.369             43.369                0.0                0.5      100.0                             0.000
+anti           0            34.5          34.500                43.369             43.369                0.0                0.5      136.0                             0.000
+anti           0            34.5          34.500                43.369             43.369                0.0                0.5      300.0                             0.000
+anti        4400            36.0          44.995                45.434             44.985                2.0                5.0        5.0                             2.033
+anti        4400            36.0          44.995                45.434             44.985                2.0                5.0       10.0                             1.456
+anti        4400            36.0          44.995                45.434             44.985                2.0                5.0       20.0                             1.242
+anti        4400            36.0          44.995                45.434             44.985                2.0                5.0       50.0                             1.117
+anti        4400            36.0          44.995                45.434             44.985                2.0                5.0      100.0                             1.070
+anti        4400            36.0          44.995                45.434             44.985                2.0                5.0      136.0                             1.056
+anti        4400            36.0          44.995                45.434             44.985                2.0                5.0      300.0                             1.032
+anti        4400            34.5          43.120                45.434             44.985                0.0                0.5        5.0                             0.000
+anti        4400            34.5          43.120                45.434             44.985                0.0                0.5       10.0                             0.000
+anti        4400            34.5          43.120                45.434             44.985                0.0                0.5       20.0                             0.000
+anti        4400            34.5          43.120                45.434             44.985                0.0                0.5       50.0                             0.000
+anti        4400            34.5          43.120                45.434             44.985                0.0                0.5      100.0                             0.000
+anti        4400            34.5          43.120                45.434             44.985                0.0                0.5      136.0                             0.000
+anti        4400            34.5          43.120                45.434             44.985                0.0                0.5      300.0                             0.000
+ sym           0            36.0          36.000                53.462             51.683                0.0                0.5        5.0                             0.000
+ sym           0            36.0          36.000                53.462             51.683                0.0                0.5       10.0                             0.000
+ sym           0            36.0          36.000                53.462             51.683                0.0                0.5       20.0                             0.000
+ sym           0            36.0          36.000                53.462             51.683                0.0                0.5       50.0                             0.000
+ sym           0            36.0          36.000                53.462             51.683                0.0                0.5      100.0                             0.000
+ sym           0            36.0          36.000                53.462             51.683                0.0                0.5      136.0                             0.000
+ sym           0            36.0          36.000                53.462             51.683                0.0                0.5      300.0                             0.000
+ sym           0            34.5          34.500                53.462             51.683                0.0                0.5        5.0                             0.000
+ sym           0            34.5          34.500                53.462             51.683                0.0                0.5       10.0                             0.000
+ sym           0            34.5          34.500                53.462             51.683                0.0                0.5       20.0                             0.000
+ sym           0            34.5          34.500                53.462             51.683                0.0                0.5       50.0                             0.000
+ sym           0            34.5          34.500                53.462             51.683                0.0                0.5      100.0                             0.000
+ sym           0            34.5          34.500                53.462             51.683                0.0                0.5      136.0                             0.000
+ sym           0            34.5          34.500                53.462             51.683                0.0                0.5      300.0                             0.000
+ sym        4400            36.0          44.995                60.168             53.855                0.0                0.5        5.0                             0.000
+ sym        4400            36.0          44.995                60.168             53.855                0.0                0.5       10.0                             0.000
+ sym        4400            36.0          44.995                60.168             53.855                0.0                0.5       20.0                             0.000
+ sym        4400            36.0          44.995                60.168             53.855                0.0                0.5       50.0                             0.000
+ sym        4400            36.0          44.995                60.168             53.855                0.0                0.5      100.0                             0.000
+ sym        4400            36.0          44.995                60.168             53.855                0.0                0.5      136.0                             0.000
+ sym        4400            36.0          44.995                60.168             53.855                0.0                0.5      300.0                             0.000
+ sym        4400            34.5          43.120                60.168             53.855                0.0                0.5        5.0                             0.000
+ sym        4400            34.5          43.120                60.168             53.855                0.0                0.5       10.0                             0.000
+ sym        4400            34.5          43.120                60.168             53.855                0.0                0.5       20.0                             0.000
+ sym        4400            34.5          43.120                60.168             53.855                0.0                0.5       50.0                             0.000
+ sym        4400            34.5          43.120                60.168             53.855                0.0                0.5      100.0                             0.000
+ sym        4400            34.5          43.120                60.168             53.855                0.0                0.5      136.0                             0.000
+ sym        4400            34.5          43.120                60.168             53.855                0.0                0.5      300.0                             0.000
+In-vacuo modes, sym: rigid, rigid, bending 18.3 Hz, bending 51.1 Hz, torsion 58.6 Hz, bending 89.9 Hz, torsion 118.1 Hz, bending 189.3 Hz
+In-vacuo modes, anti: rigid, bending 26.0 Hz, torsion 55.2 Hz, bending 79.0 Hz, torsion 103.4 Hz, bending 179.2 Hz, torsion 192.0 Hz, bending 251.8 Hz
+In-vacuo clamped modes: bending 12.6 Hz, bending 40.5 Hz, torsion 57.3 Hz, bending 84.6 Hz, torsion 115.6 Hz, bending 188.5 Hz, torsion 219.2 Hz, torsion 275.5 Hz
+FE modes file found: <repo>\out\fea\modes.csv
+
+[static aeroelasticity, root-clamped half wing, elevon locked or prescribed]
+  swept (model)                      divergence 10587.9 m/s EAS; reversal   93.1 m/s EAS; roll effectiveness 0.809 at Vd, 0.736 at 36 m/s EAS
+  swept, eta = cos L                 divergence  9563.2 m/s EAS; reversal   93.3 m/s EAS; roll effectiveness 0.784 at Vd, 0.705 at 36 m/s EAS
+  straight beam (no sweep coupling)  divergence   194.0 m/s EAS; reversal   93.8 m/s EAS; roll effectiveness 0.920 at Vd, 0.883 at 36 m/s EAS
+EXIT 0

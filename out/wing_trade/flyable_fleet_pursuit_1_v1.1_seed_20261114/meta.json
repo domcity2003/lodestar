@@ -1,0 +1,15 @@
+{
+ "design": "v1.1",
+ "structure_kg": 2.642727435981509,
+ "seed": 20261114,
+ "route": "pursuit_1",
+ "competitor_endurance": 1.0,
+ "crown_porosity": 0.2,
+ "camera_odds_scale": 0.7353002207100833,
+ "bank_deg": 40.0,
+ "lodestar_camera": [
+  95.0,
+  135.7
+ ],
+ "cda_body_m2": 0.0046286856839840036
+}

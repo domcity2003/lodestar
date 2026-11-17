@@ -1,0 +1,5 @@
+compact-XPS wing mass (archive value): 2.2910 kg
+Completed rainier_paradise / trails 6
+PASS  long_pass_tune, 3 modes: 1500 runs identical (found, t_find, t_kit, help_1h, help_3h, searched_km)
+PASS  flyable_fleet, rounded_adaptive: 500 runs identical (found, t_find, t_kit, help_1h, help_3h, searched_km)
+verify exit 0

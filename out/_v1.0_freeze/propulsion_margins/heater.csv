@@ -1,0 +1,7 @@
+pack,insulation_mm,R_th_K_per_W,heater_W,tau_h,endurance_heated_h,endurance_prewarmed_h,endurance_soaked_h
+Amprius SiCore 6.3 Ah,10.0,1.4286,13.6455,0.8766,2.8429,2.8025,2.4911
+Amprius SiCore 6.3 Ah,20.0,2.8571,5.3361,1.7532,2.9798,2.8025,2.4911
+Amprius SiCore 6.3 Ah,30.0,4.2857,2.7376,2.6299,3.0254,2.8025,2.4911
+Molicel P50B,10.0,1.4286,16.5726,0.8766,2.4173,2.443,2.1716
+Molicel P50B,20.0,2.8571,7.8559,1.7532,2.549,2.443,2.1716
+Molicel P50B,30.0,4.2857,4.969,2.6299,2.5958,2.443,2.1716

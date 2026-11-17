@@ -1,0 +1,30 @@
+Lodestar v4 upgrade: wide search camera + 7 m/s chute, 2026-11-12
+
+N50 1.0: sweep width at 20 m/s / track spacing: {32: (45.8, 55.1), 40: (52.2, 62.2), 50: (58.0, 67.5), 60: (61.4, 69.6)}
+N50 1.5: sweep width at 20 m/s / track spacing: {32: (41.8, 55.1), 40: (46.0, 58.5), 50: (49.1, 59.7), 60: (50.2, 58.5)}
+
+Help within 3 h (%), realistic drops, scenario A (columns: N50, field of view, chute kg):
+n50                    1.0                     1.5                     1.0
+hfov                  32.0  40.0  50.0  60.0  32.0  40.0  50.0  60.0  32.0
+chute_kg             0.144 0.144 0.144 0.144 0.144 0.144 0.144 0.144 0.204
+aircraft                                                                  
+Lodestar SiCore @ 20  44.1  48.4  55.0  56.4  41.3  44.2  46.3  46.6  44.0
+Lodestar SiCore @ 21  42.5  45.8  52.8  54.3  39.7  42.0  44.7  44.6  42.3
+Lodestar SiCore @ 22  40.1  43.8  50.1  51.6  37.1  40.4  42.6  42.9  40.1
+Lodestar P50B @ 18    36.2  39.8  45.5  45.8  34.4  36.6  38.5  38.4  36.1
+Lodestar P50B @ 19    35.1  38.3  44.0  44.6  33.1  36.1  37.0  37.7  35.0
+Lodestar P50B @ 20    34.6  38.0  43.2  44.0  32.4  35.6  36.6  37.3  34.4
+
+Help within 3 h (%), realistic drops, scenario B (columns: N50, field of view, chute kg):
+n50                    1.0                     1.5                     1.0
+hfov                  32.0  40.0  50.0  60.0  32.0  40.0  50.0  60.0  32.0
+chute_kg             0.144 0.144 0.144 0.144 0.144 0.144 0.144 0.144 0.204
+aircraft                                                                  
+Lodestar SiCore @ 20  17.8  21.7  21.7  22.7  16.7  17.2  19.3  18.4  17.8
+Lodestar SiCore @ 21  17.3  20.7  20.8  21.4  16.2  16.4  18.4  17.6  17.3
+Lodestar SiCore @ 22  16.3  19.8  19.8  20.1  15.5  15.6  17.6  16.9  16.2
+Lodestar P50B @ 18    14.8  17.7  17.9  18.2  14.0  14.4  15.5  15.7  14.7
+Lodestar P50B @ 19    14.2  17.1  17.1  17.4  13.2  14.0  14.9  15.0  14.1
+Lodestar P50B @ 20    14.1  16.8  16.9  17.3  13.1  14.0  14.6  14.9  14.1
+
+Take-off mass (kg): {('Lodestar P50B @ 18', 0.144): 7.305, ('Lodestar P50B @ 18', 0.204): 7.368, ('Lodestar P50B @ 19', 0.144): 7.305, ('Lodestar P50B @ 19', 0.204): 7.368, ('Lodestar P50B @ 20', 0.144): 7.305, ('Lodestar P50B @ 20', 0.204): 7.368, ('Lodestar SiCore @ 20', 0.144): 7.341, ('Lodestar SiCore @ 20', 0.204): 7.404, ('Lodestar SiCore @ 21', 0.144): 7.341, ('Lodestar SiCore @ 21', 0.204): 7.404, ('Lodestar SiCore @ 22', 0.144): 7.341, ('Lodestar SiCore @ 22', 0.204): 7.404}

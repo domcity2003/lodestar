@@ -1,0 +1,79 @@
+Lodestar v1 mass growth allowance (G7), 2026-11-15
+
+Self-checks
+PASS  wing mass in summary_v1.csv = lodestar_v1.STRUCTURE wing_mass_kg (1.5 g): 1.9826 vs 1.983
+PASS  SiCore every line classified with a maturity and an MGA: 19 lines
+PASS  SiCore kit on: sum of basic mass = lodestar_v1.MASS within 1 g: 8.3149 vs 8.315
+PASS  SiCore kit on: basic CG = mass-balance CG within 0.1 mm: 0.41339 vs 0.41340 (wing x 0.4840 m)
+PASS  SiCore kit on: basic static margin = controls mass_states within 0.02% MAC: 7.067 vs 7.066
+PASS  SiCore kit off: sum of basic mass = lodestar_v1.MASS within 1 g: 6.6909 vs 6.691
+PASS  SiCore kit off: basic CG = mass-balance CG within 0.1 mm: 0.41130 vs 0.41131 (wing x 0.4840 m)
+PASS  SiCore kit off: basic static margin = controls mass_states within 0.02% MAC: 7.294 vs 7.293
+PASS  P50B every line classified with a maturity and an MGA: 19 lines
+PASS  P50B kit on: sum of basic mass = lodestar_v1.MASS within 1 g: 8.2809 vs 8.281
+PASS  P50B kit on: basic CG = mass-balance CG within 0.1 mm: 0.41340 vs 0.41340 (wing x 0.4839 m)
+PASS  P50B kit on: basic static margin = controls mass_states within 0.02% MAC: 7.068 vs 7.065
+PASS  P50B kit off: sum of basic mass = lodestar_v1.MASS within 1 g: 6.6569 vs 6.657
+PASS  P50B kit off: basic CG = mass-balance CG within 0.1 mm: 0.41130 vs 0.41131 (wing x 0.4839 m)
+PASS  P50B kit off: basic static margin = controls mass_states within 0.02% MAC: 7.297 vs 7.294
+PASS  MGA total is positive and below 20% of basic (sanity): 0.833 kg
+
+Lines, SiCore loaded
+                                               item  basic_kg    x_m   maturity    category  mga_pct  mga_kg  predicted_kg
+   wing shell, core, caps, elevons (spanwise model)    1.5833 0.4840 Calculated   structure     10.0  0.1583        1.7416
+                  wing joints: tubes, sleeves, ribs    0.2493 0.4840 Calculated   structure     10.0  0.0249        0.2742
+wing joint allowance (blocks, wraps, key, adhesive)    0.0900 0.4840  Estimated   structure     25.0  0.0225        0.1125
+                                  elevon servos (2)    0.0600 0.4840  Estimated   mechanism     25.0  0.0150        0.0750
+                                       winglets (2)    0.1064 0.9471  Estimated   structure     25.0  0.0266        0.1330
+                                 cells, SiCore x 30    2.1600 0.4120   Measured     battery      3.0  0.0648        2.2248
+               pack build: nickel, BMS, leads, wrap    0.2945 0.4120  Estimated     battery     25.0  0.0736        0.3681
+                   pack thermal kit (foam + heater)    0.1000 0.4120  Estimated     thermal     25.0  0.0250        0.1250
+                            elevon mass balance (2)    0.1200 0.7147 Calculated   structure     10.0  0.0120        0.1320
+                                         rescue kit    1.5000 0.4220   Measured  controlled      0.0  0.0000        1.5000
+                                      kit parachute    0.1240 0.4220 Calculated   mechanism     10.0  0.0124        0.1364
+                      kit container + release servo    0.0800 0.4150  Estimated   mechanism     25.0  0.0200        0.1000
+                       gimbal, SIYI ZT6 with damper    0.1970 0.0700   Measured electronics      3.0  0.0059        0.2029
+         gimbal budget not yet used (R5 allocation)    0.4030 0.0700  Estimated  controlled      0.0  0.0000        0.4030
+      avionics: FC, GPS, radio, airspeed, Remote ID    0.3500 0.2342  Estimated electronics     30.0  0.1050        0.4550
+                          pod structure, door, skid    0.3000 0.2665  Estimated   structure     25.0  0.0750        0.3750
+                           motor T-Motor AT3520-550    0.2180 0.6656   Measured  propulsion      3.0  0.0065        0.2245
+                     ESC, prop blades, hub, spinner    0.1220 0.6656  Estimated  propulsion     25.0  0.0305        0.1525
+                     misc: wiring, connectors, glue    0.2574 0.3500  Estimated     harness     60.0  0.1544        0.4118
+
+By maturity [kg]
+            basic_kg  mga_kg
+maturity                    
+Calculated    2.0766  0.2077
+Estimated     2.1633  0.5477
+Measured      4.0750  0.0773
+
+States
+  cell   kit                                               case  mass_kg  delta_vs_basic_kg  margin_to_10kg  x_cg_m  dx_cg_mm  static_margin_pct  aft_limit_margin_mm  inside_envelope_with_tol  nose_ballast_kg
+SiCore  True                                              basic   8.3149             0.0000          1.6851  0.4134    0.0000             7.0668               8.6068                      True           0.0000
+SiCore  True                     predicted, growth at each line   9.1475             0.8326          0.8525  0.4135    0.1083             7.0427               8.4986                      True           0.0000
+SiCore  True                     predicted, aft lines only grow   8.6437             0.3288          1.3563  0.4184    4.9597             5.9624               3.6471                     False           0.0088
+SiCore  True                 predicted, forward lines only grow   8.8187             0.5038          1.1813  0.4086   -4.7490             8.1242              13.3558                      True           0.0000
+SiCore  True            predicted, all MGA at the motor station   9.1475             0.8326          0.8525  0.4363   22.9551             1.9554             -14.3482                     False           0.4823
+SiCore  True predicted, gimbal at ZT6 mass (allocation removed)   8.7445             0.4296          1.2555  0.4293   15.9390             3.5177              -7.3322                     False           0.2848
+SiCore False                                              basic   6.6909             0.0000          3.3091  0.4113    0.0000             7.2937              10.6959                      True           0.0000
+SiCore False                     predicted, growth at each line   7.5111             0.8202          2.4889  0.4116    0.3458             7.2167              10.3501                      True           0.0000
+SiCore False                     predicted, aft lines only grow   7.1707             0.4798          2.8293  0.4174    6.0717             5.9417               4.6242                      True           0.0000
+SiCore False                 predicted, forward lines only grow   7.0312             0.3403          2.9688  0.4055   -5.8228             8.5902              16.5186                      True           0.0000
+SiCore False            predicted, all MGA at the motor station   7.5111             0.8202          2.4889  0.4391   27.7680             1.1106             -17.0721                     False           0.4548
+SiCore False predicted, gimbal at ZT6 mass (allocation removed)   7.1081             0.4172          2.8919  0.4310   19.7160             2.9035              -9.0202                     False           0.2659
+  P50B  True                                              basic   8.2809             0.0000          1.7191  0.4134    0.0000             7.0682               8.6034                      True           0.0000
+  P50B  True                     predicted, growth at each line   9.1116             0.8307          0.8884  0.4135    0.1085             7.0441               8.4949                      True           0.0000
+  P50B  True                     predicted, aft lines only grow   8.6097             0.3288          1.3903  0.4184    4.9789             5.9596               3.6244                     False           0.0093
+  P50B  True                 predicted, forward lines only grow   8.7828             0.5019          1.2172  0.4086   -4.7683             8.1300              13.3717                      True           0.0000
+  P50B  True            predicted, all MGA at the motor station   9.1116             0.8307          0.8884  0.4364   22.9926             1.9485             -14.3892                     False           0.4815
+  P50B  True predicted, gimbal at ZT6 mass (allocation removed)   8.7086             0.4277          1.2914  0.4294   16.0046             3.5045              -7.4012                     False           0.2853
+  P50B False                                              basic   6.6569             0.0000          3.3431  0.4113    0.0000             7.2973              10.7022                      True           0.0000
+  P50B False                     predicted, growth at each line   7.4752             0.8183          2.5248  0.4116    0.3477             7.2199              10.3546                      True           0.0000
+  P50B False                     predicted, aft lines only grow   7.1348             0.4779          2.8652  0.4174    6.1022             5.9386               4.6001                      True           0.0000
+  P50B False                 predicted, forward lines only grow   6.9972             0.3404          3.0028  0.4054   -5.8507             8.6001              16.5530                      True           0.0000
+  P50B False            predicted, all MGA at the motor station   7.4752             0.8183          2.5248  0.4391   27.8374             1.0988             -17.1351                     False           0.4540
+  P50B False predicted, gimbal at ZT6 mass (allocation removed)   7.0722             0.4153          2.9278  0.4311   19.8160             2.8849              -9.1138                     False           0.2665
+
+Mass that fits at the motor station (x 0.666 m) before CG + 4 mm reaches the aft limit, SiCore loaded, from predicted: 0.166 kg
+
+ALL CHECKS PASS

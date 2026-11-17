@@ -1,0 +1,8 @@
+category,Estimated_pct,Calculated_pct,Measured_pct
+structure,25.0,10.0,3.0
+mechanism,25.0,10.0,3.0
+electronics,30.0,15.0,3.0
+battery,25.0,10.0,3.0
+harness,60.0,30.0,3.0
+propulsion,25.0,10.0,3.0
+thermal,25.0,10.0,3.0

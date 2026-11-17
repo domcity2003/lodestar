@@ -1,0 +1,93 @@
+modes medium P50B: 0 s, FE structure 0.736 kg + point masses 1.478 kg (half wing)
+modes medium SiCore: 0 s, FE structure 0.736 kg + point masses 1.495 kg (half wing)
+modes medium P50B: 39 s, FE structure 0.736 kg + point masses 1.588 kg (half wing)
+modes medium SiCore: 33 s, FE structure 0.736 kg + point masses 1.605 kg (half wing)
+                                                                                 config                source  mode        name  freq_Hz  w_nodes  tip_w  tip_theta_x_semichord  tip_inplane  half_wing_kg
+0                                                 P50B, v1 packs, clamped at centreline        FE shell/solid     1   bending 1   12.326      0.0 -2.318                  0.198        0.049         2.214
+1                                                 P50B, v1 packs, clamped at centreline        FE shell/solid     2   bending 2   36.249      1.0  1.449                  0.052        0.097         2.214
+2                                                 P50B, v1 packs, clamped at centreline        FE shell/solid     3   torsion 1   46.620      0.0  0.355                  1.520        1.524         2.214
+3                                                 P50B, v1 packs, clamped at centreline        FE shell/solid     4   torsion 2   68.794      1.0 -0.279                  1.809        1.356         2.214
+4                                                 P50B, v1 packs, clamped at centreline        FE shell/solid     5   bending 3   69.833      2.0 -1.387                 -1.154        1.247         2.214
+5                                                 P50B, v1 packs, clamped at centreline        FE shell/solid     6   torsion 3  111.349      1.0  0.422                  1.977        0.659         2.214
+6                                                 P50B, v1 packs, clamped at centreline        FE shell/solid     7   bending 4  129.476      3.0 -0.657                  0.188        0.048         2.214
+7                                                 P50B, v1 packs, clamped at centreline        FE shell/solid     8   torsion 4  153.980      1.0 -0.503                 -0.835        1.370         2.214
+8                                                 P50B, v1 packs, clamped at centreline        FE shell/solid     9   torsion 5  164.530      2.0  0.030                 -1.036        0.304         2.214
+9                                                 P50B, v1 packs, clamped at centreline        FE shell/solid    10   torsion 6  188.685      2.0 -0.214                 -0.980        0.596         2.214
+10                                                P50B, v1 packs, clamped at centreline  beam, projected span     1   bending 1   14.841      NaN    NaN                    NaN          NaN           NaN
+11                                                P50B, v1 packs, clamped at centreline  beam, projected span     2   bending 2   46.008      NaN    NaN                    NaN          NaN           NaN
+12                                                P50B, v1 packs, clamped at centreline  beam, projected span     3   torsion 1   60.071      NaN    NaN                    NaN          NaN           NaN
+13                                                P50B, v1 packs, clamped at centreline  beam, projected span     4   torsion 2   88.700      NaN    NaN                    NaN          NaN           NaN
+14                                                P50B, v1 packs, clamped at centreline  beam, projected span     5   torsion 3  122.461      NaN    NaN                    NaN          NaN           NaN
+15                                                P50B, v1 packs, clamped at centreline  beam, projected span     6   bending 3  185.913      NaN    NaN                    NaN          NaN           NaN
+16                                                P50B, v1 packs, clamped at centreline    beam, swept length     1   bending 1   12.812      NaN    NaN                    NaN          NaN           NaN
+17                                                P50B, v1 packs, clamped at centreline    beam, swept length     2   bending 2   40.539      NaN    NaN                    NaN          NaN           NaN
+18                                                P50B, v1 packs, clamped at centreline    beam, swept length     3   torsion 1   53.732      NaN    NaN                    NaN          NaN           NaN
+19                                                P50B, v1 packs, clamped at centreline    beam, swept length     4   torsion 2   78.515      NaN    NaN                    NaN          NaN           NaN
+20                                                P50B, v1 packs, clamped at centreline    beam, swept length     5   torsion 3  109.429      NaN    NaN                    NaN          NaN           NaN
+21                                                P50B, v1 packs, clamped at centreline    beam, swept length     6   bending 3  164.143      NaN    NaN                    NaN          NaN           NaN
+22                                              SiCore, v1 packs, clamped at centreline        FE shell/solid     1   bending 1   12.324      0.0 -2.317                  0.198        0.049         2.231
+23                                              SiCore, v1 packs, clamped at centreline        FE shell/solid     2   bending 2   36.133      1.0  1.446                  0.050        0.095         2.231
+24                                              SiCore, v1 packs, clamped at centreline        FE shell/solid     3   torsion 1   46.615      0.0  0.358                  1.519        1.524         2.231
+25                                              SiCore, v1 packs, clamped at centreline        FE shell/solid     4   torsion 2   68.699      1.0 -0.377                  1.723        1.266         2.231
+26                                              SiCore, v1 packs, clamped at centreline        FE shell/solid     5   bending 3   69.742      2.0 -1.367                 -1.275        1.337         2.231
+27                                              SiCore, v1 packs, clamped at centreline        FE shell/solid     6   torsion 3  111.180      1.0  0.416                  1.976        0.656         2.231
+28                                              SiCore, v1 packs, clamped at centreline        FE shell/solid     7   bending 4  129.214      3.0 -0.659                  0.172        0.048         2.231
+29                                              SiCore, v1 packs, clamped at centreline        FE shell/solid     8   torsion 4  153.450      1.0 -0.505                 -0.840        1.370         2.231
+30                                              SiCore, v1 packs, clamped at centreline        FE shell/solid     9   torsion 5  163.934      2.0  0.036                 -1.036        0.303         2.231
+31                                              SiCore, v1 packs, clamped at centreline        FE shell/solid    10   torsion 6  188.337      2.0 -0.214                 -0.976        0.590         2.231
+32                                              SiCore, v1 packs, clamped at centreline  beam, projected span     1   bending 1   14.839      NaN    NaN                    NaN          NaN           NaN
+33                                              SiCore, v1 packs, clamped at centreline  beam, projected span     2   bending 2   45.888      NaN    NaN                    NaN          NaN           NaN
+34                                              SiCore, v1 packs, clamped at centreline  beam, projected span     3   torsion 1   60.054      NaN    NaN                    NaN          NaN           NaN
+35                                              SiCore, v1 packs, clamped at centreline  beam, projected span     4   torsion 2   88.494      NaN    NaN                    NaN          NaN           NaN
+36                                              SiCore, v1 packs, clamped at centreline  beam, projected span     5   torsion 3  122.418      NaN    NaN                    NaN          NaN           NaN
+37                                              SiCore, v1 packs, clamped at centreline  beam, projected span     6   bending 3  185.735      NaN    NaN                    NaN          NaN           NaN
+38                                              SiCore, v1 packs, clamped at centreline    beam, swept length     1   bending 1   12.810      NaN    NaN                    NaN          NaN           NaN
+39                                              SiCore, v1 packs, clamped at centreline    beam, swept length     2   bending 2   40.431      NaN    NaN                    NaN          NaN           NaN
+40                                              SiCore, v1 packs, clamped at centreline    beam, swept length     3   torsion 1   53.723      NaN    NaN                    NaN          NaN           NaN
+41                                              SiCore, v1 packs, clamped at centreline    beam, swept length     4   torsion 2   78.323      NaN    NaN                    NaN          NaN           NaN
+42                                              SiCore, v1 packs, clamped at centreline    beam, swept length     5   torsion 3  109.396      NaN    NaN                    NaN          NaN           NaN
+43                                              SiCore, v1 packs, clamped at centreline    beam, swept length     6   bending 3  163.988      NaN    NaN                    NaN          NaN           NaN
+44    P50B, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped        FE shell/solid     1   bending 1   12.055      0.0 -2.256                  0.196        0.048         2.324
+45    P50B, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped        FE shell/solid     2   bending 2   36.314      1.0  1.610                  0.096        0.122         2.324
+46    P50B, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped        FE shell/solid     3   torsion 1   46.168      0.0  0.310                  1.456        1.529         2.324
+47    P50B, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped        FE shell/solid     4   bending 3   64.776      2.0 -1.231                 -0.633        0.896         2.324
+48    P50B, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped        FE shell/solid     5   torsion 2   68.280      0.0 -0.029                 -2.075        1.487         2.324
+49    P50B, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped        FE shell/solid     6   torsion 3  109.346      1.0  0.624                  1.909        0.617         2.324
+50    P50B, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped        FE shell/solid     7   bending 4  126.483      3.0 -0.706                  0.406        0.038         2.324
+51    P50B, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped        FE shell/solid     8  in-plane 1  155.805      3.0 -0.503                 -0.522        1.280         2.324
+52    P50B, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped        FE shell/solid     9   torsion 4  160.370      1.0  0.075                  1.174        0.630         2.324
+53    P50B, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped        FE shell/solid    10   torsion 5  182.026      2.0 -0.220                 -0.843        0.564         2.324
+54    P50B, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped  beam, projected span     1   bending 1   14.554      NaN    NaN                    NaN          NaN           NaN
+55    P50B, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped  beam, projected span     2   bending 2   44.991      NaN    NaN                    NaN          NaN           NaN
+56    P50B, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped  beam, projected span     3   torsion 1   60.276      NaN    NaN                    NaN          NaN           NaN
+57    P50B, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped  beam, projected span     4   torsion 2   86.685      NaN    NaN                    NaN          NaN           NaN
+58    P50B, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped  beam, projected span     5   torsion 3  115.862      NaN    NaN                    NaN          NaN           NaN
+59    P50B, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped  beam, projected span     6   bending 3  182.165      NaN    NaN                    NaN          NaN           NaN
+60    P50B, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped    beam, swept length     1   bending 1   12.566      NaN    NaN                    NaN          NaN           NaN
+61    P50B, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped    beam, swept length     2   bending 2   39.665      NaN    NaN                    NaN          NaN           NaN
+62    P50B, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped    beam, swept length     3   torsion 1   53.834      NaN    NaN                    NaN          NaN           NaN
+63    P50B, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped    beam, swept length     4   torsion 2   76.757      NaN    NaN                    NaN          NaN           NaN
+64    P50B, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped    beam, swept length     5   torsion 3  103.827      NaN    NaN                    NaN          NaN           NaN
+65    P50B, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped    beam, swept length     6   bending 3  160.224      NaN    NaN                    NaN          NaN           NaN
+66  SiCore, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped        FE shell/solid     1   bending 1   12.053      0.0 -2.256                  0.196        0.048         2.341
+67  SiCore, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped        FE shell/solid     2   bending 2   36.229      1.0  1.606                  0.093        0.120         2.341
+68  SiCore, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped        FE shell/solid     3   torsion 1   46.162      0.0  0.315                  1.456        1.529         2.341
+69  SiCore, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped        FE shell/solid     4   bending 3   64.628      2.0 -1.235                 -0.590        0.867         2.341
+70  SiCore, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped        FE shell/solid     5   torsion 2   68.222      0.0 -0.053                 -2.086        1.504         2.341
+71  SiCore, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped        FE shell/solid     6   torsion 3  109.218      1.0  0.619                  1.909        0.616         2.341
+72  SiCore, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped        FE shell/solid     7   bending 4  126.257      3.0 -0.709                  0.389        0.038         2.341
+73  SiCore, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped        FE shell/solid     8  in-plane 1  155.317      3.0 -0.505                 -0.516        1.273         2.341
+74  SiCore, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped        FE shell/solid     9   torsion 4  159.842      1.0  0.074                  1.183        0.637         2.341
+75  SiCore, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped        FE shell/solid    10   torsion 5  181.656      2.0 -0.219                 -0.832        0.555         2.341
+76  SiCore, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped  beam, projected span     1   bending 1   14.552      NaN    NaN                    NaN          NaN           NaN
+77  SiCore, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped  beam, projected span     2   bending 2   44.915      NaN    NaN                    NaN          NaN           NaN
+78  SiCore, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped  beam, projected span     3   torsion 1   60.260      NaN    NaN                    NaN          NaN           NaN
+79  SiCore, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped  beam, projected span     4   torsion 2   86.422      NaN    NaN                    NaN          NaN           NaN
+80  SiCore, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped  beam, projected span     5   torsion 3  115.829      NaN    NaN                    NaN          NaN           NaN
+81  SiCore, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped  beam, projected span     6   bending 3  182.027      NaN    NaN                    NaN          NaN           NaN
+82  SiCore, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped    beam, swept length     1   bending 1   12.565      NaN    NaN                    NaN          NaN           NaN
+83  SiCore, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped    beam, swept length     2   bending 2   39.596      NaN    NaN                    NaN          NaN           NaN
+84  SiCore, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped    beam, swept length     3   torsion 1   53.825      NaN    NaN                    NaN          NaN           NaN
+85  SiCore, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped    beam, swept length     4   torsion 2   76.517      NaN    NaN                    NaN          NaN           NaN
+86  SiCore, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped    beam, swept length     5   torsion 3  103.802      NaN    NaN                    NaN          NaN           NaN
+87  SiCore, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped    beam, swept length     6   bending 3  160.103      NaN    NaN                    NaN          NaN           NaN

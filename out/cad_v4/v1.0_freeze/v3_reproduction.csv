@@ -1,0 +1,80 @@
+quantity,archived,port,port_brep,archived_source,port_minus_archived,brep_minus_archived
+wing_centre volume (cm3),16543.7876,16554.3044,11479.1817,v3 STL mesh (0.4 mm),10.5168,-5064.6059
+wing_centre centroid x (mm),324.598,324.5385,378.1251,v3 STL mesh (0.4 mm),-0.0595,53.5271
+wing_centre centroid y (mm),0.0022,0.0002,-0.0,v3 STL mesh (0.4 mm),-0.002,-0.0022
+wing_centre centroid z (mm),7.63,7.6338,11.3883,v3 STL mesh (0.4 mm),0.0038,3.7583
+wing_outer_R volume (cm3),8998.7678,9011.0169,8911.3774,v3 STL mesh (0.4 mm),12.2491,-87.3904
+wing_outer_R centroid x (mm),598.3947,598.3865,599.3164,v3 STL mesh (0.4 mm),-0.0082,0.9217
+wing_outer_R centroid y (mm),873.0934,873.1582,868.5431,v3 STL mesh (0.4 mm),0.0648,-4.5502
+wing_outer_R centroid z (mm),6.6993,6.7035,6.8855,v3 STL mesh (0.4 mm),0.0042,0.1862
+elevon_R volume (cm3),712.8879,712.1467,710.9202,v3 STL mesh (0.4 mm),-0.7412,-1.9678
+elevon_R centroid x (mm),789.5225,789.4845,789.4476,v3 STL mesh (0.4 mm),-0.038,-0.0749
+elevon_R centroid y (mm),872.8279,872.7452,872.6667,v3 STL mesh (0.4 mm),-0.0827,-0.1612
+elevon_R centroid z (mm),6.7681,6.762,6.7515,v3 STL mesh (0.4 mm),-0.0061,-0.0166
+winglet_R volume (cm3),632.5007,632.0577,552.2368,v3 STL mesh (0.4 mm),-0.443,-80.2639
+winglet_R centroid x (mm),947.112,947.095,962.0142,v3 STL mesh (0.4 mm),-0.017,14.9023
+winglet_R centroid y (mm),1499.9998,1500.0001,1500.0445,v3 STL mesh (0.4 mm),0.0002,0.0447
+winglet_R centroid z (mm),104.5853,104.588,97.6127,v3 STL mesh (0.4 mm),0.0027,-6.9726
+pod volume (cm3),14504.1712,14511.2876,14515.1553,v3 STL mesh (0.4 mm),7.1164,10.9841
+pod centroid x (mm),258.924,258.9185,258.9184,v3 STL mesh (0.4 mm),-0.0055,-0.0057
+pod centroid y (mm),-0.0001,0.0001,-0.0,v3 STL mesh (0.4 mm),0.0002,0.0001
+pod centroid z (mm),-31.8729,-31.8726,-31.8715,v3 STL mesh (0.4 mm),0.0003,0.0014
+bay_door volume (cm3),692.4246,692.746,693.1805,v3 STL mesh (0.4 mm),0.3214,0.7559
+bay_door centroid x (mm),424.4066,424.4229,424.4342,v3 STL mesh (0.4 mm),0.0164,0.0276
+bay_door centroid y (mm),0.0008,-0.0,0.0,v3 STL mesh (0.4 mm),-0.0008,-0.0008
+bay_door centroid z (mm),-100.4919,-100.4994,-100.51,v3 STL mesh (0.4 mm),-0.0075,-0.018
+battery_R volume (cm3),363.3396,363.6409,363.6786,v3 STL mesh (0.4 mm),0.3014,0.3391
+battery_R centroid x (mm),452.0,452.0,452.0,v3 STL mesh (0.4 mm),0.0,0.0
+battery_R centroid y (mm),355.0,355.0,355.0,v3 STL mesh (0.4 mm),0.0,0.0
+battery_R centroid z (mm),7.5394,7.5394,7.5394,v3 STL mesh (0.4 mm),0.0,-0.0
+spar_joiner_R volume (cm3),45.1941,45.2316,45.2363,v3 STL mesh (0.4 mm),0.0375,0.0422
+spar_joiner_R centroid x (mm),357.6134,357.6135,357.6134,v3 STL mesh (0.4 mm),0.0,0.0
+spar_joiner_R centroid y (mm),450.0,450.0,450.0,v3 STL mesh (0.4 mm),0.0,0.0
+spar_joiner_R centroid z (mm),8.0529,8.0529,8.0529,v3 STL mesh (0.4 mm),-0.0,-0.0
+kit_container volume (cm3),407.7984,407.831,407.839,v3 STL mesh (0.4 mm),0.0327,0.0407
+kit_container centroid x (mm),416.0406,416.0405,416.0405,v3 STL mesh (0.4 mm),-0.0001,-0.0001
+kit_container centroid y (mm),0.0,-0.0,0.0,v3 STL mesh (0.4 mm),-0.0,0.0
+kit_container centroid z (mm),-23.7596,-23.7594,-23.7593,v3 STL mesh (0.4 mm),0.0002,0.0003
+fit: battery_R min clearance (mm),2.0305,2.0305,,cad_v3/fit_check.csv,-0.0,
+fit: battery_R share inside,1.0,1.0,,cad_v3/fit_check.csv,0.0,
+fit: battery_L min clearance (mm),2.0305,2.0305,,cad_v3/fit_check.csv,-0.0,
+fit: battery_L share inside,1.0,1.0,,cad_v3/fit_check.csv,0.0,
+fit: spar_joiner_R min clearance (mm),13.2417,13.2417,,cad_v3/fit_check.csv,-0.0,
+fit: spar_joiner_R share inside,1.0,1.0,,cad_v3/fit_check.csv,0.0,
+fit: elevon_servo_R min clearance (mm),3.2379,3.2379,,cad_v3/fit_check.csv,0.0,
+fit: elevon_servo_R share inside,1.0,1.0,,cad_v3/fit_check.csv,0.0,
+fit: kit_container min clearance (mm),5.5413,5.5409,,cad_v3/fit_check.csv,-0.0004,
+fit: kit_container share inside,1.0,1.0,,cad_v3/fit_check.csv,0.0,
+fit: flight_controller min clearance (mm),40.7032,40.7056,,cad_v3/fit_check.csv,0.0024,
+fit: flight_controller share inside,1.0,1.0,,cad_v3/fit_check.csv,0.0,
+fit: esc min clearance (mm),30.7026,30.7027,,cad_v3/fit_check.csv,0.0001,
+fit: esc share inside,1.0,1.0,,cad_v3/fit_check.csv,0.0,
+fit: bay_battery_module (alt) min clearance (mm),23.5006,23.5014,,cad_v3/fit_check.csv,0.0008,
+fit: bay_battery_module (alt) share inside,1.0,1.0,,cad_v3/fit_check.csv,0.0,
+fit: propeller disc 15 in min clearance (mm),40.2555,40.2555,,cad_v3/fit_check.csv,-0.0,
+fit: propeller disc 15 in share inside,0.0,0.0,,cad_v3/fit_check.csv,0.0,
+"mass_cg: wing structure (centre, outer panels, elevons) x (mm)",524.9,480.0223,525.4727,cad_v3/mass_cg.csv,-44.8777,0.5727
+"mass_cg: wing structure (centre, outer panels, elevons) z (mm)",8.8,7.1336,8.5617,cad_v3/mass_cg.csv,-1.6664,-0.2383
+mass_cg: winglets x (mm),962.0,947.095,962.0142,cad_v3/mass_cg.csv,-14.905,0.0142
+mass_cg: winglets z (mm),97.6,104.588,97.6127,cad_v3/mass_cg.csv,6.988,0.0127
+mass_cg: batteries (P50B 30 cells) x (mm),452.0,452.0,452.0,cad_v3/mass_cg.csv,0.0,-0.0
+mass_cg: batteries (P50B 30 cells) z (mm),7.5,7.5394,7.5394,cad_v3/mass_cg.csv,0.0394,0.0394
+mass_cg: rescue kit x (mm),422.0,422.0405,422.0405,cad_v3/mass_cg.csv,0.0405,0.0405
+mass_cg: rescue kit z (mm),-62.0,-62.0,-62.0,cad_v3/mass_cg.csv,0.0,0.0
+mass_cg: kit parachute x (mm),422.0,422.0405,422.0405,cad_v3/mass_cg.csv,0.0405,0.0405
+mass_cg: kit parachute z (mm),-8.5,-8.5,-8.5,cad_v3/mass_cg.csv,0.0,0.0
+mass_cg: kit container + release x (mm),415.0,414.9746,414.9747,cad_v3/mass_cg.csv,-0.0254,-0.0253
+mass_cg: kit container + release z (mm),-23.6,-23.5906,-23.5905,cad_v3/mass_cg.csv,0.0094,0.0095
+mass_cg: gimbal (thermal + RGB) x (mm),70.0,69.9999,70.0,cad_v3/mass_cg.csv,-0.0001,0.0
+mass_cg: gimbal (thermal + RGB) z (mm),-113.1,-113.0639,-113.0645,cad_v3/mass_cg.csv,0.0361,0.0355
+"mass_cg: avionics (FC, GPS, radio) x (mm)",234.2,234.1881,234.1867,cad_v3/mass_cg.csv,-0.0119,-0.0133
+"mass_cg: avionics (FC, GPS, radio) z (mm)",-26.8,-26.7555,-26.7539,cad_v3/mass_cg.csv,0.0445,0.0461
+mass_cg: pod structure + door + skid x (mm),266.5,266.4664,266.4694,cad_v3/mass_cg.csv,-0.0336,-0.0306
+mass_cg: pod structure + door + skid z (mm),-35.1,-35.1491,-35.1496,cad_v3/mass_cg.csv,-0.0491,-0.0496
+mass_cg: motor + ESC + prop x (mm),665.6,665.645,665.6476,cad_v3/mass_cg.csv,0.045,0.0476
+mass_cg: motor + ESC + prop z (mm),-35.0,-35.0,-35.0,cad_v3/mass_cg.csv,-0.0,0.0
+"mass_cg: misc (wiring, glue) 5% x (mm)",350.0,350.0,350.0,cad_v3/mass_cg.csv,0.0,0.0
+"mass_cg: misc (wiring, glue) 5% z (mm)",-20.0,-20.0,-20.0,cad_v3/mass_cg.csv,0.0,0.0
+aircraft x_cg kit on (mm),422.3425,414.3007,422.4518,cad_v3/cg_summary.csv,-8.0418,0.1093
+aircraft x_cg kit off (mm),422.4279,412.1109,422.5682,cad_v3/cg_summary.csv,-10.3171,0.1402
+aircraft z_cg kit on (mm),-21.8306,-22.0244,-21.8758,cad_v3/cg_summary.csv,-0.1938,-0.0452

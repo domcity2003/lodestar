@@ -6,6 +6,7 @@ Outputs go to out/smoke/.
 from pathlib import Path
 import subprocess
 import shutil
+import sys
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "out" / "smoke"
@@ -22,7 +23,12 @@ def check(name, fn):
         msg = fn()
         results[name] = ("OK", msg)
     except Exception as e:  # report and keep going
-        results[name] = ("FAIL", f"{type(e).__name__}: {e}")
+        if "Application Control" in str(e):
+            # Blocked by the machine's Windows Application Control policy, not broken. CAD runs through
+            # FreeCAD headless instead (scripts/fcad/, checked below and by fcad/test_fcad.py).
+            results[name] = ("SKIP", f"blocked by Windows Application Control; CAD uses FreeCAD via scripts/fcad ({e})")
+        else:
+            results[name] = ("FAIL", f"{type(e).__name__}: {e}")
 
 
 # A toy swept flying wing (1.2 m span) with a reflexed airfoil, used by several checks.
@@ -139,3 +145,9 @@ width = max(len(k) for k in results)
 for k, (status, msg) in results.items():
     print(f"{k:<{width}}  {status:<4}  {msg}")
 
+# A failed tool used to print FAIL but still exit 0, so a runner could not see it.
+failed = [k for k, (status, _) in results.items() if status == "FAIL"]
+skipped = [k for k, (status, _) in results.items() if status == "SKIP"]
+print()
+print(f"{len(results) - len(failed) - len(skipped)} OK, {len(failed)} FAIL, {len(skipped)} SKIP")
+sys.exit(1 if failed else 0)

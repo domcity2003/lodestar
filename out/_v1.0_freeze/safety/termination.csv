@@ -1,0 +1,11 @@
+case,mass,v_impact,ke_J,note,x_cat3_34J
+"controlled glide, belly landing at best-glide speed",kit on,17.349999999999987,1251.5010437499982,aircraft controlled; impact point chosen,36.917434918879
+tumbling or flat-spin descent (CD about 1.0 on planform),kit on,11.2369415659777,524.962767810548,loss of control; impact within about 100 m of the track,15.485627369042716
+steep dive from 120 m AGL (CD0 about 0.02),kit on,46.6269122915965,9038.691658994027,worst case: control lost nose-down,266.62807253669695
+"terminal parachute, 5.0 m/s (CD 0.8, 8.1 m2, 3.2 m flat diameter)",kit on,5.0,103.9375,not on v1,3.0660029498525074
+"terminal parachute, 6.7 m/s (CD 0.8, 4.5 m2, 2.4 m flat diameter)",kit on,6.7,186.63017499999998,not on v1,5.505314896755162
+"controlled glide, belly landing at best-glide speed",kit released,15.559999999999992,809.9910487999991,aircraft controlled; impact point chosen,23.89354126253685
+tumbling or flat-spin descent (CD about 1.0 on planform),kit released,10.080045921586258,339.9273084012982,loss of control; impact within about 100 m of the track,10.027354230126791
+steep dive from 120 m AGL (CD0 about 0.02),kit released,45.125313087678784,6812.42117975879,worst case: control lost nose-down,200.9563769840351
+"terminal parachute, 5.0 m/s (CD 0.8, 6.5 m2, 2.9 m flat diameter)",kit released,5.0,83.6375,not on v1,2.4671828908554576
+"terminal parachute, 6.7 m/s (CD 0.8, 3.6 m2, 2.2 m flat diameter)",kit released,6.7,150.179495,not on v1,4.4300735988200595

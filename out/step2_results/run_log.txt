@@ -1,0 +1,198 @@
+P1 help (percent)
+ pattern                 aircraft  help_1h  help_3h                       calibration
+trails 3           AgEagle eBee X     5.29     5.83                 low (0.735, 0.20)
+trails 3      C-Astral Bramor ppX     5.66     9.80                 low (0.735, 0.20)
+trails 3        DeltaQuad Evo GOV     5.11    10.71                 low (0.735, 0.20)
+trails 3 DeltaQuad Evo-LE (press)     5.46    11.49                 low (0.735, 0.20)
+trails 3            Lodestar P50B     8.07    11.57                 low (0.735, 0.20)
+trails 3          Lodestar SiCore     8.58    13.80                 low (0.735, 0.20)
+trails 3      Quantum Trinity Pro     5.40     5.69                 low (0.735, 0.20)
+trails 6           AgEagle eBee X     5.46     5.83                 low (0.735, 0.20)
+trails 6      C-Astral Bramor ppX     5.71     9.06                 low (0.735, 0.20)
+trails 6        DeltaQuad Evo GOV     5.54     9.83                 low (0.735, 0.20)
+trails 6 DeltaQuad Evo-LE (press)     5.43    11.17                 low (0.735, 0.20)
+trails 6            Lodestar P50B     8.10    10.83                 low (0.735, 0.20)
+trails 6          Lodestar SiCore     8.15    12.09                 low (0.735, 0.20)
+trails 6      Quantum Trinity Pro     5.43     5.94                 low (0.735, 0.20)
+trails 3           AgEagle eBee X     6.66     7.26               nominal (1.5, 0.35)
+trails 3      C-Astral Bramor ppX     7.20    12.57               nominal (1.5, 0.35)
+trails 3        DeltaQuad Evo GOV     6.77    13.86               nominal (1.5, 0.35)
+trails 3 DeltaQuad Evo-LE (press)     7.11    15.43               nominal (1.5, 0.35)
+trails 3            Lodestar P50B    11.31    16.60               nominal (1.5, 0.35)
+trails 3          Lodestar SiCore    11.80    18.48               nominal (1.5, 0.35)
+trails 3      Quantum Trinity Pro     6.83     7.23               nominal (1.5, 0.35)
+trails 6           AgEagle eBee X     6.94     7.49               nominal (1.5, 0.35)
+trails 6      C-Astral Bramor ppX     7.31    12.06               nominal (1.5, 0.35)
+trails 6        DeltaQuad Evo GOV     7.43    12.80               nominal (1.5, 0.35)
+trails 6 DeltaQuad Evo-LE (press)     7.40    14.43               nominal (1.5, 0.35)
+trails 6            Lodestar P50B    11.21    15.31               nominal (1.5, 0.35)
+trails 6          Lodestar SiCore    11.31    17.43               nominal (1.5, 0.35)
+trails 6      Quantum Trinity Pro     7.37     7.91               nominal (1.5, 0.35)
+trails 3           AgEagle eBee X     7.83     8.51                  high (3.0, 0.50)
+trails 3      C-Astral Bramor ppX     8.77    15.23                  high (3.0, 0.50)
+trails 3        DeltaQuad Evo GOV     8.20    16.66                  high (3.0, 0.50)
+trails 3 DeltaQuad Evo-LE (press)     8.60    18.29                  high (3.0, 0.50)
+trails 3            Lodestar P50B    14.28    20.54                  high (3.0, 0.50)
+trails 3          Lodestar SiCore    14.53    22.74                  high (3.0, 0.50)
+trails 3      Quantum Trinity Pro     8.20     8.71                  high (3.0, 0.50)
+trails 6           AgEagle eBee X     8.34     9.00                  high (3.0, 0.50)
+trails 6      C-Astral Bramor ppX     8.77    14.49                  high (3.0, 0.50)
+trails 6        DeltaQuad Evo GOV     8.86    15.74                  high (3.0, 0.50)
+trails 6 DeltaQuad Evo-LE (press)     8.97    17.40                  high (3.0, 0.50)
+trails 6            Lodestar P50B    14.34    20.00                  high (3.0, 0.50)
+trails 6          Lodestar SiCore    14.45    22.57                  high (3.0, 0.50)
+trails 6      Quantum Trinity Pro     8.91     9.63                  high (3.0, 0.50)
+trails 3           AgEagle eBee X     4.83     4.89 low, competitors at 80% endurance
+trails 3      C-Astral Bramor ppX     5.43     8.69 low, competitors at 80% endurance
+trails 3        DeltaQuad Evo GOV     5.29     9.51 low, competitors at 80% endurance
+trails 3 DeltaQuad Evo-LE (press)     5.57    11.29 low, competitors at 80% endurance
+trails 3            Lodestar P50B     8.07    11.57 low, competitors at 80% endurance
+trails 3          Lodestar SiCore     8.58    13.80 low, competitors at 80% endurance
+trails 3      Quantum Trinity Pro     4.89     4.94 low, competitors at 80% endurance
+trails 6           AgEagle eBee X     4.94     5.03 low, competitors at 80% endurance
+trails 6      C-Astral Bramor ppX     5.69     8.03 low, competitors at 80% endurance
+trails 6        DeltaQuad Evo GOV     5.46     8.74 low, competitors at 80% endurance
+trails 6 DeltaQuad Evo-LE (press)     5.51    11.26 low, competitors at 80% endurance
+trails 6            Lodestar P50B     8.10    10.83 low, competitors at 80% endurance
+trails 6          Lodestar SiCore     8.15    12.09 low, competitors at 80% endurance
+trails 6      Quantum Trinity Pro     4.91     5.11 low, competitors at 80% endurance
+
+P1 Lodestar SiCore minus competitor (pp, paired)
+                      calibration  pattern  metric               competitor  lodestar_minus_pp  low_95_pp  high_95_pp
+                low (0.735, 0.20) trails 3 help_1h           AgEagle eBee X               3.29       2.44        4.13
+                low (0.735, 0.20) trails 3 help_1h      C-Astral Bramor ppX               2.92       2.15        3.72
+                low (0.735, 0.20) trails 3 help_1h        DeltaQuad Evo GOV               3.47       2.64        4.33
+                low (0.735, 0.20) trails 3 help_1h DeltaQuad Evo-LE (press)               3.12       2.30        3.93
+                low (0.735, 0.20) trails 3 help_1h            Lodestar P50B               0.51      -0.17        1.17
+                low (0.735, 0.20) trails 3 help_1h      Quantum Trinity Pro               3.18       2.40        4.02
+                low (0.735, 0.20) trails 3 help_3h           AgEagle eBee X               7.97       6.80        9.17
+                low (0.735, 0.20) trails 3 help_3h      C-Astral Bramor ppX               4.00       3.03        4.94
+                low (0.735, 0.20) trails 3 help_3h        DeltaQuad Evo GOV               3.09       2.11        4.06
+                low (0.735, 0.20) trails 3 help_3h DeltaQuad Evo-LE (press)               2.31       1.37        3.26
+                low (0.735, 0.20) trails 3 help_3h            Lodestar P50B               2.23       1.40        3.06
+                low (0.735, 0.20) trails 3 help_3h      Quantum Trinity Pro               8.11       6.97        9.28
+                low (0.735, 0.20) trails 6 help_1h           AgEagle eBee X               2.69       1.86        3.55
+                low (0.735, 0.20) trails 6 help_1h      C-Astral Bramor ppX               2.44       1.67        3.26
+                low (0.735, 0.20) trails 6 help_1h        DeltaQuad Evo GOV               2.61       1.81        3.46
+                low (0.735, 0.20) trails 6 help_1h DeltaQuad Evo-LE (press)               2.72       1.90        3.58
+                low (0.735, 0.20) trails 6 help_1h            Lodestar P50B               0.05      -0.61        0.70
+                low (0.735, 0.20) trails 6 help_1h      Quantum Trinity Pro               2.72       1.90        3.55
+                low (0.735, 0.20) trails 6 help_3h           AgEagle eBee X               6.26       5.17        7.40
+                low (0.735, 0.20) trails 6 help_3h      C-Astral Bramor ppX               3.03       2.09        4.00
+                low (0.735, 0.20) trails 6 help_3h        DeltaQuad Evo GOV               2.26       1.26        3.23
+                low (0.735, 0.20) trails 6 help_3h DeltaQuad Evo-LE (press)               0.91      -0.06        1.89
+                low (0.735, 0.20) trails 6 help_3h            Lodestar P50B               1.26       0.46        2.09
+                low (0.735, 0.20) trails 6 help_3h      Quantum Trinity Pro               6.14       5.11        7.23
+              nominal (1.5, 0.35) trails 3 help_1h           AgEagle eBee X               5.14       4.19        6.09
+              nominal (1.5, 0.35) trails 3 help_1h      C-Astral Bramor ppX               4.60       3.73        5.56
+              nominal (1.5, 0.35) trails 3 help_1h        DeltaQuad Evo GOV               5.03       4.15        5.95
+              nominal (1.5, 0.35) trails 3 help_1h DeltaQuad Evo-LE (press)               4.68       3.84        5.54
+              nominal (1.5, 0.35) trails 3 help_1h            Lodestar P50B               0.49      -0.09        1.06
+              nominal (1.5, 0.35) trails 3 help_1h      Quantum Trinity Pro               4.97       4.05        5.90
+              nominal (1.5, 0.35) trails 3 help_3h           AgEagle eBee X              11.22       9.83       12.62
+              nominal (1.5, 0.35) trails 3 help_3h      C-Astral Bramor ppX               5.91       4.86        6.97
+              nominal (1.5, 0.35) trails 3 help_3h        DeltaQuad Evo GOV               4.62       3.63        5.66
+              nominal (1.5, 0.35) trails 3 help_3h DeltaQuad Evo-LE (press)               3.05       2.19        3.94
+              nominal (1.5, 0.35) trails 3 help_3h            Lodestar P50B               1.88       1.25        2.59
+              nominal (1.5, 0.35) trails 3 help_3h      Quantum Trinity Pro              11.25       9.91       12.62
+              nominal (1.5, 0.35) trails 6 help_1h           AgEagle eBee X               4.37       3.43        5.33
+              nominal (1.5, 0.35) trails 6 help_1h      C-Astral Bramor ppX               4.00       3.05        4.92
+              nominal (1.5, 0.35) trails 6 help_1h        DeltaQuad Evo GOV               3.88       2.95        4.80
+              nominal (1.5, 0.35) trails 6 help_1h DeltaQuad Evo-LE (press)               3.91       3.00        4.82
+              nominal (1.5, 0.35) trails 6 help_1h            Lodestar P50B               0.11      -0.54        0.81
+              nominal (1.5, 0.35) trails 6 help_1h      Quantum Trinity Pro               3.94       3.03        4.82
+              nominal (1.5, 0.35) trails 6 help_3h           AgEagle eBee X               9.94       8.63       11.26
+              nominal (1.5, 0.35) trails 6 help_3h      C-Astral Bramor ppX               5.37       4.26        6.46
+              nominal (1.5, 0.35) trails 6 help_3h        DeltaQuad Evo GOV               4.63       3.51        5.74
+              nominal (1.5, 0.35) trails 6 help_3h DeltaQuad Evo-LE (press)               3.00       2.00        3.97
+              nominal (1.5, 0.35) trails 6 help_3h            Lodestar P50B               2.11       1.26        2.97
+              nominal (1.5, 0.35) trails 6 help_3h      Quantum Trinity Pro               9.51       8.26       10.80
+                 high (3.0, 0.50) trails 3 help_1h           AgEagle eBee X               6.70       5.68        7.82
+                 high (3.0, 0.50) trails 3 help_1h      C-Astral Bramor ppX               5.76       4.74        6.81
+                 high (3.0, 0.50) trails 3 help_1h        DeltaQuad Evo GOV               6.33       5.34        7.38
+                 high (3.0, 0.50) trails 3 help_1h DeltaQuad Evo-LE (press)               5.93       4.93        6.91
+                 high (3.0, 0.50) trails 3 help_1h            Lodestar P50B               0.26      -0.20        0.71
+                 high (3.0, 0.50) trails 3 help_1h      Quantum Trinity Pro               6.33       5.33        7.34
+                 high (3.0, 0.50) trails 3 help_3h           AgEagle eBee X              14.22      12.63       15.91
+                 high (3.0, 0.50) trails 3 help_3h      C-Astral Bramor ppX               7.51       6.28        8.74
+                 high (3.0, 0.50) trails 3 help_3h        DeltaQuad Evo GOV               6.08       5.00        7.14
+                 high (3.0, 0.50) trails 3 help_3h DeltaQuad Evo-LE (press)               4.45       3.57        5.42
+                 high (3.0, 0.50) trails 3 help_3h            Lodestar P50B               2.20       1.57        2.88
+                 high (3.0, 0.50) trails 3 help_3h      Quantum Trinity Pro              14.02      12.43       15.65
+                 high (3.0, 0.50) trails 6 help_1h           AgEagle eBee X               6.11       5.12        7.16
+                 high (3.0, 0.50) trails 6 help_1h      C-Astral Bramor ppX               5.68       4.70        6.67
+                 high (3.0, 0.50) trails 6 help_1h        DeltaQuad Evo GOV               5.59       4.56        6.63
+                 high (3.0, 0.50) trails 6 help_1h DeltaQuad Evo-LE (press)               5.48       4.55        6.44
+                 high (3.0, 0.50) trails 6 help_1h            Lodestar P50B               0.10      -0.43        0.64
+                 high (3.0, 0.50) trails 6 help_1h      Quantum Trinity Pro               5.53       4.62        6.45
+                 high (3.0, 0.50) trails 6 help_3h           AgEagle eBee X              13.57      12.06       15.09
+                 high (3.0, 0.50) trails 6 help_3h      C-Astral Bramor ppX               8.09       6.83        9.34
+                 high (3.0, 0.50) trails 6 help_3h        DeltaQuad Evo GOV               6.83       5.60        8.03
+                 high (3.0, 0.50) trails 6 help_3h DeltaQuad Evo-LE (press)               5.17       4.06        6.26
+                 high (3.0, 0.50) trails 6 help_3h            Lodestar P50B               2.57       1.74        3.40
+                 high (3.0, 0.50) trails 6 help_3h      Quantum Trinity Pro              12.94      11.49       14.40
+low, competitors at 80% endurance trails 3 help_1h           AgEagle eBee X               3.75       2.90        4.61
+low, competitors at 80% endurance trails 3 help_1h      C-Astral Bramor ppX               3.15       2.36        3.98
+low, competitors at 80% endurance trails 3 help_1h        DeltaQuad Evo GOV               3.29       2.47        4.15
+low, competitors at 80% endurance trails 3 help_1h DeltaQuad Evo-LE (press)               3.01       2.21        3.81
+low, competitors at 80% endurance trails 3 help_1h            Lodestar P50B               0.51      -0.13        1.21
+low, competitors at 80% endurance trails 3 help_1h      Quantum Trinity Pro               3.69       2.89        4.53
+low, competitors at 80% endurance trails 3 help_3h           AgEagle eBee X               8.91       7.71       10.14
+low, competitors at 80% endurance trails 3 help_3h      C-Astral Bramor ppX               5.11       4.09        6.14
+low, competitors at 80% endurance trails 3 help_3h        DeltaQuad Evo GOV               4.29       3.23        5.31
+low, competitors at 80% endurance trails 3 help_3h DeltaQuad Evo-LE (press)               2.51       1.54        3.49
+low, competitors at 80% endurance trails 3 help_3h            Lodestar P50B               2.23       1.43        3.06
+low, competitors at 80% endurance trails 3 help_3h      Quantum Trinity Pro               8.86       7.71       10.06
+low, competitors at 80% endurance trails 6 help_1h           AgEagle eBee X               3.21       2.34        4.06
+low, competitors at 80% endurance trails 6 help_1h      C-Astral Bramor ppX               2.47       1.67        3.26
+low, competitors at 80% endurance trails 6 help_1h        DeltaQuad Evo GOV               2.69       1.88        3.55
+low, competitors at 80% endurance trails 6 help_1h DeltaQuad Evo-LE (press)               2.64       1.84        3.47
+low, competitors at 80% endurance trails 6 help_1h            Lodestar P50B               0.05      -0.61        0.68
+low, competitors at 80% endurance trails 6 help_1h      Quantum Trinity Pro               3.24       2.38        4.13
+low, competitors at 80% endurance trails 6 help_3h           AgEagle eBee X               7.06       5.97        8.23
+low, competitors at 80% endurance trails 6 help_3h      C-Astral Bramor ppX               4.06       3.06        5.03
+low, competitors at 80% endurance trails 6 help_3h        DeltaQuad Evo GOV               3.34       2.29        4.37
+low, competitors at 80% endurance trails 6 help_3h DeltaQuad Evo-LE (press)               0.83      -0.11        1.80
+low, competitors at 80% endurance trails 6 help_3h            Lodestar P50B               1.26       0.43        2.11
+low, competitors at 80% endurance trails 6 help_3h      Quantum Trinity Pro               6.97       5.89        8.11
+
+P2 contact
+        calibration                 aircraft  contacted_3h_pct  contacted_1h_pct  median_min  p90_min
+  low (0.735, 0.20)           AgEagle eBee X               5.8               5.4        30.7     56.5
+  low (0.735, 0.20)      C-Astral Bramor ppX               9.4               5.7        44.1    113.7
+  low (0.735, 0.20)        DeltaQuad Evo GOV              10.3               5.3        55.1    132.7
+  low (0.735, 0.20) DeltaQuad Evo-LE (press)              11.3               5.4        64.0    153.3
+  low (0.735, 0.20)            Lodestar P50B              11.2               8.1        32.6     87.3
+  low (0.735, 0.20)          Lodestar SiCore              12.9               8.4        37.8    103.7
+  low (0.735, 0.20)      Quantum Trinity Pro               5.8               5.4        29.8     55.2
+nominal (1.5, 0.35)           AgEagle eBee X               7.4               6.8        29.8     56.5
+nominal (1.5, 0.35)      C-Astral Bramor ppX              12.3               7.3        44.5    114.7
+nominal (1.5, 0.35)        DeltaQuad Evo GOV              13.3               7.1        53.2    134.3
+nominal (1.5, 0.35) DeltaQuad Evo-LE (press)              14.9               7.3        62.1    155.9
+nominal (1.5, 0.35)            Lodestar P50B              16.0              11.3        33.3     90.0
+nominal (1.5, 0.35)          Lodestar SiCore              18.0              11.6        38.4    102.1
+nominal (1.5, 0.35)      Quantum Trinity Pro               7.6               7.1        27.9     54.8
+   high (3.0, 0.50)           AgEagle eBee X               8.8               8.1        30.9     56.9
+   high (3.0, 0.50)      C-Astral Bramor ppX              14.9               8.8        45.6    115.0
+   high (3.0, 0.50)        DeltaQuad Evo GOV              16.2               8.5        55.3    136.9
+   high (3.0, 0.50) DeltaQuad Evo-LE (press)              17.8               8.8        61.6    156.4
+   high (3.0, 0.50)            Lodestar P50B              20.3              14.3        33.5     88.7
+   high (3.0, 0.50)          Lodestar SiCore              22.7              14.5        38.6    103.5
+   high (3.0, 0.50)      Quantum Trinity Pro               9.2               8.6        28.2     55.1
+
+P5 area per sortie
+                aircraft  straight_search_km  sweep_width_m  area_km2_per_sortie
+          AgEagle eBee X               67.69          55.06                 3.73
+     C-Astral Bramor ppX              170.13          55.06                 9.37
+       DeltaQuad Evo GOV              215.67          55.06                11.87
+DeltaQuad Evo-LE (press)              416.01          55.06                22.90
+           Lodestar P50B              177.37         126.77                22.49
+         Lodestar SiCore              223.37         126.77                28.32
+     Quantum Trinity Pro               76.86          55.06                 4.23
+
+Held-out confirmation, seed 20261114 (v1.1 minus v1, Lodestar SiCore)
+ pattern  metric  v1_pct  v11_pct  delta_pp  low_95_pp  high_95_pp
+trails 3 help_1h    5.00     8.53      3.53       2.59        4.50
+trails 3 help_3h    9.71    13.60      3.89       2.88        4.97
+trails 6 help_1h    5.02     7.99      2.97       2.06        3.86
+trails 6 help_3h    8.63    12.34      3.72       2.63        4.80

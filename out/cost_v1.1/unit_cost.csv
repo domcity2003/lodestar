@@ -1,0 +1,7 @@
+case,labour,parts,airframe,tooling_share,total
+low,paid build,13923.0,1925.0,40.0,15888.0
+low,volunteer build,13923.0,350.0,40.0,14313.0
+unit,paid build,16418.0,2475.0,60.0,18953.0
+unit,volunteer build,16418.0,450.0,60.0,16928.0
+high,paid build,23517.0,3300.0,100.0,26917.0
+high,volunteer build,23517.0,600.0,100.0,24217.0

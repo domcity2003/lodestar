@@ -1,0 +1,8 @@
+aircraft,v_max_mps,basis,groundspeed_into_12_mps,dash_5km_still_min,dash_5km_into_10_min
+Lodestar SiCore,29.4619,"propulsion_margins worst corner (DA 0 m, -10 C, kit on)",17.4619,2.828511852030362,4.281870389496058
+Lodestar P50B,34.7868,"propulsion_margins worst corner (DA 0 m, -10 C, kit on)",22.7868,2.395544670200574,3.362004507775644
+DeltaQuad Evo GOV,23.0,published-style v_max (mission_sim.COMPETITORS),11.0,3.6231884057971016,6.410256410256411
+C-Astral Bramor ppX,22.0,published-style v_max (mission_sim.COMPETITORS),10.0,3.787878787878788,6.944444444444445
+Quantum Trinity Pro,22.0,published-style v_max (mission_sim.COMPETITORS),10.0,3.787878787878788,6.944444444444445
+AgEagle eBee X,30.0,published-style v_max (mission_sim.COMPETITORS),18.0,2.7777777777777777,4.166666666666667
+DeltaQuad Evo-LE (press),23.0,published-style v_max (mission_sim.COMPETITORS),11.0,3.6231884057971016,6.410256410256411

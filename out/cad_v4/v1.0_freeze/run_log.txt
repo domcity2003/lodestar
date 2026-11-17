@@ -1,0 +1,60 @@
+Lodestar v4 CAD (FreeCAD headless via fcad), 2026-11-14; prop 15 in
+Packs at x = 0.412 m, y = +/-0.305 m; joint: compact
+
+FreeCAD 1.1.4: 38 shapes in 148 s
+
+Interference between internal parts (26 parts; 7 pairs close enough to test): none
+Propeller disc (15 in, 30 mm thick) to the wing: 40.3 mm; to the elevons: 261.0 mm
+Fit check (part fully inside its parent's outer surface, with >= 1.5 mm for the skin):
+                    part     parent  share_inside  min_clearance_mm   ok
+               battery_R       wing           1.0             4.196 True
+               battery_L       wing           1.0             4.196 True
+            joint_tube_R       wing           1.0            12.889 True
+       joint_sleeve_in_R       wing           1.0            12.447 True
+      joint_sleeve_out_R       wing           1.0            10.889 True
+          elevon_servo_R       wing           1.0             3.238 True
+           kit_container        pod           1.0             5.541 True
+       flight_controller        pod           1.0            40.706 True
+                     esc        pod           1.0            30.703 True
+bay_battery_module (alt)        pod           1.0            23.501 True
+    propeller disc 15 in wing (gap)           0.0            40.255 True
+
+Joint and pack gaps (CAD vs earlier screening):
+                                                 check  cad_mm  reference_mm                                                    reference  diff_mm
+                    cell to sleeve (new pack position)    5.29          4.30 battery_trim.csv dx -40 dy -50 (capsule model, conservative)     0.98
+    cell to skin after 1.5 mm allowance (new position)    2.70          2.88                               battery_trim.csv dx -40 dy -50    -0.18
+                   sleeve to skin, inboard panel (raw)   12.45         12.45                                    packaging.csv 20 mm joint     0.00
+ sleeve to skin, inboard panel, after 1.5 mm allowance   10.95         10.95                                    packaging.csv 20 mm joint     0.00
+    cell to inboard sleeve at the OLD v3 pack position   30.01         30.01                        packaging.csv 20 mm joint (build123d)     0.00
+                 cell to inboard sleeve (new position)    5.29           NaN                                                                   NaN
+                  sleeve to skin, outboard panel (raw)   10.89         10.89                                    packaging.csv 20 mm joint     0.00
+sleeve to skin, outboard panel, after 1.5 mm allowance    9.39          9.39                                    packaging.csv 20 mm joint     0.00
+   cell to outboard sleeve at the OLD v3 pack position   20.41         20.41                        packaging.csv 20 mm joint (build123d)    -0.00
+                cell to outboard sleeve (new position)   33.93           NaN                                                                   NaN
+
+Balance from the CAD layout (P50B):
+                                          item  mass_kg      x       z                                                                 source
+wing structure (centre, outer panels, elevons)   1.2857 0.4800  0.0071                                         CAD centroid (volume-weighted)
+                                      winglets   0.1064 0.9471  0.1046                                         CAD centroid (volume-weighted)
+                     batteries (P50B 30 cells)   2.4205 0.4120  0.0082                                         CAD centroid (volume-weighted)
+                                    rescue kit   1.5000 0.4220 -0.0620                                         CAD centroid (volume-weighted)
+                                 kit parachute   0.1240 0.4220 -0.0085                                         CAD centroid (volume-weighted)
+                       kit container + release   0.0800 0.4150 -0.0236                                         CAD centroid (volume-weighted)
+                        gimbal (thermal + RGB)   0.6000 0.0700 -0.1131                                         CAD centroid (volume-weighted)
+                     avionics (FC, GPS, radio)   0.3500 0.2342 -0.0268                                         CAD centroid (volume-weighted)
+                   pod structure + door + skid   0.3000 0.2665 -0.0351                                         CAD centroid (volume-weighted)
+                            motor + ESC + prop   0.3400 0.6656 -0.0350                                         CAD centroid (volume-weighted)
+                        misc (wiring, glue) 5%   0.2574 0.3500 -0.0200                           not modelled; same assumption as milestone 2
+              pack thermal kit (foam + heater)   0.1000 0.4120  0.0082                   lodestar_v1.ADDED_MASS; carried at the pack centroid
+          elevon mass balance (2 per aircraft)   0.1200 0.7147  0.0000 lodestar_v1.ADDED_MASS; flutter_v2 static balance at the servo station
+
+CG (design balance point x = 0.4220 m; MAC 0.4491 m):
+  cell   kit  mass_kg   x_cg    z_cg  x_cg_minus_design_mm  x_cg_minus_design_pct_mac
+  P50B  True    7.584 0.4063 -0.0211              -15.7828                    -3.5143
+  P50B False    5.960 0.4020 -0.0110              -20.0834                    -4.4719
+SiCore  True    7.618 0.4063 -0.0209              -15.7572                    -3.5086
+SiCore False    5.994 0.4020 -0.0109              -20.0263                    -4.4592
+Note: 'wing structure' is still the 1.29 kg budget at the CAD wing centroid; the joint has no separate line.
+Renders: out\cad_v4\renders
+
+Wrote out\cad_v4

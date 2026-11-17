@@ -1,0 +1,113 @@
+pattern,aircraft,metric,mode,reference,delta_pp,low_95_pp,high_95_pp
+trails 3,AgEagle eBee X,help_1h,pursuit_1,rounded_adaptive,0.9428571428571427,0.2571428571428571,1.6285714285714286
+trails 3,AgEagle eBee X,help_1h,rounded_passes,rounded_adaptive,-0.3142857142857143,-0.7149999999999997,0.0857142857142857
+trails 3,AgEagle eBee X,help_3h,pursuit_1,rounded_adaptive,1.0285714285714285,0.34285714285714286,1.7428571428571433
+trails 3,AgEagle eBee X,help_3h,rounded_passes,rounded_adaptive,-0.3999999999999999,-0.8285714285714285,0.0
+trails 3,C-Astral Bramor ppX,help_1h,pursuit_1,rounded_adaptive,1.0285714285714285,0.2857142857142857,1.7999999999999998
+trails 3,C-Astral Bramor ppX,help_1h,rounded_passes,rounded_adaptive,-0.2,-0.6571428571428571,0.22857142857142854
+trails 3,C-Astral Bramor ppX,help_3h,pursuit_1,rounded_adaptive,1.771428571428571,0.7999999999999998,2.7714285714285714
+trails 3,C-Astral Bramor ppX,help_3h,rounded_passes,rounded_adaptive,-0.5142857142857142,-1.114285714285714,0.08571428571428572
+trails 3,DeltaQuad Evo GOV,help_1h,pursuit_1,rounded_adaptive,1.0857142857142854,0.37142857142857144,1.7999999999999996
+trails 3,DeltaQuad Evo GOV,help_1h,rounded_passes,rounded_adaptive,-0.3142857142857143,-0.7428571428571428,0.11428571428571427
+trails 3,DeltaQuad Evo GOV,help_3h,pursuit_1,rounded_adaptive,2.171428571428571,1.1714285714285713,3.1721428571428603
+trails 3,DeltaQuad Evo GOV,help_3h,rounded_passes,rounded_adaptive,-0.5142857142857142,-1.1428571428571428,0.14285714285714285
+trails 3,DeltaQuad Evo-LE (press),help_1h,pursuit_1,rounded_adaptive,1.2571428571428571,0.5714285714285714,1.971428571428571
+trails 3,DeltaQuad Evo-LE (press),help_1h,rounded_passes,rounded_adaptive,-0.2857142857142857,-0.7142857142857143,0.11428571428571427
+trails 3,DeltaQuad Evo-LE (press),help_3h,pursuit_1,rounded_adaptive,2.1142857142857143,1.2,3.057142857142857
+trails 3,DeltaQuad Evo-LE (press),help_3h,rounded_passes,rounded_adaptive,-0.3428571428571428,-1.0,0.3142857142857143
+trails 3,Lodestar P50B,help_1h,pursuit_1,rounded_adaptive,0.9716537715706658,0.15063942483236015,1.8217041485474978
+trails 3,Lodestar P50B,help_1h,rounded_passes,rounded_adaptive,-0.45783709503518977,-0.9973113371016211,0.054737915138472384
+trails 3,Lodestar P50B,help_3h,pursuit_1,rounded_adaptive,1.6857142857142855,0.7142857142857143,2.6
+trails 3,Lodestar P50B,help_3h,rounded_passes,rounded_adaptive,-0.8285714285714285,-1.5142857142857142,-0.14285714285714285
+trails 3,Lodestar SiCore,help_1h,pursuit_1,rounded_adaptive,0.9430823429992373,0.11561650457123321,1.772600454492496
+trails 3,Lodestar SiCore,help_1h,rounded_passes,rounded_adaptive,-0.42989825429651174,-0.9425903473259125,0.08486755582933742
+trails 3,Lodestar SiCore,help_3h,pursuit_1,rounded_adaptive,2.0557099397406584,1.028566593705978,3.083246888753734
+trails 3,Lodestar SiCore,help_3h,rounded_passes,rounded_adaptive,-0.6571428571428571,-1.4,0.057142857142857134
+trails 3,Quantum Trinity Pro,help_1h,pursuit_1,rounded_adaptive,1.3142857142857143,0.6571428571428571,1.971428571428571
+trails 3,Quantum Trinity Pro,help_1h,rounded_passes,rounded_adaptive,-0.3428571428571428,-0.7714285714285714,0.08571428571428572
+trails 3,Quantum Trinity Pro,help_3h,pursuit_1,rounded_adaptive,1.4857142857142853,0.8285714285714285,2.171428571428571
+trails 3,Quantum Trinity Pro,help_3h,rounded_passes,rounded_adaptive,-0.3714285714285714,-0.8285714285714285,0.057142857142857134
+trails 6,AgEagle eBee X,help_1h,pursuit_1,rounded_adaptive,1.4,0.7142857142857143,2.114285714285714
+trails 6,AgEagle eBee X,help_1h,rounded_passes,rounded_adaptive,0.2,-0.14285714285714285,0.5428571428571428
+trails 6,AgEagle eBee X,help_3h,pursuit_1,rounded_adaptive,1.657142857142857,0.9714285714285713,2.371428571428571
+trails 6,AgEagle eBee X,help_3h,rounded_passes,rounded_adaptive,0.22857142857142854,-0.14285714285714285,0.6
+trails 6,C-Astral Bramor ppX,help_1h,pursuit_1,rounded_adaptive,1.6285714285714286,0.9142857142857141,2.371428571428571
+trails 6,C-Astral Bramor ppX,help_1h,rounded_passes,rounded_adaptive,0.057142857142857134,-0.2857142857142857,0.4285714285714286
+trails 6,C-Astral Bramor ppX,help_3h,pursuit_1,rounded_adaptive,2.0,1.057142857142857,2.942857142857142
+trails 6,C-Astral Bramor ppX,help_3h,rounded_passes,rounded_adaptive,0.14285714285714285,-0.4,0.6571428571428571
+trails 6,DeltaQuad Evo GOV,help_1h,pursuit_1,rounded_adaptive,1.7428571428571429,1.0,2.5142857142857142
+trails 6,DeltaQuad Evo GOV,help_1h,rounded_passes,rounded_adaptive,0.08571428571428572,-0.2857142857142857,0.4571428571428571
+trails 6,DeltaQuad Evo GOV,help_3h,pursuit_1,rounded_adaptive,2.4,1.457142857142857,3.314285714285714
+trails 6,DeltaQuad Evo GOV,help_3h,rounded_passes,rounded_adaptive,0.11428571428571427,-0.4571428571428571,0.6857142857142857
+trails 6,DeltaQuad Evo-LE (press),help_1h,pursuit_1,rounded_adaptive,1.7142857142857144,1.0285714285714285,2.4285714285714284
+trails 6,DeltaQuad Evo-LE (press),help_1h,rounded_passes,rounded_adaptive,0.08571428571428572,-0.2857142857142857,0.4285714285714286
+trails 6,DeltaQuad Evo-LE (press),help_3h,pursuit_1,rounded_adaptive,2.914285714285714,1.914285714285714,3.942857142857143
+trails 6,DeltaQuad Evo-LE (press),help_3h,rounded_passes,rounded_adaptive,0.1714285714285714,-0.4285714285714285,0.7714285714285714
+trails 6,Lodestar P50B,help_1h,pursuit_1,rounded_adaptive,1.139364119661913,0.350647568896994,1.9649421046170494
+trails 6,Lodestar P50B,help_1h,rounded_passes,rounded_adaptive,0.17319029237582537,-0.31018255018045265,0.6593469080526047
+trails 6,Lodestar P50B,help_3h,pursuit_1,rounded_adaptive,1.3426018398452229,0.3702164448410419,2.2571428571428567
+trails 6,Lodestar P50B,help_3h,rounded_passes,rounded_adaptive,0.6285714285714286,0.057142857142857155,1.2285714285714284
+trails 6,Lodestar SiCore,help_1h,pursuit_1,rounded_adaptive,1.139364119661913,0.36779586215307436,1.9335427610933018
+trails 6,Lodestar SiCore,help_1h,rounded_passes,rounded_adaptive,0.14461886380439679,-0.30978009622530867,0.6302433572761403
+trails 6,Lodestar SiCore,help_3h,pursuit_1,rounded_adaptive,1.939651649088566,0.828565839853038,2.9970553979617334
+trails 6,Lodestar SiCore,help_3h,rounded_passes,rounded_adaptive,0.6571428571428571,0.05714285714285711,1.2857142857142856
+trails 6,Quantum Trinity Pro,help_1h,pursuit_1,rounded_adaptive,1.7428571428571429,1.057142857142857,2.457142857142857
+trails 6,Quantum Trinity Pro,help_1h,rounded_passes,rounded_adaptive,-0.028571428571428567,-0.3999999999999999,0.3142857142857143
+trails 6,Quantum Trinity Pro,help_3h,pursuit_1,rounded_adaptive,1.9428571428571426,1.2278571428571428,2.6857142857142855
+trails 6,Quantum Trinity Pro,help_3h,rounded_passes,rounded_adaptive,-0.057142857142857134,-0.4285714285714285,0.3142857142857143
+trails 3,AgEagle eBee X,help_1h,pursuit_1,rounded_passes,1.2571428571428571,0.5142857142857142,2.0
+trails 3,AgEagle eBee X,help_1h,rounded_adaptive,rounded_passes,0.3142857142857143,-0.0857142857142857,0.7150000000000026
+trails 3,AgEagle eBee X,help_3h,pursuit_1,rounded_passes,1.4285714285714284,0.6857142857142856,2.1999999999999997
+trails 3,AgEagle eBee X,help_3h,rounded_adaptive,rounded_passes,0.3999999999999999,0.0,0.8285714285714285
+trails 3,C-Astral Bramor ppX,help_1h,pursuit_1,rounded_passes,1.2285714285714284,0.48571428571428577,2.0
+trails 3,C-Astral Bramor ppX,help_1h,rounded_adaptive,rounded_passes,0.2,-0.22857142857142854,0.6571428571428571
+trails 3,C-Astral Bramor ppX,help_3h,pursuit_1,rounded_passes,2.2857142857142856,1.3714285714285712,3.257142857142857
+trails 3,C-Astral Bramor ppX,help_3h,rounded_adaptive,rounded_passes,0.5142857142857142,-0.08571428571428572,1.114285714285714
+trails 3,DeltaQuad Evo GOV,help_1h,pursuit_1,rounded_passes,1.4000000000000001,0.7428571428571428,2.057142857142857
+trails 3,DeltaQuad Evo GOV,help_1h,rounded_adaptive,rounded_passes,0.3142857142857143,-0.11428571428571427,0.7428571428571428
+trails 3,DeltaQuad Evo GOV,help_3h,pursuit_1,rounded_passes,2.6857142857142855,1.7428571428571429,3.628571428571428
+trails 3,DeltaQuad Evo GOV,help_3h,rounded_adaptive,rounded_passes,0.5142857142857142,-0.14285714285714285,1.1428571428571428
+trails 3,DeltaQuad Evo-LE (press),help_1h,pursuit_1,rounded_passes,1.5428571428571427,0.8857142857142855,2.1999999999999997
+trails 3,DeltaQuad Evo-LE (press),help_1h,rounded_adaptive,rounded_passes,0.2857142857142857,-0.11428571428571427,0.7142857142857143
+trails 3,DeltaQuad Evo-LE (press),help_3h,pursuit_1,rounded_passes,2.457142857142857,1.5714285714285712,3.371428571428571
+trails 3,DeltaQuad Evo-LE (press),help_3h,rounded_adaptive,rounded_passes,0.3428571428571428,-0.3142857142857143,1.0
+trails 3,Lodestar P50B,help_1h,pursuit_1,rounded_passes,1.4294908666058554,0.6684969849894431,2.227464812625777
+trails 3,Lodestar P50B,help_1h,rounded_adaptive,rounded_passes,0.45783709503518977,-0.05473791513847231,0.9973113371016213
+trails 3,Lodestar P50B,help_3h,pursuit_1,rounded_passes,2.5142857142857142,1.5999999999999996,3.428571428571428
+trails 3,Lodestar P50B,help_3h,rounded_adaptive,rounded_passes,0.8285714285714285,0.14285714285714285,1.5142857142857142
+trails 3,Lodestar SiCore,help_1h,pursuit_1,rounded_passes,1.372980597295749,0.6024915888533265,2.1511761349829492
+trails 3,Lodestar SiCore,help_1h,rounded_adaptive,rounded_passes,0.42989825429651174,-0.08486755582933737,0.9425903473259125
+trails 3,Lodestar SiCore,help_3h,pursuit_1,rounded_passes,2.7128527968835154,1.7416127852075154,3.6863569255584636
+trails 3,Lodestar SiCore,help_3h,rounded_adaptive,rounded_passes,0.6571428571428571,-0.057142857142857134,1.4
+trails 3,Quantum Trinity Pro,help_1h,pursuit_1,rounded_passes,1.657142857142857,1.0285714285714285,2.2857142857142856
+trails 3,Quantum Trinity Pro,help_1h,rounded_adaptive,rounded_passes,0.3428571428571428,-0.08571428571428572,0.7714285714285714
+trails 3,Quantum Trinity Pro,help_3h,pursuit_1,rounded_passes,1.8571428571428568,1.227857142857143,2.5428571428571427
+trails 3,Quantum Trinity Pro,help_3h,rounded_adaptive,rounded_passes,0.3714285714285714,-0.057142857142857134,0.8285714285714285
+trails 6,AgEagle eBee X,help_1h,pursuit_1,rounded_passes,1.2,0.4571428571428571,1.9999999999999998
+trails 6,AgEagle eBee X,help_1h,rounded_adaptive,rounded_passes,-0.2,-0.5428571428571428,0.14285714285714285
+trails 6,AgEagle eBee X,help_3h,pursuit_1,rounded_passes,1.4285714285714284,0.685,2.1714285714285713
+trails 6,AgEagle eBee X,help_3h,rounded_adaptive,rounded_passes,-0.22857142857142854,-0.6,0.14285714285714285
+trails 6,C-Astral Bramor ppX,help_1h,pursuit_1,rounded_passes,1.5714285714285712,0.857142857142857,2.3428571428571425
+trails 6,C-Astral Bramor ppX,help_1h,rounded_adaptive,rounded_passes,-0.057142857142857134,-0.4285714285714286,0.2857142857142857
+trails 6,C-Astral Bramor ppX,help_3h,pursuit_1,rounded_passes,1.8571428571428568,0.9142857142857144,2.7721428571428595
+trails 6,C-Astral Bramor ppX,help_3h,rounded_adaptive,rounded_passes,-0.14285714285714285,-0.6571428571428571,0.4
+trails 6,DeltaQuad Evo GOV,help_1h,pursuit_1,rounded_passes,1.657142857142857,0.9142857142857141,2.4007142857142885
+trails 6,DeltaQuad Evo GOV,help_1h,rounded_adaptive,rounded_passes,-0.08571428571428572,-0.4571428571428571,0.2857142857142857
+trails 6,DeltaQuad Evo GOV,help_3h,pursuit_1,rounded_passes,2.2857142857142856,1.3428571428571427,3.2285714285714278
+trails 6,DeltaQuad Evo GOV,help_3h,rounded_adaptive,rounded_passes,-0.11428571428571427,-0.6857142857142857,0.4571428571428571
+trails 6,DeltaQuad Evo-LE (press),help_1h,pursuit_1,rounded_passes,1.6285714285714286,0.9142857142857141,2.3428571428571425
+trails 6,DeltaQuad Evo-LE (press),help_1h,rounded_adaptive,rounded_passes,-0.08571428571428572,-0.4285714285714286,0.2857142857142857
+trails 6,DeltaQuad Evo-LE (press),help_3h,pursuit_1,rounded_passes,2.7428571428571424,1.7999999999999996,3.742857142857142
+trails 6,DeltaQuad Evo-LE (press),help_3h,rounded_adaptive,rounded_passes,-0.1714285714285714,-0.7714285714285714,0.4285714285714285
+trails 6,Lodestar P50B,help_1h,pursuit_1,rounded_passes,0.9661738272860878,0.11256841528298674,1.8615217799065238
+trails 6,Lodestar P50B,help_1h,rounded_adaptive,rounded_passes,-0.17319029237582537,-0.6593469080526047,0.3101825501804527
+trails 6,Lodestar P50B,help_3h,pursuit_1,rounded_passes,0.7140304112737942,-0.2857206682895837,1.6568939367062359
+trails 6,Lodestar P50B,help_3h,rounded_adaptive,rounded_passes,-0.6285714285714286,-1.2285714285714284,-0.057142857142857155
+trails 6,Lodestar SiCore,help_1h,pursuit_1,rounded_passes,0.994745255857516,0.16546411880873838,1.8515921304742142
+trails 6,Lodestar SiCore,help_1h,rounded_adaptive,rounded_passes,-0.14461886380439679,-0.6302433572761403,0.3097800962253088
+trails 6,Lodestar SiCore,help_3h,pursuit_1,rounded_passes,1.2825087919457088,0.19084340592032897,2.3648369668688805
+trails 6,Lodestar SiCore,help_3h,rounded_adaptive,rounded_passes,-0.6571428571428571,-1.2857142857142856,-0.05714285714285711
+trails 6,Quantum Trinity Pro,help_1h,pursuit_1,rounded_passes,1.7714285714285714,1.0571428571428572,2.4857142857142858
+trails 6,Quantum Trinity Pro,help_1h,rounded_adaptive,rounded_passes,0.028571428571428567,-0.3142857142857143,0.3999999999999999
+trails 6,Quantum Trinity Pro,help_3h,pursuit_1,rounded_passes,2.0,1.2571428571428571,2.7428571428571424
+trails 6,Quantum Trinity Pro,help_3h,rounded_adaptive,rounded_passes,0.057142857142857134,-0.3142857142857143,0.4285714285714285

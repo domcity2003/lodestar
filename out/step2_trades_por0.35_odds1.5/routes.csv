@@ -1,0 +1,771 @@
+config,site,pattern,aircraft,wind_bound_mps,airspeed_mps,radius_m,path_km,straight_search_km,end_reason
+base,yosemite_happy_isles,trails 3,Lodestar SiCore,8,18.0,119.35436757559236,321.9267098180779,254.59575488015398,energy envelope
+base,yosemite_happy_isles,trails 3,Lodestar SiCore,2,18.0,70.62388613940377,250.22079675839993,197.32367294132558,energy envelope
+base,yosemite_happy_isles,trails 3,Lodestar SiCore,10,18.0,138.4228168332314,346.7406564641375,270.08833333701,energy envelope
+base,yosemite_happy_isles,trails 3,Lodestar SiCore,6,18.0,101.69839604074143,297.4116769664364,227.74709677046832,energy envelope
+base,yosemite_happy_isles,trails 3,Lodestar SiCore,4,18.0,85.45490222867856,272.7445047508773,218.49888799953985,energy envelope
+base,yosemite_happy_isles,trails 3,DeltaQuad Evo GOV,8,16.54,106.3263086755704,321.33255857233115,251.14749015126944,energy envelope
+base,yosemite_happy_isles,trails 3,DeltaQuad Evo GOV,2,16.54,60.68915345228769,242.4587499631028,191.061196743639,energy envelope
+base,yosemite_happy_isles,trails 3,DeltaQuad Evo GOV,10,16.54,124.36364919557413,350.3588056286329,275.25944479885146,energy envelope
+base,yosemite_happy_isles,trails 3,DeltaQuad Evo GOV,6,16.54,89.70144587835476,294.9840820311866,233.61738963067594,energy envelope
+base,yosemite_happy_isles,trails 3,DeltaQuad Evo GOV,4,16.54,74.48906080392719,269.0511486360318,208.38569158295593,energy envelope
+base,yosemite_happy_isles,trails 6,Lodestar SiCore,8,18.0,119.35436757559236,323.9267761930589,224.0705976746715,energy envelope
+base,yosemite_happy_isles,trails 6,Lodestar SiCore,2,18.0,70.62388613940377,248.9698312778787,165.0748549207213,energy envelope
+base,yosemite_happy_isles,trails 6,Lodestar SiCore,10,18.0,138.4228168332314,346.8031821741377,227.53214869061298,energy envelope
+base,yosemite_happy_isles,trails 6,Lodestar SiCore,6,18.0,101.69839604074143,297.3531564977776,199.29999150481757,energy envelope
+base,yosemite_happy_isles,trails 6,Lodestar SiCore,4,18.0,85.45490222867856,273.5688151130647,192.2792301566711,energy envelope
+base,yosemite_happy_isles,trails 6,DeltaQuad Evo GOV,8,16.54,106.3263086755704,321.1337189665619,221.92369159333322,energy envelope
+base,yosemite_happy_isles,trails 6,DeltaQuad Evo GOV,2,16.54,60.68915345228769,243.00326075374917,165.78757825235127,energy envelope
+base,yosemite_happy_isles,trails 6,DeltaQuad Evo GOV,10,16.54,124.36364919557413,346.9916859212444,237.44396043930107,energy envelope
+base,yosemite_happy_isles,trails 6,DeltaQuad Evo GOV,6,16.54,89.70144587835476,295.00727740001184,206.54525308508397,energy envelope
+base,yosemite_happy_isles,trails 6,DeltaQuad Evo GOV,4,16.54,74.48906080392719,268.64142610799854,178.69622400192787,energy envelope
+base,sequoia_lodgepole,trails 3,Lodestar SiCore,8,18.0,119.35436757559236,357.27336380218895,312.85250387723426,energy envelope
+base,sequoia_lodgepole,trails 3,Lodestar SiCore,2,18.0,70.62388613940377,273.895924331135,247.24913209923787,energy envelope
+base,sequoia_lodgepole,trails 3,Lodestar SiCore,10,18.0,138.4228168332314,385.5630730080542,330.11070832670146,energy envelope
+base,sequoia_lodgepole,trails 3,Lodestar SiCore,6,18.0,101.69839604074143,331.7162225942273,289.9346200828373,energy envelope
+base,sequoia_lodgepole,trails 3,Lodestar SiCore,4,18.0,85.45490222867856,302.50099343046986,270.4355188253195,energy envelope
+base,sequoia_lodgepole,trails 3,DeltaQuad Evo GOV,8,16.54,106.3263086755704,336.72093989641104,292.3405374639071,energy envelope
+base,sequoia_lodgepole,trails 3,DeltaQuad Evo GOV,2,16.54,60.68915345228769,255.23409545059292,230.15738709935076,energy envelope
+base,sequoia_lodgepole,trails 3,DeltaQuad Evo GOV,10,16.54,124.36364919557413,367.60582227193726,316.90324081416327,energy envelope
+base,sequoia_lodgepole,trails 3,DeltaQuad Evo GOV,6,16.54,89.70144587835476,312.3499839758693,276.06024296560486,energy envelope
+base,sequoia_lodgepole,trails 3,DeltaQuad Evo GOV,4,16.54,74.48906080392719,283.0575582864298,252.7103545550883,energy envelope
+base,sequoia_lodgepole,trails 6,Lodestar SiCore,8,18.0,119.35436757559236,358.4360711093727,291.8881768966104,energy envelope
+base,sequoia_lodgepole,trails 6,Lodestar SiCore,2,18.0,70.62388613940377,275.61161334093043,226.42129519438936,energy envelope
+base,sequoia_lodgepole,trails 6,Lodestar SiCore,10,18.0,138.4228168332314,383.062699966483,300.28860443792695,energy envelope
+base,sequoia_lodgepole,trails 6,Lodestar SiCore,6,18.0,101.69839604074143,331.2875152220717,264.79716193105736,energy envelope
+base,sequoia_lodgepole,trails 6,Lodestar SiCore,4,18.0,85.45490222867856,301.2981568046215,250.22597084437675,energy envelope
+base,sequoia_lodgepole,trails 6,DeltaQuad Evo GOV,8,16.54,106.3263086755704,339.2739201172347,272.8783366626039,energy envelope
+base,sequoia_lodgepole,trails 6,DeltaQuad Evo GOV,2,16.54,60.68915345228769,254.37996732192212,211.38001427795922,energy envelope
+base,sequoia_lodgepole,trails 6,DeltaQuad Evo GOV,10,16.54,124.36364919557413,365.3223124567541,291.6857280743495,energy envelope
+base,sequoia_lodgepole,trails 6,DeltaQuad Evo GOV,6,16.54,89.70144587835476,311.39284673698654,255.67933392576435,energy envelope
+base,sequoia_lodgepole,trails 6,DeltaQuad Evo GOV,4,16.54,74.48906080392719,282.14258930382346,230.95750437441632,energy envelope
+base,rocky_bear_lake,trails 3,Lodestar SiCore,8,18.46,123.61503600249647,342.35829774367454,290.7123618247232,energy envelope
+base,rocky_bear_lake,trails 3,Lodestar SiCore,2,18.36,73.18922817953147,261.74113660000825,229.18459280865483,energy envelope
+base,rocky_bear_lake,trails 3,Lodestar SiCore,10,18.48,143.2094213402156,365.97000965442635,302.51092756422884,energy envelope
+base,rocky_bear_lake,trails 3,Lodestar SiCore,6,18.45,105.5478392346273,315.4619692602871,268.5647581116521,energy envelope
+base,rocky_bear_lake,trails 3,Lodestar SiCore,4,18.38,88.43247589220195,290.3190362631192,253.52608061080082,energy envelope
+base,rocky_bear_lake,trails 3,DeltaQuad Evo GOV,8,17.09,111.145770945581,300.144705567969,245.54068908251818,energy envelope
+base,rocky_bear_lake,trails 3,DeltaQuad Evo GOV,2,16.96,63.46996896902672,229.14887433600833,199.42506232274502,energy envelope
+base,rocky_bear_lake,trails 3,DeltaQuad Evo GOV,10,17.09,129.57154283935145,323.11388744353,266.5040880483352,energy envelope
+base,rocky_bear_lake,trails 3,DeltaQuad Evo GOV,6,17.07,93.9694768453889,277.3606234327735,236.20906123517207,energy envelope
+base,rocky_bear_lake,trails 3,DeltaQuad Evo GOV,4,17.02,78.01121525347153,252.0428564400524,218.68276583687987,energy envelope
+base,rocky_bear_lake,trails 6,Lodestar SiCore,8,18.68,125.67916032269281,338.87715534077387,261.1503747669055,energy envelope
+base,rocky_bear_lake,trails 6,Lodestar SiCore,2,18.68,75.50795160926037,263.89586674694425,212.014268744223,energy envelope
+base,rocky_bear_lake,trails 6,Lodestar SiCore,10,18.68,145.22785200607976,362.98596484354175,268.0387996306424,energy envelope
+base,rocky_bear_lake,trails 6,Lodestar SiCore,6,18.68,107.54294636209391,313.560463557919,242.34170356906168,energy envelope
+base,rocky_bear_lake,trails 6,Lodestar SiCore,4,18.68,90.8192101242831,286.9728619742018,227.65011484033184,energy envelope
+base,rocky_bear_lake,trails 6,DeltaQuad Evo GOV,8,17.38,113.72995190733637,297.3900485559968,215.648465886186,energy envelope
+base,rocky_bear_lake,trails 6,DeltaQuad Evo GOV,2,17.38,66.31307475334069,227.43204403180368,179.93673505305523,energy envelope
+base,rocky_bear_lake,trails 6,DeltaQuad Evo GOV,10,17.38,132.3605330709111,319.05996973783687,234.56228743611177,energy envelope
+base,rocky_bear_lake,trails 6,DeltaQuad Evo GOV,6,17.38,96.51184846654974,273.9192659213556,210.94118118045608,energy envelope
+base,rocky_bear_lake,trails 6,DeltaQuad Evo GOV,4,17.38,80.70622274855118,251.0729834604348,196.20608312352414,energy envelope
+base,olympic_hurricane_ridge,trails 3,Lodestar SiCore,8,18.0,119.35436757559236,352.05048518710265,310.89611283763884,energy envelope
+base,olympic_hurricane_ridge,trails 3,Lodestar SiCore,2,18.0,70.62388613940377,271.1219404419787,246.51573829070193,energy envelope
+base,olympic_hurricane_ridge,trails 3,Lodestar SiCore,10,18.0,138.4228168332314,380.4527853997665,327.81753178144385,energy envelope
+base,olympic_hurricane_ridge,trails 3,Lodestar SiCore,6,18.0,101.69839604074143,326.37386363661244,290.02234841057793,energy envelope
+base,olympic_hurricane_ridge,trails 3,Lodestar SiCore,4,18.0,85.45490222867856,297.57019672723976,269.58956435940235,energy envelope
+base,olympic_hurricane_ridge,trails 3,DeltaQuad Evo GOV,8,16.54,106.3263086755704,341.613734060717,300.21870125817355,energy envelope
+base,olympic_hurricane_ridge,trails 3,DeltaQuad Evo GOV,2,16.54,60.68915345228769,259.8929571760594,237.99345105394198,energy envelope
+base,olympic_hurricane_ridge,trails 3,DeltaQuad Evo GOV,10,16.54,124.36364919557413,370.57749553441323,322.7207396066767,energy envelope
+base,olympic_hurricane_ridge,trails 3,DeltaQuad Evo GOV,6,16.54,89.70144587835476,314.8125919449719,282.49167609333256,energy envelope
+base,olympic_hurricane_ridge,trails 3,DeltaQuad Evo GOV,4,16.54,74.48906080392719,286.3746008283865,258.3384024893936,energy envelope
+base,olympic_hurricane_ridge,trails 6,Lodestar SiCore,8,18.0,119.35436757559236,353.44028547481395,302.06532387682375,energy envelope
+base,olympic_hurricane_ridge,trails 6,Lodestar SiCore,2,18.0,70.62388613940377,271.1097226909953,239.1438229763537,energy envelope
+base,olympic_hurricane_ridge,trails 6,Lodestar SiCore,10,18.0,138.4228168332314,379.15931785297334,320.2883799283275,energy envelope
+base,olympic_hurricane_ridge,trails 6,Lodestar SiCore,6,18.0,101.69839604074143,328.17450088603334,281.15767249083393,energy envelope
+base,olympic_hurricane_ridge,trails 6,Lodestar SiCore,4,18.0,85.45490222867856,299.2901802606715,262.8744688562284,energy envelope
+base,olympic_hurricane_ridge,trails 6,DeltaQuad Evo GOV,8,16.54,106.3263086755704,342.108408072977,290.150839848308,energy envelope
+base,olympic_hurricane_ridge,trails 6,DeltaQuad Evo GOV,2,16.54,60.68915345228769,258.6928163908334,229.7270529234685,energy envelope
+base,olympic_hurricane_ridge,trails 6,DeltaQuad Evo GOV,10,16.54,124.36364919557413,372.086510582311,315.17921309395444,energy envelope
+base,olympic_hurricane_ridge,trails 6,DeltaQuad Evo GOV,6,16.54,89.70144587835476,315.6188876302766,274.99381511776977,energy envelope
+base,olympic_hurricane_ridge,trails 6,DeltaQuad Evo GOV,4,16.54,74.48906080392719,285.5976851961231,250.22987779444742,energy envelope
+base,rainier_paradise,trails 3,Lodestar SiCore,8,18.0,119.35436757559236,347.59450855029263,290.9489389279874,energy envelope
+base,rainier_paradise,trails 3,Lodestar SiCore,2,18.0,70.62388613940377,266.062972565761,226.13161209142217,energy envelope
+base,rainier_paradise,trails 3,Lodestar SiCore,10,18.0,138.4228168332314,374.878836183077,306.82774211613423,energy envelope
+base,rainier_paradise,trails 3,Lodestar SiCore,6,18.0,101.69839604074143,321.6864477956679,264.26855141754305,energy envelope
+base,rainier_paradise,trails 3,Lodestar SiCore,4,18.0,85.45490222867856,294.36124167640327,250.36021028457452,energy envelope
+base,rainier_paradise,trails 3,DeltaQuad Evo GOV,8,16.54,106.3263086755704,335.05818434752405,272.9524181281173,energy envelope
+base,rainier_paradise,trails 3,DeltaQuad Evo GOV,2,16.54,60.68915345228769,254.22045209240596,212.73509890199657,energy envelope
+base,rainier_paradise,trails 3,DeltaQuad Evo GOV,10,16.54,124.36364919557413,363.0758820101751,298.11006173765503,energy envelope
+base,rainier_paradise,trails 3,DeltaQuad Evo GOV,6,16.54,89.70144587835476,308.94372171295623,258.66075600944464,energy envelope
+base,rainier_paradise,trails 3,DeltaQuad Evo GOV,4,16.54,74.48906080392719,282.1693964574916,236.850170700262,energy envelope
+base,rainier_paradise,trails 6,Lodestar SiCore,8,18.0,119.35436757559236,346.16093464196774,272.32099159276856,energy envelope
+base,rainier_paradise,trails 6,Lodestar SiCore,2,18.0,70.62388613940377,268.3233739039884,215.95450968405024,energy envelope
+base,rainier_paradise,trails 6,Lodestar SiCore,10,18.0,138.4228168332314,371.82931944570095,286.0327496003082,energy envelope
+base,rainier_paradise,trails 6,Lodestar SiCore,6,18.0,101.69839604074143,319.7534505009389,246.81450287431872,energy envelope
+base,rainier_paradise,trails 6,Lodestar SiCore,4,18.0,85.45490222867856,293.36288001980313,237.01369647023188,energy envelope
+base,rainier_paradise,trails 6,DeltaQuad Evo GOV,8,16.56,106.49969031604265,333.99564155291813,258.7677989149062,energy envelope
+base,rainier_paradise,trails 6,DeltaQuad Evo GOV,2,16.55,60.754639450710464,254.58226366838343,205.3728889645746,energy envelope
+base,rainier_paradise,trails 6,DeltaQuad Evo GOV,10,16.55,124.45738474845267,363.683593329018,282.73206451822614,energy envelope
+base,rainier_paradise,trails 6,DeltaQuad Evo GOV,6,16.55,89.78105665400543,307.4085696883793,243.81819636822237,energy envelope
+base,rainier_paradise,trails 6,DeltaQuad Evo GOV,4,16.55,74.56160919096389,280.05227803791115,221.7217731252805,energy envelope
+base,smokies_newfound_gap,trails 3,Lodestar SiCore,8,18.0,119.35436757559236,344.8675290936247,303.3203847047939,energy envelope
+base,smokies_newfound_gap,trails 3,Lodestar SiCore,2,18.0,70.62388613940377,263.62637185403236,237.58808656686145,energy envelope
+base,smokies_newfound_gap,trails 3,Lodestar SiCore,10,18.0,138.4228168332314,370.29574994864424,319.6278702931542,energy envelope
+base,smokies_newfound_gap,trails 3,Lodestar SiCore,6,18.0,101.69839604074143,316.81975051642496,279.4210621383614,energy envelope
+base,smokies_newfound_gap,trails 3,Lodestar SiCore,4,18.0,85.45490222867856,292.9954664053598,263.62620496491115,energy envelope
+base,smokies_newfound_gap,trails 3,DeltaQuad Evo GOV,8,16.54,106.3263086755704,335.38383914363783,293.8496768333763,energy envelope
+base,smokies_newfound_gap,trails 3,DeltaQuad Evo GOV,2,16.54,60.68915345228769,253.7581889826227,230.47614067910956,energy envelope
+base,smokies_newfound_gap,trails 3,DeltaQuad Evo GOV,10,16.54,124.36364919557413,364.64015660459177,316.3059569411423,energy envelope
+base,smokies_newfound_gap,trails 3,DeltaQuad Evo GOV,6,16.54,89.70144587835476,306.8900863333354,273.2983755880132,energy envelope
+base,smokies_newfound_gap,trails 3,DeltaQuad Evo GOV,4,16.54,74.48906080392719,279.26923688085924,250.14889029745174,energy envelope
+base,smokies_newfound_gap,trails 6,Lodestar SiCore,8,18.0,119.35436757559236,342.6453334343838,290.3691966835886,energy envelope
+base,smokies_newfound_gap,trails 6,Lodestar SiCore,2,18.0,70.62388613940377,266.2014110397053,232.22304859755224,energy envelope
+base,smokies_newfound_gap,trails 6,Lodestar SiCore,10,18.0,138.4228168332314,370.67177672513867,304.30655887691745,energy envelope
+base,smokies_newfound_gap,trails 6,Lodestar SiCore,6,18.0,101.69839604074143,318.5509474216579,269.88910409370555,energy envelope
+base,smokies_newfound_gap,trails 6,Lodestar SiCore,4,18.0,85.45490222867856,291.4619005446113,253.97449779157452,energy envelope
+base,smokies_newfound_gap,trails 6,DeltaQuad Evo GOV,8,16.54,106.3263086755704,335.5994504077068,284.12947926665123,energy envelope
+base,smokies_newfound_gap,trails 6,DeltaQuad Evo GOV,2,16.54,60.68915345228769,253.1451235778164,220.33609837628694,energy envelope
+base,smokies_newfound_gap,trails 6,DeltaQuad Evo GOV,10,16.54,124.36364919557413,362.3695656025313,302.8820995843716,energy envelope
+base,smokies_newfound_gap,trails 6,DeltaQuad Evo GOV,6,16.54,89.70144587835476,308.71983930106063,266.6450357290354,energy envelope
+base,smokies_newfound_gap,trails 6,DeltaQuad Evo GOV,4,16.54,74.48906080392719,280.3231370037843,243.47352601678773,energy envelope
+base,whites_pinkham_notch,trails 3,Lodestar SiCore,8,18.0,119.35436757559236,322.21285798905046,269.10022830765854,energy envelope
+base,whites_pinkham_notch,trails 3,Lodestar SiCore,2,18.0,70.62388613940377,247.56364027062256,210.67312711657723,energy envelope
+base,whites_pinkham_notch,trails 3,Lodestar SiCore,10,18.0,138.4228168332314,346.2751773861205,287.1231818761419,energy envelope
+base,whites_pinkham_notch,trails 3,Lodestar SiCore,6,18.0,101.69839604074143,298.3726288018451,249.8823926309098,energy envelope
+base,whites_pinkham_notch,trails 3,Lodestar SiCore,4,18.0,85.45490222867856,272.1250631854121,232.31206584199901,energy envelope
+base,whites_pinkham_notch,trails 3,DeltaQuad Evo GOV,8,16.54,106.3263086755704,335.61773147343183,281.57607596953386,energy envelope
+base,whites_pinkham_notch,trails 3,DeltaQuad Evo GOV,2,16.54,60.68915345228769,253.650268749609,219.6449572325051,energy envelope
+base,whites_pinkham_notch,trails 3,DeltaQuad Evo GOV,10,16.54,124.36364919557413,360.5059065743425,300.38784843492596,energy envelope
+base,whites_pinkham_notch,trails 3,DeltaQuad Evo GOV,6,16.54,89.70144587835476,307.55820198273926,262.6407343926885,energy envelope
+base,whites_pinkham_notch,trails 3,DeltaQuad Evo GOV,4,16.54,74.48906080392719,280.68234298019195,238.76938129785557,energy envelope
+base,whites_pinkham_notch,trails 6,Lodestar SiCore,8,18.0,119.35436757559236,322.50135679442855,232.77314086648664,energy envelope
+base,whites_pinkham_notch,trails 6,Lodestar SiCore,2,18.0,70.62388613940377,247.99814089365444,180.7542831583041,energy envelope
+base,whites_pinkham_notch,trails 6,Lodestar SiCore,10,18.0,138.4228168332314,348.2633258875767,244.09630188652065,energy envelope
+base,whites_pinkham_notch,trails 6,Lodestar SiCore,6,18.0,101.69839604074143,298.0590065195871,212.60554457950772,energy envelope
+base,whites_pinkham_notch,trails 6,Lodestar SiCore,4,18.0,85.45490222867856,272.10935284926074,200.58659484890688,energy envelope
+base,whites_pinkham_notch,trails 6,DeltaQuad Evo GOV,8,16.54,106.3263086755704,333.53482875648785,241.80360965979906,energy envelope
+base,whites_pinkham_notch,trails 6,DeltaQuad Evo GOV,2,16.54,60.68915345228769,252.03201201620243,193.30100207961758,energy envelope
+base,whites_pinkham_notch,trails 6,DeltaQuad Evo GOV,10,16.54,124.36364919557413,361.65885984927195,262.84752060404486,energy envelope
+base,whites_pinkham_notch,trails 6,DeltaQuad Evo GOV,6,16.54,89.70144587835476,307.05143217412933,228.5064556168975,energy envelope
+base,whites_pinkham_notch,trails 6,DeltaQuad Evo GOV,4,16.54,74.48906080392719,278.9132617443104,205.07954964584786,energy envelope
+bank35,yosemite_happy_isles,trails 3,Lodestar SiCore,8,18.03,98.63988264846007,323.39278471675306,259.17236973511365,energy envelope
+bank35,yosemite_happy_isles,trails 3,Lodestar SiCore,2,18.0,58.232334627609156,249.7641678708956,205.07463728270974,energy envelope
+bank35,yosemite_happy_isles,trails 3,Lodestar SiCore,10,18.07,114.70676609556371,349.36000096322886,279.44875727573935,energy envelope
+bank35,yosemite_happy_isles,trails 3,Lodestar SiCore,6,18.0,83.85456186375718,300.3710478679185,243.66895154071938,energy envelope
+bank35,yosemite_happy_isles,trails 3,Lodestar SiCore,4,18.0,70.46112489940708,274.979418093518,221.6126071341206,energy envelope
+bank35,yosemite_happy_isles,trails 3,DeltaQuad Evo GOV,8,16.67,88.6017928053528,321.64829105251994,259.89794471076453,energy envelope
+bank35,yosemite_happy_isles,trails 3,DeltaQuad Evo GOV,2,16.54,50.040733883208745,244.7139245138265,202.18766675477218,energy envelope
+bank35,yosemite_happy_isles,trails 3,DeltaQuad Evo GOV,10,16.75,104.17218736742144,346.83581608698483,273.7577040397636,energy envelope
+bank35,yosemite_happy_isles,trails 3,DeltaQuad Evo GOV,6,16.58,74.22532124207035,295.1138223316004,237.37311672157938,energy envelope
+bank35,yosemite_happy_isles,trails 3,DeltaQuad Evo GOV,4,16.54,61.41933206944358,268.91512969174323,214.01313149632657,energy envelope
+bank35,yosemite_happy_isles,trails 6,Lodestar SiCore,8,18.04,98.71568659006155,323.1805436253267,228.82876450269018,energy envelope
+bank35,yosemite_happy_isles,trails 6,Lodestar SiCore,2,18.04,58.465496895458095,248.99982882789388,180.41361171333853,energy envelope
+bank35,yosemite_happy_isles,trails 6,Lodestar SiCore,10,18.04,114.46170987336706,347.46254846321915,247.75412617196943,energy envelope
+bank35,yosemite_happy_isles,trails 6,Lodestar SiCore,6,18.04,84.13430999930821,296.92130498999506,213.07354520019177,energy envelope
+bank35,yosemite_happy_isles,trails 6,Lodestar SiCore,4,18.04,70.71758010110707,273.9216940004177,192.0364142057825,energy envelope
+bank35,yosemite_happy_isles,trails 6,DeltaQuad Evo GOV,8,16.79,89.46584418655725,319.23830960678134,228.71623208082866,energy envelope
+bank35,yosemite_happy_isles,trails 6,DeltaQuad Evo GOV,2,16.79,51.39936704048915,243.1137901247704,175.64628321975783,energy envelope
+bank35,yosemite_happy_isles,trails 6,DeltaQuad Evo GOV,10,16.8,104.561980057335,346.31961737798713,239.73938382549946,energy envelope
+bank35,yosemite_happy_isles,trails 6,DeltaQuad Evo GOV,6,16.79,75.61237177864903,295.46894010250526,217.97388836809714,energy envelope
+bank35,yosemite_happy_isles,trails 6,DeltaQuad Evo GOV,4,16.79,62.923546063293,268.834837477194,188.82698458237743,energy envelope
+bank35,sequoia_lodgepole,trails 3,Lodestar SiCore,8,18.29,100.62024788447579,361.1691658144078,319.9323590286898,energy envelope
+bank35,sequoia_lodgepole,trails 3,Lodestar SiCore,2,18.17,59.22649160245537,278.11296111897155,254.7169848278262,energy envelope
+bank35,sequoia_lodgepole,trails 3,Lodestar SiCore,10,18.35,117.00659391934651,390.311318912562,345.201086642213,energy envelope
+bank35,sequoia_lodgepole,trails 3,Lodestar SiCore,6,18.26,85.68125196869067,331.51566860985173,298.7998033124372,energy envelope
+bank35,sequoia_lodgepole,trails 3,Lodestar SiCore,4,18.21,71.81271194419755,303.8217861683876,274.71940518522274,energy envelope
+bank35,sequoia_lodgepole,trails 3,DeltaQuad Evo GOV,8,16.92,90.40663122671727,334.82153452589546,298.0635938570657,energy envelope
+bank35,sequoia_lodgepole,trails 3,DeltaQuad Evo GOV,2,16.81,51.508843829589054,253.70835038411695,230.55976563120453,energy envelope
+bank35,sequoia_lodgepole,trails 3,DeltaQuad Evo GOV,10,16.95,105.73572555217275,360.2067849506187,315.54950528263805,energy envelope
+bank35,sequoia_lodgepole,trails 3,DeltaQuad Evo GOV,6,16.92,76.47745678379316,308.62547575562286,276.97009147297314,energy envelope
+bank35,sequoia_lodgepole,trails 3,DeltaQuad Evo GOV,4,16.89,63.5303269901127,283.75606084183363,256.3598763650119,energy envelope
+bank35,sequoia_lodgepole,trails 6,Lodestar SiCore,8,18.17,99.70378740210649,359.29544394161996,297.8174050742756,energy envelope
+bank35,sequoia_lodgepole,trails 6,Lodestar SiCore,2,18.11,58.87465183663534,276.17114149777586,235.1098135886565,energy envelope
+bank35,sequoia_lodgepole,trails 6,Lodestar SiCore,10,18.21,115.85382662305835,387.8094313584276,321.2838893593495,energy envelope
+bank35,sequoia_lodgepole,trails 6,Lodestar SiCore,6,18.15,84.90601945587694,330.44437322417707,275.69897354791334,energy envelope
+bank35,sequoia_lodgepole,trails 6,Lodestar SiCore,4,18.11,71.16749767652362,302.35950676536584,251.9288519231937,energy envelope
+bank35,sequoia_lodgepole,trails 6,DeltaQuad Evo GOV,8,16.85,89.89944215019445,334.3155661787376,277.5220642571381,energy envelope
+bank35,sequoia_lodgepole,trails 6,DeltaQuad Evo GOV,2,16.86,51.78304533526681,253.68494707329208,215.75567673079894,energy envelope
+bank35,sequoia_lodgepole,trails 6,DeltaQuad Evo GOV,10,16.89,105.26544121772018,360.7984849917563,293.4247016318459,energy envelope
+bank35,sequoia_lodgepole,trails 6,DeltaQuad Evo GOV,6,16.85,76.01103034150967,307.57584886297263,258.64814939471137,energy envelope
+bank35,sequoia_lodgepole,trails 6,DeltaQuad Evo GOV,4,16.85,63.28726522537706,281.3569348991371,234.58110782909492,energy envelope
+bank35,rocky_bear_lake,trails 3,Lodestar SiCore,8,18.98,105.97126078765777,339.51447759979857,293.17831898725166,energy envelope
+bank35,rocky_bear_lake,trails 3,Lodestar SiCore,2,18.88,63.469517874677805,265.0749096549764,236.07436927266897,energy envelope
+bank35,rocky_bear_lake,trails 3,Lodestar SiCore,10,19.0,122.43348355454825,364.4986008783311,312.3791079313898,energy envelope
+bank35,rocky_bear_lake,trails 3,Lodestar SiCore,6,18.97,90.76978262353867,315.21804943061085,276.6189641938335,energy envelope
+bank35,rocky_bear_lake,trails 3,Lodestar SiCore,4,18.9,76.34404650516129,290.3874957683637,258.07678169069453,energy envelope
+bank35,rocky_bear_lake,trails 3,DeltaQuad Evo GOV,8,17.57,95.18437591165774,294.12277182150797,249.7187135645679,energy envelope
+bank35,rocky_bear_lake,trails 3,DeltaQuad Evo GOV,2,17.44,55.0169780388111,227.83970227409412,202.51726956290332,energy envelope
+bank35,rocky_bear_lake,trails 3,DeltaQuad Evo GOV,10,17.58,110.7369950535813,318.7139758167582,263.1578212290298,energy envelope
+bank35,rocky_bear_lake,trails 3,DeltaQuad Evo GOV,6,17.53,80.60241699755814,272.960491512372,237.54530861650122,energy envelope
+bank35,rocky_bear_lake,trails 3,DeltaQuad Evo GOV,4,17.5,67.29474170403083,248.51607529362877,219.43985330553136,energy envelope
+bank35,rocky_bear_lake,trails 6,Lodestar SiCore,8,19.2,107.70652612722589,337.86510834088216,265.4909764871189,energy envelope
+bank35,rocky_bear_lake,trails 6,Lodestar SiCore,2,19.2,65.42985118758165,261.89686212636065,213.6908089071614,energy envelope
+bank35,rocky_bear_lake,trails 6,Lodestar SiCore,10,19.2,124.12804449221167,360.71220113238047,279.89470699683415,energy envelope
+bank35,rocky_bear_lake,trails 6,Lodestar SiCore,6,19.2,92.4496544547923,312.7711606286714,251.04529966481394,energy envelope
+bank35,rocky_bear_lake,trails 6,Lodestar SiCore,4,19.2,78.35742947491089,287.43959886469366,234.7052017194891,energy envelope
+bank35,rocky_bear_lake,trails 6,DeltaQuad Evo GOV,8,17.87,97.43097938159092,293.0502435000039,228.31712073689323,energy envelope
+bank35,rocky_bear_lake,trails 6,DeltaQuad Evo GOV,2,17.87,57.47777459358826,224.71827348038488,182.43769011562196,energy envelope
+bank35,rocky_bear_lake,trails 6,DeltaQuad Evo GOV,10,17.87,113.07800769602949,314.25748443931843,232.39896382749342,energy envelope
+bank35,rocky_bear_lake,trails 6,DeltaQuad Evo GOV,6,17.87,82.94859775970451,270.16408993106415,213.94869256710976,energy envelope
+bank35,rocky_bear_lake,trails 6,DeltaQuad Evo GOV,4,17.87,69.63086283037029,246.8408598858274,195.2711062691916,energy envelope
+bank35,olympic_hurricane_ridge,trails 3,Lodestar SiCore,8,18.0,98.41264552065948,352.56549016925936,317.02878740881255,energy envelope
+bank35,olympic_hurricane_ridge,trails 3,Lodestar SiCore,2,18.0,58.232334627609156,272.31159693612125,253.698663280466,energy envelope
+bank35,olympic_hurricane_ridge,trails 3,Lodestar SiCore,10,18.0,114.13537587011395,380.2048467661674,339.4324519578426,energy envelope
+bank35,olympic_hurricane_ridge,trails 3,Lodestar SiCore,6,18.0,83.85456186375718,324.6075854270014,295.50462499957405,energy envelope
+bank35,olympic_hurricane_ridge,trails 3,Lodestar SiCore,4,18.0,70.46112489940708,298.62109020196925,274.41592374269516,energy envelope
+bank35,olympic_hurricane_ridge,trails 3,DeltaQuad Evo GOV,8,16.54,87.67046851956978,342.87013831317284,310.343372193826,energy envelope
+bank35,olympic_hurricane_ridge,trails 3,DeltaQuad Evo GOV,2,16.54,50.040733883208745,258.5594974347839,241.24536373825617,energy envelope
+bank35,olympic_hurricane_ridge,trails 3,DeltaQuad Evo GOV,10,16.54,102.54300678346115,371.5747129014536,329.67325934883314,energy envelope
+bank35,olympic_hurricane_ridge,trails 3,DeltaQuad Evo GOV,6,16.54,73.96257694823058,312.9682960843815,284.4231773918484,energy envelope
+bank35,olympic_hurricane_ridge,trails 3,DeltaQuad Evo GOV,4,16.54,61.41933206944358,288.43479036718935,266.16911349825926,energy envelope
+bank35,olympic_hurricane_ridge,trails 6,Lodestar SiCore,8,18.0,98.41264552065948,353.48542319579866,309.0957382762797,energy envelope
+bank35,olympic_hurricane_ridge,trails 6,Lodestar SiCore,2,18.0,58.232334627609156,272.6902070171214,246.5774610188363,energy envelope
+bank35,olympic_hurricane_ridge,trails 6,Lodestar SiCore,10,18.0,114.13537587011395,380.1566272275256,329.50333028714607,energy envelope
+bank35,olympic_hurricane_ridge,trails 6,Lodestar SiCore,6,18.0,83.85456186375718,327.6492006328203,290.66571458468076,energy envelope
+bank35,olympic_hurricane_ridge,trails 6,Lodestar SiCore,4,18.0,70.46112489940708,300.8363758356388,267.82747555741196,energy envelope
+bank35,olympic_hurricane_ridge,trails 6,DeltaQuad Evo GOV,8,16.54,87.67046851956978,340.9444953691272,300.3126058609821,energy envelope
+bank35,olympic_hurricane_ridge,trails 6,DeltaQuad Evo GOV,2,16.54,50.040733883208745,260.32440769938177,237.04522044153077,energy envelope
+bank35,olympic_hurricane_ridge,trails 6,DeltaQuad Evo GOV,10,16.54,102.54300678346115,368.9820550624419,317.6322960622464,energy envelope
+bank35,olympic_hurricane_ridge,trails 6,DeltaQuad Evo GOV,6,16.54,73.96257694823058,314.94150234405186,277.2754662692134,energy envelope
+bank35,olympic_hurricane_ridge,trails 6,DeltaQuad Evo GOV,4,16.54,61.41933206944358,288.0206806204812,258.00175728400677,energy envelope
+bank35,rainier_paradise,trails 3,Lodestar SiCore,8,18.0,98.41264552065948,345.4525146035402,289.5299625482414,energy envelope
+bank35,rainier_paradise,trails 3,Lodestar SiCore,2,18.0,58.232334627609156,268.51724758605775,232.38184999326995,energy envelope
+bank35,rainier_paradise,trails 3,Lodestar SiCore,10,18.0,114.13537587011395,375.76224900413473,316.4255474175222,energy envelope
+bank35,rainier_paradise,trails 3,Lodestar SiCore,6,18.0,83.85456186375718,318.8476506869342,273.9572165345928,energy envelope
+bank35,rainier_paradise,trails 3,Lodestar SiCore,4,18.0,70.46112489940708,294.7257442975838,252.88865076899768,energy envelope
+bank35,rainier_paradise,trails 3,DeltaQuad Evo GOV,8,16.54,87.67046851956978,336.38337321684116,287.7336324044988,energy envelope
+bank35,rainier_paradise,trails 3,DeltaQuad Evo GOV,2,16.54,50.040733883208745,255.1467442785102,223.06992275310418,energy envelope
+bank35,rainier_paradise,trails 3,DeltaQuad Evo GOV,10,16.54,102.54300678346115,364.039619656013,301.55600891183815,energy envelope
+bank35,rainier_paradise,trails 3,DeltaQuad Evo GOV,6,16.54,73.96257694823058,309.1681980358281,264.2602072038989,energy envelope
+bank35,rainier_paradise,trails 3,DeltaQuad Evo GOV,4,16.54,61.41933206944358,280.22466144010065,237.37581119328962,energy envelope
+bank35,rainier_paradise,trails 6,Lodestar SiCore,8,18.28,100.54371603869147,347.5774653993956,277.46082291179823,energy envelope
+bank35,rainier_paradise,trails 6,Lodestar SiCore,2,18.28,59.87425353476923,267.05626676098535,220.3668063580959,energy envelope
+bank35,rainier_paradise,trails 6,Lodestar SiCore,10,18.29,116.51185200435032,371.98970660563094,299.41447992943995,energy envelope
+bank35,rainier_paradise,trails 6,Lodestar SiCore,6,18.28,85.82258184483187,320.17039774217284,262.8358868871052,energy envelope
+bank35,rainier_paradise,trails 6,Lodestar SiCore,4,18.28,72.26609434352446,291.9186236169301,236.03803511322985,energy envelope
+bank35,rainier_paradise,trails 6,DeltaQuad Evo GOV,8,17.02,91.13366192454296,330.8790640810979,266.90498766316506,energy envelope
+bank35,rainier_paradise,trails 6,DeltaQuad Evo GOV,2,17.01,52.61001727739716,251.5927570225426,209.84322095576277,energy envelope
+bank35,rainier_paradise,trails 6,DeltaQuad Evo GOV,10,17.02,106.28571539464686,358.8492203678468,284.32733551728063,energy envelope
+bank35,rainier_paradise,trails 6,DeltaQuad Evo GOV,6,17.02,77.14625514699124,305.0388203946354,249.81921075425822,energy envelope
+bank35,rainier_paradise,trails 6,DeltaQuad Evo GOV,4,17.02,64.32349506199171,279.3315461654847,227.03653408898398,energy envelope
+bank35,smokies_newfound_gap,trails 3,Lodestar SiCore,8,18.0,98.41264552065948,342.9912270992207,305.6235044102408,energy envelope
+bank35,smokies_newfound_gap,trails 3,Lodestar SiCore,2,18.0,58.232334627609156,264.811451254803,244.5954249432243,energy envelope
+bank35,smokies_newfound_gap,trails 3,Lodestar SiCore,10,18.0,114.13537587011395,368.74059891995745,327.4007239448846,energy envelope
+bank35,smokies_newfound_gap,trails 3,Lodestar SiCore,6,18.0,83.85456186375718,319.00893503155163,288.7985995457346,energy envelope
+bank35,smokies_newfound_gap,trails 3,Lodestar SiCore,4,18.0,70.46112489940708,291.1615634256345,264.8375699677262,energy envelope
+bank35,smokies_newfound_gap,trails 3,DeltaQuad Evo GOV,8,16.54,87.67046851956978,334.34474393038533,300.5992008402528,energy envelope
+bank35,smokies_newfound_gap,trails 3,DeltaQuad Evo GOV,2,16.54,50.040733883208745,252.21078687585756,233.5839748644911,energy envelope
+bank35,smokies_newfound_gap,trails 3,DeltaQuad Evo GOV,10,16.54,102.54300678346115,363.9627912953463,319.7756194777438,energy envelope
+bank35,smokies_newfound_gap,trails 3,DeltaQuad Evo GOV,6,16.54,73.96257694823058,308.1950921124847,278.7375877009085,energy envelope
+bank35,smokies_newfound_gap,trails 3,DeltaQuad Evo GOV,4,16.54,61.41933206944358,280.5778427459268,254.92213409505118,energy envelope
+bank35,smokies_newfound_gap,trails 6,Lodestar SiCore,8,18.0,98.41264552065948,344.15303356099713,298.3260555787687,energy envelope
+bank35,smokies_newfound_gap,trails 6,Lodestar SiCore,2,18.0,58.232334627609156,266.3620881845029,237.0674508000082,energy envelope
+bank35,smokies_newfound_gap,trails 6,Lodestar SiCore,10,18.0,114.13537587011395,372.69978986069225,320.4036279840239,energy envelope
+bank35,smokies_newfound_gap,trails 6,Lodestar SiCore,6,18.0,83.85456186375718,319.47502200266473,280.9842440451188,energy envelope
+bank35,smokies_newfound_gap,trails 6,Lodestar SiCore,4,18.0,70.46112489940708,290.02430351247796,253.64250218833723,energy envelope
+bank35,smokies_newfound_gap,trails 6,DeltaQuad Evo GOV,8,16.54,87.67046851956978,333.657658841965,291.49725912774505,energy envelope
+bank35,smokies_newfound_gap,trails 6,DeltaQuad Evo GOV,2,16.54,50.040733883208745,253.70626477210217,228.97784198950376,energy envelope
+bank35,smokies_newfound_gap,trails 6,DeltaQuad Evo GOV,10,16.54,102.54300678346115,363.2895192926308,310.7921161242189,energy envelope
+bank35,smokies_newfound_gap,trails 6,DeltaQuad Evo GOV,6,16.54,73.96257694823058,309.59958441670625,270.3395817832542,energy envelope
+bank35,smokies_newfound_gap,trails 6,DeltaQuad Evo GOV,4,16.54,61.41933206944358,282.1977246544616,249.73822816126187,energy envelope
+bank35,whites_pinkham_notch,trails 3,Lodestar SiCore,8,18.0,98.41264552065948,322.8040239627728,273.6529490737607,energy envelope
+bank35,whites_pinkham_notch,trails 3,Lodestar SiCore,2,18.0,58.232334627609156,248.0770425142258,218.56586276707566,energy envelope
+bank35,whites_pinkham_notch,trails 3,Lodestar SiCore,10,18.0,114.13537587011395,350.102164820933,296.50128379023084,energy envelope
+bank35,whites_pinkham_notch,trails 3,Lodestar SiCore,6,18.0,83.85456186375718,297.4183762339747,255.48942979285104,energy envelope
+bank35,whites_pinkham_notch,trails 3,Lodestar SiCore,4,18.0,70.46112489940708,275.37852158602846,238.39103687962225,energy envelope
+bank35,whites_pinkham_notch,trails 3,DeltaQuad Evo GOV,8,16.54,87.67046851956978,334.6482064141501,288.78480745073557,energy envelope
+bank35,whites_pinkham_notch,trails 3,DeltaQuad Evo GOV,2,16.54,50.040733883208745,251.35527739879777,223.65640208074126,energy envelope
+bank35,whites_pinkham_notch,trails 3,DeltaQuad Evo GOV,10,16.54,102.54300678346115,363.1748873050468,308.9053140387452,energy envelope
+bank35,whites_pinkham_notch,trails 3,DeltaQuad Evo GOV,6,16.54,73.96257694823058,308.15231025543034,265.8647851437299,energy envelope
+bank35,whites_pinkham_notch,trails 3,DeltaQuad Evo GOV,4,16.54,61.41933206944358,278.23246563908026,241.57656891935935,energy envelope
+bank35,whites_pinkham_notch,trails 6,Lodestar SiCore,8,18.0,98.41264552065948,322.237069467553,236.6673562996247,energy envelope
+bank35,whites_pinkham_notch,trails 6,Lodestar SiCore,2,18.0,58.232334627609156,248.49202528302308,193.7988705414586,energy envelope
+bank35,whites_pinkham_notch,trails 6,Lodestar SiCore,10,18.0,114.13537587011395,347.5914491371338,256.88203487277764,energy envelope
+bank35,whites_pinkham_notch,trails 6,Lodestar SiCore,6,18.0,83.85456186375718,297.7528170299999,224.71813351163973,energy envelope
+bank35,whites_pinkham_notch,trails 6,Lodestar SiCore,4,18.0,70.46112489940708,272.34591618188443,203.18299286236217,energy envelope
+bank35,whites_pinkham_notch,trails 6,DeltaQuad Evo GOV,8,16.54,87.67046851956978,333.69198694784046,256.211315966952,energy envelope
+bank35,whites_pinkham_notch,trails 6,DeltaQuad Evo GOV,2,16.54,50.040733883208745,251.46299144640557,201.70630656214175,energy envelope
+bank35,whites_pinkham_notch,trails 6,DeltaQuad Evo GOV,10,16.54,102.54300678346115,361.89990775406034,268.8551172421778,energy envelope
+bank35,whites_pinkham_notch,trails 6,DeltaQuad Evo GOV,6,16.54,73.96257694823058,307.1615125304096,232.5179633199439,energy envelope
+bank35,whites_pinkham_notch,trails 6,DeltaQuad Evo GOV,4,16.54,61.41933206944358,279.3414649774942,216.6068785003324,energy envelope
+bank40,yosemite_happy_isles,trails 3,Lodestar SiCore,8,18.65,86.28034820756793,322.2608266324849,264.87336562750187,energy envelope
+bank40,yosemite_happy_isles,trails 3,Lodestar SiCore,2,18.39,50.507039633393205,249.55643821803758,207.39228317883973,energy envelope
+bank40,yosemite_happy_isles,trails 3,Lodestar SiCore,10,18.69,99.9950631291677,345.3175398106871,278.35688273538386,energy envelope
+bank40,yosemite_happy_isles,trails 3,Lodestar SiCore,6,18.57,73.33778270844816,298.4503075504563,241.90373342705604,energy envelope
+bank40,yosemite_happy_isles,trails 3,Lodestar SiCore,4,18.52,61.61042927477988,272.91601093376426,222.80821548052123,energy envelope
+bank40,yosemite_happy_isles,trails 3,DeltaQuad Evo GOV,8,17.24,77.39201666559073,317.8140638572603,264.0134754087135,energy envelope
+bank40,yosemite_happy_isles,trails 3,DeltaQuad Evo GOV,2,17.03,43.99416091746184,242.47922458590048,194.78335515706976,energy envelope
+bank40,yosemite_happy_isles,trails 3,DeltaQuad Evo GOV,10,17.31,90.60681464438883,342.5621462182449,279.831920940344,energy envelope
+bank40,yosemite_happy_isles,trails 3,DeltaQuad Evo GOV,6,17.15,65.1057660272243,291.821750013415,240.828203389974,energy envelope
+bank40,yosemite_happy_isles,trails 3,DeltaQuad Evo GOV,4,17.05,53.82966322757146,266.53435468733886,219.64994976893317,energy envelope
+bank40,yosemite_happy_isles,trails 6,Lodestar SiCore,8,18.66,86.34511108628475,320.8423083919813,237.20068206656438,energy envelope
+bank40,yosemite_happy_isles,trails 6,Lodestar SiCore,2,18.66,51.853502522640696,249.03641331613278,182.80058819519252,energy envelope
+bank40,yosemite_happy_isles,trails 6,Lodestar SiCore,10,18.66,99.7860506871638,346.7000518692322,249.02086095476363,energy envelope
+bank40,yosemite_happy_isles,trails 6,Lodestar SiCore,6,18.66,73.87603985857122,297.5810604581968,208.5411207306962,energy envelope
+bank40,yosemite_happy_isles,trails 6,Lodestar SiCore,4,18.66,62.3788370040232,272.0811764974813,190.84270987097477,energy envelope
+bank40,yosemite_happy_isles,trails 6,DeltaQuad Evo GOV,8,17.37,78.19129336403674,314.5524695364608,233.9981968160411,energy envelope
+bank40,yosemite_happy_isles,trails 6,DeltaQuad Evo GOV,2,17.37,45.58025010246795,240.1921366294752,181.5031601254199,energy envelope
+bank40,yosemite_happy_isles,trails 6,DeltaQuad Evo GOV,10,17.37,91.00537786422403,339.81882084709326,246.2042186124199,energy envelope
+bank40,yosemite_happy_isles,trails 6,DeltaQuad Evo GOV,6,17.37,66.34907723701497,289.7649354535908,210.7290832082136,energy envelope
+bank40,yosemite_happy_isles,trails 6,DeltaQuad Evo GOV,4,17.37,55.4787294831587,266.1914288223886,198.74036049154898,energy envelope
+bank40,sequoia_lodgepole,trails 3,Lodestar SiCore,8,18.92,88.03747407789652,363.2963252965518,328.53865095933145,energy envelope
+bank40,sequoia_lodgepole,trails 3,Lodestar SiCore,2,18.79,52.50811661374099,280.0744976887717,257.5540141620992,energy envelope
+bank40,sequoia_lodgepole,trails 3,Lodestar SiCore,10,18.95,101.81566415261865,386.9385690493478,342.5466100007425,energy envelope
+bank40,sequoia_lodgepole,trails 3,Lodestar SiCore,6,18.89,75.26052709791881,336.00866488423105,306.23505063429093,energy envelope
+bank40,sequoia_lodgepole,trails 3,Lodestar SiCore,4,18.83,63.3183057152983,307.5472506799982,281.174702567655,energy envelope
+bank40,sequoia_lodgepole,trails 3,DeltaQuad Evo GOV,8,17.49,78.93273174592468,331.9297160428126,298.46361203812216,energy envelope
+bank40,sequoia_lodgepole,trails 3,DeltaQuad Evo GOV,2,17.39,45.674424147827686,254.4013538045796,235.14632421592253,energy envelope
+bank40,sequoia_lodgepole,trails 3,DeltaQuad Evo GOV,10,17.53,92.07248933795977,355.48986319130677,317.12327115934244,energy envelope
+bank40,sequoia_lodgepole,trails 3,DeltaQuad Evo GOV,6,17.49,67.032203516513,305.5495361374427,276.67147619788557,energy envelope
+bank40,sequoia_lodgepole,trails 3,DeltaQuad Evo GOV,4,17.46,55.94701211041384,279.5248742644339,255.50664474680067,energy envelope
+bank40,sequoia_lodgepole,trails 6,Lodestar SiCore,8,18.79,87.1892395101523,361.228289911387,306.7878659340986,energy envelope
+bank40,sequoia_lodgepole,trails 6,Lodestar SiCore,2,18.73,52.20547680233725,282.1541234952257,243.82265094469264,energy envelope
+bank40,sequoia_lodgepole,trails 6,Lodestar SiCore,10,18.83,100.97334583359608,389.4503089957374,324.39845834204095,energy envelope
+bank40,sequoia_lodgepole,trails 6,Lodestar SiCore,6,18.77,74.53658234674782,335.1075740194006,283.70160726160304,energy envelope
+bank40,sequoia_lodgepole,trails 6,Lodestar SiCore,4,18.72,62.70961240483008,308.0855393360349,261.4079881450558,energy envelope
+bank40,sequoia_lodgepole,trails 6,DeltaQuad Evo GOV,8,17.43,78.5615752142128,331.31177266577595,279.09733549348255,energy envelope
+bank40,sequoia_lodgepole,trails 6,DeltaQuad Evo GOV,2,17.43,45.86306379905911,253.4427397427989,219.99925891003176,energy envelope
+bank40,sequoia_lodgepole,trails 6,DeltaQuad Evo GOV,10,17.46,91.6048627218565,355.31370390067474,296.5781672617238,energy envelope
+bank40,sequoia_lodgepole,trails 6,DeltaQuad Evo GOV,6,17.43,66.69020303599605,303.3594594381576,255.04203806024108,energy envelope
+bank40,sequoia_lodgepole,trails 6,DeltaQuad Evo GOV,4,17.43,55.790699230944824,280.0698157315027,240.4762646612258,energy envelope
+bank40,rocky_bear_lake,trails 3,Lodestar SiCore,8,19.63,92.74259258125737,333.36221917045833,292.82610395484966,energy envelope
+bank40,rocky_bear_lake,trails 3,Lodestar SiCore,2,19.52,56.26029388050374,261.4449198135488,235.64547912703483,energy envelope
+bank40,rocky_bear_lake,trails 3,Lodestar SiCore,10,19.65,106.79891923602482,356.89998075340293,305.9748486461809,energy envelope
+bank40,rocky_bear_lake,trails 3,Lodestar SiCore,6,19.61,79.67766885395606,311.49234185085254,276.63397051488806,energy envelope
+bank40,rocky_bear_lake,trails 3,Lodestar SiCore,4,19.55,67.3750786785658,286.1842050353978,257.01094399584923,energy envelope
+bank40,rocky_bear_lake,trails 3,DeltaQuad Evo GOV,8,18.17,83.2003029593318,290.50351799108864,253.55980460726087,energy envelope
+bank40,rocky_bear_lake,trails 3,DeltaQuad Evo GOV,2,18.03,48.73930824944245,223.08146070117743,201.50183413499818,energy envelope
+bank40,rocky_bear_lake,trails 3,DeltaQuad Evo GOV,10,18.17,96.4031348087853,310.75141716907035,266.72091459617127,energy envelope
+bank40,rocky_bear_lake,trails 3,DeltaQuad Evo GOV,6,18.13,70.73463327092433,267.2728308620735,234.46073383845425,energy envelope
+bank40,rocky_bear_lake,trails 3,DeltaQuad Evo GOV,4,18.07,59.17280116956081,247.8188473941021,219.8670283153604,energy envelope
+bank40,rocky_bear_lake,trails 6,Lodestar SiCore,8,19.86,94.2930506420323,332.27880299944843,269.4550011116569,energy envelope
+bank40,rocky_bear_lake,trails 6,Lodestar SiCore,2,19.86,58.052079006690334,261.1148711069714,217.9694365826797,energy envelope
+bank40,rocky_bear_lake,trails 6,Lodestar SiCore,10,19.86,108.31711126681066,358.3566982526161,286.0433087215912,energy envelope
+bank40,rocky_bear_lake,trails 6,Lodestar SiCore,6,19.86,81.24085839041948,308.4102795516244,252.76089527854893,energy envelope
+bank40,rocky_bear_lake,trails 6,Lodestar SiCore,4,19.86,69.16053451197214,286.1209018065225,236.8235113296775,energy envelope
+bank40,rocky_bear_lake,trails 6,DeltaQuad Evo GOV,8,18.48,85.1830966659094,286.192375076063,229.69826564943415,energy envelope
+bank40,rocky_bear_lake,trails 6,DeltaQuad Evo GOV,2,18.48,50.95389256302004,220.14361358890258,180.23270855034522,energy envelope
+bank40,rocky_bear_lake,trails 6,DeltaQuad Evo GOV,10,18.48,98.53656811320354,307.63649341032226,239.83360403564137,energy envelope
+bank40,rocky_bear_lake,trails 6,DeltaQuad Evo GOV,6,18.48,72.80149359178077,264.7541156682832,210.0023031813783,energy envelope
+bank40,rocky_bear_lake,trails 6,DeltaQuad Evo GOV,4,18.48,61.39175889081765,242.98973504079794,195.14278411205385,energy envelope
+bank40,olympic_hurricane_ridge,trails 3,Lodestar SiCore,8,18.0,82.12287753248583,351.8648942168428,322.27138578939974,energy envelope
+bank40,olympic_hurricane_ridge,trails 3,Lodestar SiCore,2,18.0,48.59341865827564,272.5551152571133,256.75501278470017,energy envelope
+bank40,olympic_hurricane_ridge,trails 3,Lodestar SiCore,10,18.0,95.24310057022025,379.58032808323736,345.30714594934125,energy envelope
+bank40,olympic_hurricane_ridge,trails 3,Lodestar SiCore,6,18.0,69.97452286791692,328.4730816206499,304.04858912491557,energy envelope
+bank40,olympic_hurricane_ridge,trails 3,Lodestar SiCore,4,18.0,58.798036576513525,297.452998029072,277.8000255901705,energy envelope
+bank40,olympic_hurricane_ridge,trails 3,DeltaQuad Evo GOV,8,16.54,73.15880099917507,344.0554017168384,315.72762375552156,energy envelope
+bank40,olympic_hurricane_ridge,trails 3,DeltaQuad Evo GOV,2,16.54,41.75773386219734,259.54857228875255,243.85330328310496,energy envelope
+bank40,olympic_hurricane_ridge,trails 3,DeltaQuad Evo GOV,10,16.58,85.82768836441142,372.22171040517964,339.48602572391553,energy envelope
+bank40,olympic_hurricane_ridge,trails 3,DeltaQuad Evo GOV,6,16.54,61.719910247016976,316.12149189901874,292.3737399193881,energy envelope
+bank40,olympic_hurricane_ridge,trails 3,DeltaQuad Evo GOV,4,16.54,51.25288786802441,287.34656829415246,269.23468152798165,energy envelope
+bank40,olympic_hurricane_ridge,trails 6,Lodestar SiCore,8,18.0,82.12287753248583,352.62715937261515,314.9026317769537,energy envelope
+bank40,olympic_hurricane_ridge,trails 6,Lodestar SiCore,2,18.0,48.59341865827564,272.9515336841361,250.5241484914092,energy envelope
+bank40,olympic_hurricane_ridge,trails 6,Lodestar SiCore,10,18.0,95.24310057022025,378.6511099603698,335.5017540657411,energy envelope
+bank40,olympic_hurricane_ridge,trails 6,Lodestar SiCore,6,18.0,69.97452286791692,327.7276145393834,294.88692669523067,energy envelope
+bank40,olympic_hurricane_ridge,trails 6,Lodestar SiCore,4,18.0,58.798036576513525,298.3602367391076,271.84773328240385,energy envelope
+bank40,olympic_hurricane_ridge,trails 6,DeltaQuad Evo GOV,8,16.71,74.1759219934661,340.2288282437101,302.0709604423387,energy envelope
+bank40,olympic_hurricane_ridge,trails 6,DeltaQuad Evo GOV,2,16.71,42.52702842133118,259.7251767705026,237.6191386930815,energy envelope
+bank40,olympic_hurricane_ridge,trails 6,DeltaQuad Evo GOV,10,16.68,86.47470973384637,367.8054732144291,327.1566456819583,energy envelope
+bank40,olympic_hurricane_ridge,trails 6,DeltaQuad Evo GOV,6,16.71,62.65442242958895,312.58015390726786,281.8584821702301,energy envelope
+bank40,olympic_hurricane_ridge,trails 6,DeltaQuad Evo GOV,4,16.71,52.104791238877304,284.5444323491264,259.07726197869994,energy envelope
+bank40,rainier_paradise,trails 3,Lodestar SiCore,8,18.18,83.2638995960008,345.46011386703884,299.06945359952374,energy envelope
+bank40,rainier_paradise,trails 3,Lodestar SiCore,2,18.15,49.3250533179493,268.11331152738535,236.5399955547119,energy envelope
+bank40,rainier_paradise,trails 3,Lodestar SiCore,10,18.19,96.5400710625643,373.6231430761051,319.4210366101854,energy envelope
+bank40,rainier_paradise,trails 3,Lodestar SiCore,6,18.15,70.8519377835654,321.1660609313287,279.1422240455782,energy envelope
+bank40,rainier_paradise,trails 3,Lodestar SiCore,4,18.15,59.6025613641746,291.69239025704394,253.783026999356,energy envelope
+bank40,rainier_paradise,trails 3,DeltaQuad Evo GOV,8,16.9,75.32101375579369,334.8989902094188,292.0360629407528,energy envelope
+bank40,rainier_paradise,trails 3,DeltaQuad Evo GOV,2,16.9,43.395137697306595,253.3400190792709,220.75005087986898,energy envelope
+bank40,rainier_paradise,trails 3,DeltaQuad Evo GOV,10,16.9,87.90670918828708,359.64383203772246,310.0716772224146,energy envelope
+bank40,rainier_paradise,trails 3,DeltaQuad Evo GOV,6,16.9,63.70718669646582,305.8018213886516,263.46783228054653,energy envelope
+bank40,rainier_paradise,trails 3,DeltaQuad Evo GOV,4,16.9,53.06522801030345,280.0788623434807,244.80890468771196,energy envelope
+bank40,rainier_paradise,trails 6,Lodestar SiCore,8,18.9,87.90670918828708,350.8547253472456,290.6041343353028,energy envelope
+bank40,rainier_paradise,trails 6,Lodestar SiCore,2,18.9,53.06522801030345,271.69607758390424,230.50994251595733,energy envelope
+bank40,rainier_paradise,trails 6,Lodestar SiCore,10,18.91,101.53450263226186,377.2192063421566,302.85562720279927,energy envelope
+bank40,rainier_paradise,trails 6,Lodestar SiCore,6,18.9,75.32101375579369,322.74103308717366,265.74292433195905,energy envelope
+bank40,rainier_paradise,trails 6,Lodestar SiCore,4,18.9,63.70718669646582,298.628677186029,246.1260608018313,energy envelope
+bank40,rainier_paradise,trails 6,DeltaQuad Evo GOV,8,17.6,79.61545712971882,325.0915712338864,266.84868012177805,energy envelope
+bank40,rainier_paradise,trails 6,DeltaQuad Evo GOV,2,17.59,46.62150987747748,249.5927883431366,212.70444961924792,energy envelope
+bank40,rainier_paradise,trails 6,DeltaQuad Evo GOV,10,17.6,92.54130649282014,352.04810975471116,285.93328639033615,energy envelope
+bank40,rainier_paradise,trails 6,DeltaQuad Evo GOV,6,17.59,67.60414805412091,302.29194727732397,249.64769583135873,energy envelope
+bank40,rainier_paradise,trails 6,DeltaQuad Evo GOV,4,17.59,56.626894779216435,275.8236164544815,232.94560315266835,energy envelope
+bank40,smokies_newfound_gap,trails 3,Lodestar SiCore,8,18.0,82.12287753248583,345.89025449460786,315.25826908653613,energy envelope
+bank40,smokies_newfound_gap,trails 3,Lodestar SiCore,2,18.0,48.59341865827564,266.0135535843112,247.79605640495092,energy envelope
+bank40,smokies_newfound_gap,trails 3,Lodestar SiCore,10,18.0,95.24310057022025,370.5242066169958,333.517612333635,energy envelope
+bank40,smokies_newfound_gap,trails 3,Lodestar SiCore,6,18.0,69.97452286791692,316.15675797596174,289.2579371475024,energy envelope
+bank40,smokies_newfound_gap,trails 3,Lodestar SiCore,4,18.0,58.798036576513525,293.0315174772665,271.98222308464204,energy envelope
+bank40,smokies_newfound_gap,trails 3,DeltaQuad Evo GOV,8,16.63,73.69640213814623,335.71718621588,305.55855930428385,energy envelope
+bank40,smokies_newfound_gap,trails 3,DeltaQuad Evo GOV,2,16.63,42.16413277079117,254.89851179083792,236.9882707150295,energy envelope
+bank40,smokies_newfound_gap,trails 3,DeltaQuad Evo GOV,10,16.63,86.15089534026228,363.4029781523917,329.1271038409994,energy envelope
+bank40,smokies_newfound_gap,trails 3,DeltaQuad Evo GOV,6,16.63,62.2137773091957,308.98739255335215,283.2572942831513,energy envelope
+bank40,smokies_newfound_gap,trails 3,DeltaQuad Evo GOV,4,16.63,51.70302085341068,281.2174156644922,261.1454315112992,energy envelope
+bank40,smokies_newfound_gap,trails 6,Lodestar SiCore,8,18.0,82.12287753248583,343.7762409460606,304.79781203356833,energy envelope
+bank40,smokies_newfound_gap,trails 6,Lodestar SiCore,2,18.0,48.59341865827564,264.0643523269501,240.18877252715586,energy envelope
+bank40,smokies_newfound_gap,trails 6,Lodestar SiCore,10,18.0,95.24310057022025,372.32733536620634,328.3442475873685,energy envelope
+bank40,smokies_newfound_gap,trails 6,Lodestar SiCore,6,18.0,69.97452286791692,319.2388602114855,282.6079485368194,energy envelope
+bank40,smokies_newfound_gap,trails 6,Lodestar SiCore,4,18.0,58.798036576513525,291.5896192102874,261.3575289813275,energy envelope
+bank40,smokies_newfound_gap,trails 6,DeltaQuad Evo GOV,8,16.7,74.11589697306846,333.13082000145505,294.0453382634188,energy envelope
+bank40,smokies_newfound_gap,trails 6,DeltaQuad Evo GOV,2,16.7,42.48158142653102,253.17602130029775,230.02977225264357,energy envelope
+bank40,smokies_newfound_gap,trails 6,DeltaQuad Evo GOV,10,16.7,86.6044055682453,359.8699843630559,317.3615898665993,energy envelope
+bank40,smokies_newfound_gap,trails 6,DeltaQuad Evo GOV,6,16.7,62.59925675105713,305.937441750048,272.0342047311055,energy envelope
+bank40,smokies_newfound_gap,trails 6,DeltaQuad Evo GOV,4,16.7,52.05448490221132,279.24435035149423,252.72519411708345,energy envelope
+bank40,whites_pinkham_notch,trails 3,Lodestar SiCore,8,18.0,82.12287753248583,322.4915737482458,279.67363477512424,energy envelope
+bank40,whites_pinkham_notch,trails 3,Lodestar SiCore,2,18.0,48.59341865827564,248.8762787088859,222.28382190101925,energy envelope
+bank40,whites_pinkham_notch,trails 3,Lodestar SiCore,10,18.0,95.24310057022025,349.5146029037454,302.5181306804841,energy envelope
+bank40,whites_pinkham_notch,trails 3,Lodestar SiCore,6,18.0,69.97452286791692,298.4565713444951,260.9018016746392,energy envelope
+bank40,whites_pinkham_notch,trails 3,Lodestar SiCore,4,18.0,58.798036576513525,273.4576094991617,243.36538529284672,energy envelope
+bank40,whites_pinkham_notch,trails 3,DeltaQuad Evo GOV,8,16.54,73.15880099917507,333.6724163649938,291.2405507980399,energy envelope
+bank40,whites_pinkham_notch,trails 3,DeltaQuad Evo GOV,2,16.54,41.75773386219734,253.36399727342027,225.7684099775882,energy envelope
+bank40,whites_pinkham_notch,trails 3,DeltaQuad Evo GOV,10,16.54,85.56956012449866,360.8258965174315,315.81282833390594,energy envelope
+bank40,whites_pinkham_notch,trails 3,DeltaQuad Evo GOV,6,16.54,61.719910247016976,307.11720343538315,271.5417505010183,energy envelope
+bank40,whites_pinkham_notch,trails 3,DeltaQuad Evo GOV,4,16.54,51.25288786802441,279.88458737878926,249.79469370131358,energy envelope
+bank40,whites_pinkham_notch,trails 6,Lodestar SiCore,8,18.0,82.12287753248583,322.7126674158482,248.02380416797425,energy envelope
+bank40,whites_pinkham_notch,trails 6,Lodestar SiCore,2,18.0,48.59341865827564,247.89001391152067,200.45535543756583,energy envelope
+bank40,whites_pinkham_notch,trails 6,Lodestar SiCore,10,18.0,95.24310057022025,348.4191761862663,264.7073155647313,energy envelope
+bank40,whites_pinkham_notch,trails 6,Lodestar SiCore,6,18.0,69.97452286791692,298.20339776041703,229.38922987475596,energy envelope
+bank40,whites_pinkham_notch,trails 6,Lodestar SiCore,4,18.0,58.798036576513525,273.05026324558526,214.94379189388815,energy envelope
+bank40,whites_pinkham_notch,trails 6,DeltaQuad Evo GOV,8,16.73,74.29604492438936,332.0701517682455,255.39789356471087,energy envelope
+bank40,whites_pinkham_notch,trails 6,DeltaQuad Evo GOV,2,16.73,42.617995301059466,250.76102996375366,198.47220966057043,energy envelope
+bank40,whites_pinkham_notch,trails 6,DeltaQuad Evo GOV,10,16.73,86.79913154516369,357.92977694618656,278.717554449827,energy envelope
+bank40,whites_pinkham_notch,trails 6,DeltaQuad Evo GOV,6,16.73,62.76482667678055,304.977377782085,240.33084094578027,energy envelope
+bank40,whites_pinkham_notch,trails 6,DeltaQuad Evo GOV,4,16.73,52.20547680233725,278.49439725944353,224.45451811396765,energy envelope
+v16,yosemite_happy_isles,trails 3,Lodestar SiCore,8,17.56,115.34886324930993,327.8276432644306,262.4125281187823,energy envelope
+v16,yosemite_happy_isles,trails 3,Lodestar SiCore,2,17.29,65.69859397601327,250.99326927888524,203.3370414091762,energy envelope
+v16,yosemite_happy_isles,trails 3,Lodestar SiCore,10,17.58,134.30127746202191,351.89334983943206,276.87652511870715,energy envelope
+v16,yosemite_happy_isles,trails 3,Lodestar SiCore,6,17.5,97.50510280121432,302.5179379229969,238.1822340620906,energy envelope
+v16,yosemite_happy_isles,trails 3,Lodestar SiCore,4,17.42,81.00849298122786,274.2338002118515,221.03483580132124,energy envelope
+v16,yosemite_happy_isles,trails 6,Lodestar SiCore,8,17.55,115.25862357879532,327.0444010430681,231.04981442201975,energy envelope
+v16,yosemite_happy_isles,trails 6,Lodestar SiCore,2,17.55,67.48156460548867,248.91632448856976,173.48184975687943,energy envelope
+v16,yosemite_happy_isles,trails 6,Lodestar SiCore,10,17.55,134.00926534880702,353.0110001819937,242.62471826115245,energy envelope
+v16,yosemite_happy_isles,trails 6,Lodestar SiCore,6,17.55,97.92045953157171,300.68480662389857,209.5255877735251,energy envelope
+v16,yosemite_happy_isles,trails 6,Lodestar SiCore,4,17.55,81.99477320713615,273.85624004580956,190.6177187785748,energy envelope
+v16,sequoia_lodgepole,trails 3,Lodestar SiCore,8,17.79,117.43412176743351,356.71246751285156,313.0826727397769,energy envelope
+v16,sequoia_lodgepole,trails 3,Lodestar SiCore,2,17.67,68.3125252498049,275.09669421583664,248.350574183244,energy envelope
+v16,sequoia_lodgepole,trails 3,Lodestar SiCore,10,17.85,136.94368781789925,387.6827391417943,335.051037895013,energy envelope
+v16,sequoia_lodgepole,trails 3,Lodestar SiCore,6,17.75,99.59071443876859,329.8061770770189,290.14497211815393,energy envelope
+v16,sequoia_lodgepole,trails 3,Lodestar SiCore,4,17.71,83.21684893289239,303.2628252235576,271.09130538429065,energy envelope
+v16,sequoia_lodgepole,trails 6,Lodestar SiCore,8,17.67,116.34383021321341,358.8438698947555,293.4393044511154,energy envelope
+v16,sequoia_lodgepole,trails 6,Lodestar SiCore,2,17.61,67.89640931267152,275.15253219758023,230.1225187348611,energy envelope
+v16,sequoia_lodgepole,trails 6,Lodestar SiCore,10,17.71,135.5703357280324,387.58528387855694,312.68615171043473,energy envelope
+v16,sequoia_lodgepole,trails 6,Lodestar SiCore,6,17.65,98.75382138801663,329.19479462732966,268.87921331119117,energy envelope
+v16,sequoia_lodgepole,trails 6,Lodestar SiCore,4,17.61,82.45199224600265,301.53677381393675,249.59389983819517,energy envelope
+v16,rocky_bear_lake,trails 3,Lodestar SiCore,8,18.46,123.61503600249647,342.35829774367454,290.7123618247232,energy envelope
+v16,rocky_bear_lake,trails 3,Lodestar SiCore,2,18.36,73.18922817953147,261.74113660000825,229.18459280865483,energy envelope
+v16,rocky_bear_lake,trails 3,Lodestar SiCore,10,18.48,143.2094213402156,365.97000965442635,302.51092756422884,energy envelope
+v16,rocky_bear_lake,trails 3,Lodestar SiCore,6,18.43,105.37523445690259,314.21619745844544,268.5855769569601,energy envelope
+v16,rocky_bear_lake,trails 3,Lodestar SiCore,4,18.38,88.43247589220195,290.3190362631192,253.52608061080082,energy envelope
+v16,rocky_bear_lake,trails 6,Lodestar SiCore,8,18.68,125.67916032269281,338.87715534077387,261.1503747669055,energy envelope
+v16,rocky_bear_lake,trails 6,Lodestar SiCore,2,18.68,75.50795160926037,263.89586674694425,212.014268744223,energy envelope
+v16,rocky_bear_lake,trails 6,Lodestar SiCore,10,18.68,145.22785200607976,362.98596484354175,268.0387996306424,energy envelope
+v16,rocky_bear_lake,trails 6,Lodestar SiCore,6,18.68,107.54294636209391,313.560463557919,242.34170356906168,energy envelope
+v16,rocky_bear_lake,trails 6,Lodestar SiCore,4,18.68,90.8192101242831,286.9728619742018,227.65011484033184,energy envelope
+v16,olympic_hurricane_ridge,trails 3,Lodestar SiCore,8,16.76,108.24127534824036,357.5621745746127,318.5689976498785,energy envelope
+v16,olympic_hurricane_ridge,trails 3,Lodestar SiCore,2,16.71,61.80721784973215,273.026645837223,252.87550429159737,energy envelope
+v16,olympic_hurricane_ridge,trails 3,Lodestar SiCore,10,16.76,126.43398841775077,389.73033899652154,344.9855303518893,energy envelope
+v16,olympic_hurricane_ridge,trails 3,Lodestar SiCore,6,16.76,91.46104000151801,328.3235874500249,297.2228030119874,energy envelope
+v16,olympic_hurricane_ridge,trails 3,Lodestar SiCore,4,16.74,75.94673781384448,301.8023230845713,276.7275839054059,energy envelope
+v16,olympic_hurricane_ridge,trails 6,Lodestar SiCore,8,16.85,109.02959682129992,357.6866265831185,310.13737597204266,energy envelope
+v16,olympic_hurricane_ridge,trails 6,Lodestar SiCore,2,16.88,62.93548739872371,273.79945396406566,245.3812500331284,energy envelope
+v16,olympic_hurricane_ridge,trails 6,Lodestar SiCore,10,16.85,127.2858713883358,385.9681398117583,332.0352316655355,energy envelope
+v16,olympic_hurricane_ridge,trails 6,Lodestar SiCore,6,16.91,92.67056233151298,327.8617381042106,287.103734813234,energy envelope
+v16,olympic_hurricane_ridge,trails 6,Lodestar SiCore,4,16.86,76.82812391286424,299.57688226274564,265.56083164036687,energy envelope
+v16,rainier_paradise,trails 3,Lodestar SiCore,8,17.1,111.23438626671444,352.16773331187176,291.9508565089625,energy envelope
+v16,rainier_paradise,trails 3,Lodestar SiCore,2,17.07,64.20857122624415,266.12694267315385,226.24627761197485,energy envelope
+v16,rainier_paradise,trails 3,Lodestar SiCore,10,17.12,129.85868190442272,377.9150054937223,316.87302473920295,energy envelope
+v16,rainier_paradise,trails 3,Lodestar SiCore,6,17.09,94.13247677459863,321.5187268860055,271.2247239568802,energy envelope
+v16,rainier_paradise,trails 3,Lodestar SiCore,4,17.07,78.38278517442248,294.7532024162272,252.45141067738808,energy envelope
+v16,rainier_paradise,trails 6,Lodestar SiCore,8,17.78,117.3430699222283,349.6996129753606,277.26048020035705,energy envelope
+v16,rainier_paradise,trails 6,Lodestar SiCore,2,17.78,69.07870613455977,267.36723040193806,216.57799806673137,energy envelope
+v16,rainier_paradise,trails 6,Lodestar SiCore,10,17.78,136.25614663036063,374.55234730813663,291.34316740999816,energy envelope
+v16,rainier_paradise,trails 6,Lodestar SiCore,6,17.78,99.84247093688404,322.24320192169887,253.45742189650616,energy envelope
+v16,rainier_paradise,trails 6,Lodestar SiCore,4,17.78,83.75434967432787,292.7318577350689,235.48301059373563,energy envelope
+v16,smokies_newfound_gap,trails 3,Lodestar SiCore,8,16.81,108.67887860273161,350.9563856286402,311.0491646767812,energy envelope
+v16,smokies_newfound_gap,trails 3,Lodestar SiCore,2,16.8,62.40326579277718,263.9535086046373,240.2266116181218,energy envelope
+v16,smokies_newfound_gap,trails 3,Lodestar SiCore,10,16.82,127.00159259065315,377.0279766653325,331.6625393932781,energy envelope
+v16,smokies_newfound_gap,trails 3,Lodestar SiCore,6,16.81,91.86333131293958,319.9665505087841,286.56272642575874,energy envelope
+v16,smokies_newfound_gap,trails 3,Lodestar SiCore,4,16.8,76.38679524837912,293.3591363756316,266.36766087171543,energy envelope
+v16,smokies_newfound_gap,trails 6,Lodestar SiCore,8,16.86,109.11736465579965,349.13987055922985,298.1097027382452,energy envelope
+v16,smokies_newfound_gap,trails 6,Lodestar SiCore,2,16.88,62.93548739872371,266.35075715582224,235.20287749346605,energy envelope
+v16,smokies_newfound_gap,trails 6,Lodestar SiCore,10,16.86,127.38070161144947,377.0700308357536,319.98608928302735,energy envelope
+v16,smokies_newfound_gap,trails 6,Lodestar SiCore,6,16.87,92.34724618076679,322.6251933764786,281.11123955885813,energy envelope
+v16,smokies_newfound_gap,trails 6,Lodestar SiCore,4,16.87,76.90180228207919,291.70701070881086,257.1751738791202,energy envelope
+v16,whites_pinkham_notch,trails 3,Lodestar SiCore,8,16.43,105.37523445690259,332.25696371678396,279.1890109047162,energy envelope
+v16,whites_pinkham_notch,trails 3,Lodestar SiCore,2,16.35,59.45162875143846,251.75207501834473,221.83387627011274,energy envelope
+v16,whites_pinkham_notch,trails 3,Lodestar SiCore,10,16.48,123.80197742910747,359.91826153487267,304.5245902944155,energy envelope
+v16,whites_pinkham_notch,trails 3,Lodestar SiCore,6,16.4,88.59060277326807,307.6705630768542,264.8531757202915,energy envelope
+v16,whites_pinkham_notch,trails 3,Lodestar SiCore,4,16.36,73.18922817953147,279.8614388087045,240.96814097250945,energy envelope
+v16,whites_pinkham_notch,trails 6,Lodestar SiCore,8,16.9,109.4687891132293,329.934153730804,233.7982112822939,energy envelope
+v16,whites_pinkham_notch,trails 6,Lodestar SiCore,2,16.9,63.06889591964104,249.93003291524818,188.854591953578,energy envelope
+v16,whites_pinkham_notch,trails 6,Lodestar SiCore,10,16.9,127.76037562333488,356.3182184998541,260.4075537622608,energy envelope
+v16,whites_pinkham_notch,trails 6,Lodestar SiCore,6,16.9,92.58968032591181,303.0784824588788,224.32293367804849,energy envelope
+v16,whites_pinkham_notch,trails 6,Lodestar SiCore,4,16.9,77.12304926138239,278.20440555895715,211.83879252892189,energy envelope
+v20,yosemite_happy_isles,trails 3,Lodestar SiCore,8,20.0,138.4228168332314,314.81594911565935,239.90309840634174,energy envelope
+v20,yosemite_happy_isles,trails 3,Lodestar SiCore,2,20.0,85.45490222867856,246.03792521431672,192.86616643519866,energy envelope
+v20,yosemite_happy_isles,trails 3,Lodestar SiCore,10,20.0,158.90374381365848,338.43146353027527,241.57934863442884,energy envelope
+v20,yosemite_happy_isles,trails 3,Lodestar SiCore,6,20.0,119.35436757559236,291.36904707971524,225.72542476136348,energy envelope
+v20,yosemite_happy_isles,trails 3,Lodestar SiCore,4,20.0,101.69839604074143,269.68087156755445,201.29427110712018,energy envelope
+v20,yosemite_happy_isles,trails 6,Lodestar SiCore,8,20.0,138.4228168332314,314.9892095699802,198.10995066094404,energy envelope
+v20,yosemite_happy_isles,trails 6,Lodestar SiCore,2,20.0,85.45490222867856,246.16812336615382,166.6235576146167,energy envelope
+v20,yosemite_happy_isles,trails 6,Lodestar SiCore,10,20.0,158.90374381365848,337.33162528771453,210.99199117053672,energy envelope
+v20,yosemite_happy_isles,trails 6,Lodestar SiCore,6,20.0,119.35436757559236,290.7089855909518,192.91510249648567,energy envelope
+v20,yosemite_happy_isles,trails 6,Lodestar SiCore,4,20.0,101.69839604074143,269.12194839945465,172.98575300979536,energy envelope
+v20,sequoia_lodgepole,trails 3,Lodestar SiCore,8,20.0,138.4228168332314,353.2414540781357,299.31112776236665,energy envelope
+v20,sequoia_lodgepole,trails 3,Lodestar SiCore,2,20.0,85.45490222867856,278.2185587780495,246.95847765206366,energy envelope
+v20,sequoia_lodgepole,trails 3,Lodestar SiCore,10,20.0,158.90374381365848,378.3351882711011,314.9235992131501,energy envelope
+v20,sequoia_lodgepole,trails 3,Lodestar SiCore,6,20.0,119.35436757559236,326.1094551330246,283.00096502329245,energy envelope
+v20,sequoia_lodgepole,trails 3,Lodestar SiCore,4,20.0,101.69839604074143,302.11926787020565,261.45589762740764,energy envelope
+v20,sequoia_lodgepole,trails 6,Lodestar SiCore,8,20.0,138.4228168332314,351.4079926180048,270.37336950725864,energy envelope
+v20,sequoia_lodgepole,trails 6,Lodestar SiCore,2,20.0,85.45490222867856,274.86157726806096,224.86324928003555,energy envelope
+v20,sequoia_lodgepole,trails 6,Lodestar SiCore,10,20.0,158.90374381365848,376.81419911399706,285.74852813980243,energy envelope
+v20,sequoia_lodgepole,trails 6,Lodestar SiCore,6,20.0,119.35436757559236,327.79588977318485,262.7478467778199,energy envelope
+v20,sequoia_lodgepole,trails 6,Lodestar SiCore,4,20.0,101.69839604074143,299.95535914832953,234.9027330597907,energy envelope
+v20,rocky_bear_lake,trails 3,Lodestar SiCore,8,20.0,138.4228168332314,333.52338890232033,274.94069545395763,energy envelope
+v20,rocky_bear_lake,trails 3,Lodestar SiCore,2,20.0,85.45490222867856,262.8567434074555,228.36099812348118,energy envelope
+v20,rocky_bear_lake,trails 3,Lodestar SiCore,10,20.0,158.90374381365848,355.2405383833554,291.6714533707284,energy envelope
+v20,rocky_bear_lake,trails 3,Lodestar SiCore,6,20.0,119.35436757559236,307.548069814287,259.3507830508778,energy envelope
+v20,rocky_bear_lake,trails 3,Lodestar SiCore,4,20.0,101.69839604074143,285.598980926111,241.95800190298627,energy envelope
+v20,rocky_bear_lake,trails 6,Lodestar SiCore,8,20.0,138.4228168332314,333.27473337535093,243.2592524133696,energy envelope
+v20,rocky_bear_lake,trails 6,Lodestar SiCore,2,20.0,85.45490222867856,261.70912268348786,208.00478829604882,energy envelope
+v20,rocky_bear_lake,trails 6,Lodestar SiCore,10,20.0,158.90374381365848,355.44367747451736,251.86593414510904,energy envelope
+v20,rocky_bear_lake,trails 6,Lodestar SiCore,6,20.0,119.35436757559236,308.52126878017873,234.59327511576024,energy envelope
+v20,rocky_bear_lake,trails 6,Lodestar SiCore,4,20.0,101.69839604074143,285.005946054879,218.5644980473451,energy envelope
+v20,olympic_hurricane_ridge,trails 3,Lodestar SiCore,8,20.0,138.4228168332314,343.6155121035145,292.5022968507756,energy envelope
+v20,olympic_hurricane_ridge,trails 3,Lodestar SiCore,2,20.0,85.45490222867856,272.74852982829196,245.70752318614643,energy envelope
+v20,olympic_hurricane_ridge,trails 3,Lodestar SiCore,10,20.0,158.90374381365848,372.54792444434423,320.3281449864552,energy envelope
+v20,olympic_hurricane_ridge,trails 3,Lodestar SiCore,6,20.0,119.35436757559236,320.6165765179383,280.7745739836971,energy envelope
+v20,olympic_hurricane_ridge,trails 3,Lodestar SiCore,4,20.0,101.69839604074143,296.3044089125907,261.07112595514826,energy envelope
+v20,olympic_hurricane_ridge,trails 6,Lodestar SiCore,8,20.0,138.4228168332314,344.5346105044951,287.4031449976592,energy envelope
+v20,olympic_hurricane_ridge,trails 6,Lodestar SiCore,2,20.0,85.45490222867856,273.22192316618094,237.74583748742984,energy envelope
+v20,olympic_hurricane_ridge,trails 6,Lodestar SiCore,10,20.0,158.90374381365848,371.8196725709053,305.83629315279643,energy envelope
+v20,olympic_hurricane_ridge,trails 6,Lodestar SiCore,6,20.0,119.35436757559236,320.370104138626,270.4949937580333,energy envelope
+v20,olympic_hurricane_ridge,trails 6,Lodestar SiCore,4,20.0,101.69839604074143,296.9336954871514,251.19484682748575,energy envelope
+v20,rainier_paradise,trails 3,Lodestar SiCore,8,20.0,138.4228168332314,339.71412883459874,273.4025071854659,energy envelope
+v20,rainier_paradise,trails 3,Lodestar SiCore,2,20.0,85.45490222867856,267.82048458191275,224.759078915776,energy envelope
+v20,rainier_paradise,trails 3,Lodestar SiCore,10,20.0,158.90374381365848,361.79029174753276,284.35188046328335,energy envelope
+v20,rainier_paradise,trails 3,Lodestar SiCore,6,20.0,119.35436757559236,313.71432721410474,258.56860880919686,energy envelope
+v20,rainier_paradise,trails 3,Lodestar SiCore,4,20.0,101.69839604074143,290.175642396786,234.03572575419489,energy envelope
+v20,rainier_paradise,trails 6,Lodestar SiCore,8,20.0,138.4228168332314,341.0371780449965,257.19751466963993,energy envelope
+v20,rainier_paradise,trails 6,Lodestar SiCore,2,20.0,85.45490222867856,265.2754780411725,210.13438471034806,energy envelope
+v20,rainier_paradise,trails 6,Lodestar SiCore,10,20.0,158.90374381365848,364.2868323894441,269.33426443656305,energy envelope
+v20,rainier_paradise,trails 6,Lodestar SiCore,6,20.0,119.35436757559236,313.6819806387565,241.52937020912927,energy envelope
+v20,rainier_paradise,trails 6,Lodestar SiCore,4,20.0,101.69839604074143,290.24379442719675,218.74257400305206,energy envelope
+v20,smokies_newfound_gap,trails 3,Lodestar SiCore,8,20.0,138.4228168332314,338.2441310187258,289.09828972881934,energy envelope
+v20,smokies_newfound_gap,trails 3,Lodestar SiCore,2,20.0,85.45490222867856,264.7672093108693,236.33757359611275,energy envelope
+v20,smokies_newfound_gap,trails 3,Lodestar SiCore,10,20.0,158.90374381365848,358.4421031064441,300.4477115935588,energy envelope
+v20,smokies_newfound_gap,trails 3,Lodestar SiCore,6,20.0,119.35436757559236,313.9061204244602,273.67134585085216,energy envelope
+v20,smokies_newfound_gap,trails 3,Lodestar SiCore,4,20.0,101.69839604074143,287.49279579240323,251.21233968293174,energy envelope
+v20,smokies_newfound_gap,trails 6,Lodestar SiCore,8,20.0,138.4228168332314,337.39706937666045,272.7713239462492,energy envelope
+v20,smokies_newfound_gap,trails 6,Lodestar SiCore,2,20.0,85.45490222867856,262.86532100805067,226.45177622723335,energy envelope
+v20,smokies_newfound_gap,trails 6,Lodestar SiCore,10,20.0,158.90374381365848,359.63270800995946,284.8934037014232,energy envelope
+v20,smokies_newfound_gap,trails 6,Lodestar SiCore,6,20.0,119.35436757559236,310.6551520981959,259.8788665647981,energy envelope
+v20,smokies_newfound_gap,trails 6,Lodestar SiCore,4,20.0,101.69839604074143,288.39014202277593,241.00627843035738,energy envelope
+v20,whites_pinkham_notch,trails 3,Lodestar SiCore,8,20.0,138.4228168332314,312.73047003764225,255.3179469454736,energy envelope
+v20,whites_pinkham_notch,trails 3,Lodestar SiCore,2,20.0,85.45490222867856,247.00180609092158,208.1284344732005,energy envelope
+v20,whites_pinkham_notch,trails 3,Lodestar SiCore,10,20.0,158.90374381365848,335.3261855602695,264.79670077099814,energy envelope
+v20,whites_pinkham_notch,trails 3,Lodestar SiCore,6,20.0,119.35436757559236,290.22267665286256,238.60989818886802,energy envelope
+v20,whites_pinkham_notch,trails 3,Lodestar SiCore,4,20.0,101.69839604074143,268.2118234029632,220.99956696756166,energy envelope
+v20,whites_pinkham_notch,trails 6,Lodestar SiCore,8,20.0,138.4228168332314,310.35008802773973,209.22714075785112,energy envelope
+v20,whites_pinkham_notch,trails 6,Lodestar SiCore,2,20.0,85.45490222867856,244.3153713340696,175.07456152468197,energy envelope
+v20,whites_pinkham_notch,trails 6,Lodestar SiCore,10,20.0,158.90374381365848,333.9828651723195,207.60304271597434,energy envelope
+v20,whites_pinkham_notch,trails 6,Lodestar SiCore,6,20.0,119.35436757559236,288.25353945609976,201.15006315860325,energy envelope
+v20,whites_pinkham_notch,trails 6,Lodestar SiCore,4,20.0,101.69839604074143,266.3573957218232,183.45989325281138,energy envelope
+twin,yosemite_happy_isles,trails 3,Lodestar SiCore,8,18.0,119.35436757559236,319.7782870410973,261.11635187529424,energy envelope
+twin,yosemite_happy_isles,trails 3,Lodestar SiCore,2,18.0,70.62388613940377,247.6702392981537,199.12616279285345,energy envelope
+twin,yosemite_happy_isles,trails 3,Lodestar SiCore,10,18.0,138.4228168332314,347.9085164500505,282.8669392480033,energy envelope
+twin,yosemite_happy_isles,trails 3,Lodestar SiCore,6,18.0,101.69839604074143,300.0097501991011,237.09280053291283,energy envelope
+twin,yosemite_happy_isles,trails 3,Lodestar SiCore,4,18.0,85.45490222867856,274.6503537614378,225.52698213326053,energy envelope
+twin,yosemite_happy_isles,trails 6,Lodestar SiCore,8,18.0,119.35436757559236,322.97560741928976,230.10111605345105,energy envelope
+twin,yosemite_happy_isles,trails 6,Lodestar SiCore,2,18.0,70.62388613940377,246.8882705812438,165.77331855922753,energy envelope
+twin,yosemite_happy_isles,trails 6,Lodestar SiCore,10,18.0,138.4228168332314,348.06802634564843,238.23339826494166,energy envelope
+twin,yosemite_happy_isles,trails 6,Lodestar SiCore,6,18.0,101.69839604074143,296.1741858041845,203.4309241385287,energy envelope
+twin,yosemite_happy_isles,trails 6,Lodestar SiCore,4,18.0,85.45490222867856,271.83365670964423,194.71333354262896,energy envelope
+twin,sequoia_lodgepole,trails 3,Lodestar SiCore,8,18.28,121.93891931274999,361.57113819376707,325.8648338983861,energy envelope
+twin,sequoia_lodgepole,trails 3,Lodestar SiCore,2,18.11,71.40288525949292,277.73933682427617,254.59745904414058,energy envelope
+twin,sequoia_lodgepole,trails 3,Lodestar SiCore,10,18.3,141.4049104254677,387.94278527631286,341.9047815613774,energy envelope
+twin,sequoia_lodgepole,trails 3,Lodestar SiCore,6,18.22,103.57141212504455,329.4536440278292,293.7980506592772,energy envelope
+twin,sequoia_lodgepole,trails 3,Lodestar SiCore,4,18.17,86.780671475259,306.07817015480174,279.70410664310015,energy envelope
+twin,sequoia_lodgepole,trails 6,Lodestar SiCore,8,18.11,120.36642551994154,358.66760988791344,300.3445597369848,energy envelope
+twin,sequoia_lodgepole,trails 6,Lodestar SiCore,2,18.0,70.62388613940377,274.80503260854164,229.8482865912477,energy envelope
+twin,sequoia_lodgepole,trails 6,Lodestar SiCore,10,18.17,140.1087678991228,387.3536161745422,316.1580894018236,energy envelope
+twin,sequoia_lodgepole,trails 6,Lodestar SiCore,6,18.06,102.20752363592037,327.57113599731633,269.8376472997478,energy envelope
+twin,sequoia_lodgepole,trails 6,Lodestar SiCore,4,18.0,85.45490222867856,300.98618238037113,255.4393144429365,energy envelope
+twin,rocky_bear_lake,trails 3,Lodestar SiCore,8,18.72,126.05629187467723,335.8018464718903,293.8395650359014,energy envelope
+twin,rocky_bear_lake,trails 3,Lodestar SiCore,2,18.68,75.50795160926037,264.92671828215197,237.59055739782104,energy envelope
+twin,rocky_bear_lake,trails 3,Lodestar SiCore,10,18.73,145.73466666898767,362.41948034438616,308.906928753892,energy envelope
+twin,rocky_bear_lake,trails 3,Lodestar SiCore,6,18.72,107.89182835962258,310.49880173026503,269.5336910717497,energy envelope
+twin,rocky_bear_lake,trails 3,Lodestar SiCore,4,18.7,90.9794557219334,286.9611941204226,255.41528460651793,energy envelope
+twin,rocky_bear_lake,trails 6,Lodestar SiCore,8,18.78,126.62304856094595,335.70729617400946,266.3674239928582,energy envelope
+twin,rocky_bear_lake,trails 6,Lodestar SiCore,2,18.78,76.23996818909531,262.19689210085875,215.25281747931288,energy envelope
+twin,rocky_bear_lake,trails 6,Lodestar SiCore,10,18.78,146.2423641304723,360.2928320935836,280.1676136524554,energy envelope
+twin,rocky_bear_lake,trails 6,Lodestar SiCore,6,18.78,108.41621071420765,312.5596190990076,244.95514116886025,energy envelope
+twin,rocky_bear_lake,trails 6,Lodestar SiCore,4,18.78,91.62185059025744,284.80079608835797,230.5111736586164,energy envelope
+twin,olympic_hurricane_ridge,trails 3,Lodestar SiCore,8,18.0,119.35436757559236,351.46622640798125,320.10576224368623,energy envelope
+twin,olympic_hurricane_ridge,trails 3,Lodestar SiCore,2,18.0,70.62388613940377,271.05106720116186,251.5744625481815,energy envelope
+twin,olympic_hurricane_ridge,trails 3,Lodestar SiCore,10,18.0,138.4228168332314,381.9094148743209,342.18951149443586,energy envelope
+twin,olympic_hurricane_ridge,trails 3,Lodestar SiCore,6,18.0,101.69839604074143,326.6083314703952,298.2824265096743,energy envelope
+twin,olympic_hurricane_ridge,trails 3,Lodestar SiCore,4,18.0,85.45490222867856,299.0218563967824,277.2373271243245,energy envelope
+twin,olympic_hurricane_ridge,trails 6,Lodestar SiCore,8,18.0,119.35436757559236,352.05384469676295,309.9103470774176,energy envelope
+twin,olympic_hurricane_ridge,trails 6,Lodestar SiCore,2,18.0,70.62388613940377,272.28500132479024,245.004956144718,energy envelope
+twin,olympic_hurricane_ridge,trails 6,Lodestar SiCore,10,18.0,138.4228168332314,381.50781258320706,334.8999227403203,energy envelope
+twin,olympic_hurricane_ridge,trails 6,Lodestar SiCore,6,18.0,101.69839604074143,325.73762074439674,286.26716021368577,energy envelope
+twin,olympic_hurricane_ridge,trails 6,Lodestar SiCore,4,18.0,85.45490222867856,298.27493950295167,267.51840220777854,energy envelope
+twin,rainier_paradise,trails 3,Lodestar SiCore,8,18.0,119.35436757559236,345.8289951052182,298.6023708637324,energy envelope
+twin,rainier_paradise,trails 3,Lodestar SiCore,2,18.0,70.62388613940377,265.24366323090294,230.1090930320652,energy envelope
+twin,rainier_paradise,trails 3,Lodestar SiCore,10,18.0,138.4228168332314,374.8623424947509,319.29173056179343,energy envelope
+twin,rainier_paradise,trails 3,Lodestar SiCore,6,18.0,101.69839604074143,321.1086676540314,271.23713914039496,energy envelope
+twin,rainier_paradise,trails 3,Lodestar SiCore,4,18.0,85.45490222867856,291.2446784766135,253.037053440582,energy envelope
+twin,rainier_paradise,trails 6,Lodestar SiCore,8,18.0,119.35436757559236,346.48385719903433,280.9379711176065,energy envelope
+twin,rainier_paradise,trails 6,Lodestar SiCore,2,18.0,70.62388613940377,265.1133923810481,216.87570399102043,energy envelope
+twin,rainier_paradise,trails 6,Lodestar SiCore,10,18.0,138.4228168332314,369.5513678501738,295.148109877635,energy envelope
+twin,rainier_paradise,trails 6,Lodestar SiCore,6,18.0,101.69839604074143,319.3520744084639,253.00100984468165,energy envelope
+twin,rainier_paradise,trails 6,Lodestar SiCore,4,18.0,85.45490222867856,290.9243514724338,239.5631807994952,energy envelope
+twin,smokies_newfound_gap,trails 3,Lodestar SiCore,8,18.0,119.35436757559236,340.1545703145032,308.40133411084133,energy envelope
+twin,smokies_newfound_gap,trails 3,Lodestar SiCore,2,18.0,70.62388613940377,263.8788865818684,242.85926305206223,energy envelope
+twin,smokies_newfound_gap,trails 3,Lodestar SiCore,10,18.0,138.4228168332314,367.3919794231986,329.6394500061461,energy envelope
+twin,smokies_newfound_gap,trails 3,Lodestar SiCore,6,18.0,101.69839604074143,317.433569025068,287.90074344537624,energy envelope
+twin,smokies_newfound_gap,trails 3,Lodestar SiCore,4,18.0,85.45490222867856,290.7810583214299,267.47366772983344,energy envelope
+twin,smokies_newfound_gap,trails 6,Lodestar SiCore,8,18.0,119.35436757559236,344.9754075738899,302.1364550172531,energy envelope
+twin,smokies_newfound_gap,trails 6,Lodestar SiCore,2,18.0,70.62388613940377,265.5310971740552,236.4714251687916,energy envelope
+twin,smokies_newfound_gap,trails 6,Lodestar SiCore,10,18.0,138.4228168332314,368.32927644583305,314.6831300767748,energy envelope
+twin,smokies_newfound_gap,trails 6,Lodestar SiCore,6,18.0,101.69839604074143,314.08475951841183,273.30492689971186,energy envelope
+twin,smokies_newfound_gap,trails 6,Lodestar SiCore,4,18.0,85.45490222867856,288.57755713005236,257.030839585716,energy envelope
+twin,whites_pinkham_notch,trails 3,Lodestar SiCore,8,18.0,119.35436757559236,319.4736712801976,275.2175427731011,energy envelope
+twin,whites_pinkham_notch,trails 3,Lodestar SiCore,2,18.0,70.62388613940377,247.37290687307046,215.05731251266272,energy envelope
+twin,whites_pinkham_notch,trails 3,Lodestar SiCore,10,18.0,138.4228168332314,346.88916053491397,299.7827790544681,energy envelope
+twin,whites_pinkham_notch,trails 3,Lodestar SiCore,6,18.0,101.69839604074143,300.24485000992917,258.9814867695987,energy envelope
+twin,whites_pinkham_notch,trails 3,Lodestar SiCore,4,18.0,85.45490222867856,275.1920673118325,240.76977958463448,energy envelope
+twin,whites_pinkham_notch,trails 6,Lodestar SiCore,8,18.0,119.35436757559236,321.4122418110626,238.70639096020892,energy envelope
+twin,whites_pinkham_notch,trails 6,Lodestar SiCore,2,18.0,70.62388613940377,246.59436686916126,181.7067131088134,energy envelope
+twin,whites_pinkham_notch,trails 6,Lodestar SiCore,10,18.0,138.4228168332314,347.3252416474386,253.07667683477823,energy envelope
+twin,whites_pinkham_notch,trails 6,Lodestar SiCore,6,18.0,101.69839604074143,296.74049111077477,216.63158498263533,energy envelope
+twin,whites_pinkham_notch,trails 6,Lodestar SiCore,4,18.0,85.45490222867856,271.75341604880225,203.4736517202246,energy envelope
+twin_bank40,yosemite_happy_isles,trails 3,Lodestar SiCore,8,18.8,87.25434254279975,324.9323962957731,272.6156730262654,energy envelope
+twin_bank40,yosemite_happy_isles,trails 3,Lodestar SiCore,2,18.8,52.55864162079094,252.26970840549856,211.8632109327087,energy envelope
+twin_bank40,yosemite_happy_isles,trails 3,Lodestar SiCore,10,18.8,100.76331292980038,346.38936955946576,285.35144155896063,energy envelope
+twin_bank40,yosemite_happy_isles,trails 3,Lodestar SiCore,6,18.8,74.71724052896464,296.3144257951651,241.09060937201053,energy envelope
+twin_bank40,yosemite_happy_isles,trails 3,Lodestar SiCore,4,18.8,63.15200688829503,274.46053915855174,225.67763649635972,energy envelope
+twin_bank40,yosemite_happy_isles,trails 3,DeltaQuad Evo GOV,8,17.24,77.39201666559073,317.8140638572603,264.0134754087135,energy envelope
+twin_bank40,yosemite_happy_isles,trails 3,DeltaQuad Evo GOV,2,17.03,43.99416091746184,242.47922458590048,194.78335515706976,energy envelope
+twin_bank40,yosemite_happy_isles,trails 3,DeltaQuad Evo GOV,10,17.31,90.60681464438883,342.5621462182449,279.831920940344,energy envelope
+twin_bank40,yosemite_happy_isles,trails 3,DeltaQuad Evo GOV,6,17.15,65.1057660272243,291.821750013415,240.828203389974,energy envelope
+twin_bank40,yosemite_happy_isles,trails 3,DeltaQuad Evo GOV,4,17.05,53.82966322757146,266.53435468733886,219.64994976893317,energy envelope
+twin_bank40,yosemite_happy_isles,trails 6,Lodestar SiCore,8,18.8,87.25434254279975,321.0977141660796,241.94436077010258,energy envelope
+twin_bank40,yosemite_happy_isles,trails 6,Lodestar SiCore,2,18.76,52.35668737284715,249.1412771072707,185.4895409124547,energy envelope
+twin_bank40,yosemite_happy_isles,trails 6,Lodestar SiCore,10,18.8,100.76331292980038,346.5348886919551,252.5778483550809,energy envelope
+twin_bank40,yosemite_happy_isles,trails 6,Lodestar SiCore,6,18.76,74.47641154609423,295.8786747874765,206.80263692275082,energy envelope
+twin_bank40,yosemite_happy_isles,trails 6,Lodestar SiCore,4,18.76,62.93061527288792,274.00985465985605,198.19295220797744,energy envelope
+twin_bank40,yosemite_happy_isles,trails 6,DeltaQuad Evo GOV,8,17.37,78.19129336403674,314.5524695364608,233.9981968160411,energy envelope
+twin_bank40,yosemite_happy_isles,trails 6,DeltaQuad Evo GOV,2,17.37,45.58025010246795,240.1921366294752,181.5031601254199,energy envelope
+twin_bank40,yosemite_happy_isles,trails 6,DeltaQuad Evo GOV,10,17.37,91.00537786422403,339.81882084709326,246.2042186124199,energy envelope
+twin_bank40,yosemite_happy_isles,trails 6,DeltaQuad Evo GOV,6,17.37,66.34907723701497,289.7649354535908,210.7290832082136,energy envelope
+twin_bank40,yosemite_happy_isles,trails 6,DeltaQuad Evo GOV,4,17.37,55.4787294831587,266.1914288223886,198.74036049154898,energy envelope
+twin_bank40,sequoia_lodgepole,trails 3,Lodestar SiCore,8,19.44,91.47147378763954,357.0298899984305,327.98961726980883,energy envelope
+twin_bank40,sequoia_lodgepole,trails 3,Lodestar SiCore,2,19.26,54.909056687873075,279.4875071488076,258.90731146756195,energy envelope
+twin_bank40,sequoia_lodgepole,trails 3,Lodestar SiCore,10,19.46,105.43454967200175,384.3610661556397,350.5400148104634,energy envelope
+twin_bank40,sequoia_lodgepole,trails 3,Lodestar SiCore,6,19.38,78.2529462639594,331.40525948511936,305.83339205077715,energy envelope
+twin_bank40,sequoia_lodgepole,trails 3,Lodestar SiCore,4,19.32,66.0654738973706,306.7011194065012,284.776108475474,energy envelope
+twin_bank40,sequoia_lodgepole,trails 3,DeltaQuad Evo GOV,8,17.49,78.93273174592468,331.9297160428126,298.46361203812216,energy envelope
+twin_bank40,sequoia_lodgepole,trails 3,DeltaQuad Evo GOV,2,17.39,45.674424147827686,254.4013538045796,235.14632421592253,energy envelope
+twin_bank40,sequoia_lodgepole,trails 3,DeltaQuad Evo GOV,10,17.53,92.07248933795977,355.48986319130677,317.12327115934244,energy envelope
+twin_bank40,sequoia_lodgepole,trails 3,DeltaQuad Evo GOV,6,17.49,67.032203516513,305.5495361374427,276.67147619788557,energy envelope
+twin_bank40,sequoia_lodgepole,trails 3,DeltaQuad Evo GOV,4,17.46,55.94701211041384,279.5248742644339,255.50664474680067,energy envelope
+twin_bank40,sequoia_lodgepole,trails 6,Lodestar SiCore,8,19.26,90.27534678736609,355.9338578756733,306.42074241842334,energy envelope
+twin_bank40,sequoia_lodgepole,trails 6,Lodestar SiCore,2,19.02,53.67633884334993,278.46046565677506,241.50708930789904,energy envelope
+twin_bank40,sequoia_lodgepole,trails 6,Lodestar SiCore,10,19.32,104.43483726994505,381.3260088144615,323.9553769737002,energy envelope
+twin_bank40,sequoia_lodgepole,trails 6,Lodestar SiCore,6,19.2,77.1469114618784,329.6376676218211,284.4177185897437,energy envelope
+twin_bank40,sequoia_lodgepole,trails 6,Lodestar SiCore,4,19.1,64.82483532560616,304.538651072792,260.6935227313123,energy envelope
+twin_bank40,sequoia_lodgepole,trails 6,DeltaQuad Evo GOV,8,17.43,78.5615752142128,331.31177266577595,279.09733549348255,energy envelope
+twin_bank40,sequoia_lodgepole,trails 6,DeltaQuad Evo GOV,2,17.43,45.86306379905911,253.4427397427989,219.99925891003176,energy envelope
+twin_bank40,sequoia_lodgepole,trails 6,DeltaQuad Evo GOV,10,17.46,91.6048627218565,355.31370390067474,296.5781672617238,energy envelope
+twin_bank40,sequoia_lodgepole,trails 6,DeltaQuad Evo GOV,6,17.43,66.69020303599605,303.3594594381576,255.04203806024108,energy envelope
+twin_bank40,sequoia_lodgepole,trails 6,DeltaQuad Evo GOV,4,17.43,55.790699230944824,280.0698157315027,240.4762646612258,energy envelope
+twin_bank40,rocky_bear_lake,trails 3,Lodestar SiCore,8,19.91,94.63180751185382,329.92509854600473,295.87099838131826,energy envelope
+twin_bank40,rocky_bear_lake,trails 3,Lodestar SiCore,2,19.86,58.052079006690334,260.03564672998624,237.67066733667244,energy envelope
+twin_bank40,rocky_bear_lake,trails 3,Lodestar SiCore,10,19.92,108.75284845191943,353.4956377752727,311.61034370718266,energy envelope
+twin_bank40,rocky_bear_lake,trails 3,Lodestar SiCore,6,19.91,81.55531855091185,310.9619450436327,281.20592558242055,energy envelope
+twin_bank40,rocky_bear_lake,trails 3,Lodestar SiCore,4,19.88,69.27652700230944,286.9110494865446,261.58926691120445,energy envelope
+twin_bank40,rocky_bear_lake,trails 3,DeltaQuad Evo GOV,8,18.17,83.2003029593318,290.50351799108864,253.55980460726087,energy envelope
+twin_bank40,rocky_bear_lake,trails 3,DeltaQuad Evo GOV,2,18.03,48.73930824944245,223.08146070117743,201.50183413499818,energy envelope
+twin_bank40,rocky_bear_lake,trails 3,DeltaQuad Evo GOV,10,18.17,96.4031348087853,310.75141716907035,266.72091459617127,energy envelope
+twin_bank40,rocky_bear_lake,trails 3,DeltaQuad Evo GOV,6,18.13,70.73463327092433,267.2728308620735,234.46073383845425,energy envelope
+twin_bank40,rocky_bear_lake,trails 3,DeltaQuad Evo GOV,4,18.07,59.17280116956081,247.8188473941021,219.8670283153604,energy envelope
+twin_bank40,rocky_bear_lake,trails 6,Lodestar SiCore,8,19.97,95.03911754704747,331.3715025554459,273.57229697207333,energy envelope
+twin_bank40,rocky_bear_lake,trails 6,Lodestar SiCore,2,19.97,58.63778763013319,259.82091160246375,219.45137668116251,energy envelope
+twin_bank40,rocky_bear_lake,trails 6,Lodestar SiCore,10,19.97,109.11663093234992,352.8509780330255,283.77353878564645,energy envelope
+twin_bank40,rocky_bear_lake,trails 6,Lodestar SiCore,6,19.97,81.93347253491054,306.0762393431446,255.90853566575453,energy envelope
+twin_bank40,rocky_bear_lake,trails 6,Lodestar SiCore,4,19.97,69.79969589593911,283.69263321844863,235.61246142303787,energy envelope
+twin_bank40,rocky_bear_lake,trails 6,DeltaQuad Evo GOV,8,18.48,85.1830966659094,286.192375076063,229.69826564943415,energy envelope
+twin_bank40,rocky_bear_lake,trails 6,DeltaQuad Evo GOV,2,18.48,50.95389256302004,220.14361358890258,180.23270855034522,energy envelope
+twin_bank40,rocky_bear_lake,trails 6,DeltaQuad Evo GOV,10,18.48,98.53656811320354,307.63649341032226,239.83360403564137,energy envelope
+twin_bank40,rocky_bear_lake,trails 6,DeltaQuad Evo GOV,6,18.48,72.80149359178077,264.7541156682832,210.0023031813783,energy envelope
+twin_bank40,rocky_bear_lake,trails 6,DeltaQuad Evo GOV,4,18.48,61.39175889081765,242.98973504079794,195.14278411205385,energy envelope
+twin_bank40,olympic_hurricane_ridge,trails 3,Lodestar SiCore,8,18.1,82.75580681050988,350.82085998058795,328.36380763567956,energy envelope
+twin_bank40,olympic_hurricane_ridge,trails 3,Lodestar SiCore,2,18.1,49.08056768032486,269.2505635250375,256.4415081283718,energy envelope
+twin_bank40,olympic_hurricane_ridge,trails 3,Lodestar SiCore,10,18.1,95.92462326690259,378.3194231188737,352.0341992727152,energy envelope
+twin_bank40,olympic_hurricane_ridge,trails 3,Lodestar SiCore,6,18.1,70.5588587272827,325.24107202890315,305.59167904180515,energy envelope
+twin_bank40,olympic_hurricane_ridge,trails 3,Lodestar SiCore,4,18.1,59.333779017221026,299.4016835404857,283.44318469031083,energy envelope
+twin_bank40,olympic_hurricane_ridge,trails 3,DeltaQuad Evo GOV,8,16.54,73.15880099917507,344.0554017168384,315.72762375552156,energy envelope
+twin_bank40,olympic_hurricane_ridge,trails 3,DeltaQuad Evo GOV,2,16.54,41.75773386219734,259.54857228875255,243.85330328310496,energy envelope
+twin_bank40,olympic_hurricane_ridge,trails 3,DeltaQuad Evo GOV,10,16.58,85.82768836441142,372.22171040517964,339.48602572391553,energy envelope
+twin_bank40,olympic_hurricane_ridge,trails 3,DeltaQuad Evo GOV,6,16.54,61.719910247016976,316.12149189901874,292.3737399193881,energy envelope
+twin_bank40,olympic_hurricane_ridge,trails 3,DeltaQuad Evo GOV,4,16.54,51.25288786802441,287.34656829415246,269.23468152798165,energy envelope
+twin_bank40,olympic_hurricane_ridge,trails 6,Lodestar SiCore,8,18.1,82.75580681050988,352.31557082515377,320.42271991772856,energy envelope
+twin_bank40,olympic_hurricane_ridge,trails 6,Lodestar SiCore,2,18.05,48.83668946043364,271.36695934449097,251.6325322597905,energy envelope
+twin_bank40,olympic_hurricane_ridge,trails 6,Lodestar SiCore,10,18.1,95.92462326690259,378.29488999335695,341.43666349894744,energy envelope
+twin_bank40,olympic_hurricane_ridge,trails 6,Lodestar SiCore,6,18.1,70.5588587272827,322.24067140448904,293.7342671738195,energy envelope
+twin_bank40,olympic_hurricane_ridge,trails 6,Lodestar SiCore,4,18.06,59.11919048042606,298.0573858723012,274.7547086904738,energy envelope
+twin_bank40,olympic_hurricane_ridge,trails 6,DeltaQuad Evo GOV,8,16.71,74.1759219934661,340.2288282437101,302.0709604423387,energy envelope
+twin_bank40,olympic_hurricane_ridge,trails 6,DeltaQuad Evo GOV,2,16.71,42.52702842133118,259.7251767705026,237.6191386930815,energy envelope
+twin_bank40,olympic_hurricane_ridge,trails 6,DeltaQuad Evo GOV,10,16.68,86.47470973384637,367.8054732144291,327.1566456819583,energy envelope
+twin_bank40,olympic_hurricane_ridge,trails 6,DeltaQuad Evo GOV,6,16.71,62.65442242958895,312.58015390726786,281.8584821702301,energy envelope
+twin_bank40,olympic_hurricane_ridge,trails 6,DeltaQuad Evo GOV,4,16.71,52.104791238877304,284.5444323491264,259.07726197869994,energy envelope
+twin_bank40,rainier_paradise,trails 3,Lodestar SiCore,8,18.53,85.5050888062938,350.5808759667593,311.51577695652793,energy envelope
+twin_bank40,rainier_paradise,trails 3,Lodestar SiCore,2,18.38,50.45751079142575,267.32159647597456,238.74395360440982,energy envelope
+twin_bank40,rainier_paradise,trails 3,Lodestar SiCore,10,18.57,99.16032538345584,373.2470098246526,326.14618997629645,energy envelope
+twin_bank40,rainier_paradise,trails 3,Lodestar SiCore,6,18.48,72.80149359178077,318.5618108106971,279.5010878378466,energy envelope
+twin_bank40,rainier_paradise,trails 3,Lodestar SiCore,4,18.41,61.0100211421929,294.00490809052906,256.8575002105774,energy envelope
+twin_bank40,rainier_paradise,trails 3,DeltaQuad Evo GOV,8,16.9,75.32101375579369,334.8989902094188,292.0360629407528,energy envelope
+twin_bank40,rainier_paradise,trails 3,DeltaQuad Evo GOV,2,16.9,43.395137697306595,253.3400190792709,220.75005087986898,energy envelope
+twin_bank40,rainier_paradise,trails 3,DeltaQuad Evo GOV,10,16.9,87.90670918828708,359.64383203772246,310.0716772224146,energy envelope
+twin_bank40,rainier_paradise,trails 3,DeltaQuad Evo GOV,6,16.9,63.70718669646582,305.8018213886516,263.46783228054653,energy envelope
+twin_bank40,rainier_paradise,trails 3,DeltaQuad Evo GOV,4,16.9,53.06522801030345,280.0788623434807,244.80890468771196,energy envelope
+twin_bank40,rainier_paradise,trails 6,Lodestar SiCore,8,19.01,88.6271187682507,348.57829334840363,293.4522904659549,energy envelope
+twin_bank40,rainier_paradise,trails 6,Lodestar SiCore,2,19.01,53.62527930869475,268.5123238884713,228.58088584578942,energy envelope
+twin_bank40,rainier_paradise,trails 6,Lodestar SiCore,10,19.01,102.23813533443372,371.3836019588675,304.55505028276156,energy envelope
+twin_bank40,rainier_paradise,trails 6,Lodestar SiCore,6,19.01,75.9879705752332,323.1458778502403,273.428197469345,energy envelope
+twin_bank40,rainier_paradise,trails 6,Lodestar SiCore,4,19.01,64.32069075538124,297.83657815121927,250.3521495800449,energy envelope
+twin_bank40,rainier_paradise,trails 6,DeltaQuad Evo GOV,8,17.6,79.61545712971882,325.0915712338864,266.84868012177805,energy envelope
+twin_bank40,rainier_paradise,trails 6,DeltaQuad Evo GOV,2,17.59,46.62150987747748,249.5927883431366,212.70444961924792,energy envelope
+twin_bank40,rainier_paradise,trails 6,DeltaQuad Evo GOV,10,17.6,92.54130649282014,352.04810975471116,285.93328639033615,energy envelope
+twin_bank40,rainier_paradise,trails 6,DeltaQuad Evo GOV,6,17.59,67.60414805412091,302.29194727732397,249.64769583135873,energy envelope
+twin_bank40,rainier_paradise,trails 6,DeltaQuad Evo GOV,4,17.59,56.626894779216435,275.8236164544815,232.94560315266835,energy envelope
+twin_bank40,smokies_newfound_gap,trails 3,Lodestar SiCore,8,18.04,82.3757576831835,342.032031877868,317.636581829427,energy envelope
+twin_bank40,smokies_newfound_gap,trails 3,Lodestar SiCore,2,18.02,48.69065408901085,263.14158104111397,247.92445962683226,energy envelope
+twin_bank40,smokies_newfound_gap,trails 3,Lodestar SiCore,10,18.04,95.51541808838122,369.0492355043555,340.6939185341781,energy envelope
+twin_bank40,smokies_newfound_gap,trails 3,Lodestar SiCore,6,18.04,70.20796565115128,316.6349902367701,295.42036325744476,energy envelope
+twin_bank40,smokies_newfound_gap,trails 3,Lodestar SiCore,4,18.02,58.90499069098039,292.05310245261967,274.6966787787031,energy envelope
+twin_bank40,smokies_newfound_gap,trails 3,DeltaQuad Evo GOV,8,16.63,73.69640213814623,335.71718621588,305.55855930428385,energy envelope
+twin_bank40,smokies_newfound_gap,trails 3,DeltaQuad Evo GOV,2,16.63,42.16413277079117,254.89851179083792,236.9882707150295,energy envelope
+twin_bank40,smokies_newfound_gap,trails 3,DeltaQuad Evo GOV,10,16.63,86.15089534026228,363.4029781523917,329.1271038409994,energy envelope
+twin_bank40,smokies_newfound_gap,trails 3,DeltaQuad Evo GOV,6,16.63,62.2137773091957,308.98739255335215,283.2572942831513,energy envelope
+twin_bank40,smokies_newfound_gap,trails 3,DeltaQuad Evo GOV,4,16.63,51.70302085341068,281.2174156644922,261.1454315112992,energy envelope
+twin_bank40,smokies_newfound_gap,trails 6,Lodestar SiCore,8,18.04,82.3757576831835,340.52325511129465,308.1537780135013,energy envelope
+twin_bank40,smokies_newfound_gap,trails 6,Lodestar SiCore,2,18.05,48.83668946043364,265.01788161839494,243.4510781905844,energy envelope
+twin_bank40,smokies_newfound_gap,trails 6,Lodestar SiCore,10,18.04,95.51541808838122,370.6996888084797,334.1912458038422,energy envelope
+twin_bank40,smokies_newfound_gap,trails 6,Lodestar SiCore,6,18.04,70.20796565115128,314.982876067757,284.055247027072,energy envelope
+twin_bank40,smokies_newfound_gap,trails 6,Lodestar SiCore,4,18.04,59.01204199228457,288.08235905534497,261.2465900139961,energy envelope
+twin_bank40,smokies_newfound_gap,trails 6,DeltaQuad Evo GOV,8,16.7,74.11589697306846,333.13082000145505,294.0453382634188,energy envelope
+twin_bank40,smokies_newfound_gap,trails 6,DeltaQuad Evo GOV,2,16.7,42.48158142653102,253.17602130029775,230.02977225264357,energy envelope
+twin_bank40,smokies_newfound_gap,trails 6,DeltaQuad Evo GOV,10,16.7,86.6044055682453,359.8699843630559,317.3615898665993,energy envelope
+twin_bank40,smokies_newfound_gap,trails 6,DeltaQuad Evo GOV,6,16.7,62.59925675105713,305.937441750048,272.0342047311055,energy envelope
+twin_bank40,smokies_newfound_gap,trails 6,DeltaQuad Evo GOV,4,16.7,52.05448490221132,279.24435035149423,252.72519411708345,energy envelope
+twin_bank40,whites_pinkham_notch,trails 3,Lodestar SiCore,8,18.0,82.12287753248583,324.41671053387427,287.29528195746326,energy envelope
+twin_bank40,whites_pinkham_notch,trails 3,Lodestar SiCore,2,18.0,48.59341865827564,245.85058188514114,221.98663101867737,energy envelope
+twin_bank40,whites_pinkham_notch,trails 3,Lodestar SiCore,10,18.0,95.24310057022025,346.4546384369381,306.5135925249612,energy envelope
+twin_bank40,whites_pinkham_notch,trails 3,Lodestar SiCore,6,18.0,69.97452286791692,294.8274063534024,262.3550692296576,energy envelope
+twin_bank40,whites_pinkham_notch,trails 3,Lodestar SiCore,4,18.0,58.798036576513525,271.5200368406323,244.94485178004967,energy envelope
+twin_bank40,whites_pinkham_notch,trails 3,DeltaQuad Evo GOV,8,16.54,73.15880099917507,333.6724163649938,291.2405507980399,energy envelope
+twin_bank40,whites_pinkham_notch,trails 3,DeltaQuad Evo GOV,2,16.54,41.75773386219734,253.36399727342027,225.7684099775882,energy envelope
+twin_bank40,whites_pinkham_notch,trails 3,DeltaQuad Evo GOV,10,16.54,85.56956012449866,360.8258965174315,315.81282833390594,energy envelope
+twin_bank40,whites_pinkham_notch,trails 3,DeltaQuad Evo GOV,6,16.54,61.719910247016976,307.11720343538315,271.5417505010183,energy envelope
+twin_bank40,whites_pinkham_notch,trails 3,DeltaQuad Evo GOV,4,16.54,51.25288786802441,279.88458737878926,249.79469370131358,energy envelope
+twin_bank40,whites_pinkham_notch,trails 6,Lodestar SiCore,8,18.07,82.5656729116547,319.13542482961714,249.7561063216391,energy envelope
+twin_bank40,whites_pinkham_notch,trails 6,Lodestar SiCore,2,18.07,48.934167858262136,245.8648202925227,199.4315382823825,energy envelope
+twin_bank40,whites_pinkham_notch,trails 6,Lodestar SiCore,10,18.07,95.71991134244992,346.20010352167685,266.3265037364168,energy envelope
+twin_bank40,whites_pinkham_notch,trails 6,Lodestar SiCore,6,18.07,70.383302854025,295.5353363706544,229.64548899842973,energy envelope
+twin_bank40,whites_pinkham_notch,trails 6,Lodestar SiCore,4,18.07,59.17280116956081,271.7303264693799,217.69494376902148,energy envelope
+twin_bank40,whites_pinkham_notch,trails 6,DeltaQuad Evo GOV,8,16.73,74.29604492438936,332.0701517682455,255.39789356471087,energy envelope
+twin_bank40,whites_pinkham_notch,trails 6,DeltaQuad Evo GOV,2,16.73,42.617995301059466,250.76102996375366,198.47220966057043,energy envelope
+twin_bank40,whites_pinkham_notch,trails 6,DeltaQuad Evo GOV,10,16.73,86.79913154516369,357.92977694618656,278.717554449827,energy envelope
+twin_bank40,whites_pinkham_notch,trails 6,DeltaQuad Evo GOV,6,16.73,62.76482667678055,304.977377782085,240.33084094578027,energy envelope
+twin_bank40,whites_pinkham_notch,trails 6,DeltaQuad Evo GOV,4,16.73,52.20547680233725,278.49439725944353,224.45451811396765,energy envelope

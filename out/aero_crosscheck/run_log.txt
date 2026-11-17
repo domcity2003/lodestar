@@ -1,0 +1,122 @@
+Lodestar aerodynamic cross-check, 2026-11-14
+S 1.2856 m2, MAC 0.4491 m, b 3.0 m, AR 7.00; CG x = 0.422 m
+Cruise: 8.2 kg, 19.0 m/s, 2000 m (rho 1.0049), q 181.4 Pa, CL 0.3449
+
+AVL (pod as slender body) ...
+AVL (no pod) ...
+AeroSandbox VLM (wing + winglets) ...
+ spanwise  chordwise    CLa   x_np
+        8          8 4.4837 0.4693
+       12         10 4.4625 0.4678
+       20         12 4.4431 0.4665
+       28         14 4.4357 0.4662
+Bare wing (no winglets, no pod) at alpha 5.17: x_np AVL 0.4562 m, ASB VLM 0.4610 m; CLa AVL 4.308, ASB 4.366 /rad
+AeroBuildup (pod + gimbal) ...
+AeroBuildup (no pod) ...
+VSPAERO VLM (running) ...
+
+Solver comparison (moments about x = 0.422 m; derivatives per rad; lateral in stability axes):
+            AVL, pod  AVL, no pod  ASB VLM, no pod  VSPAERO VLM, no pod  AeroBuildup, pod  AeroBuildup, no pod  VSPAERO VLM, pod
+CLa           4.5943       4.3445           4.4461               4.4300            4.7266               4.7179            4.2732
+CL0          -0.0870      -0.0589          -0.0585              -0.0444           -0.0198              -0.0198           -0.0643
+Cm0           0.0276       0.0270           0.0203               0.0198            0.0165               0.0167            0.0165
+Cma          -0.2195      -0.3501          -0.4336              -0.3384           -0.3357              -0.3862           -0.3327
+x_np          0.4437       0.4585           0.4665               0.4563            0.4403               0.4460            0.4570
+SM            0.0482       0.0813           0.0992               0.0764            0.0408               0.0533            0.0779
+e             1.0194       1.0141           0.9907               0.8406            0.8133               0.8133            1.0797
+alpha_trim    5.1707       5.4832           5.8182                  NaN            4.8649               5.0789               NaN
+de_trim       0.6578      -0.5223          -1.7436                  NaN           -1.1120              -1.6254               NaN
+CLde          1.4190       1.4170           1.5787                  NaN            1.8843               1.8843               NaN
+Cmde         -0.6984      -0.6976          -0.7810                  NaN           -0.6196              -0.6196               NaN
+Cnb           0.0141       0.0222           0.0213               0.0235            0.0277               0.0351            0.0212
+Clb          -0.0502      -0.0496          -0.0623              -0.0460            0.0030               0.0036           -0.1258
+Clp          -0.4432      -0.4430          -0.4812              -0.5027           -0.5152              -0.5152           -0.5162
+Cnr          -0.0127      -0.0112          -0.0189              -0.0214           -0.0176              -0.0176           -0.0223
+Clda         -0.3700      -0.3694          -0.4153                  NaN           -0.5795              -0.5795               NaN
+Cnda          0.0160       0.0168           0.0192                  NaN            0.0015               0.0015               NaN
+
+Differences vs the matching AVL case (% of AVL value; x_np and SM in % MAC points):
+            ASB VLM, no pod vs AVL, no pod [%]  VSPAERO VLM, no pod vs AVL, no pod [%]  AeroBuildup, pod vs AVL, pod [%]  AeroBuildup, no pod vs AVL, no pod [%]  VSPAERO VLM, pod vs AVL, pod [%]
+CLa                                        2.3                                     2.0                               2.9                                     8.6                              -7.0
+CL0                                        0.7                                    24.7                              77.2                                    66.4                              26.1
+Cm0                                      -25.1                                   -26.9                             -40.4                                   -38.4                             -40.3
+Cma                                      -23.9                                     3.4                             -52.9                                   -10.3                             -51.6
+x_np                                       1.8                                    -0.5                              -0.7                                    -2.8                               3.0
+SM                                         1.8                                    -0.5                              -0.7                                    -2.8                               3.0
+e                                         -2.3                                   -17.1                             -20.2                                   -19.8                               5.9
+alpha_trim                                 0.3                                     NaN                              -0.3                                    -0.4                               NaN
+de_trim                                   -1.2                                     NaN                              -1.8                                    -1.1                               NaN
+CLde                                      11.4                                     NaN                              32.8                                    33.0                               NaN
+Cmde                                     -12.0                                     NaN                              11.3                                    11.2                               NaN
+Cnb                                       -3.9                                     5.8                              97.2                                    58.0                              50.7
+Clb                                      -25.6                                     7.3                             106.0                                   107.2                            -150.8
+Clp                                       -8.6                                   -13.5                             -16.2                                   -16.3                             -16.5
+Cnr                                      -68.9                                   -91.8                             -38.7                                   -58.0                             -75.1
+Clda                                     -12.4                                     NaN                             -56.6                                   -56.9                               NaN
+Cnda                                      14.0                                     NaN                             -90.8                                   -91.3                               NaN
+
+AeroBuildup drag at cruise trim (alpha 4.86 deg, elevon -1.11 deg): CD 0.0174 = profile 0.0093 + induced 0.0081
+    part      CD
+    wing 0.00696
+winglets 0.00066
+     pod 0.00141
+  gimbal 0.00026
+CD0 (at zero lift, alpha 0.21 deg) = 0.0089; trimmed L/D max 22.1 at 21 m/s; L/D at 19 m/s 21.9
+VSPAERO VLM (its own CDo estimate) L/D max 16.7
+
+CLmax and stall onset ...
+ alpha    CL  elevon      V  max_ratio  y_crit
+   4.0 0.260   1.027 21.875      0.224   0.757
+   5.0 0.333   0.712 19.349      0.286   0.757
+   6.0 0.405   0.394 17.540      0.349   0.757
+   7.0 0.477   0.075 16.163      0.413   0.757
+   8.0 0.548  -0.248 15.072      0.477   0.827
+   9.0 0.619  -0.573 14.180      0.542   0.757
+  10.0 0.690  -0.902 13.433      0.607   0.757
+  11.0 0.760  -1.234 12.798      0.672   0.757
+  12.0 0.830  -1.569 12.248      0.738   0.827
+  13.0 0.899  -1.908 11.768      0.805   0.827
+  14.0 0.968  -2.251 11.343      0.872   0.827
+  15.0 1.036  -2.599 10.965      0.940   0.827
+  16.0 1.103  -2.951 10.625      1.008   0.827
+  17.0 1.170  -3.309 10.318      1.078   0.827
+  18.0 1.235  -3.671 10.040      1.148   0.827
+  19.0 1.300  -4.039  9.786      1.220   0.827
+  20.0 1.364  -4.413  9.553      1.293   0.897
+Critical-section (AVL, trimmed): first strip reaches clmax at alpha 15.9 deg, CL 1.095, elevon -2.9 deg, at y = 0.83 m (55% semispan)
+Critical-section (AVL, elevon 0): CL 1.131, first at y = 0.90 m (60% semispan)
+Critical-section (ASB VLM, elevon 0): CL 1.134, first at y = 1.02 m (68% semispan)
+AeroBuildup peak CL 1.204 at alpha 19 deg (untrimmed, pod)
+Raymer 0.9 clmax cos(sweep): MH45 clmax 1.235 at Re(MAC) 325,833 -> 1.007
+
+Washout vs stall onset (AVL, trimmed, pod):
+ washout  CL_first_stall  y_first  elevon
+     0.0           1.061    0.965  -4.417
+     3.0           1.095    0.827  -2.951
+     5.0           1.112    0.757  -2.107
+
+Helmbold: Lodestar sweep_c/2 = 22.4 deg -> 4.305/rad; X8 AR 5.88 at 20/35 deg -> 4.159/3.764/rad
+                                                     item  lodestar         x8
+                                             Aspect ratio  7.000350       5.88
+                                          CL_alpha [/rad]  4.594262      2.573
+CL_alpha / Helmbold (Lodestar sweep_c/2; X8 at 20-35 deg)  1.067200  0.62-0.68
+                         Static margin [% MAC] = -Cma/CLa  4.777702  10.649048
+                                           Cm0 (about CG)  0.027630      0.027
+                                                      CL0 -0.087030     -0.077
+                                      Cm_de / CL_de [MAC] -0.492167  -0.201607
+                                             CL_de [/rad]  1.418987      1.369
+                                                      CD0  0.008890      0.058
+
+Styling options ...
+                                              variant  dx_np_mm     SM  elevon      e  Cnb_avl  Cnb_vlm  Clb_avl  dutch_roll_zeta  spiral_t2  lateral_ok  dCD_counts
+  baseline: 0.25 m, 35 deg sweep, taper 0.6, vertical     0.000 0.0537  0.6879 1.0160   0.0140   0.0213  -0.0518           0.1256        inf        True      0.0000
+                          winglet cant 15 deg outward     4.083 0.0628  0.4207 1.0307   0.0122   0.0194  -0.0673           0.1194        inf        True      0.7577
+                           winglet cant 15 deg inward    -2.411 0.0483  0.8155 0.9999   0.0132   0.0207  -0.0344           0.1306        inf        True      0.7518
+                                 winglet sweep 45 deg    -0.057 0.0536  0.6972 1.0158   0.0143   0.0216  -0.0499           0.1279        inf        True      0.0000
+          winglet sweep 50 deg, taper 0.4 (shark fin)    -0.103 0.0535  0.7075 1.0151   0.0134   0.0206  -0.0480           0.1281        inf        True     -0.6549
+       winglet sweep 50 deg, taper 0.4, height 0.28 m    -0.045 0.0536  0.7049 1.0188   0.0180   0.0252  -0.0501           0.1332        inf        True      0.0642
+                                    winglet taper 0.4    -0.022 0.0536  0.6927 1.0156   0.0134   0.0206  -0.0510           0.1245        inf        True     -0.6549
+ pod nose pointier (first station 0.12 L, 70 x 60 mm)    -0.104 0.0535  0.6844 1.0160   0.0141      NaN  -0.0518           0.1246        inf        True     -0.6321
+pod nose blunter (first station 0.05 L, 110 x 100 mm)    -0.134 0.0534  0.7023 1.0159   0.0137      NaN  -0.0519           0.1283        inf        True      0.5501
+
+Done. Outputs in <repo>\out\aero_crosscheck

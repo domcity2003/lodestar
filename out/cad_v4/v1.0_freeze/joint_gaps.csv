@@ -1,0 +1,11 @@
+check,cad_mm,reference_mm,reference,diff_mm
+cell to sleeve (new pack position),5.286,4.302,"battery_trim.csv dx -40 dy -50 (capsule model, conservative)",0.984
+cell to skin after 1.5 mm allowance (new position),2.696,2.876,battery_trim.csv dx -40 dy -50,-0.18
+"sleeve to skin, inboard panel (raw)",12.447,12.447,packaging.csv 20 mm joint,0.0
+"sleeve to skin, inboard panel, after 1.5 mm allowance",10.947,10.947,packaging.csv 20 mm joint,0.0
+cell to inboard sleeve at the OLD v3 pack position,30.013,30.013,packaging.csv 20 mm joint (build123d),0.0
+cell to inboard sleeve (new position),5.286,,,
+"sleeve to skin, outboard panel (raw)",10.889,10.889,packaging.csv 20 mm joint,0.0
+"sleeve to skin, outboard panel, after 1.5 mm allowance",9.389,9.389,packaging.csv 20 mm joint,0.0
+cell to outboard sleeve at the OLD v3 pack position,20.409,20.409,packaging.csv 20 mm joint (build123d),-0.0
+cell to outboard sleeve (new position),33.928,,,

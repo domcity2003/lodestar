@@ -1,0 +1,6 @@
+case,V_eas,n,CL,elevon,aileron,max_surface_deg,pb2V,hinge_avl_Nm,hinge_thin_Nm,design_Nm
+"VA (=Vc) 1 g, one elevon at full travel",22.0,1.0,0.214,0.8114,19.1886,20.0,-0.2787,0.7234,0.8907,0.8907
+"VA (=Vc) n 3.8, one elevon at full travel",22.0,3.8,0.8133,-5.6709,14.3291,20.0,-0.2026,0.5883,0.7193,0.7193
+VD n 3.8 pull + 1/3 roll reserve,30.0,3.8,0.4374,-6.5309,1.6667,8.1976,-0.0239,0.6881,0.4929,0.6881
+VD n -1.5 push + 1/3 roll reserve,30.0,-1.5,-0.1726,3.8714,1.6667,5.5381,-0.0241,0.3704,0.582,0.582
+"VD 1 g, full travel (runaway bound)",30.0,1.0,0.1151,1.4373,18.5626,20.0,-0.2697,1.3232,1.7089,1.7089

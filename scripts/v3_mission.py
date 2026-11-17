@@ -42,11 +42,12 @@ PROP = PROPS[PICK["prop"]]
 MOTOR = PICK["motor"]
 
 
-def mass_and_energy(cell, config, b, AR, pf):
+def mass_and_energy(cell, config, b, AR, pf, *, wing_mass_kg=None):
     """Take-off mass from the sizing model with v3 propulsion mass; wing structure scaled by span/3."""
     d2.at_altitude(0.0)
     wh_w, m_w = d2.pack(cell, d2.N_WING)
-    a = replace(sz.A, profile_factor=pf, cda_body=d2.CDA_BODY, wing_kg_per_m2=1.0 * b / 3.0,
+    wing_kg_per_m2 = b / 3.0 if wing_mass_kg is None else wing_mass_kg / (b**2 / AR)
+    a = replace(sz.A, profile_factor=pf, cda_body=d2.CDA_BODY, wing_kg_per_m2=wing_kg_per_m2,
                 prop_kw_per_kg=1e9, m_centerbody=sz.A.m_centerbody + M_PROP_V3 - 0.05)
     if config == "kit":
         m_b, wh = m_w, wh_w
@@ -59,9 +60,9 @@ def mass_and_energy(cell, config, b, AR, pf):
     return r["mtow"], wh
 
 
-def lodestar_v3(name, cell, config, finish="laminar", b=3.0, AR=7.0, alt=0.0):
+def lodestar_v3(name, cell, config, finish="laminar", b=3.0, AR=7.0, alt=0.0, *, wing_mass_kg=None):
     pf = {"laminar": d2.PF_LAMINAR, "halfway": d2.PF_MID, "turbulent": d2.PF_TURB}[finish]
-    mtow, wh = mass_and_energy(cell, config, b, AR, pf)
+    mtow, wh = mass_and_energy(cell, config, b, AR, pf, wing_mass_kg=wing_mass_kg)
     atm = asb.Atmosphere(altitude=alt)
     rho, mu = float(atm.density()), float(atm.dynamic_viscosity())
     S = b**2 / AR
@@ -69,7 +70,7 @@ def lodestar_v3(name, cell, config, finish="laminar", b=3.0, AR=7.0, alt=0.0):
                eta=1.0, p_av=0.0)      # eta 1, no avionics: gives the thrust power, propulsion applied below
     v_stall = math.sqrt(2 * mtow * ms.G / (rho * S * sz.A.cl_max_3d))
     kit = config == "kit"
-    ac = ms.Aircraft(name, 15.0, 1.25 * v_stall, 22.0, wh * 0.85, kit=kit, rw_cfg=cfg, mass=mtow,
+    ac = ms.Aircraft(name, 15.0, sz.A.stall_margin * v_stall, 22.0, wh * 0.85, kit=kit, rw_cfg=cfg, mass=mtow,
                      kit_mass=d2.M_KIT_TOTAL if kit else 0.0,
                      note=f"v3: {cell}, bay: {'rescue kit' if kit else 'battery module'}, {finish} wing, "
                           f"{b:.1f} m span, CAM 15x10 + AT3520")

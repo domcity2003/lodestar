@@ -1,0 +1,89 @@
+config,source,mode,name,freq_Hz,w_nodes,tip_w,tip_theta_x_semichord,tip_inplane,half_wing_kg
+"P50B, v1 packs, clamped at centreline",FE shell/solid,1,bending 1,13.62253,0.0,-2.375914,0.2205212765957447,0.04321578611129619,2.2722395234230053
+"P50B, v1 packs, clamped at centreline",FE shell/solid,2,bending 2,39.23409,1.0,1.40555,0.07445531914893636,0.0903485707804844,2.2722395234230053
+"P50B, v1 packs, clamped at centreline",FE shell/solid,3,torsion 1,49.81015,0.0,-0.4838692,-1.737724680851064,1.376500295059834,2.2722395234230053
+"P50B, v1 packs, clamped at centreline",FE shell/solid,4,bending 3,71.71198,2.0,1.00587,-0.7988425531914894,0.2717395562325993,2.2722395234230053
+"P50B, v1 packs, clamped at centreline",FE shell/solid,5,torsion 2,74.99126,0.0,0.8818716,1.9141869148936173,1.9832045115866492,2.2722395234230053
+"P50B, v1 packs, clamped at centreline",FE shell/solid,6,torsion 3,118.7573,1.0,0.4845846,2.0313261702127665,0.9296008489480633,2.2722395234230053
+"P50B, v1 packs, clamped at centreline",FE shell/solid,7,bending 4,133.0933,3.0,-0.6839183,0.1325570212765958,0.18262017693165808,2.2722395234230053
+"P50B, v1 packs, clamped at centreline",FE shell/solid,8,torsion 4,167.6444,1.0,-0.0242069,-1.0081671276595747,0.4204393921861509,2.2722395234230053
+"P50B, v1 packs, clamped at centreline",FE shell/solid,9,in-plane 1,170.0459,1.0,-0.2999866,-0.14803244680851066,0.9881470035265502,2.2722395234230053
+"P50B, v1 packs, clamped at centreline",FE shell/solid,10,torsion 5,194.9536,2.0,-0.3207502,-1.133871914893617,1.049541983386015,2.2722395234230053
+"P50B, v1 packs, clamped at centreline","beam, projected span",1,bending 1,16.27571147127407,,,,,
+"P50B, v1 packs, clamped at centreline","beam, projected span",2,torsion 1,48.29514287069911,,,,,
+"P50B, v1 packs, clamped at centreline","beam, projected span",3,torsion 2,62.562450705159954,,,,,
+"P50B, v1 packs, clamped at centreline","beam, projected span",4,torsion 3,91.14180529782723,,,,,
+"P50B, v1 packs, clamped at centreline","beam, projected span",5,torsion 4,127.72054814172886,,,,,
+"P50B, v1 packs, clamped at centreline","beam, projected span",6,bending 2,192.3003767670592,,,,,
+"P50B, v1 packs, clamped at centreline","beam, swept length",1,bending 1,14.051908455979696,,,,,
+"P50B, v1 packs, clamped at centreline","beam, swept length",2,torsion 1,42.84054182278449,,,,,
+"P50B, v1 packs, clamped at centreline","beam, swept length",3,torsion 2,55.695299843716874,,,,,
+"P50B, v1 packs, clamped at centreline","beam, swept length",4,torsion 3,80.644367368596,,,,,
+"P50B, v1 packs, clamped at centreline","beam, swept length",5,torsion 4,114.29433385615506,,,,,
+"P50B, v1 packs, clamped at centreline","beam, swept length",6,bending 2,169.33481597985937,,,,,
+"SiCore, v1 packs, clamped at centreline",FE shell/solid,1,bending 1,13.62049,0.0,-2.375353,0.2204829787234041,0.043209526605818074,2.2892622506957325
+"SiCore, v1 packs, clamped at centreline",FE shell/solid,2,bending 2,39.1151,1.0,1.401712,0.07199148936170233,0.0883112543017508,2.2892622506957325
+"SiCore, v1 packs, clamped at centreline",FE shell/solid,3,torsion 1,49.80493,0.0,-0.4874949,-1.737479680851064,1.376465758740046,2.2892622506957325
+"SiCore, v1 packs, clamped at centreline",FE shell/solid,4,bending 3,71.54455,2.0,1.015776,-0.7845063829787235,0.2563071141321091,2.2892622506957325
+"SiCore, v1 packs, clamped at centreline",FE shell/solid,5,torsion 2,74.96523,0.0,0.8753623,1.9179704255319152,1.9840798450315174,2.2892622506957325
+"SiCore, v1 packs, clamped at centreline",FE shell/solid,6,torsion 3,118.5808,1.0,0.4775403,2.0299950000000004,0.927787857906332,2.2892622506957325
+"SiCore, v1 packs, clamped at centreline",FE shell/solid,7,bending 4,132.8667,3.0,-0.6888336,0.10771829787234043,0.1916207914362416,2.2892622506957325
+"SiCore, v1 packs, clamped at centreline",FE shell/solid,8,torsion 4,167.0418,1.0,-0.01584017,-1.0117334787234045,0.41031621242220007,2.2892622506957325
+"SiCore, v1 packs, clamped at centreline",FE shell/solid,9,in-plane 1,169.5657,1.0,-0.302232,-0.1662571276595745,0.9963454704050447,2.2892622506957325
+"SiCore, v1 packs, clamped at centreline",FE shell/solid,10,torsion 5,194.5191,2.0,-0.3191075,-1.1279902127659573,1.0386646636613475,2.2892622506957325
+"SiCore, v1 packs, clamped at centreline","beam, projected span",1,bending 1,16.274146474331967,,,,,
+"SiCore, v1 packs, clamped at centreline","beam, projected span",2,torsion 1,48.18405726546438,,,,,
+"SiCore, v1 packs, clamped at centreline","beam, projected span",3,torsion 2,62.529641703588624,,,,,
+"SiCore, v1 packs, clamped at centreline","beam, projected span",4,torsion 3,90.91434487587408,,,,,
+"SiCore, v1 packs, clamped at centreline","beam, projected span",5,torsion 4,127.67564550510498,,,,,
+"SiCore, v1 packs, clamped at centreline","beam, projected span",6,bending 2,192.10203964624628,,,,,
+"SiCore, v1 packs, clamped at centreline","beam, swept length",1,bending 1,14.050583696410712,,,,,
+"SiCore, v1 packs, clamped at centreline","beam, swept length",2,torsion 1,42.73843402401764,,,,,
+"SiCore, v1 packs, clamped at centreline","beam, swept length",3,torsion 2,55.67628116481196,,,,,
+"SiCore, v1 packs, clamped at centreline","beam, swept length",4,torsion 3,80.4327853893869,,,,,
+"SiCore, v1 packs, clamped at centreline","beam, swept length",5,torsion 4,114.25964155641809,,,,,
+"SiCore, v1 packs, clamped at centreline","beam, swept length",6,bending 2,169.16306361656476,,,,,
+"P50B, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped",FE shell/solid,1,bending 1,13.34176,0.0,-2.314894,0.2185457446808513,0.04200086887091861,2.382239523423003
+"P50B, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped",FE shell/solid,2,bending 2,38.98119,1.0,1.584907,0.13016914893617035,0.11833671046958548,2.382239523423003
+"P50B, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped",FE shell/solid,3,torsion 1,49.45786,0.0,0.4272374,1.6794259574468087,1.3796046227541752,2.382239523423003
+"P50B, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped",FE shell/solid,4,bending 3,67.83002,2.0,-1.0785,0.06547978723404246,0.563647120372614,2.382239523423003
+"P50B, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped",FE shell/solid,5,torsion 2,73.24391,0.0,-0.3516661,-2.104472446808511,1.8203250751036228,2.382239523423003
+"P50B, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped",FE shell/solid,6,torsion 3,116.4453,1.0,0.716963,1.90503085106383,0.8718146900128777,2.382239523423003
+"P50B, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped",FE shell/solid,7,bending 4,129.6166,3.0,-0.6733146,0.517754680851064,0.047152281221732,2.382239523423003
+"P50B, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped",FE shell/solid,8,torsion 4,162.4745,2.0,0.02831208,-0.9535410851063831,0.3112143827949634,2.382239523423003
+"P50B, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped",FE shell/solid,9,in-plane 1,169.8516,1.0,0.2869009,0.15755734042553196,0.9798374341811044,2.382239523423003
+"P50B, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped",FE shell/solid,10,torsion 5,189.826,2.0,-0.3638207,-1.0045439361702129,1.1441342989549828,2.382239523423003
+"P50B, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped","beam, projected span",1,bending 1,15.98194379212623,,,,,
+"P50B, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped","beam, projected span",2,torsion 1,46.82157735831172,,,,,
+"P50B, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped","beam, projected span",3,torsion 2,62.824005983573755,,,,,
+"P50B, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped","beam, projected span",4,torsion 3,89.5044524939922,,,,,
+"P50B, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped","beam, projected span",5,torsion 4,120.96693275350978,,,,,
+"P50B, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped","beam, projected span",6,bending 2,188.4075946444466,,,,,
+"P50B, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped","beam, swept length",1,bending 1,13.800738798162813,,,,,
+"P50B, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped","beam, swept length",2,torsion 1,41.5141930211852,,,,,
+"P50B, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped","beam, swept length",3,torsion 2,55.880375505533245,,,,,
+"P50B, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped","beam, swept length",4,torsion 3,79.32934525337535,,,,,
+"P50B, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped","beam, swept length",5,torsion 4,108.41429279620706,,,,,
+"P50B, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped","beam, swept length",6,bending 2,165.38338785317097,,,,,
+"SiCore, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped",FE shell/solid,1,bending 1,13.3403,0.0,-2.314493,0.21851595744680835,0.041996747998045036,2.39926225069573
+"SiCore, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped",FE shell/solid,2,bending 2,38.89858,1.0,1.580884,0.1273010638297871,0.11625733283313402,2.39926225069573
+"SiCore, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped",FE shell/solid,3,torsion 1,49.44915,0.0,0.4327042,1.6791097872340428,1.3792223576096205,2.39926225069573
+"SiCore, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped",FE shell/solid,4,bending 3,67.63964,2.0,-1.080347,0.08219468085106392,0.5525729840956396,2.39926225069573
+"SiCore, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped",FE shell/solid,5,torsion 2,73.21726,0.0,-0.3587622,-2.1023268085106386,1.823165037145812,2.39926225069573
+"SiCore, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped",FE shell/solid,6,torsion 3,116.3243,1.0,0.7102433,1.9079864893617022,0.8715753693022824,2.39926225069573
+"SiCore, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped",FE shell/solid,7,bending 4,129.3975,3.0,-0.6802419,0.49378840425531934,0.05325618368633355,2.39926225069573
+"SiCore, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped",FE shell/solid,8,torsion 4,161.96,2.0,0.03395827,-0.9605114148936171,0.3067253129794312,2.39926225069573
+"SiCore, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped",FE shell/solid,9,in-plane 1,169.451,1.0,0.2874198,0.16913680851063834,0.9830202986169208,2.39926225069573
+"SiCore, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped",FE shell/solid,10,torsion 5,189.3622,2.0,-0.3617459,-0.9950625531914894,1.1342842767113719,2.39926225069573
+"SiCore, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped","beam, projected span",1,bending 1,15.980818570047969,,,,,
+"SiCore, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped","beam, projected span",2,torsion 1,46.75397767691727,,,,,
+"SiCore, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped","beam, projected span",3,torsion 2,62.80061835471817,,,,,
+"SiCore, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped","beam, projected span",4,torsion 3,89.21309640349929,,,,,
+"SiCore, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped","beam, projected span",5,torsion 4,120.93178815665729,,,,,
+"SiCore, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped","beam, projected span",6,bending 2,188.25611675421172,,,,,
+"SiCore, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped","beam, swept length",1,bending 1,13.799787896795296,,,,,
+"SiCore, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped","beam, swept length",2,torsion 1,41.45237780289235,,,,,
+"SiCore, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped","beam, swept length",3,torsion 2,55.86611514525212,,,,,
+"SiCore, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped","beam, swept length",4,torsion 3,79.06374548004668,,,,,
+"SiCore, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped","beam, swept length",5,torsion 4,108.38704636503603,,,,,
+"SiCore, v1.1 layout (packs x0.412 y0.305, 60 g elevon balance, +50 g/side), clamped","beam, swept length",6,bending 2,165.2516394770905,,,,,

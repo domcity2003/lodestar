@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <fdm_config name="lodestar" version="2.0" release="ALPHA">
-  <fileheader><author>Lodestar design study</author><description>Lodestar v2, linear aero from AVL at 15.0 m/s, 2026-11-11</description></fileheader>
+  <fileheader><author>Lodestar</author><description>Lodestar v2, linear aero from AVL at 15.0 m/s, 2026-11-11</description></fileheader>
   <metrics>
     <wingarea unit="M2">1.28571</wingarea>
     <wingspan unit="M">3.00000</wingspan>

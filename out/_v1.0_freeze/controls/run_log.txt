@@ -1,0 +1,172 @@
+Lodestar v1 flight-control sizing, 2026-11-14
+Mass source: out/cad_v4/mass_cg.csv (FreeCAD rebuild, packs already moved)
+Elevon per side: area 0.0997 m2, integral cf^2 dy 0.00975 m3; thin airfoil cf/c 0.25: cl_d 3.826, ch_a -0.565, ch_d -0.944 /rad
+
+1. Mass states and static margin (AVL with pod and winglets)
+  cell   kit  mass  x_cg  cg_pct_mac    alt    V    CL  np_pct_mac  sm_pct  elevon
+SiCore  True 8.315 0.413      16.118     SL 22.0 0.214      23.184   7.066   0.811
+SiCore  True 8.315 0.413      16.118 2000 m 20.0 0.316      23.414   7.296   0.145
+SiCore  True 8.315 0.413      16.118 2000 m 15.0 0.561      24.024   7.906  -1.576
+SiCore False 6.691 0.411      15.653     SL 22.0 0.172      22.946   7.293   1.019
+SiCore False 6.691 0.411      15.653 2000 m 20.0 0.254      23.065   7.412   0.472
+SiCore False 6.691 0.411      15.653 2000 m 15.0 0.452      23.379   7.726  -0.894
+  P50B  True 8.281 0.413      16.119     SL 22.0 0.213      23.185   7.065   0.817
+  P50B  True 8.281 0.413      16.119 2000 m 20.0 0.314      23.415   7.295   0.153
+  P50B  True 8.281 0.413      16.119 2000 m 15.0 0.559      24.024   7.904  -1.560
+  P50B False 6.657 0.411      15.652     SL 22.0 0.171      22.947   7.294   1.025
+  P50B False 6.657 0.411      15.652 2000 m 20.0 0.253      23.065   7.413   0.481
+  P50B False 6.657 0.411      15.652 2000 m 15.0 0.449      23.379   7.727  -0.879
+   neutral point range 0.4441-0.4489 m; aft CG limit (5% MAC) x = 0.4216 m (17.9% MAC)
+
+   Kit release at 15 m/s, 2,000 m (same speed, controls re-trimmed):
+  cell   m_on  m_off  dx_cg_mm  dz_cg_mm  weight_jump  elevon_on  elevon_off  d_elevon
+SiCore 8.3148 6.6908   -2.0878    9.1331       0.2427    -1.5761     -0.8944    0.6817
+  P50B 8.2807 6.6567   -2.0971    9.1513       0.2440    -1.5602     -0.8793    0.6809
+
+2. Roll: Cl_da 0.00641/deg, Clp -0.440; steady pb/2V 0.0146 per deg; roll tau 0.091 s
+   Class I Cat C approach (30 deg in 1.3 s) at 13.5 m/s needs 3.30 deg (no servo lag) -> roll reserve 5.0 deg, pitch budget 15.0 deg geometric
+
+   Forward limit: CG where the up-elevon (AVL, converted to geometric) reaches the pitch budget -15.0 deg
+                                 case      V    CL    n  elevon_at_0p38  elevon_at_0p43  deg_per_cm  x_fwd_limit  fwd_limit_pct_mac
+        1 g at CLmax (stall approach) 11.379 0.800 1.00          -9.108          -0.649       1.692        0.347              1.256
+flare: 1.2 Vs, pull to CLmax (n 1.44) 12.249 0.800 1.44         -10.185          -1.725       1.692        0.353              2.673
+                  pull-up n 3.8 at VD 30.000 0.437 3.80          -4.808          -0.333       0.895        0.269            -16.055
+                  pull-up n 3.8 at Vc 22.000 0.813 3.80         -11.446          -2.832       1.723        0.361              4.411
+   -> CG envelope x = 0.3608 to 0.4216 m (4.4 to 17.9% MAC), 61 mm wide
+
+   Trim elevon (deg, + = trailing edge down) vs TAS, 1 g:
+alt  4400 m                       SL                   
+cell   P50B       SiCore        P50B       SiCore      
+kit   False True   False True  False True   False True 
+V                                                      
+12.3    NaN   NaN    NaN   NaN -1.59 -2.49  -1.61 -2.51
+14.0  -2.43   NaN  -2.46   NaN -0.69 -1.32  -0.71 -1.34
+16.0  -1.29 -2.09  -1.30 -2.11 -0.00 -0.45  -0.01 -0.46
+18.0  -0.53 -1.11  -0.54 -1.13  0.46  0.13   0.45  0.12
+20.0  -0.00 -0.45  -0.01 -0.46  0.79  0.53   0.78  0.52
+22.0   0.38  0.03   0.37  0.02  1.02  0.82   1.02  0.81
+25.0   0.79  0.53   0.78  0.52  1.28  1.12   1.28  1.12
+28.0   1.07  0.87   1.06  0.86  1.46  1.33   1.45  1.33
+30.0   1.21  1.04   1.20  1.03  1.54  1.44   1.54  1.44
+
+   Pull-up n = 3.8 at Vc 22.0 m/s EAS (SiCore kit-on mass):
+   alt  V_tas             cg  x_cg    CL  alpha  elevon_avl  elevon_geometric  hinge_Nm
+    SL 22.000      fwd limit 0.361 0.813 14.945     -14.812           -15.069     0.471
+    SL 22.000      aft limit 0.422 0.813 11.873      -4.265            -4.265     0.160
+    SL 22.000  SiCore kit on 0.413 0.813 12.283      -5.671            -5.671     0.202
+    SL 22.000 SiCore kit off 0.411 0.813 12.388      -6.029            -6.029     0.213
+    SL 22.000    P50B kit on 0.413 0.813 12.283      -5.670            -5.670     0.202
+    SL 22.000   P50B kit off 0.411 0.813 12.388      -6.030            -6.030     0.213
+4400 m 27.497      fwd limit 0.361 0.813 15.053     -14.050           -14.229     0.456
+4400 m 27.497      aft limit 0.422 0.813 11.905      -3.500            -3.500     0.144
+4400 m 27.497  SiCore kit on 0.413 0.813 12.325      -4.906            -4.906     0.187
+4400 m 27.497 SiCore kit off 0.411 0.813 12.432      -5.265            -5.265     0.197
+4400 m 27.497    P50B kit on 0.413 0.813 12.325      -4.905            -4.905     0.187
+4400 m 27.497   P50B kit off 0.411 0.813 12.432      -5.265            -5.265     0.197
+
+   Hinge moments per elevon (AVL vortex lattice vs Glauert thin airfoil, cf/c 0.25, SiCore loaded):
+                                     case  V_eas    n     CL  elevon  aileron  max_surface_deg   pb2V  hinge_avl_Nm  hinge_thin_Nm  design_Nm
+  VA (=Vc) 1 g, one elevon at full travel   22.0  1.0  0.214   0.811   19.189           20.000 -0.279         0.723          0.891      0.891
+VA (=Vc) n 3.8, one elevon at full travel   22.0  3.8  0.813  -5.671   14.329           20.000 -0.203         0.588          0.719      0.719
+         VD n 3.8 pull + 1/3 roll reserve   30.0  3.8  0.437  -6.531    1.667            8.198 -0.024         0.688          0.493      0.688
+        VD n -1.5 push + 1/3 roll reserve   30.0 -1.5 -0.173   3.871    1.667            5.538 -0.024         0.370          0.582      0.582
+      VD 1 g, full travel (runaway bound)   30.0  1.0  0.115   1.437   18.563           20.000 -0.270         1.323          1.709      1.709
+   design hinge moment 0.891 N m -> servo stall torque >= 1.78 N m (18.2 kg cm) at 2x
+   servo bay y = 0.87 m, chord 403 mm, airfoil thickness at 56/60/64% chord 28.2/25.7/23.1 mm (minus 2 x 1.5 mm skin allowance)
+   linkage ratio 1.0 (horn arm / servo arm): servo stall torque >= 1.78 N m (18.2 kg cm), servo throw +/-20 deg; stiffness at hinge ~68 N m/rad (servo 68 N m/rad at its output, stall torque at ~1.5 deg); free play at surface ~0.30 deg; surface rate = servo rate / 1.0
+   linkage ratio 1.5 (horn arm / servo arm): servo stall torque >= 1.19 N m (12.1 kg cm), servo throw +/-30 deg; stiffness at hinge ~102 N m/rad (servo 45 N m/rad at its output, stall torque at ~1.5 deg); free play at surface ~0.20 deg; surface rate = servo rate / 1.5
+   linkage ratio 2.0 (horn arm / servo arm): servo stall torque >= 0.89 N m (9.1 kg cm), servo throw +/-40 deg; stiffness at hinge ~136 N m/rad (servo 34 N m/rad at its output, stall torque at ~1.5 deg); free play at surface ~0.15 deg; surface rate = servo rate / 2.0
+   if mechanical travel is cut to +/-15 deg: design hinge moment scales to about 0.67 N m (linear in deflection)
+
+3. Roll performance at 2,000 m (SiCore kit on); MIL-F-8785C Class I Level 1: 60 deg in 1.3 s (Cat A), 1.7 s (Cat B); Class II-L: 45 deg in 1.4 s (A), 1.9 s (B)
+   V        share  aileron  servo_dps   tau  pb2V   p_dps   t45   t60  Cn_over_Cl_da
+15.0         full   18.424      600.0 0.091 0.258 147.710 0.410 0.512         -0.059
+15.0         full   18.424      300.0 0.091 0.258 147.710 0.425 0.527         -0.059
+15.0          2/3   12.283      600.0 0.091 0.178 101.984 0.542 0.690         -0.059
+15.0          2/3   12.283      300.0 0.091 0.178 101.984 0.553 0.700         -0.059
+15.0 roll reserve    5.000      600.0 0.091 0.073  41.692 1.175 1.535         -0.059
+15.0 roll reserve    5.000      300.0 0.091 0.073  41.692 1.179 1.539         -0.059
+18.0         full   19.644      600.0 0.075 0.272 187.333 0.330 0.411         -0.048
+18.0         full   19.644      300.0 0.075 0.272 187.333 0.346 0.427         -0.048
+18.0          2/3   13.096      600.0 0.075 0.189 130.136 0.432 0.547         -0.048
+18.0          2/3   13.096      300.0 0.075 0.189 130.136 0.442 0.558         -0.048
+18.0 roll reserve    5.000      600.0 0.075 0.073  50.053 0.978 1.278         -0.048
+18.0 roll reserve    5.000      300.0 0.075 0.073  50.053 0.983 1.282         -0.048
+20.0         full   19.855      600.0 0.068 0.275 210.033 0.297 0.369         -0.043
+20.0         full   19.855      300.0 0.068 0.275 210.033 0.313 0.385         -0.043
+20.0          2/3   13.237      600.0 0.068 0.191 146.058 0.386 0.489         -0.043
+20.0          2/3   13.237      300.0 0.068 0.191 146.058 0.397 0.500         -0.043
+20.0 roll reserve    5.000      600.0 0.068 0.073  55.612 0.881 1.151         -0.043
+20.0 roll reserve    5.000      300.0 0.068 0.073  55.612 0.885 1.155         -0.043
+
+4. Lateral-directional (AVL, SiCore):
+  kit    alt     V   Cnb    Clb    Cnr  dutch_roll_wn  dutch_roll_zeta  roll_tau  spiral_root  spiral_t2  spiral_t_half  short_period_zeta  phugoid_zeta  lateral_ok  pitch_ok
+ True 2000 m 15.00 0.017 -0.072 -0.014          2.677            0.103     0.091       -0.025        inf         28.078              0.586         0.065        True      True
+ True 2000 m 20.00 0.014 -0.050 -0.013          2.845            0.108     0.068       -0.012        inf         59.180              0.601         0.059        True      True
+ True 2000 m 24.29 0.014 -0.041 -0.012          3.231            0.112     0.055       -0.008        inf         84.357              0.607         0.067        True      True
+ True     SL 30.00 0.015 -0.032 -0.012          4.250            0.128     0.038       -0.007        inf        105.962              0.653         0.105        True      True
+False 2000 m 15.00 0.016 -0.061 -0.014          2.441            0.108     0.090       -0.020        inf         35.146              0.637         0.055        True      True
+False 2000 m 20.00 0.014 -0.044 -0.013          2.751            0.118     0.067       -0.010        inf         67.627              0.645         0.061        True      True
+False 2000 m 24.29 0.014 -0.037 -0.012          3.194            0.122     0.055       -0.008        inf         88.662              0.648         0.076        True      True
+False     SL 30.00 0.015 -0.029 -0.012          4.261            0.140     0.038       -0.007        inf        105.939              0.693         0.129        True      True
+   Winglet height check, SiCore kit on (fast cases set the size):
+ winglet_h     V   Cnb  dr_zeta  dr_zw  spiral_t2   ok
+      0.20 24.29 0.007    0.105  0.247        inf True
+      0.20 30.00 0.007    0.127  0.373        inf True
+      0.25 24.29 0.014    0.112  0.361        inf True
+      0.25 30.00 0.015    0.128  0.546        inf True
+      0.30 24.29 0.023    0.123  0.493        inf True
+      0.30 30.00 0.024    0.139  0.747        inf True
+
+   Crosswind: largest sideslip that full lateral travel can hold wings-level against Cl_beta
+                                     case     V  roll_avail_deg   Clb  Cnb  beta_max_deg  crosswind_at_beta_max  beta_12mps_deg  wind_offset_ok_deg_12mps
+landing approach 1.2 Vs kit off (2,000 m) 13.52           18.36 -0.07 0.02          45.0                   9.56           62.54                     52.83
+                launch / climb-out 15 m/s 15.00           18.42 -0.07 0.02          45.0                  10.61           53.13                     62.11
+                            search 20 m/s 20.00           19.86 -0.05 0.01          45.0                  14.14           36.87                     90.00
+
+5. Gusts at 2,000 m, SiCore. Discrete 1-cos 7.62 m/s over 25 chords; Dryden moderate (W20 30 kt) at 120 m AGL: sigma_w 1.54, sigma_v 2.03 m/s, L_w 120 m, L_v 275 m
+                              0       1       2       3       4       5
+V                          15.0    15.0    18.0    18.0    20.0    20.0
+kit                        True   False    True   False    True   False
+mass                      8.315   6.691   8.315   6.691   8.315   6.691
+CL1                       0.561   0.452    0.39   0.314   0.316   0.254
+CLa                       4.539   4.566   4.579   4.592   4.592     4.6
+n_1cos_unstalled          3.088   3.313   3.516   3.783   3.799   4.094
+n_stall_cap               1.568   1.949   2.258   2.806   2.788   3.464
+n_1cos                    1.568   1.949   2.258   2.806   2.788   3.464
+stalls_1cos                True    True    True    True    True    True
+dalpha_1cos_deg          14.788  13.109  12.268  10.889  11.026    9.79
+elevon_hold_1cos_deg       7.31   6.315   5.757   5.107   5.063   4.542
+beta_1cos_deg            26.931  26.931  22.945  22.945  20.857  20.857
+aileron_1cos_deg          5.266   4.486   3.517   3.048   2.818   2.469
+roll_avail_deg           18.424  19.106  19.644  19.932  19.855  19.528
+aileron_sat_1cos          False   False   False   False   False   False
+sigma_n_dryden            0.154   0.173   0.186   0.208   0.207   0.232
+n_3sigma                  1.463   1.519   1.558   1.625   1.621   1.695
+dCL_3sigma                 0.26   0.234   0.217   0.196   0.196   0.176
+stall_margin_dCL          0.239   0.348    0.41   0.486   0.484   0.546
+sigma_beta_deg            7.771   7.771   6.476   6.476   5.828   5.828
+aileron_3sigma_beta_deg   4.559   3.883   2.978   2.581   2.363    2.07
+elevon_3sigma_hold_deg     1.62   1.417   1.276   1.146   1.122    1.02
+sigma_p_dps               8.223   8.223   8.223   8.223   8.223   8.223
+aileron_3sigma_p_deg      2.958   2.956   2.464   2.464   2.218   2.218
+
+6. 30 deg banked climb at 4,400 m (CAM 15x10 + AT3520-550, sagging 6S):
+  cell    V  mass  vs_30deg   CL  drag_N  P_batt_level_turn  T_avail_N  P_batt_full  I_full_A  climb_rate_30deg
+SiCore 20.0  8.31     15.28 0.47    5.31             158.51      31.05      1149.60     60.93              6.31
+  P50B 18.0  8.28     15.25 0.57    5.56             150.69      32.76      1150.55     61.08              6.03
+
+7. Placement numbers
+   pod-axis static error at x = -0.28 m (110 mm ahead of the nose): Cp +0.0808 -> airspeed error -4.0%
+   pod-axis static error at x = -0.33 m (160 mm ahead of the nose): Cp +0.0493 -> airspeed error -2.5%
+   pod-axis static error at x = -0.40 m (230 mm ahead of the nose): Cp +0.0288 -> airspeed error -1.4%
+   prop inflow at the pitot (0.98 m upstream): 0.018 m/s at search, 0.153 m/s at full thrust 15 m/s
+   compass to ESC: 467 mm; single lead 26.2 uT at 61 A (2.40 uT cruise 5.6 A); twisted pair 6 mm 0.34 uT
+   compass to motor: 587 mm; single lead 20.8 uT at 61 A (1.91 uT cruise 5.6 A); twisted pair 6 mm 0.21 uT
+   compass to pack (near edge): 414 mm; single lead 29.5 uT at 61 A (2.71 uT cruise 5.6 A); twisted pair 6 mm 0.43 uT
+   compass to power bus at wing root: 338 mm; single lead 36.1 uT at 61 A (3.31 uT cruise 5.6 A); twisted pair 6 mm 0.64 uT
+   IMU (FC centre x = 0.25 m) lever arm to CG: 163 mm forward (INS_POS1_X = +0.163 m)
+   prop excitation at search: shaft 65 Hz, blade pass 129 Hz
+   alpha at search 20 m/s 2,000 m: 5.0 deg; approach CLmax: see trim_sweep.csv
+
+Written to out\controls

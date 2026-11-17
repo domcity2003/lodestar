@@ -1,0 +1,85 @@
+site,variant,aircraft,pattern,spacing_m,help_1h,help_3h
+yosemite_happy_isles,current spacing,Lodestar SiCore,trails 3,67.5,0.08993955079573068,0.192
+yosemite_happy_isles,current spacing,Lodestar SiCore,trails 6,67.5,0.056,0.174
+yosemite_happy_isles,current spacing,DeltaQuad Evo GOV,trails 3,55.0,0.084,0.192
+yosemite_happy_isles,current spacing,DeltaQuad Evo GOV,trails 6,55.0,0.056,0.18
+yosemite_happy_isles,spacing = sweep width,Lodestar SiCore,trails 3,52.7,0.08993955079573068,0.192
+yosemite_happy_isles,spacing = sweep width,Lodestar SiCore,trails 6,52.7,0.056,0.174
+yosemite_happy_isles,spacing = sweep width,DeltaQuad Evo GOV,trails 3,46.0,0.084,0.192
+yosemite_happy_isles,spacing = sweep width,DeltaQuad Evo GOV,trails 6,46.0,0.056,0.18
+yosemite_happy_isles,"spacing = sweep width, Lodestar 18 m/s",Lodestar SiCore,trails 3,54.1,0.08793955079573068,0.20368666733084437
+yosemite_happy_isles,"spacing = sweep width, Lodestar 18 m/s",Lodestar SiCore,trails 6,54.1,0.056,0.176
+yosemite_happy_isles,"spacing = sweep width, Lodestar 18 m/s",DeltaQuad Evo GOV,trails 3,46.0,0.084,0.192
+yosemite_happy_isles,"spacing = sweep width, Lodestar 18 m/s",DeltaQuad Evo GOV,trails 6,46.0,0.056,0.18
+sequoia_lodgepole,current spacing,Lodestar SiCore,trails 3,67.5,0.08156593367911141,0.196
+sequoia_lodgepole,current spacing,Lodestar SiCore,trails 6,67.5,0.09974560910450922,0.2
+sequoia_lodgepole,current spacing,DeltaQuad Evo GOV,trails 3,55.0,0.072,0.196
+sequoia_lodgepole,current spacing,DeltaQuad Evo GOV,trails 6,55.0,0.092,0.194
+sequoia_lodgepole,spacing = sweep width,Lodestar SiCore,trails 3,52.7,0.08156593367911141,0.19588446125179593
+sequoia_lodgepole,spacing = sweep width,Lodestar SiCore,trails 6,52.7,0.09974560910450922,0.2
+sequoia_lodgepole,spacing = sweep width,DeltaQuad Evo GOV,trails 3,46.0,0.072,0.18
+sequoia_lodgepole,spacing = sweep width,DeltaQuad Evo GOV,trails 6,46.0,0.092,0.194
+sequoia_lodgepole,"spacing = sweep width, Lodestar 18 m/s",Lodestar SiCore,trails 3,54.1,0.07190056817367642,0.19581168132393503
+sequoia_lodgepole,"spacing = sweep width, Lodestar 18 m/s",Lodestar SiCore,trails 6,54.1,0.09796007304666313,0.2
+sequoia_lodgepole,"spacing = sweep width, Lodestar 18 m/s",DeltaQuad Evo GOV,trails 3,46.0,0.072,0.18
+sequoia_lodgepole,"spacing = sweep width, Lodestar 18 m/s",DeltaQuad Evo GOV,trails 6,46.0,0.092,0.194
+rocky_bear_lake,current spacing,Lodestar SiCore,trails 3,67.5,0.08359580920755255,0.202
+rocky_bear_lake,current spacing,Lodestar SiCore,trails 6,67.5,0.11180009850055687,0.182
+rocky_bear_lake,current spacing,DeltaQuad Evo GOV,trails 3,55.0,0.074,0.202
+rocky_bear_lake,current spacing,DeltaQuad Evo GOV,trails 6,55.0,0.102,0.19
+rocky_bear_lake,spacing = sweep width,Lodestar SiCore,trails 3,52.7,0.08359580920755255,0.202
+rocky_bear_lake,spacing = sweep width,Lodestar SiCore,trails 6,52.7,0.11180009850055687,0.182
+rocky_bear_lake,spacing = sweep width,DeltaQuad Evo GOV,trails 3,46.0,0.074,0.186
+rocky_bear_lake,spacing = sweep width,DeltaQuad Evo GOV,trails 6,46.0,0.102,0.19
+rocky_bear_lake,"spacing = sweep width, Lodestar 18 m/s",Lodestar SiCore,trails 3,54.1,0.08565571462043928,0.216
+rocky_bear_lake,"spacing = sweep width, Lodestar 18 m/s",Lodestar SiCore,trails 6,54.1,0.10981738785470004,0.188
+rocky_bear_lake,"spacing = sweep width, Lodestar 18 m/s",DeltaQuad Evo GOV,trails 3,46.0,0.074,0.186
+rocky_bear_lake,"spacing = sweep width, Lodestar 18 m/s",DeltaQuad Evo GOV,trails 6,46.0,0.102,0.186
+olympic_hurricane_ridge,current spacing,Lodestar SiCore,trails 3,67.5,0.12188646013608564,0.194
+olympic_hurricane_ridge,current spacing,Lodestar SiCore,trails 6,67.5,0.11305772527127014,0.21579245442373615
+olympic_hurricane_ridge,current spacing,DeltaQuad Evo GOV,trails 3,55.0,0.112,0.198
+olympic_hurricane_ridge,current spacing,DeltaQuad Evo GOV,trails 6,55.0,0.1,0.226
+olympic_hurricane_ridge,spacing = sweep width,Lodestar SiCore,trails 3,52.7,0.1259751146464415,0.192
+olympic_hurricane_ridge,spacing = sweep width,Lodestar SiCore,trails 6,52.7,0.11305772527127014,0.218
+olympic_hurricane_ridge,spacing = sweep width,DeltaQuad Evo GOV,trails 3,46.0,0.114,0.196
+olympic_hurricane_ridge,spacing = sweep width,DeltaQuad Evo GOV,trails 6,46.0,0.1,0.22
+olympic_hurricane_ridge,"spacing = sweep width, Lodestar 18 m/s",Lodestar SiCore,trails 3,54.1,0.124,0.1937815770671269
+olympic_hurricane_ridge,"spacing = sweep width, Lodestar 18 m/s",Lodestar SiCore,trails 6,54.1,0.11905772527127015,0.228
+olympic_hurricane_ridge,"spacing = sweep width, Lodestar 18 m/s",DeltaQuad Evo GOV,trails 3,46.0,0.114,0.196
+olympic_hurricane_ridge,"spacing = sweep width, Lodestar 18 m/s",DeltaQuad Evo GOV,trails 6,46.0,0.1,0.22
+rainier_paradise,current spacing,Lodestar SiCore,trails 3,67.5,0.09998737688238617,0.188
+rainier_paradise,current spacing,Lodestar SiCore,trails 6,67.5,0.08584075014900949,0.176
+rainier_paradise,current spacing,DeltaQuad Evo GOV,trails 3,55.0,0.078,0.204
+rainier_paradise,current spacing,DeltaQuad Evo GOV,trails 6,55.0,0.07,0.176
+rainier_paradise,spacing = sweep width,Lodestar SiCore,trails 3,52.7,0.09998737688238617,0.184
+rainier_paradise,spacing = sweep width,Lodestar SiCore,trails 6,52.7,0.08584075014900949,0.176
+rainier_paradise,spacing = sweep width,DeltaQuad Evo GOV,trails 3,46.0,0.078,0.2
+rainier_paradise,spacing = sweep width,DeltaQuad Evo GOV,trails 6,46.0,0.07,0.176
+rainier_paradise,"spacing = sweep width, Lodestar 18 m/s",Lodestar SiCore,trails 3,54.1,0.09598737688238618,0.194
+rainier_paradise,"spacing = sweep width, Lodestar 18 m/s",Lodestar SiCore,trails 6,54.1,0.08153436155113196,0.18
+rainier_paradise,"spacing = sweep width, Lodestar 18 m/s",DeltaQuad Evo GOV,trails 3,46.0,0.078,0.196
+rainier_paradise,"spacing = sweep width, Lodestar 18 m/s",DeltaQuad Evo GOV,trails 6,46.0,0.07,0.17
+smokies_newfound_gap,current spacing,Lodestar SiCore,trails 3,67.5,0.12547505730053626,0.204
+smokies_newfound_gap,current spacing,Lodestar SiCore,trails 6,67.5,0.12564449928062832,0.216
+smokies_newfound_gap,current spacing,DeltaQuad Evo GOV,trails 3,55.0,0.112,0.214
+smokies_newfound_gap,current spacing,DeltaQuad Evo GOV,trails 6,55.0,0.102,0.23
+smokies_newfound_gap,spacing = sweep width,Lodestar SiCore,trails 3,52.7,0.11757223897750813,0.198
+smokies_newfound_gap,spacing = sweep width,Lodestar SiCore,trails 6,52.7,0.12564449928062832,0.226
+smokies_newfound_gap,spacing = sweep width,DeltaQuad Evo GOV,trails 3,46.0,0.112,0.21
+smokies_newfound_gap,spacing = sweep width,DeltaQuad Evo GOV,trails 6,46.0,0.102,0.226
+smokies_newfound_gap,"spacing = sweep width, Lodestar 18 m/s",Lodestar SiCore,trails 3,54.1,0.11535896488189216,0.206
+smokies_newfound_gap,"spacing = sweep width, Lodestar 18 m/s",Lodestar SiCore,trails 6,54.1,0.11565247979198577,0.232
+smokies_newfound_gap,"spacing = sweep width, Lodestar 18 m/s",DeltaQuad Evo GOV,trails 3,46.0,0.112,0.206
+smokies_newfound_gap,"spacing = sweep width, Lodestar 18 m/s",DeltaQuad Evo GOV,trails 6,46.0,0.102,0.224
+whites_pinkham_notch,current spacing,Lodestar SiCore,trails 3,67.5,0.13990425044077848,0.218
+whites_pinkham_notch,current spacing,Lodestar SiCore,trails 6,67.5,0.11373000774477418,0.192
+whites_pinkham_notch,current spacing,DeltaQuad Evo GOV,trails 3,55.0,0.116,0.248
+whites_pinkham_notch,current spacing,DeltaQuad Evo GOV,trails 6,55.0,0.102,0.192
+whites_pinkham_notch,spacing = sweep width,Lodestar SiCore,trails 3,52.7,0.13990425044077848,0.23
+whites_pinkham_notch,spacing = sweep width,Lodestar SiCore,trails 6,52.7,0.11373000774477418,0.192
+whites_pinkham_notch,spacing = sweep width,DeltaQuad Evo GOV,trails 3,46.0,0.116,0.232
+whites_pinkham_notch,spacing = sweep width,DeltaQuad Evo GOV,trails 6,46.0,0.102,0.192
+whites_pinkham_notch,"spacing = sweep width, Lodestar 18 m/s",Lodestar SiCore,trails 3,54.1,0.13980463950262004,0.23
+whites_pinkham_notch,"spacing = sweep width, Lodestar 18 m/s",Lodestar SiCore,trails 6,54.1,0.11373000774477418,0.19353666809412307
+whites_pinkham_notch,"spacing = sweep width, Lodestar 18 m/s",DeltaQuad Evo GOV,trails 3,46.0,0.116,0.232
+whites_pinkham_notch,"spacing = sweep width, Lodestar 18 m/s",DeltaQuad Evo GOV,trails 6,46.0,0.102,0.192

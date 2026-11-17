@@ -1,0 +1,12 @@
+change,group,item,qty,unit_usd,low_usd,high_usd,source
+removed,avionics,Elevon servos: KST X10 Pro,2,55,48,65,"aifitlab $54.99, Aloft $65"
+added,avionics,"Elevon servos: KST A12-S HV (v1.1, 1.35 N m)",2,90,70,120,ESTIMATE (KST A-series HV retail)
+added,payload,Nadir thermal: FLIR Boson 640 50 deg core + mount (v1),1,4454,4236,6500,"FLIR Boson 640, 9.2 mm 50 deg lens: OEMCameras $4,354 list ($4,136 at qty 5, to $6,400 by grade), https://www.oemcameras.com/?p=4037 + $100 mount"
+added,payload,Twin camera: second Boson 640 50 deg core + splayed mount (v1.1),1,4454,4236,6500,"FLIR Boson 640, 9.2 mm 50 deg lens: OEMCameras $4,354 list ($4,136 at qty 5, to $6,400 by grade), https://www.oemcameras.com/?p=4037 + $100 mount"
+added,safety,Aircraft parachute: fixed-wing bundle + launcher + independent trigger (RC1),1,1500,800,2500,"ESTIMATE; anchor Fruity Chutes fixed-wing bundle 12.7 kg from $788 (10 kg size by quote), https://shop.fruitychutes.com/collections/fixed-wing-bundle"
+added,safety,ADS-B In: uAvionix pingRX Pro (RC8),1,349,319,420,"uAvionix launch price $349, https://uavionix.com/press/introducing-pingrx-pro/"
+added,safety,"Anti-collision strobes, 3 sm (RC8)",2,40,25,60,ESTIMATE
+added,safety,Second GNSS + antenna (RC10),1,120,60,200,ESTIMATE
+added,safety,Backup avionics supply (2S) + locking connectors (RC2),1,90,60,140,ESTIMATE
+added,safety,"BMS, heater 50 C cut-out, liner (RC3)",1,60,40,100,ESTIMATE
+added,power,8 AWG pack leads (increment),1,20,10,30,ESTIMATE
