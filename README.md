@@ -4,9 +4,11 @@ A civil search-and-rescue flying wing: 3.0 m span, 8.8 kg, three and a half hour
 1.5 kg survival kit dropped by parachute when it finds someone. A virtual design study with free tools and public
 data. Released design: **v1, revision v1.1 (2026-11-16)**.
 
-![General arrangement drawing LOD-GA-001](docs/drawings/LOD-GA-001_general_arrangement.png)
+[![General arrangement drawing LOD-GA-001](docs/drawings/LOD-GA-001_general_arrangement.png)](docs/drawings/LOD-GA-001_general_arrangement.pdf)
 
-![FreeCAD assembly with the skin transparent: battery packs in the wing roots, rescue kit in the pod](out/report/img/internals_v1.png)
+*General arrangement LOD-GA-001, A3 at 1:15. Click for the vector PDF.*
+
+![FreeCAD assembly with the skin transparent: battery packs in the wing roots, rescue kit in the pod](docs/figures/internals_v1.png)
 
 *FreeCAD assembly (`scripts/cad_v4.py`), skin transparent. Red: battery packs in the wing roots; green: rescue
 kit; blue: avionics, servos and kit release; orange: wing-joint sleeves; purple: GNSS mast; dark grey: zoom gimbal;
@@ -45,7 +47,7 @@ share after about 3.6 h. By then the 3 h help window has closed, and those hiker
 
 ### The search areas
 
-![Seven US trail areas with elevation, trails, roads and simulated lost-hiker positions](out/terrain/terrain_maps.png)
+![Figure 3: seven US trail areas with elevation, trails, roads and simulated lost-hiker positions](docs/figures/fig3_search_areas.png)
 
 *30 × 30 km around each trailhead: AWS terrain tiles (~30 m), OpenStreetMap trails and roads, and lost-hiker
 positions drawn from ISRID statistics. The blue routes are from the first real-terrain round (2026-11-13); the
@@ -71,27 +73,27 @@ v1.1 runs use the same seven areas with the trails-first pursuit route.*
 - **Performance before cost.** Parts are $16.9k, against an $8k target that was set aside. Cost per expected person
   helped is still the lowest in the comparison ($810–$1,420); a camera cost-down comes in the next revision.
 
-![Figure 3: search area per sortie and cost per expected person helped, by aircraft](docs/figures/fig3_area_and_cost.png)
+![Figure 4: search area per sortie and cost per expected person helped, by aircraft](docs/figures/fig4_area_and_cost.png)
 
 ## Key engineering numbers
 
-![Figure 4: take-off mass by group, basic mass plus growth allowance, against the 10 kg limit](docs/figures/fig4_mass_budget.png)
+![Figure 5: take-off mass by group, basic mass plus growth allowance, against the 10 kg limit](docs/figures/fig5_mass_budget.png)
 
 The predicted take-off mass is 9.82 kg: 8.76 kg from the parts list plus a growth allowance set by each line's
 maturity. That leaves 0.18 kg to the 10 kg limit, the tightest margin in the design.
 
-![Figure 5: endurance Monte Carlo with the rescue kit aboard, design case and published-figure style](docs/figures/fig5_endurance.png)
+![Figure 6: endurance Monte Carlo with the rescue kit aboard, design case and published-figure style](docs/figures/fig6_endurance.png)
 
 At nominal values the endurance with the kit is 3.49 h at the design case. With the model inputs varied, the median
 is 3.21 h and 15% of draws fall below 3 h. The same aircraft quoted the way manufacturers quote (sea level, no
 reserve) has a 3.87 h median, which shows how much quoting conventions alone move an endurance figure.
 
-![Thrust power required and available vs. airspeed at the two envelope corners](out/propulsion_margins/power_curves.png)
+![Figure 7: thrust power required and available vs. airspeed at the two envelope corners](docs/figures/fig7_power_curves.png)
 
 *Continuous thrust power covers the 22 m/s requirement at both envelope corners, from sea level at +20 °C to
 4,400 m density altitude at −10 °C ([propulsion margins](research/2026-11-14-propulsion-battery-margins.md)).*
 
-![JSBSim 6-DOF: height, pitch, airspeed and elevon through the kit release, by control mode](out/sixdof_v1/fig2_kit_release.png)
+![Figure 8: JSBSim 6-DOF height, pitch, airspeed and elevon through the kit release, by control mode](docs/figures/fig8_kit_release.png)
 
 *JSBSim 6-DOF through the kit release at 40 m above ground. With the autopilot holding, height stays within 0.5 m
 in calm air. With the controls frozen at release, it climbs about 7 m in a slow pitch oscillation. In moderate
@@ -125,7 +127,7 @@ python -X utf8 freeze_check.py            # frozen design vs every script and ou
 python -X utf8 fleet_flyable.py --design v1.1 --seed 20261115     # headline mission run (about 1 h on 8 cores)
 python -X utf8 step2_results.py           # P1, P2, P5 tables with paired intervals
 python -X utf8 drawing_v1.py              # drawing LOD-GA-001
-python -X utf8 readme_figures.py          # figures 1-5 in docs/figures, from the saved results
+python -X utf8 readme_figures.py          # figures 1-8 in docs/figures (8 re-flies the 6-DOF release)
 python -X utf8 parts_list_v1.py           # parts list
 python -X utf8 report_pdf.py              # report PDF (headless Chrome or Edge)
 ```

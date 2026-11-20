@@ -10,6 +10,7 @@ into any other project.
 | `runner.py` | your venv | `run(job, workdir)`: writes `job.json`, runs `FreeCADCmd.exe fc_build.py`, returns `result.json` |
 | `fc_build.py` | FreeCAD's Python 3.11 | builds the shapes, exports STL/STEP, mass properties, checks |
 | `render.py` | your venv | STL to PNG (front/side/top/iso), numpy + matplotlib only |
+| `fc_project.py` | FreeCAD's Python 3.11 | hidden-line vector projection of a STEP assembly (OpenCASCADE HLR via `TechDraw.projectEx`) for drawings; used by `drawing_v1.py` |
 | `test_fcad.py` | your venv | 25 known-answer checks (`python scripts/fcad/test_fcad.py`) |
 
 FreeCADCmd is found from the environment variable `FREECADCMD`, else on PATH, in Program Files, or in a portable
@@ -105,3 +106,8 @@ multiply by density), `n_solids`, and the kernel's own `brep_volume`, `brep_com`
    pod came out 4% larger at degree 5. fcad passes 8 by default so models ported from build123d match.
 8. **Fused wing pieces:** `fuse` removes faces shared by touching solids, so the fused wing has no
    internal faces at the panel breaks; `removeSplitter()` then merges coplanar leftovers.
+9. **Hidden-line projection (2026-11-20):** `TechDraw.projectEx(shape, d)` takes `d` pointing from the model
+   towards the eye (the opposite of a camera direction). Its exact HLR drops edges of faces seen edge-on (a wing
+   tip face in plan view) and can stop a silhouette short where two solids meet; `drawing_v1.py` draws those few
+   edges from the frozen geometry. Returned 2D coordinates: for the plan, front and side views used there, sheet
+   (u, v) = (y, -x).
