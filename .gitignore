@@ -5,6 +5,8 @@ __pycache__/
 .env.*
 data/terrain/
 STATUS.md
+# PDF copy of README.md for sharing; README.md is the one version in the repository (scripts/readme_pdf.py)
+docs/Lodestar_README.pdf
 
 # Regenerable bulk: solver working folders, caches and smoke/subset runs (rerun the scripts to rebuild)
 out/fea/ccx_*/
