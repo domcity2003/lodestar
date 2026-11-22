@@ -26,7 +26,7 @@ Only one paired comparison is not clearly above zero: help within 3 h against th
 
 **The price is mass and cost.**
 - v1.1 weighs 8.77 kg loaded against 8.31 kg for v1. With the AIAA S-120 growth allowance the predicted mass is 9.82 kg, leaving 0.18 kg to the 10 kg limit.
-- Parts are about $16.4k, against the R13 target of ≤ $8k. Performance comes first, so R13 is deferred to a cost-down pass (Step 3 or later) rather than counted as a failed requirement.
+- Parts and airframe materials total $16,868 against the R13 target of ≤ $8k. R13 was deferred to a cost-down pass. See the [v1.1 parts list](../docs/parts_list.md) for the current estimate.
 - Even so, Lodestar has the lowest cost per expected person helped in the comparison: $810–$1,420, against $1,060–$1,680 for the Trinity Pro and $3,100–$4,700 for the eBee VISION.
 
 ## 1. Headline metrics
@@ -146,7 +146,7 @@ The cost model is `scripts/cost_v1_1.py`, starting from the milestone 6 cost mod
 
 Table 7. Unit cost and cost per expected help, Lodestar v1.1 vs competitors with a published price. Competitors use the same ownership model: price over a 400 h life plus 10% a year maintenance.
 
-The two Boson 640 cores are $8.9k of the $16.4k. They are where a cost-down pass should look first. Options are a 640 px core at about $2–3k, or one wider core instead of two.
+The two Boson 640 cores account for about $8.9k of the $16,868 parts and materials estimate. They are where a cost-down pass should look first. Options are a 640 px core at about $2–3k, or one wider core instead of two.
 
 ## 2. Where Lodestar leads and where it trails
 

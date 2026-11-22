@@ -1,8 +1,16 @@
 # Lodestar
 
-A civil search-and-rescue flying wing: 3.0 m span, 8.8 kg, three and a half hours on a twin thermal camera, and a
-1.5 kg survival kit dropped by parachute when it finds someone. A virtual design study with free tools and public
-data. Released design: **v1, revision v1.1 (2026-11-16)**.
+A virtual design study for a civil search-and-rescue aircraft that can deliver a survival kit to a lost hiker. The study uses free tools and public data. **Lodestar v1.1 was evaluated in simulation** (2026-11-16).
+
+[Read the one-page design report (PDF)](out/report/Lodestar_report.pdf) · [HTML](out/report/index.html)
+
+| Design decision | v1.1 result |
+| --- | --- |
+| Help within three hours, nominal simulation | **18.0%** of simulated searches vs. **14.9%** for the DeltaQuad Evo-LE comparison |
+| Predicted mass with growth allowance | **9.82 kg**, leaving **0.18 kg** below the 10 kg limit |
+| Parts and materials | **$16,868** against an **$8,000** target deferred to a future revision |
+
+At the low detection calibration on the six-trail pattern, the estimated three-hour lead over the Evo-LE was **0.9 percentage points** (95% interval **−0.1 to +1.9**). The design has yet to be built or flown.
 
 [![General arrangement drawing LOD-GA-001](docs/drawings/LOD-GA-001_general_arrangement.png)](docs/drawings/LOD-GA-001_general_arrangement.pdf)
 
